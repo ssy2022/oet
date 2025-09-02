@@ -1,0 +1,214 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+select {
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+button {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    min-width: 100px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#term-list {
+    margin-top: 20px;
+}
+
+.term-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.term-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.term-number {
+    font-weight: bold;
+    color: #7f8c8d;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.term-text {
+    display: block;
+    font-size: 18px;
+    color: #2c3e50;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.hidden.sentence-mode, .hidden.word-mode {
+    color: #2c3e50;
+}
+
+.revealed {
+    color: #27ae60; /* 초록색 유지 */
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.play-button {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    min-width: 200px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.play-button::before {
+    content: '▶';
+    font-size: 14px;
+}
+
+.play-button:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.naver-dict-button {
+    background: linear-gradient(135deg, #03c75a, #02b050);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    min-width: 120px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.naver-dict-button::before {
+    content: '🔍';
+    font-size: 14px;
+}
+
+.naver-dict-button:hover {
+    background: linear-gradient(135deg, #02b050, #03c75a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.naver-dict-button:hover::after {
+    content: '사전에서 단어 검색';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    select, button {
+        font-size: 14px;
+        padding: 8px 12px;
+        min-width: 80px;
+    }
+
+    .controls {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .term-item {
+        padding: 12px;
+        margin-bottom: 15px;
+    }
+
+    .term-number {
+        font-size: 14px;
+    }
+
+    .term-text {
+        font-size: 16px;
+    }
+
+    .button-container {
+        gap: 8px;
+    }
+
+    .play-button, .naver-dict-button {
+        min-width: 100px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .naver-dict-button:hover::after {
+        top: -25px;
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+}

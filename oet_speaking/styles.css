@@ -1,0 +1,178 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    color: #666;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    flex: 1;
+    margin: 0 10px;
+    min-width: 120px;
+}
+
+.control-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.control-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.refresh-button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#refresh-button,
+#refresh-button-bottom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#refresh-button:hover,
+#refresh-button-bottom:hover {
+    background-color: #0056b3;
+}
+
+.term-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.term-header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.term-number {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.term-text {
+    color: #333;
+}
+
+.term-text.revealed {
+    color: #000;
+}
+
+.english-answer {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.category {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.play-button,
+.reveal-button,
+.hint-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.play-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.play-button:hover {
+    background-color: #218838;
+}
+
+.play-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.reveal-button {
+    background-color: #ffc107;
+    color: white;
+}
+
+.reveal-button:hover {
+    background-color: #e0a800;
+}
+
+.hint-button {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.hint-button:hover {
+    background-color: #138496;
+}
+
+@media (max-width: 600px) {
+    .controls {
+        flex-direction: column;
+    }
+
+    .control-group {
+        margin: 10px 0;
+    }
+
+    .term-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .button-container {
+        margin-top: 10px;
+    }
+}

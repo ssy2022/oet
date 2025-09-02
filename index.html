@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OET 학습 도구</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .notice {
+            text-align: center;
+            color: #d9534f;
+            font-size: 12px;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .link-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .link-box {
+            width: 100%;
+            max-width: 400px;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .link-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .link-box h2 {
+            color: #007bff;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .link-box p {
+            color: #333;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+
+        .link-box a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .link-box a:hover {
+            background-color: #0056b3;
+        }
+
+        @media (min-width: 600px) {
+            .link-container {
+                flex-direction: row;
+                justify-content: center;
+                gap: 20px;
+            }
+
+            .link-box {
+                flex: 1;
+                min-width: 250px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+
+            .notice {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OET 학습 도구</h1>
+        <p class="description">의학 영어 시험(OET) 준비를 위한 도구를 선택하세요.</p>
+        <p class="notice">재생 시 TTS를 사용하므로 발음이 정확하지 않을 수 있습니다. 정확한 발음은 네이버 사전 등에서 확인하세요.</p>
+        <div class="link-container">
+            <div class="link-box">
+                <h2>의학 용어 듣기 평가</h2>
+                <p>의학 용어를 듣고 이해하는 능력을 테스트하세요. 언어, 화자, 재생 횟수를 선택하여 학습을 시작하세요.</p>
+                <a href="http://ssy.ipdisk.co.kr:8000/list/HDD2/oet/app/med_term/" target="_blank">지금 시작하기</a>
+            </div>
+            <div class="link-box">
+                <h2>OET Speaking 표현 퀴즈</h2>
+                <p>OET Speaking 시험에 필요한 영어 표현을 학습하세요. 카테고리와 힌트를 활용하여 효과적으로 준비하세요.</p>
+                <a href="http://ssy.ipdisk.co.kr:8000/list/HDD2/oet/app/oet_speaking/" target="_blank">지금 시작하기</a>
+            </div>
+            <div class="link-box">
+                <h2>OET Writing 표현 퀴즈</h2>
+                <p>OET Writing 시험에 필요한 영어 표현을 학습하세요. 카테고리와 힌트를 활용하여 효과적으로 준비하세요.</p>
+                <a href="http://ssy.ipdisk.co.kr:8000/list/HDD2/oet/app/oet_writing/" target="_blank">지금 시작하기</a>
+            </div>
+
+            
+
+
+        </div>
+    </div>
+</body>
+</html>
