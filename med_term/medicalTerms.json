@@ -17714,5 +17714,1731 @@
     "meaning": "정맥류: 정맥이 비정상적으로 확장된 상태",
     "sentence": "The patient sought treatment for ______ veins in her legs.",
     "right_sentence": "The patient sought treatment for varicose veins in her legs."
+  },
+
+  {
+    "term": "allergy",
+    "meaning": "알레르기",
+    "sentence": "I’ve always had an ___________ to peanuts, so I avoid them completely.",
+    "right_sentence": "I’ve always had an allergy to peanuts, so I avoid them completely."
+  },
+  {
+    "term": "sinusitis",
+    "meaning": "부비동염",
+    "sentence": "I get ___________ every winter, with stuffy nose and headaches.",
+    "right_sentence": "I get sinusitis every winter, with stuffy nose and headaches."
+  },
+  {
+    "term": "otitis",
+    "meaning": "중이염",
+    "sentence": "As a child, I had frequent ___________, which caused ear pain.",
+    "right_sentence": "As a child, I had frequent otitis, which caused ear pain."
+  },
+  {
+    "term": "tonsillitis",
+    "meaning": "편도염",
+    "sentence": "I suffered from recurrent ___________ and had my tonsils removed.",
+    "right_sentence": "I suffered from recurrent tonsillitis and had my tonsils removed."
+  },
+  {
+    "term": "appendectomy",
+    "meaning": "맹장 절제술",
+    "sentence": "I underwent an ___________ last year due to appendicitis.",
+    "right_sentence": "I underwent an appendectomy last year due to appendicitis."
+  },
+  {
+    "term": "cholecystectomy",
+    "meaning": "담낭 절제술",
+    "sentence": "I had a ___________ because of gallstones causing pain.",
+    "right_sentence": "I had a cholecystectomy because of gallstones causing pain."
+  },
+  {
+    "term": "hysterectomy",
+    "meaning": "자궁 적출술",
+    "sentence": "After fibroids, I had a ___________ five years ago.",
+    "right_sentence": "After fibroids, I had a hysterectomy five years ago."
+  },
+  {
+    "term": "hernia repair",
+    "meaning": "탈장 수술",
+    "sentence": "I needed a ___________ after lifting heavy weights at work.",
+    "right_sentence": "I needed a hernia repair after lifting heavy weights at work."
+  },
+  {
+    "term": "fracture",
+    "meaning": "골절",
+    "sentence": "I had a ___________ in my arm from a fall when I was young.",
+    "right_sentence": "I had a fracture in my arm from a fall when I was young."
+  },
+  {
+    "term": "concussion",
+    "meaning": "뇌진탕",
+    "sentence": "I suffered a ___________ during a sports game in high school.",
+    "right_sentence": "I suffered a concussion during a sports game in high school."
+  },
+  {
+    "term": "diabetes",
+    "meaning": "당뇨병",
+    "sentence": "I was diagnosed with ___________ ten years ago and take insulin.",
+    "right_sentence": "I was diagnosed with diabetes ten years ago and take insulin."
+  },
+  {
+    "term": "hypertension",
+    "meaning": "고혈압",
+    "sentence": "My ___________ has been managed with medication for years.",
+    "right_sentence": "My hypertension has been managed with medication for years."
+  },
+  {
+    "term": "asthma",
+    "meaning": "천식",
+    "sentence": "I’ve had ___________ since childhood and use an inhaler.",
+    "right_sentence": "I’ve had asthma since childhood and use an inhaler."
+  },
+  {
+    "term": "COPD",
+    "meaning": "만성 폐쇄성 폐질환",
+    "sentence": "After years of smoking, I developed ___________ and quit.",
+    "right_sentence": "After years of smoking, I developed COPD and quit."
+  },
+  {
+    "term": "rheumatoid arthritis",
+    "meaning": "류마티스 관절염",
+    "sentence": "I have ___________ which causes joint pain and stiffness.",
+    "right_sentence": "I have rheumatoid arthritis which causes joint pain and stiffness."
+  },
+  {
+    "term": "osteoporosis",
+    "meaning": "골다공증",
+    "sentence": "My doctor diagnosed me with ___________ after a bone scan.",
+    "right_sentence": "My doctor diagnosed me with osteoporosis after a bone scan."
+  },
+  {
+    "term": "thyroid disorder",
+    "meaning": "갑상선 장애",
+    "sentence": "I’ve been treated for a ___________ with daily medication.",
+    "right_sentence": "I’ve been treated for a thyroid disorder with daily medication."
+  },
+  {
+    "term": "anemia",
+    "meaning": "빈혈",
+    "sentence": "I had ___________ during pregnancy and took iron supplements.",
+    "right_sentence": "I had anemia during pregnancy and took iron supplements."
+  },
+  {
+    "term": "migraine",
+    "meaning": "편두통",
+    "sentence": "I suffer from chronic ___________ triggered by stress.",
+    "right_sentence": "I suffer from chronic migraine triggered by stress."
+  },
+  {
+    "term": "epilepsy",
+    "meaning": "간질",
+    "sentence": "I was diagnosed with ___________ after having seizures.",
+    "right_sentence": "I was diagnosed with epilepsy after having seizures."
+  },
+  {
+    "term": "depression",
+    "meaning": "우울증",
+    "sentence": "I’ve been managing my ___________ with therapy and meds.",
+    "right_sentence": "I’ve been managing my depression with therapy and meds."
+  },
+  {
+    "term": "anxiety disorder",
+    "meaning": "불안 장애",
+    "sentence": "My ___________ makes it hard to go to crowded places.",
+    "right_sentence": "My anxiety disorder makes it hard to go to crowded places."
+  },
+  {
+    "term": "bipolar disorder",
+    "meaning": "양극성 장애",
+    "sentence": "I have ___________ and take mood stabilizers.",
+    "right_sentence": "I have bipolar disorder and take mood stabilizers."
+  },
+  {
+    "term": "schizophrenia",
+    "meaning": "조현병",
+    "sentence": "My brother has ___________ and is on antipsychotic medication.",
+    "right_sentence": "My brother has schizophrenia and is on antipsychotic medication."
+  },
+  {
+    "term": "cancer",
+    "meaning": "암",
+    "sentence": "I survived breast ___________ after chemotherapy.",
+    "right_sentence": "I survived breast cancer after chemotherapy."
+  },
+  {
+    "term": "heart attack",
+    "meaning": "심장마비",
+    "sentence": "My father had a ___________ last year and had stents placed.",
+    "right_sentence": "My father had a heart attack last year and had stents placed."
+  },
+  {
+    "term": "stroke",
+    "meaning": "뇌졸중",
+    "sentence": "I had a minor ___________ which affected my speech temporarily.",
+    "right_sentence": "I had a minor stroke which affected my speech temporarily."
+  },
+  {
+    "term": "kidney stones",
+    "meaning": "신장 결석",
+    "sentence": "I passed ___________ painfully a few months ago.",
+    "right_sentence": "I passed kidney stones painfully a few months ago."
+  },
+  {
+    "term": "ulcer",
+    "meaning": "궤양",
+    "sentence": "I was treated for a stomach ___________ with antibiotics.",
+    "right_sentence": "I was treated for a stomach ulcer with antibiotics."
+  },
+  {
+    "term": "hepatitis",
+    "meaning": "간염",
+    "sentence": "I contracted ___________ B during travel and got vaccinated.",
+    "right_sentence": "I contracted hepatitis B during travel and got vaccinated."
+  },
+  {
+    "term": "tuberculosis",
+    "meaning": "결핵",
+    "sentence": "As a child, I had ___________ and completed the treatment.",
+    "right_sentence": "As a child, I had tuberculosis and completed the treatment."
+  },
+  {
+    "term": "malaria",
+    "meaning": "말라리아",
+    "sentence": "I got ___________ while traveling in Africa and took meds.",
+    "right_sentence": "I got malaria while traveling in Africa and took meds."
+  },
+  {
+    "term": "HIV",
+    "meaning": "HIV",
+    "sentence": "I’ve been living with ___________ for years on antiretroviral therapy.",
+    "right_sentence": "I’ve been living with HIV for years on antiretroviral therapy."
+  },
+  {
+    "term": "chickenpox",
+    "meaning": "수두",
+    "sentence": "I had ___________ as a kid and have scars from it.",
+    "right_sentence": "I had chickenpox as a kid and have scars from it."
+  },
+  {
+    "term": "measles",
+    "meaning": "홍역",
+    "sentence": "Before vaccines were common, I caught ___________ in school.",
+    "right_sentence": "Before vaccines were common, I caught measles in school."
+  },
+  {
+    "term": "mumps",
+    "meaning": "유행성 이하선염",
+    "sentence": "I had ___________ which caused swelling in my cheeks.",
+    "right_sentence": "I had mumps which caused swelling in my cheeks."
+  },
+  {
+    "term": "rubella",
+    "meaning": "풍진",
+    "sentence": "My mother had ___________ during pregnancy, but I was fine.",
+    "right_sentence": "My mother had rubella during pregnancy, but I was fine."
+  },
+  {
+    "term": "whooping cough",
+    "meaning": "백일해",
+    "sentence": "I suffered from ___________ as an infant and was hospitalized.",
+    "right_sentence": "I suffered from whooping cough as an infant and was hospitalized."
+  },
+  {
+    "term": "influenza",
+    "meaning": "인플루엔자",
+    "sentence": "I get the ___________ vaccine every year to avoid the flu.",
+    "right_sentence": "I get the influenza vaccine every year to avoid the flu."
+  },
+  {
+    "term": "pneumonia",
+    "meaning": "폐렴",
+    "sentence": "I had bacterial ___________ and needed antibiotics.",
+    "right_sentence": "I had bacterial pneumonia and needed antibiotics."
+  },
+  {
+    "term": "bronchitis",
+    "meaning": "기관지염",
+    "sentence": "Every cold turns into ___________ for me, with coughing.",
+    "right_sentence": "Every cold turns into bronchitis for me, with coughing."
+  },
+  {
+    "term": "gastritis",
+    "meaning": "위염",
+    "sentence": "Spicy food gives me ___________ with stomach burning.",
+    "right_sentence": "Spicy food gives me gastritis with stomach burning."
+  },
+  {
+    "term": "diverticulitis",
+    "meaning": "게실염",
+    "sentence": "I had an episode of ___________ with abdominal pain.",
+    "right_sentence": "I had an episode of diverticulitis with abdominal pain."
+  },
+  {
+    "term": "crohn's disease",
+    "meaning": "크론병",
+    "sentence": "I manage my ___________ with diet and medication.",
+    "right_sentence": "I manage my crohn's disease with diet and medication."
+  },
+  {
+    "term": "ulcerative colitis",
+    "meaning": "궤양성 대장염",
+    "sentence": "My ___________ causes bloody diarrhea occasionally.",
+    "right_sentence": "My ulcerative colitis causes bloody diarrhea occasionally."
+  },
+  {
+    "term": "celiac disease",
+    "meaning": "셀리악병",
+    "sentence": "I have ___________ and must avoid gluten.",
+    "right_sentence": "I have celiac disease and must avoid gluten."
+  },
+  {
+    "term": "lactose intolerance",
+    "meaning": "유당 불내증",
+    "sentence": "Dairy gives me ___________ with bloating and gas.",
+    "right_sentence": "Dairy gives me lactose intolerance with bloating and gas."
+  },
+  {
+    "term": "food poisoning",
+    "meaning": "식중독",
+    "sentence": "I had ___________ from bad seafood last summer.",
+    "right_sentence": "I had food poisoning from bad seafood last summer."
+  },
+  {
+    "term": "urinary tract infection",
+    "meaning": "요로감염",
+    "sentence": "I get recurrent ___________ with burning urination.",
+    "right_sentence": "I get recurrent urinary tract infection with burning urination."
+  },
+  {
+    "term": "kidney infection",
+    "meaning": "신장감염",
+    "sentence": "My ___________ caused fever and back pain.",
+    "right_sentence": "My kidney infection caused fever and back pain."
+  },
+  {
+    "term": "prostate enlargement",
+    "meaning": "전립선 비대",
+    "sentence": "As I age, my ___________ makes urination difficult.",
+    "right_sentence": "As I age, my prostate enlargement makes urination difficult."
+  },
+  {
+    "term": "endometriosis",
+    "meaning": "자궁내막증",
+    "sentence": "I suffer from ___________ with severe menstrual pain.",
+    "right_sentence": "I suffer from endometriosis with severe menstrual pain."
+  },
+  {
+    "term": "polycystic ovary syndrome",
+    "meaning": "다낭성 난소 증후군",
+    "sentence": "My ___________ causes irregular periods and weight gain.",
+    "right_sentence": "My polycystic ovary syndrome causes irregular periods and weight gain."
+  },
+  {
+    "term": "fibroids",
+    "meaning": "자궁근종",
+    "sentence": "I have uterine ___________ causing heavy bleeding.",
+    "right_sentence": "I have uterine fibroids causing heavy bleeding."
+  },
+  {
+    "term": "miscarriage",
+    "meaning": "유산",
+    "sentence": "I had a ___________ in my first pregnancy.",
+    "right_sentence": "I had a miscarriage in my first pregnancy."
+  },
+  {
+    "term": "ectopic pregnancy",
+    "meaning": "자궁외 임신",
+    "sentence": "My ___________ required emergency surgery.",
+    "right_sentence": "My ectopic pregnancy required emergency surgery."
+  },
+  {
+    "term": "gestational diabetes",
+    "meaning": "임신성 당뇨",
+    "sentence": "During pregnancy, I developed ___________ and monitored sugar.",
+    "right_sentence": "During pregnancy, I developed gestational diabetes and monitored sugar."
+  },
+  {
+    "term": "preeclampsia",
+    "meaning": "자간전증",
+    "sentence": "High blood pressure led to ___________ in my last pregnancy.",
+    "right_sentence": "High blood pressure led to preeclampsia in my last pregnancy."
+  },
+  {
+    "term": "cataract",
+    "meaning": "백내장",
+    "sentence": "I had ___________ surgery to improve my vision.",
+    "right_sentence": "I had cataract surgery to improve my vision."
+  },
+  {
+    "term": "glaucoma",
+    "meaning": "녹내장",
+    "sentence": "I use eye drops for my ___________ to control pressure.",
+    "right_sentence": "I use eye drops for my glaucoma to control pressure."
+  },
+  {
+    "term": "macular degeneration",
+    "meaning": "황반변성",
+    "sentence": "My ___________ affects my central vision.",
+    "right_sentence": "My macular degeneration affects my central vision."
+  },
+  {
+    "term": "hearing loss",
+    "meaning": "청력 손실",
+    "sentence": "Age-related ___________ makes conversations hard.",
+    "right_sentence": "Age-related hearing loss makes conversations hard."
+  },
+  {
+    "term": "tinnitus",
+    "meaning": "이명",
+    "sentence": "I have constant ___________ like ringing in my ears.",
+    "right_sentence": "I have constant tinnitus like ringing in my ears."
+  },
+  {
+    "term": "vertigo",
+    "meaning": "현기증",
+    "sentence": "Episodes of ___________ make me feel the room is spinning.",
+    "right_sentence": "Episodes of vertigo make me feel the room is spinning."
+  },
+  {
+    "term": "psoriasis",
+    "meaning": "건선",
+    "sentence": "My ___________ causes itchy patches on my skin.",
+    "right_sentence": "My psoriasis causes itchy patches on my skin."
+  },
+  {
+    "term": "eczema",
+    "meaning": "습진",
+    "sentence": "Childhood ___________ flares up with stress.",
+    "right_sentence": "Childhood eczema flares up with stress."
+  },
+  {
+    "term": "acne",
+    "meaning": "여드름",
+    "sentence": "Teenage ___________ left some scars on my face.",
+    "right_sentence": "Teenage acne left some scars on my face."
+  },
+  {
+    "term": "rosacea",
+    "meaning": "주사",
+    "sentence": "My ___________ makes my cheeks red and flushed.",
+    "right_sentence": "My rosacea makes my cheeks red and flushed."
+  },
+  {
+    "term": "lupus",
+    "meaning": "루푸스",
+    "sentence": "I have systemic ___________ affecting my joints and skin.",
+    "right_sentence": "I have systemic lupus affecting my joints and skin."
+  },
+  {
+    "term": "scleroderma",
+    "meaning": "경피증",
+    "sentence": "My ___________ causes skin tightening.",
+    "right_sentence": "My scleroderma causes skin tightening."
+  },
+  {
+    "term": "multiple sclerosis",
+    "meaning": "다발성 경화증",
+    "sentence": "I was diagnosed with ___________ after vision problems.",
+    "right_sentence": "I was diagnosed with multiple sclerosis after vision problems."
+  },
+  {
+    "term": "parkinson's disease",
+    "meaning": "파킨슨병",
+    "sentence": "My tremors are due to ___________ .",
+    "right_sentence": "My tremors are due to parkinson's disease."
+  },
+  {
+    "term": "alzheimer's disease",
+    "meaning": "알츠하이머병",
+    "sentence": "My grandmother has ___________ with memory loss.",
+    "right_sentence": "My grandmother has alzheimer's disease with memory loss."
+  },
+  {
+    "term": "dementia",
+    "meaning": "치매",
+    "sentence": "Age-related ___________ affects daily activities.",
+    "right_sentence": "Age-related dementia affects daily activities."
+  },
+  {
+    "term": "autism",
+    "meaning": "자폐증",
+    "sentence": "My child has ___________ spectrum disorder.",
+    "right_sentence": "My child has autism spectrum disorder."
+  },
+  {
+    "term": "ADHD",
+    "meaning": "주의력 결핍 과잉 행동 장애",
+    "sentence": "I was diagnosed with ___________ in school.",
+    "right_sentence": "I was diagnosed with ADHD in school."
+  },
+  {
+    "term": "obsessive-compulsive disorder",
+    "meaning": "강박 장애",
+    "sentence": "My ___________ involves repetitive checking.",
+    "right_sentence": "My obsessive-compulsive disorder involves repetitive checking."
+  },
+  {
+    "term": "post-traumatic stress disorder",
+    "meaning": "외상 후 스트레스 장애",
+    "sentence": "After the accident, I developed ___________ .",
+    "right_sentence": "After the accident, I developed post-traumatic stress disorder."
+  },
+  {
+    "term": "eating disorder",
+    "meaning": "섭식 장애",
+    "sentence": "I recovered from an ___________ in my teens.",
+    "right_sentence": "I recovered from an eating disorder in my teens."
+  },
+  {
+    "term": "substance abuse",
+    "meaning": "물질 남용",
+    "sentence": "I overcame ___________ through rehab.",
+    "right_sentence": "I overcame substance abuse through rehab."
+  },
+  {
+    "term": "alcoholism",
+    "meaning": "알코올 중독",
+    "sentence": "My ___________ affected my liver health.",
+    "right_sentence": "My alcoholism affected my liver health."
+  },
+  {
+    "term": "smoking history",
+    "meaning": "흡연 이력",
+    "sentence": "I have a 20-year ___________ but quit recently.",
+    "right_sentence": "I have a 20-year smoking history but quit recently."
+  },
+  {
+    "term": "family history",
+    "meaning": "가족력",
+    "sentence": "There’s a ___________ of heart disease in my family.",
+    "right_sentence": "There’s a family history of heart disease in my family."
+  },
+  {
+    "term": "genetic disorder",
+    "meaning": "유전 장애",
+    "sentence": "I carry a ___________ for cystic fibrosis.",
+    "right_sentence": "I carry a genetic disorder for cystic fibrosis."
+  },
+  {
+    "term": "vaccination history",
+    "meaning": "예방 접종 이력",
+    "sentence": "My ___________ is up to date except for flu.",
+    "right_sentence": "My vaccination history is up to date except for flu."
+  },
+  {
+    "term": "allergic reaction",
+    "meaning": "알레르기 반응",
+    "sentence": "I had a severe ___________ to penicillin once.",
+    "right_sentence": "I had a severe allergic reaction to penicillin once."
+  },
+  {
+    "term": "anaphylaxis",
+    "meaning": "아나필락시스",
+    "sentence": "Bee stings cause ___________ for me, so I carry an EpiPen.",
+    "right_sentence": "Bee stings cause anaphylaxis for me, so I carry an EpiPen."
+  },
+  {
+    "term": "blood transfusion",
+    "meaning": "수혈",
+    "sentence": "After surgery, I received a ___________ .",
+    "right_sentence": "After surgery, I received a blood transfusion."
+  },
+  {
+    "term": "organ transplant",
+    "meaning": "장기 이식",
+    "sentence": "I had a kidney ___________ from a donor.",
+    "right_sentence": "I had a kidney organ transplant from a donor."
+  },
+  {
+    "term": "chemotherapy",
+    "meaning": "화학 요법",
+    "sentence": "I underwent ___________ for cancer treatment.",
+    "right_sentence": "I underwent chemotherapy for cancer treatment."
+  },
+  {
+    "term": "radiation therapy",
+    "meaning": "방사선 치료",
+    "sentence": "After surgery, I had ___________ to kill remaining cells.",
+    "right_sentence": "After surgery, I had radiation therapy to kill remaining cells."
+  },
+  {
+    "term": "dialysis",
+    "meaning": "투석",
+    "sentence": "Due to kidney failure, I’m on ___________ three times a week.",
+    "right_sentence": "Due to kidney failure, I’m on dialysis three times a week."
+  },
+  {
+    "term": "pacemaker",
+    "meaning": "심박 조율기",
+    "sentence": "I have a ___________ implanted for heart rhythm issues.",
+    "right_sentence": "I have a pacemaker implanted for heart rhythm issues."
+  },
+  {
+    "term": "stent",
+    "meaning": "스텐트",
+    "sentence": "After a heart attack, I got a ___________ in my artery.",
+    "right_sentence": "After a heart attack, I got a stent in my artery."
+  },
+  {
+    "term": "bypass surgery",
+    "meaning": "우회 수술",
+    "sentence": "I had coronary ___________ for blocked arteries.",
+    "right_sentence": "I had coronary bypass surgery for blocked arteries."
+  },
+  {
+    "term": "joint replacement",
+    "meaning": "관절 치환술",
+    "sentence": "I need a knee ___________ due to arthritis.",
+    "right_sentence": "I need a knee joint replacement due to arthritis."
+  },
+  {
+    "term": "physical therapy",
+    "meaning": "물리 치료",
+    "sentence": "After injury, I did ___________ to regain strength.",
+    "right_sentence": "After injury, I did physical therapy to regain strength."
+  },
+  {
+    "term": "occupational therapy",
+    "meaning": "작업 치료",
+    "sentence": "Stroke recovery involved ___________ for daily skills.",
+    "right_sentence": "Stroke recovery involved occupational therapy for daily skills."
+  },
+  {
+    "term": "speech therapy",
+    "meaning": "언어 치료",
+    "sentence": "My child needs ___________ for stuttering.",
+    "right_sentence": "My child needs speech therapy for stuttering."
+  },
+
+  {
+    "term": "acid reflux",
+    "meaning": "위산 역류",
+    "sentence": "I get ___________ after eating spicy food, with a burning feeling in my chest.",
+    "right_sentence": "I get acid reflux after eating spicy food, with a burning feeling in my chest."
+  },
+  {
+    "term": "sprain",
+    "meaning": "염좌",
+    "sentence": "I had a ___________ in my ankle from twisting it while running.",
+    "right_sentence": "I had a sprain in my ankle from twisting it while running."
+  },
+  {
+    "term": "tendonitis",
+    "meaning": "건염",
+    "sentence": "My elbow hurts from ___________ after playing tennis a lot.",
+    "right_sentence": "My elbow hurts from tendonitis after playing tennis a lot."
+  },
+  {
+    "term": "sciatica",
+    "meaning": "좌골신경통",
+    "sentence": "I’ve had ___________ causing pain down my leg from my lower back.",
+    "right_sentence": "I’ve had sciatica causing pain down my leg from my lower back."
+  },
+  {
+    "term": "carpal tunnel syndrome",
+    "meaning": "수근관 증후군",
+    "sentence": "Typing all day gave me ___________ with wrist pain and numbness.",
+    "right_sentence": "Typing all day gave me carpal tunnel syndrome with wrist pain and numbness."
+  },
+  {
+    "term": "plantar fasciitis",
+    "meaning": "족저근막염",
+    "sentence": "My heels hurt in the morning due to ___________.",
+    "right_sentence": "My heels hurt in the morning due to plantar fasciitis."
+  },
+  {
+    "term": "frozen shoulder",
+    "meaning": "동결견",
+    "sentence": "I can’t lift my arm properly because of ___________.",
+    "right_sentence": "I can’t lift my arm properly because of frozen shoulder."
+  },
+  {
+    "term": "gout",
+    "meaning": "통풍",
+    "sentence": "I had a painful ___________ attack in my big toe last month.",
+    "right_sentence": "I had a painful gout attack in my big toe last month."
+  },
+  {
+    "term": "shingles",
+    "meaning": "대상포진",
+    "sentence": "I had ___________ with a painful rash on my side.",
+    "right_sentence": "I had shingles with a painful rash on my side."
+  },
+  {
+    "term": "mononucleosis",
+    "meaning": "단핵구증",
+    "sentence": "As a teenager, I had ___________ and was tired for weeks.",
+    "right_sentence": "As a teenager, I had mononucleosis and was tired for weeks."
+  },
+  {
+    "term": "strep throat",
+    "meaning": "연쇄상구균 인후염",
+    "sentence": "I had ___________ with a sore throat and needed antibiotics.",
+    "right_sentence": "I had strep throat with a sore throat and needed antibiotics."
+  },
+  {
+    "term": "pink eye",
+    "meaning": "결막염",
+    "sentence": "My eyes were red and itchy from ___________ last week.",
+    "right_sentence": "My eyes were red and itchy from pink eye last week."
+  },
+  {
+    "term": "ear infection",
+    "meaning": "중이염",
+    "sentence": "My child gets frequent ___________ with ear pain.",
+    "right_sentence": "My child gets frequent ear infection with ear pain."
+  },
+  {
+    "term": "sinus infection",
+    "meaning": "부비동 감염",
+    "sentence": "I had a ___________ causing facial pain and congestion.",
+    "right_sentence": "I had a sinus infection causing facial pain and congestion."
+  },
+  {
+    "term": "bronchial asthma",
+    "meaning": "기관지 천식",
+    "sentence": "Cold weather triggers my ___________ and I need my inhaler.",
+    "right_sentence": "Cold weather triggers my bronchial asthma and I need my inhaler."
+  },
+  {
+    "term": "hay fever",
+    "meaning": "알레르기 비염",
+    "sentence": "Spring pollen causes my ___________ with sneezing and itchy eyes.",
+    "right_sentence": "Spring pollen causes my hay fever with sneezing and itchy eyes."
+  },
+  {
+    "term": "hives",
+    "meaning": "두드러기",
+    "sentence": "I broke out in ___________ after eating shellfish.",
+    "right_sentence": "I broke out in hives after eating shellfish."
+  },
+  {
+    "term": "contact dermatitis",
+    "meaning": "접촉 피부염",
+    "sentence": "New soap caused ___________ with red, itchy skin.",
+    "right_sentence": "New soap caused contact dermatitis with red, itchy skin."
+  },
+  {
+    "term": "irritable bowel syndrome",
+    "meaning": "과민성 대장 증후군",
+    "sentence": "My ___________ causes bloating and irregular bowel movements.",
+    "right_sentence": "My irritable bowel syndrome causes bloating and irregular bowel movements."
+  },
+  {
+    "term": "acid indigestion",
+    "meaning": "위산 소화불량",
+    "sentence": "Heavy meals give me ___________ with discomfort in my stomach.",
+    "right_sentence": "Heavy meals give me acid indigestion with discomfort in my stomach."
+  },
+  {
+    "term": "gallstones",
+    "meaning": "담석",
+    "sentence": "I had ___________ causing sharp pain in my abdomen.",
+    "right_sentence": "I had gallstones causing sharp pain in my abdomen."
+  },
+  {
+    "term": "hemorrhoids",
+    "meaning": "치질",
+    "sentence": "I’ve been dealing with ___________ causing discomfort when sitting.",
+    "right_sentence": "I’ve been dealing with hemorrhoids causing discomfort when sitting."
+  },
+  {
+    "term": "diverticulosis",
+    "meaning": "게실증",
+    "sentence": "My doctor found ___________ during a routine colonoscopy.",
+    "right_sentence": "My doctor found diverticulosis during a routine colonoscopy."
+  },
+  {
+    "term": "pancreatic insufficiency",
+    "meaning": "췌장 기능부전",
+    "sentence": "I have ___________ and need enzyme supplements.",
+    "right_sentence": "I have pancreatic insufficiency and need enzyme supplements."
+  },
+  {
+    "term": "fatty liver",
+    "meaning": "지방간",
+    "sentence": "My diet led to ___________, found during an ultrasound.",
+    "right_sentence": "My diet led to fatty liver, found during an ultrasound."
+  },
+  {
+    "term": "cirrhosis",
+    "meaning": "간경변",
+    "sentence": "Years of heavy drinking caused my ___________.",
+    "right_sentence": "Years of heavy drinking caused my cirrhosis."
+  },
+  {
+    "term": "kidney failure",
+    "meaning": "신부전",
+    "sentence": "I’m on dialysis due to chronic ___________.",
+    "right_sentence": "I’m on dialysis due to chronic kidney failure."
+  },
+  {
+    "term": "bladder infection",
+    "meaning": "방광 감염",
+    "sentence": "I had a ___________ with frequent, painful urination.",
+    "right_sentence": "I had a bladder infection with frequent, painful urination."
+  },
+  {
+    "term": "overactive bladder",
+    "meaning": "과다활성 방광",
+    "sentence": "My ___________ makes me rush to the bathroom often.",
+    "right_sentence": "My overactive bladder makes me rush to the bathroom often."
+  },
+  {
+    "term": "erectile dysfunction",
+    "meaning": "발기부전",
+    "sentence": "I’ve been struggling with ___________ for a few years.",
+    "right_sentence": "I’ve been struggling with erectile dysfunction for a few years."
+  },
+  {
+    "term": "menopause",
+    "meaning": "폐경",
+    "sentence": "I’m going through ___________ with hot flashes and mood swings.",
+    "right_sentence": "I’m going through menopause with hot flashes and mood swings."
+  },
+  {
+    "term": "premenstrual syndrome",
+    "meaning": "월경전 증후군",
+    "sentence": "I get ___________ with bloating and irritability before my period.",
+    "right_sentence": "I get premenstrual syndrome with bloating and irritability before my period."
+  },
+  {
+    "term": "ovarian cyst",
+    "meaning": "난소 낭종",
+    "sentence": "I had an ___________ causing pelvic pain last year.",
+    "right_sentence": "I had an ovarian cyst causing pelvic pain last year."
+  },
+  {
+    "term": "yeast infection",
+    "meaning": "효모 감염",
+    "sentence": "I had a ___________ with itching and discomfort.",
+    "right_sentence": "I had a yeast infection with itching and discomfort."
+  },
+  {
+    "term": "bacterial vaginosis",
+    "meaning": "세균성 질염",
+    "sentence": "My ___________ caused an unusual odor and discharge.",
+    "right_sentence": "My bacterial vaginosis caused an unusual odor and discharge."
+  },
+  {
+    "term": "thyroid nodule",
+    "meaning": "갑상선 결절",
+    "sentence": "A scan found a ___________, but it’s benign.",
+    "right_sentence": "A scan found a thyroid nodule, but it’s benign."
+  },
+  {
+    "term": "hyperthyroidism",
+    "meaning": "갑상선 기능항진증",
+    "sentence": "My ___________ causes weight loss and nervousness.",
+    "right_sentence": "My hyperthyroidism causes weight loss and nervousness."
+  },
+  {
+    "term": "hypothyroidism",
+    "meaning": "갑상선 기능저하증",
+    "sentence": "I’m tired all the time due to ___________.",
+    "right_sentence": "I’m tired all the time due to hypothyroidism."
+  },
+  {
+    "term": "adrenal insufficiency",
+    "meaning": "부신 기능부전",
+    "sentence": "My ___________ causes fatigue and low blood pressure.",
+    "right_sentence": "My adrenal insufficiency causes fatigue and low blood pressure."
+  },
+  {
+    "term": "cushing’s syndrome",
+    "meaning": "쿠싱 증후군",
+    "sentence": "My ___________ led to weight gain and a round face.",
+    "right_sentence": "My cushing’s syndrome led to weight gain and a round face."
+  },
+  {
+    "term": "type 1 diabetes",
+    "meaning": "1형 당뇨병",
+    "sentence": "I was diagnosed with ___________ as a child and use insulin.",
+    "right_sentence": "I was diagnosed with type 1 diabetes as a child and use insulin."
+  },
+  {
+    "term": "type 2 diabetes",
+    "meaning": "2형 당뇨병",
+    "sentence": "My ___________ is managed with diet and pills.",
+    "right_sentence": "My type 2 diabetes is managed with diet and pills."
+  },
+  {
+    "term": "insulin resistance",
+    "meaning": "인슐린 저항성",
+    "sentence": "My ___________ makes it hard to control blood sugar.",
+    "right_sentence": "My insulin resistance makes it hard to control blood sugar."
+  },
+  {
+    "term": "metabolic syndrome",
+    "meaning": "대사 증후군",
+    "sentence": "I have ___________ with high blood pressure and cholesterol.",
+    "right_sentence": "I have metabolic syndrome with high blood pressure and cholesterol."
+  },
+  {
+    "term": "sleep apnea",
+    "meaning": "수면 무호흡증",
+    "sentence": "My ___________ causes loud snoring and daytime tiredness.",
+    "right_sentence": "My sleep apnea causes loud snoring and daytime tiredness."
+  },
+  {
+    "term": "restless leg syndrome",
+    "meaning": "하지 불안 증후군",
+    "sentence": "My ___________ makes my legs twitch at night.",
+    "right_sentence": "My restless leg syndrome makes my legs twitch at night."
+  },
+  {
+    "term": "narcolepsy",
+    "meaning": "기면증",
+    "sentence": "I fall asleep suddenly due to ___________.",
+    "right_sentence": "I fall asleep suddenly due to narcolepsy."
+  },
+  {
+    "term": "chronic fatigue syndrome",
+    "meaning": "만성 피로 증후군",
+    "sentence": "I’ve been diagnosed with ___________ and feel exhausted.",
+    "right_sentence": "I’ve been diagnosed with chronic fatigue syndrome and feel exhausted."
+  },
+  {
+    "term": "fibromyalgia",
+    "meaning": "섬유근육통",
+    "sentence": "My ___________ causes widespread pain and fatigue.",
+    "right_sentence": "My fibromyalgia causes widespread pain and fatigue."
+  },
+  {
+    "term": "chronic pain",
+    "meaning": "만성 통증",
+    "sentence": "I’ve been living with ___________ in my back for years.",
+    "right_sentence": "I’ve been living with chronic pain in my back for years."
+  },
+  {
+    "term": "trigeminal neuralgia",
+    "meaning": "삼차신경통",
+    "sentence": "My ___________ causes sharp facial pain.",
+    "right_sentence": "My trigeminal neuralgia causes sharp facial pain."
+  },
+  {
+    "term": "cluster headache",
+    "meaning": "군발 두통",
+    "sentence": "I get severe ___________ around one eye regularly.",
+    "right_sentence": "I get severe cluster headache around one eye regularly."
+  },
+  {
+    "term": "tension headache",
+    "meaning": "긴장성 두통",
+    "sentence": "Stress gives me a ___________ like a tight band around my head.",
+    "right_sentence": "Stress gives me a tension headache like a tight band around my head."
+  },
+  {
+    "term": "postherpetic neuralgia",
+    "meaning": "대상포진 후 신경통",
+    "sentence": "After shingles, I developed ___________ with burning pain.",
+    "right_sentence": "After shingles, I developed postherpetic neuralgia with burning pain."
+  },
+  {
+    "term": "peripheral neuropathy",
+    "meaning": "말초 신경병증",
+    "sentence": "My ___________ causes tingling in my hands and feet.",
+    "right_sentence": "My peripheral neuropathy causes tingling in my hands and feet."
+  },
+  {
+    "term": "bell’s palsy",
+    "meaning": "벨 마비",
+    "sentence": "I had ___________ with one-sided facial drooping.",
+    "right_sentence": "I had bell’s palsy with one-sided facial drooping."
+  },
+  {
+    "term": "stroke recovery",
+    "meaning": "뇌졸중 회복",
+    "sentence": "I’m in ___________ to regain movement in my arm.",
+    "right_sentence": "I’m in stroke recovery to regain movement in my arm."
+  },
+  {
+    "term": "deep vein thrombosis",
+    "meaning": "심부정맥 혈전증",
+    "sentence": "I had ___________ in my leg after a long flight.",
+    "right_sentence": "I had deep vein thrombosis in my leg after a long flight."
+  },
+  {
+    "term": "pulmonary embolism",
+    "meaning": "폐색전증",
+    "sentence": "I was hospitalized for ___________ with sudden shortness of breath.",
+    "right_sentence": "I was hospitalized for pulmonary embolism with sudden shortness of breath."
+  },
+  {
+    "term": "atrial fibrillation",
+    "meaning": "심방세동",
+    "sentence": "My ___________ causes an irregular heartbeat.",
+    "right_sentence": "My atrial fibrillation causes an irregular heartbeat."
+  },
+  {
+    "term": "heart failure",
+    "meaning": "심부전",
+    "sentence": "I have ___________ and get tired easily.",
+    "right_sentence": "I have heart failure and get tired easily."
+  },
+  {
+    "term": "aortic aneurysm",
+    "meaning": "대동맥류",
+    "sentence": "My doctor monitors my ___________ to prevent rupture.",
+    "right_sentence": "My doctor monitors my aortic aneurysm to prevent rupture."
+  },
+  {
+    "term": "pericarditis",
+    "meaning": "심낭염",
+    "sentence": "I had ___________ with chest pain worse when lying down.",
+    "right_sentence": "I had pericarditis with chest pain worse when lying down."
+  },
+  {
+    "term": "endocarditis",
+    "meaning": "심내막염",
+    "sentence": "My ___________ required long-term antibiotics.",
+    "right_sentence": "My endocarditis required long-term antibiotics."
+  },
+  {
+    "term": "varicose veins",
+    "meaning": "정맥류",
+    "sentence": "My ___________ cause aching in my legs.",
+    "right_sentence": "My varicose veins cause aching in my legs."
+  },
+  {
+    "term": "lymphedema",
+    "meaning": "림프부종",
+    "sentence": "After cancer surgery, I developed ___________ in my arm.",
+    "right_sentence": "After cancer surgery, I developed lymphedema in my arm."
+  },
+  {
+    "term": "anemia of chronic disease",
+    "meaning": "만성 질환성 빈혈",
+    "sentence": "My kidney issues caused ___________ with low energy.",
+    "right_sentence": "My kidney issues caused anemia of chronic disease with low energy."
+  },
+
+  {
+    "term": "chronic kidney disease",
+    "meaning": "만성 신부전",
+    "sentence": "My ___________ requires regular monitoring of my kidneys.",
+    "right_sentence": "My chronic kidney disease requires regular monitoring of my kidneys."
+  },
+  {
+    "term": "polycythemia",
+    "meaning": "다혈구증",
+    "sentence": "My ___________ causes my blood to be thicker than normal.",
+    "right_sentence": "My polycythemia causes my blood to be thicker than normal."
+  },
+  {
+    "term": "hemochromatosis",
+    "meaning": "혈색소증",
+    "sentence": "I have ___________ and need regular blood draws.",
+    "right_sentence": "I have hemochromatosis and need regular blood draws."
+  },
+  {
+    "term": "leukemia",
+    "meaning": "백혈병",
+    "sentence": "My cousin was diagnosed with ___________ and is in treatment.",
+    "right_sentence": "My cousin was diagnosed with leukemia and is in treatment."
+  },
+  {
+    "term": "lymphoma",
+    "meaning": "림프종",
+    "sentence": "I had ___________ and underwent chemotherapy.",
+    "right_sentence": "I had lymphoma and underwent chemotherapy."
+  },
+  {
+    "term": "multiple myeloma",
+    "meaning": "다발성 골수종",
+    "sentence": "My ___________ causes bone pain and weakness.",
+    "right_sentence": "My multiple myeloma causes bone pain and weakness."
+  },
+  {
+    "term": "osteomyelitis",
+    "meaning": "골수염",
+    "sentence": "An infection led to ___________ in my leg bone.",
+    "right_sentence": "An infection led to osteomyelitis in my leg bone."
+  },
+  {
+    "term": "sepsis",
+    "meaning": "패혈증",
+    "sentence": "I was hospitalized for ___________ after a severe infection.",
+    "right_sentence": "I was hospitalized for sepsis after a severe infection."
+  },
+  {
+    "term": "meningitis",
+    "meaning": "수막염",
+    "sentence": "I had bacterial ___________ and needed urgent treatment.",
+    "right_sentence": "I had bacterial meningitis and needed urgent treatment."
+  },
+  {
+    "term": "encephalitis",
+    "meaning": "뇌염",
+    "sentence": "A viral infection caused ___________ with severe headaches.",
+    "right_sentence": "A viral infection caused encephalitis with severe headaches."
+  },
+  {
+    "term": "brain tumor",
+    "meaning": "뇌종양",
+    "sentence": "I had surgery for a ___________ found on a scan.",
+    "right_sentence": "I had surgery for a brain tumor found on a scan."
+  },
+  {
+    "term": "pituitary disorder",
+    "meaning": "뇌하수체 장애",
+    "sentence": "My ___________ affects my hormone levels.",
+    "right_sentence": "My pituitary disorder affects my hormone levels."
+  },
+  {
+    "term": "parathyroid disorder",
+    "meaning": "부갑상선 장애",
+    "sentence": "My ___________ causes issues with calcium levels.",
+    "right_sentence": "My parathyroid disorder causes issues with calcium levels."
+  },
+  {
+    "term": "adrenal tumor",
+    "meaning": "부신 종양",
+    "sentence": "A scan found an ___________ causing hormone imbalances.",
+    "right_sentence": "A scan found an adrenal tumor causing hormone imbalances."
+  },
+  {
+    "term": "pancreatic tumor",
+    "meaning": "췌장 종양",
+    "sentence": "I was diagnosed with a ___________ after abdominal pain.",
+    "right_sentence": "I was diagnosed with a pancreatic tumor after abdominal pain."
+  },
+  {
+    "term": "esophageal reflux",
+    "meaning": "식도 역류",
+    "sentence": "My ___________ makes me cough at night.",
+    "right_sentence": "My esophageal reflux makes me cough at night."
+  },
+  {
+    "term": "hiatal hernia",
+    "meaning": "열공 탈장",
+    "sentence": "My ___________ causes chest discomfort after eating.",
+    "right_sentence": "My hiatal hernia causes chest discomfort after eating."
+  },
+  {
+    "term": "peptic ulcer",
+    "meaning": "소화성 궤양",
+    "sentence": "I had a ___________ treated with medication.",
+    "right_sentence": "I had a peptic ulcer treated with medication."
+  },
+  {
+    "term": "gastroenteritis",
+    "meaning": "위장염",
+    "sentence": "I had ___________ with vomiting and diarrhea last week.",
+    "right_sentence": "I had gastroenteritis with vomiting and diarrhea last week."
+  },
+  {
+    "term": "appendicitis",
+    "meaning": "맹장염",
+    "sentence": "I had surgery for ___________ due to severe abdominal pain.",
+    "right_sentence": "I had surgery for appendicitis due to severe abdominal pain."
+  },
+
+  {
+    "term": "bloating",
+    "meaning": "복부 팽만",
+    "sentence": "After meals, I feel ___________ like my stomach is swollen.",
+    "right_sentence": "After meals, I feel bloating like my stomach is swollen."
+  },
+  {
+    "term": "dizzy",
+    "meaning": "어지러움",
+    "sentence": "I get ___________ when I stand up too fast.",
+    "right_sentence": "I get dizzy when I stand up too fast."
+  },
+  {
+    "term": "stinging",
+    "meaning": "찌르는 듯한",
+    "sentence": "The pain in my eye is ___________, like a bee sting.",
+    "right_sentence": "The pain in my eye is stinging, like a bee sting."
+  },
+  {
+    "term": "throbbing",
+    "meaning": "맥박 치는 듯한",
+    "sentence": "My headache is ___________, pulsing with each heartbeat.",
+    "right_sentence": "My headache is throbbing, pulsing with each heartbeat."
+  },
+  {
+    "term": "tingling",
+    "meaning": "저림",
+    "sentence": "I feel ___________ in my fingers, like pins and needles.",
+    "right_sentence": "I feel tingling in my fingers, like pins and needles."
+  },
+  {
+    "term": "numb",
+    "meaning": "무감각",
+    "sentence": "My leg went ___________ after sitting for too long.",
+    "right_sentence": "My leg went numb after sitting for too long."
+  },
+  {
+    "term": "itchy",
+    "meaning": "가려움",
+    "sentence": "My skin is ___________ all over after that hike.",
+    "right_sentence": "My skin is itchy all over after that hike."
+  },
+  {
+    "term": "sore",
+    "meaning": "아픈",
+    "sentence": "My throat feels ___________ and scratchy today.",
+    "right_sentence": "My throat feels sore and scratchy today."
+  },
+  {
+    "term": "stiff",
+    "meaning": "뻣뻣한",
+    "sentence": "My neck is ___________ from sleeping wrong.",
+    "right_sentence": "My neck is stiff from sleeping wrong."
+  },
+  {
+    "term": "burning",
+    "meaning": "타는 듯한",
+    "sentence": "I have a ___________ sensation when I pee.",
+    "right_sentence": "I have a burning sensation when I pee."
+  },
+  {
+    "term": "aching",
+    "meaning": "쑤시는",
+    "sentence": "My muscles are ___________ after the workout.",
+    "right_sentence": "My muscles are aching after the workout."
+  },
+  {
+    "term": "sharp pain",
+    "meaning": "날카로운 통증",
+    "sentence": "I get a ___________ in my side when I run.",
+    "right_sentence": "I get a sharp pain in my side when I run."
+  },
+  {
+    "term": "dull ache",
+    "meaning": "둔한 통증",
+    "sentence": "There's a ___________ in my lower back all day.",
+    "right_sentence": "There's a dull ache in my lower back all day."
+  },
+  {
+    "term": "cramping",
+    "meaning": "경련",
+    "sentence": "I have ___________ in my stomach during my period.",
+    "right_sentence": "I have cramping in my stomach during my period."
+  },
+  {
+    "term": "chilly",
+    "meaning": "오한",
+    "sentence": "I feel ___________ even though it's warm in here.",
+    "right_sentence": "I feel chilly even though it's warm in here."
+  },
+  {
+    "term": "sweaty",
+    "meaning": "땀이 나는",
+    "sentence": "I get ___________ at night for no reason.",
+    "right_sentence": "I get sweaty at night for no reason."
+  },
+  {
+    "term": "flushed",
+    "meaning": "홍조",
+    "sentence": "My face feels ___________ and hot suddenly.",
+    "right_sentence": "My face feels flushed and hot suddenly."
+  },
+  {
+    "term": "clammy",
+    "meaning": "축축한",
+    "sentence": "My hands are ___________ and cold when I'm nervous.",
+    "right_sentence": "My hands are clammy and cold when I'm nervous."
+  },
+  {
+    "term": "wheezy",
+    "meaning": "쌕쌕거리는",
+    "sentence": "My breathing sounds ___________ after exercise.",
+    "right_sentence": "My breathing sounds wheezy after exercise."
+  },
+  {
+    "term": "stuffy",
+    "meaning": "막힌",
+    "sentence": "My nose is ___________ from allergies.",
+    "right_sentence": "My nose is stuffy from allergies."
+  },
+  {
+    "term": "runny",
+    "meaning": "흐르는",
+    "sentence": "I have a ___________ nose all the time now.",
+    "right_sentence": "I have a runny nose all the time now."
+  },
+  {
+    "term": "hoarse",
+    "meaning": "쉰",
+    "sentence": "My voice is ___________ after shouting at the game.",
+    "right_sentence": "My voice is hoarse after shouting at the game."
+  },
+  {
+    "term": "puffy",
+    "meaning": "부은",
+    "sentence": "My eyes are ___________ in the morning.",
+    "right_sentence": "My eyes are puffy in the morning."
+  },
+  {
+    "term": "blurry",
+    "meaning": "흐릿한",
+    "sentence": "My vision gets ___________ when I'm tired.",
+    "right_sentence": "My vision gets blurry when I'm tired."
+  },
+  {
+    "term": "ringing",
+    "meaning": "울리는",
+    "sentence": "I hear ___________ in my ears after loud music.",
+    "right_sentence": "I hear ringing in my ears after loud music."
+  },
+  {
+    "term": "drowsy",
+    "meaning": "졸린",
+    "sentence": "I feel ___________ all day despite sleeping well.",
+    "right_sentence": "I feel drowsy all day despite sleeping well."
+  },
+  {
+    "term": "jittery",
+    "meaning": "불안한",
+    "sentence": "Too much coffee makes me ___________ and shaky.",
+    "right_sentence": "Too much coffee makes me jittery and shaky."
+  },
+  {
+    "term": "foggy",
+    "meaning": "멍한",
+    "sentence": "My mind feels ___________ and I can't concentrate.",
+    "right_sentence": "My mind feels foggy and I can't concentrate."
+  },
+  {
+    "term": "moody",
+    "meaning": "기분 변화가 심한",
+    "sentence": "I've been ___________ lately, snapping at people.",
+    "right_sentence": "I've been moody lately, snapping at people."
+  },
+  {
+    "term": "restless",
+    "meaning": "안절부절못하는",
+    "sentence": "My legs feel ___________ at night, keeping me awake.",
+    "right_sentence": "My legs feel restless at night, keeping me awake."
+  },
+  {
+    "term": "lumpy",
+    "meaning": "덩어리진",
+    "sentence": "I found a ___________ area in my breast during self-exam.",
+    "right_sentence": "I found a lumpy area in my breast during self-exam."
+  },
+  {
+    "term": "scaly",
+    "meaning": "비늘 같은",
+    "sentence": "My skin is ___________ and dry on my elbows.",
+    "right_sentence": "My skin is scaly and dry on my elbows."
+  },
+  {
+    "term": "weepy",
+    "meaning": "진물이 나는",
+    "sentence": "The rash is ___________ and oozing fluid.",
+    "right_sentence": "The rash is weepy and oozing fluid."
+  },
+  {
+    "term": "tender",
+    "meaning": "압통이 있는",
+    "sentence": "My abdomen is ___________ to touch on the right side.",
+    "right_sentence": "My abdomen is tender to touch on the right side."
+  },
+  {
+    "term": "swollen",
+    "meaning": "부은",
+    "sentence": "My glands are ___________ under my jaw.",
+    "right_sentence": "My glands are swollen under my jaw."
+  },
+  {
+    "term": "bruised",
+    "meaning": "멍든",
+    "sentence": "My arm looks ___________ after the fall.",
+    "right_sentence": "My arm looks bruised after the fall."
+  },
+  {
+    "term": "yellowish",
+    "meaning": "황색의",
+    "sentence": "My skin turned ___________ and I felt unwell.",
+    "right_sentence": "My skin turned yellowish and I felt unwell."
+  },
+  {
+    "term": "pale",
+    "meaning": "창백한",
+    "sentence": "I look ___________ and feel weak lately.",
+    "right_sentence": "I look pale and feel weak lately."
+  },
+  {
+    "term": "spotty",
+    "meaning": "반점이 있는",
+    "sentence": "My vision has ___________ areas sometimes.",
+    "right_sentence": "My vision has spotty areas sometimes."
+  },
+  {
+    "term": "thirsty",
+    "meaning": "목마른",
+    "sentence": "I'm always ___________ even after drinking water.",
+    "right_sentence": "I'm always thirsty even after drinking water."
+  },
+  {
+    "term": "hungry",
+    "meaning": "배고픈",
+    "sentence": "I feel unusually ___________ all the time.",
+    "right_sentence": "I feel unusually hungry all the time."
+  },
+  {
+    "term": "nauseous",
+    "meaning": "메스꺼운",
+    "sentence": "I feel ___________ in the mornings.",
+    "right_sentence": "I feel nauseous in the mornings."
+  },
+  {
+    "term": "gassy",
+    "meaning": "가스가 찬",
+    "sentence": "Beans make me ___________ and uncomfortable.",
+    "right_sentence": "Beans make me gassy and uncomfortable."
+  },
+  {
+    "term": "constipated",
+    "meaning": "변비가 있는",
+    "sentence": "I've been ___________ for days now.",
+    "right_sentence": "I've been constipated for days now."
+  },
+  {
+    "term": "loose stools",
+    "meaning": "묽은 변",
+    "sentence": "I have ___________ after eating dairy.",
+    "right_sentence": "I have loose stools after eating dairy."
+  },
+  {
+    "term": "bloody",
+    "meaning": "피가 섞인",
+    "sentence": "My stool was ___________ this morning.",
+    "right_sentence": "My stool was bloody this morning."
+  },
+  {
+    "term": "frequent urination",
+    "meaning": "잦은 배뇨",
+    "sentence": "I have ___________ especially at night.",
+    "right_sentence": "I have frequent urination especially at night."
+  },
+  {
+    "term": "leaky",
+    "meaning": "누출되는",
+    "sentence": "I feel ___________ when I cough or laugh.",
+    "right_sentence": "I feel leaky when I cough or laugh."
+  },
+  {
+    "term": "hot flashes",
+    "meaning": "안면 홍조",
+    "sentence": "I get ___________ during the day unexpectedly.",
+    "right_sentence": "I get hot flashes during the day unexpectedly."
+  },
+  {
+    "term": "night sweats",
+    "meaning": "야간 발한",
+    "sentence": "I wake up with ___________ soaking my sheets.",
+    "right_sentence": "I wake up with night sweats soaking my sheets."
+  },
+  {
+    "term": "irregular periods",
+    "meaning": "불규칙한 월경",
+    "sentence": "My ___________ have been unpredictable lately.",
+    "right_sentence": "My irregular periods have been unpredictable lately."
+  },
+  {
+    "term": "heavy flow",
+    "meaning": "과다 출혈",
+    "sentence": "My periods have a ___________ that's exhausting.",
+    "right_sentence": "My periods have a heavy flow that's exhausting."
+  },
+  {
+    "term": "spotting",
+    "meaning": "점상 출혈",
+    "sentence": "I have ___________ between periods.",
+    "right_sentence": "I have spotting between periods."
+  },
+  {
+    "term": "vaginal dryness",
+    "meaning": "질 건조증",
+    "sentence": "I've noticed ___________ causing discomfort.",
+    "right_sentence": "I've noticed vaginal dryness causing discomfort."
+  },
+  {
+    "term": "discharge",
+    "meaning": "분비물",
+    "sentence": "There's unusual ___________ with a bad smell.",
+    "right_sentence": "There's unusual discharge with a bad smell."
+  },
+  {
+    "term": "erection problems",
+    "meaning": "발기 문제",
+    "sentence": "I've had ___________ affecting my confidence.",
+    "right_sentence": "I've had erection problems affecting my confidence."
+  },
+  {
+    "term": "low libido",
+    "meaning": "성욕 저하",
+    "sentence": "My ___________ has decreased over the years.",
+    "right_sentence": "My low libido has decreased over the years."
+  },
+  {
+    "term": "joint swelling",
+    "meaning": "관절 부종",
+    "sentence": "My knees have ___________ after walking.",
+    "right_sentence": "My knees have joint swelling after walking."
+  },
+  {
+    "term": "muscle weakness",
+    "meaning": "근력 약화",
+    "sentence": "I feel ___________ when climbing stairs.",
+    "right_sentence": "I feel muscle weakness when climbing stairs."
+  },
+  {
+    "term": "trembling",
+    "meaning": "떨림",
+    "sentence": "My hands are ___________ when I hold something.",
+    "right_sentence": "My hands are trembling when I hold something."
+  },
+  {
+    "term": "unsteady",
+    "meaning": "불안정한",
+    "sentence": "I feel ___________ on my feet sometimes.",
+    "right_sentence": "I feel unsteady on my feet sometimes."
+  },
+  {
+    "term": "forgetful",
+    "meaning": "건망증 있는",
+    "sentence": "I've become more ___________ with names and dates.",
+    "right_sentence": "I've become more forgetful with names and dates."
+  },
+  {
+    "term": "confused",
+    "meaning": "혼란스러운",
+    "sentence": "I get ___________ in familiar places occasionally.",
+    "right_sentence": "I get confused in familiar places occasionally."
+  },
+  {
+    "term": "hallucinations",
+    "meaning": "환각",
+    "sentence": "I've experienced ___________ at night.",
+    "right_sentence": "I've experienced hallucinations at night."
+  },
+  {
+    "term": "panic attacks",
+    "meaning": "공황 발작",
+    "sentence": "I have ___________ with rapid heartbeat.",
+    "right_sentence": "I have panic attacks with rapid heartbeat."
+  },
+  {
+    "term": "obsessive thoughts",
+    "meaning": "강박 생각",
+    "sentence": "I can't stop ___________ about cleanliness.",
+    "right_sentence": "I can't stop obsessive thoughts about cleanliness."
+  },
+  {
+    "term": "compulsive behaviors",
+    "meaning": "강박 행동",
+    "sentence": "My ___________ include checking locks repeatedly.",
+    "right_sentence": "My compulsive behaviors include checking locks repeatedly."
+  },
+  {
+    "term": "flashbacks",
+    "meaning": "회상",
+    "sentence": "I get ___________ from the accident.",
+    "right_sentence": "I get flashbacks from the accident."
+  },
+  {
+    "term": "binge eating",
+    "meaning": "폭식",
+    "sentence": "I struggle with ___________ when stressed.",
+    "right_sentence": "I struggle with binge eating when stressed."
+  },
+  {
+    "term": "purge",
+    "meaning": "토하기",
+    "sentence": "After eating, I feel the need to ___________ .",
+    "right_sentence": "After eating, I feel the need to purge."
+  },
+  {
+    "term": "withdrawal symptoms",
+    "meaning": "금단 증상",
+    "sentence": "When I quit smoking, I had ___________ like irritability.",
+    "right_sentence": "When I quit smoking, I had withdrawal symptoms like irritability."
+  },
+  {
+    "term": "cravings",
+    "meaning": "갈망",
+    "sentence": "I have strong ___________ for sweets.",
+    "right_sentence": "I have strong cravings for sweets."
+  },
+  {
+    "term": "hangover",
+    "meaning": "숙취",
+    "sentence": "After drinking, I get a bad ___________ with headache.",
+    "right_sentence": "After drinking, I get a bad hangover with headache."
+  },
+  {
+    "term": "blackouts",
+    "meaning": "기억 상실",
+    "sentence": "I've had ___________ from heavy drinking.",
+    "right_sentence": "I've had blackouts from heavy drinking."
+  },
+  {
+    "term": "allergic reaction",
+    "meaning": "알레르기 반응",
+    "sentence": "Nuts cause me a severe ___________ with swelling.",
+    "right_sentence": "Nuts cause me a severe allergic reaction with swelling."
+  },
+  {
+    "term": "food sensitivity",
+    "meaning": "음식 과민",
+    "sentence": "I have ___________ to gluten causing upset stomach.",
+    "right_sentence": "I have food sensitivity to gluten causing upset stomach."
+  },
+  {
+    "term": "drug allergy",
+    "meaning": "약물 알레르기",
+    "sentence": "I had a ___________ to aspirin with rash.",
+    "right_sentence": "I had a drug allergy to aspirin with rash."
+  },
+  {
+    "term": "bee sting reaction",
+    "meaning": "벌침 반응",
+    "sentence": "My ___________ is severe, needing an EpiPen.",
+    "right_sentence": "My bee sting reaction is severe, needing an EpiPen."
+  },
+  {
+    "term": "seasonal allergies",
+    "meaning": "계절 알레르기",
+    "sentence": "Spring brings my ___________ with sneezing.",
+    "right_sentence": "Spring brings my seasonal allergies with sneezing."
+  },
+  {
+    "term": "pet dander allergy",
+    "meaning": "애완동물 비듬 알레르기",
+    "sentence": "Cats trigger my ___________ with itchy eyes.",
+    "right_sentence": "Cats trigger my pet dander allergy with itchy eyes."
+  },
+  {
+    "term": "mold sensitivity",
+    "meaning": "곰팡이 과민",
+    "sentence": "Damp places cause my ___________ with coughing.",
+    "right_sentence": "Damp places cause my mold sensitivity with coughing."
+  },
+  {
+    "term": "dust mite allergy",
+    "meaning": "집먼지 진드기 알레르기",
+    "sentence": "My ___________ makes sleeping difficult.",
+    "right_sentence": "My dust mite allergy makes sleeping difficult."
+  },
+  {
+    "term": "latex allergy",
+    "meaning": "라텍스 알레르기",
+    "sentence": "Gloves give me a ___________ with skin irritation.",
+    "right_sentence": "Gloves give me a latex allergy with skin irritation."
+  },
+  {
+    "term": "sun sensitivity",
+    "meaning": "햇빛 과민",
+    "sentence": "Certain meds cause my ___________ with rashes.",
+    "right_sentence": "Certain meds cause my sun sensitivity with rashes."
+  },
+  {
+    "term": "cold urticaria",
+    "meaning": "한랭 두드러기",
+    "sentence": "Cold weather triggers my ___________ with hives.",
+    "right_sentence": "Cold weather triggers my cold urticaria with hives."
+  },
+  {
+    "term": "exercise-induced anaphylaxis",
+    "meaning": "운동 유발 아나필락시스",
+    "sentence": "Running after eating causes my ___________.",
+    "right_sentence": "Running after eating causes my exercise-induced anaphylaxis."
+  },
+  {
+    "term": "broken bone",
+    "meaning": "골절",
+    "sentence": "I had a ___________ in my wrist from skiing.",
+    "right_sentence": "I had a broken bone in my wrist from skiing."
+  },
+  {
+    "term": "torn ligament",
+    "meaning": "인대 파열",
+    "sentence": "Soccer caused my ___________ in the knee.",
+    "right_sentence": "Soccer caused my torn ligament in the knee."
+  },
+  {
+    "term": "dislocated shoulder",
+    "meaning": "어깨 탈구",
+    "sentence": "I had a ___________ from falling off a bike.",
+    "right_sentence": "I had a dislocated shoulder from falling off a bike."
+  },
+  {
+    "term": "concussion history",
+    "meaning": "뇌진탕 이력",
+    "sentence": "My ___________ from sports makes me cautious.",
+    "right_sentence": "My concussion history from sports makes me cautious."
+  },
+  {
+    "term": "burn injury",
+    "meaning": "화상",
+    "sentence": "I had a ___________ from hot oil in the kitchen.",
+    "right_sentence": "I had a burn injury from hot oil in the kitchen."
+  },
+  {
+    "term": "cut requiring stitches",
+    "meaning": "봉합이 필요한 상처",
+    "sentence": "A knife slip led to a ___________ on my finger.",
+    "right_sentence": "A knife slip led to a cut requiring stitches on my finger."
+  },
+  {
+    "term": "animal bite",
+    "meaning": "동물 물림",
+    "sentence": "A dog gave me an ___________ needing rabies shots.",
+    "right_sentence": "A dog gave me an animal bite needing rabies shots."
+  },
+  {
+    "term": "poison ivy rash",
+    "meaning": "독아이비 발진",
+    "sentence": "Hiking caused my ___________ with intense itching.",
+    "right_sentence": "Hiking caused my poison ivy rash with intense itching."
+  },
+  {
+    "term": "heat exhaustion",
+    "meaning": "열 탈진",
+    "sentence": "Working outside led to ___________ with dizziness.",
+    "right_sentence": "Working outside led to heat exhaustion with dizziness."
+  },
+  {
+    "term": "frostbite",
+    "meaning": "동상",
+    "sentence": "Winter camping caused ___________ on my toes.",
+    "right_sentence": "Winter camping caused frostbite on my toes."
+  },
+  {
+    "term": "drowning incident",
+    "meaning": "익사 사고",
+    "sentence": "I had a near-___________ as a child in the pool.",
+    "right_sentence": "I had a near-drowning incident as a child in the pool."
+  },
+  {
+    "term": "electric shock",
+    "meaning": "감전",
+    "sentence": "Fixing wiring caused an ___________ burn.",
+    "right_sentence": "Fixing wiring caused an electric shock burn."
+  },
+  {
+    "term": "car accident",
+    "meaning": "자동차 사고",
+    "sentence": "My ___________ left me with whiplash.",
+    "right_sentence": "My car accident left me with whiplash."
+  },
+  {
+    "term": "fall from height",
+    "meaning": "높은 곳에서 추락",
+    "sentence": "A ___________ broke my leg last year.",
+    "right_sentence": "A fall from height broke my leg last year."
+  },
+  {
+    "term": "sports injury",
+    "meaning": "스포츠 부상",
+    "sentence": "Basketball gave me a ___________ to my ankle.",
+    "right_sentence": "Basketball gave me a sports injury to my ankle."
   }
 ]
