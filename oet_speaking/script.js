@@ -2175,21 +2175,3254 @@ const oetPhrases = [
     category:
       "Setting Realistic Expectations (환자에게 현실적인 기대 설정하기)",
   },
+
+  {
+    term: "Hello, [Patient’s Name], it’s great to meet you today.",
+    meaning: "안녕하세요, [환자 이름], 오늘 뵙게 되어 기쁩니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good evening, [Patient’s Name]. How can I assist you today?",
+    meaning: "좋은 저녁입니다, [환자 이름]. 오늘 어떻게 도와드릴까요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Thanks for visiting today, [Patient’s Name]. What’s on your mind?",
+    meaning:
+      "오늘 방문해 주셔서 감사합니다, [환자 이름]. 무슨 걱정이 있으신가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome to the clinic, [Patient’s Name]. How are you feeling today?",
+    meaning:
+      "클리닉에 오신 것을 환영합니다, [환자 이름]. 오늘 기분이 어떠신가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good morning, [Parent’s Name]. I’m here to talk about your son’s recent tests.",
+    meaning:
+      "좋은 아침입니다, [부모 이름]. 아들의 최근 검사에 대해 이야기하려고 합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "What’s been happening with your health recently?",
+    meaning: "최근 건강에 어떤 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you describe any changes you’ve noticed in your condition?",
+    meaning: "상태에서 느낀 변화를 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What specific issues have been bothering you lately?",
+    meaning: "최근에 어떤 특정 문제가 당신을 괴롭혔나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I hear you’re here about [specific issue]. Could you elaborate?",
+    meaning:
+      "[특정 문제]로 오신 것으로 들었습니다. 자세히 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about the chest pain you’ve been experiencing?",
+    meaning: "가슴 통증에 대해 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been going on with your breathing difficulties?",
+    meaning: "호흡 곤란으로 어떤 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you describe the headaches and when they occur?",
+    meaning: "두통과 언제 발생하는지 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I understand you’re here about your fatigue. Can you share more details?",
+    meaning:
+      "피로 때문에 오신 것으로 알고 있습니다. 더 자세히 공유해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What symptoms have you noticed with your recent joint pain?",
+    meaning: "최근 관절 통증으로 어떤 증상을 느끼셨나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about your child’s fever and how long it’s lasted?",
+    meaning: "아이의 발열과 그 기간에 대해 말씀해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How has [child’s name] been managing with their recent symptoms?",
+    meaning: "[아이 이름]이 최근 증상을 어떻게 관리하고 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has [child’s name] experienced these symptoms in the past?",
+    meaning: "[아이 이름]이 과거에 이런 증상을 겪은 적이 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What changes have you noticed in [child’s name]’s behavior or health?",
+    meaning: "[아이 이름]의 행동이나 건강에서 어떤 변화를 느끼셨나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Can you describe how [child’s name] has been eating or sleeping lately?",
+    meaning:
+      "[아이 이름]이 최근에 어떻게 밥을 먹거나 잠을 잤는지 설명해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "I can see this situation is causing you a lot of worry.",
+    meaning: "이 상황이 당신에게 많은 걱정을 일으키고 있음을 알 수 있습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "It must be challenging to deal with this discomfort every day.",
+    meaning: "매일 이 불편함을 다루는 것이 힘들었을 것입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry to hear how much this is affecting your daily life.",
+    meaning: "이것이 일상생활에 얼마나 영향을 미치고 있는지 들어서 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how upsetting it is to feel this way.",
+    meaning: "이렇게 느끼는 것이 얼마나 속상한지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "It’s understandable that you’re concerned about your child’s health.",
+    meaning: "아이의 건강에 대해 걱정하시는 것이 이해됩니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can imagine how tough it is to manage this chronic condition.",
+    meaning: "이 만성 질환을 관리하는 것이 얼마나 힘든지 상상이 됩니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m here to support you through this difficult time.",
+    meaning: "이 어려운 시기에 당신을 지원하기 위해 여기 있습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can see how this pain is impacting your ability to work.",
+    meaning: "이 통증이 일하는 능력에 영향을 미치고 있음을 알 수 있습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this diagnosis has been so overwhelming for you.",
+    meaning: "이 진단이 당신에게 너무 부담스러웠다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how scary it must be to face these symptoms.",
+    meaning: "이런 증상에 직면하는 것이 얼마나 무서운지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "Can you tell me about your daily activities and exercise habits?",
+    meaning: "일상 활동과 운동 습관에 대해 말씀해 주시겠습니까?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How often do you consume sugary or acidic foods?",
+    meaning: "설탕이나 산성 음식을 얼마나 자주 섭취하시나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you have any habits like staying up late that might affect your health?",
+    meaning: "늦게 자는 등 건강에 영향을 미칠 수 있는 습관이 있나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Can you describe your sleep patterns over the past few weeks?",
+    meaning: "지난 몇 주 동안의 수면 패턴을 설명해 주시겠습니까?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Have you noticed any changes in your stress levels recently?",
+    meaning: "최근 스트레스 수준에 변화가 있었는지 느끼셨나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "The blood test results indicate [specific condition].",
+    meaning: "혈액 검사 결과가 [특정 상태]를 나타냅니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your X-ray shows [specific finding].",
+    meaning: "X-ray 결과가 [특정 소견]을 보여줍니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The scan suggests you may have [condition].",
+    meaning: "스캔 결과 당신이 [상태]를 가질 가능성을 시사합니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your test results confirm [specific issue].",
+    meaning: "검사 결과가 [특정 문제]를 확인했습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The blood work shows elevated levels of [specific marker].",
+    meaning: "혈액 검사에서 [특정 마커]의 수치가 높은 것으로 나타났습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "It appears you have [condition] based on your symptoms.",
+    meaning: "증상에 따르면 당신이 [상태]를 가진 것으로 보입니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "This condition occurs when [simple explanation].",
+    meaning: "이 상태는 [간단한 설명]일 때 발생합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "[Condition] can often be managed with proper care.",
+    meaning: "[상태]는 적절한 관리로 종종 관리할 수 있습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your symptoms point to [condition], which we can treat.",
+    meaning: "증상이 [상태]를 가리키며, 이는 치료할 수 있습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "This is likely [condition], caused by [cause].",
+    meaning: "이것은 [원인]으로 인한 [상태]일 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "We’ll need to run a [specific test] to understand this better.",
+    meaning: "이를 더 잘 이해하기 위해 [특정 검사]를 진행해야 합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "This test will give us more information about [specific issue].",
+    meaning: "이 검사는 [특정 문제]에 대한 더 많은 정보를 줄 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m recommending a [specific test] to rule out other possibilities.",
+    meaning: "다른 가능성을 배제하기 위해 [특정 검사]를 추천합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "The [test] is quick and will guide our treatment plan.",
+    meaning: "[검사]는 빠르며 치료 계획을 안내할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll do a [specific test] to monitor your condition closely.",
+    meaning: "상태를 면밀히 모니터링하기 위해 [특정 검사]를 할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m suggesting [treatment] to address your symptoms.",
+    meaning: "증상을 해결하기 위해 [치료]를 제안합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "This treatment will involve [specific steps] to help you feel better.",
+    meaning: "이 치료는 기분이 나아지도록 [특정 단계]를 포함합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "We’ll prescribe [medication] to manage [specific issue].",
+    meaning: "[특정 문제]를 관리하기 위해 [약물]을 처방할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Let’s start with [treatment] and check progress in [timeframe].",
+    meaning: "[치료]로 시작하여 [기간] 후에 진행 상황을 확인합시다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "This [medication] should reduce your discomfort significantly.",
+    meaning: "이 [약물]은 불편함을 크게 줄여줄 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Try to limit [specific activity] to improve your condition.",
+    meaning: "상태를 개선하기 위해 [특정 활동]을 제한해 보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Incorporating light exercise can benefit your overall health.",
+    meaning: "가벼운 운동을 포함하면 전반적인 건강에 도움이 될 수 있습니다.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Reducing caffeine intake may help with your symptoms.",
+    meaning: "카페인 섭취를 줄이면 증상에 도움이 될 수 있습니다.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Try to eat more fiber-rich foods to support your recovery.",
+    meaning: "회복을 지원하기 위해 섬유질이 풍부한 음식을 더 많이 먹어 보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Managing your workload could help lower your stress levels.",
+    meaning:
+      "업무량을 관리하면 스트레스 수준을 낮추는 데 도움이 될 수 있습니다.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "We can manage this condition effectively with the right approach.",
+    meaning: "올바른 접근법으로 이 상태를 효과적으로 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "I’m confident this plan will help you feel better soon.",
+    meaning: "이 계획이 곧 기분이 나아지도록 도울 것이라고 확신합니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "This is a treatable issue, and we’ll monitor it closely.",
+    meaning: "이것은 치료 가능한 문제이며, 면밀히 모니터링할 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "You don’t need to worry—we have good options to address this.",
+    meaning: "걱정할 필요 없습니다—이를 해결할 좋은 선택지가 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "With proper care, you should see improvement soon.",
+    meaning: "적절한 관리로 곧 개선을 볼 수 있을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "This treatment is the most effective way to address your condition.",
+    meaning: "이 치료는 상태를 해결하는 가장 효과적인 방법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Following this advice will help avoid future complications.",
+    meaning: "이 조언을 따르면 미래의 합병증을 피할 수 있습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I recommend this approach for the best possible outcome.",
+    meaning: "최상의 결과를 위해 이 접근법을 추천합니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "This plan has worked well for many patients like you.",
+    meaning: "이 계획은 당신과 같은 많은 환자들에게 잘 작동했습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Taking these steps now will support your long-term health.",
+    meaning: "지금 이 조치를 취하면 장기적인 건강을 지원할 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I’m concerned that ignoring this could worsen your symptoms.",
+    meaning: "이를 무시하면 증상이 악화될까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "We need to address this to prevent potential complications.",
+    meaning: "잠재적인 합병증을 예방하기 위해 이를 해결해야 합니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried that [specific behavior] may aggravate your condition.",
+    meaning: "[특정 행동]이 상태를 악화시킬까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "This issue could lead to [specific risk] if left untreated.",
+    meaning: "치료하지 않으면 이 문제가 [특정 위험]으로 이어질 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I want to ensure we catch any problems early with this condition.",
+    meaning: "이 상태로 인해 문제가 조기에 발견되도록 하고 싶습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Is this plan clear to you?",
+    meaning: "이 계획이 명확한가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Are you happy with the steps we’ve discussed?",
+    meaning: "논의한 단계들에 만족하시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Do you feel comfortable with what we’ve planned?",
+    meaning: "우리가 계획한 것에 대해 편안하게 느끼시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Is there anything about this plan you’d like to clarify?",
+    meaning: "이 계획에 대해 명확히 하고 싶은 것이 있나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does this approach sound suitable for you?",
+    meaning: "이 접근법이 당신에게 적합해 보이나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Let me clarify that point for you.",
+    meaning: "그 점을 명확히 설명드리겠습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "That’s an important question. Let me address it.",
+    meaning: "중요한 질문입니다. 이에 대해 설명드리겠습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I understand your question, and here’s the answer.",
+    meaning: "질문을 이해했으며, 답변은 다음과 같습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "Here’s what we know about [specific concern].",
+    meaning: "[특정 우려]에 대해 우리가 아는 바는 다음과 같습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "Let me explain why this treatment is recommended.",
+    meaning: "이 치료가 추천되는 이유를 설명드리겠습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I hear your concern about [issue]. Let’s discuss how we can address it.",
+    meaning:
+      "[문제]에 대한 우려를 들었습니다. 이를 해결하는 방법을 논의합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I understand why you’re worried about [specific concern]. Here’s our plan.",
+    meaning:
+      "[특정 우려]에 대해 걱정하시는 이유를 이해합니다. 여기 우리 계획이 있습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Let’s tackle your concern about [issue] together.",
+    meaning: "[문제]에 대한 우려를 함께 해결합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "It’s normal to worry about [specific concern], and we’ll work on it.",
+    meaning: "[특정 우려]에 대해 걱정하는 것이 정상이며, 이를 해결할 것입니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I can see why [specific concern] is troubling you. Let’s address it.",
+    meaning:
+      "[특정 우려]가 당신을 괴롭히는 이유를 알겠습니다. 이를 해결합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "We have several treatment options. Let’s go over them.",
+    meaning: "몇 가지 치료 옵션이 있습니다. 함께 살펴봅시다.",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "You can choose [option 1] or [option 2] based on your needs.",
+    meaning: "필요에 따라 [옵션 1] 또는 [옵션 2]를 선택할 수 있습니다.",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Here are two ways we can proceed. Which do you prefer?",
+    meaning: "진행할 수 있는 두 가지 방법이 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can try [option] or explore [alternative]. What’s your preference?",
+    meaning:
+      "[옵션]을 시도하거나 [대안]을 탐색할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Let’s discuss the options that best suit your lifestyle.",
+    meaning: "당신의 생활 방식에 가장 적합한 옵션을 논의합시다.",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We’ll follow up in [timeframe] to check your progress.",
+    meaning: "[기간] 후에 진행 상황을 확인하기 위해 후속 조치할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "I’ll schedule [specific action] to ensure we stay on track.",
+    meaning: "순조롭게 진행되도록 [특정 조치]를 예약할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Let’s set a follow-up appointment to review your results.",
+    meaning: "결과를 검토하기 위해 후속 예약을 정합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "If symptoms persist, we’ll take [next step].",
+    meaning: "증상이 지속되면 [다음 단계]를 취할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "We’ll check in after [timeframe] to adjust the plan if needed.",
+    meaning: "[기간] 후에 필요하면 계획을 조정하기 위해 확인할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Continuing [action] could increase your risk of [complication].",
+    meaning: "[행동]을 계속하면 [합병증] 위험이 증가할 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I need to caution you about the risks of [specific action].",
+    meaning: "[특정 행동]의 위험에 대해 경고해야 합니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Avoiding [action] is crucial to prevent further issues.",
+    meaning: "추가 문제를 예방하기 위해 [행동]을 피하는 것이 중요합니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not addressing this could lead to [specific risk].",
+    meaning: "이를 해결하지 않으면 [특정 위험]으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I’m concerned that delaying treatment could worsen your condition.",
+    meaning: "치료를 지연하면 상태가 악화될까 걱정됩니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I understand you’re reluctant, but this is important for your health.",
+    meaning: "주저하시는 것이 이해가 되지만, 이는 건강에 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I hear your concerns, but this plan is the best option for you.",
+    meaning: "우려를 들었지만, 이 계획이 당신에게 최선의 선택입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I know you prefer [preference], but let me explain why we suggest [plan].",
+    meaning:
+      "[선호]를 원하시는 것을 알지만, 왜 [계획]을 제안하는지 설명드리겠습니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Let’s find a solution that addresses your concerns and health needs.",
+    meaning: "당신의 우려와 건강 요구를 해결하는 솔루션을 찾아봅시다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand your hesitation, but this approach will benefit you.",
+    meaning:
+      "주저하시는 것을 이해하지만, 이 접근법이 당신에게 이익이 될 것입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Let me share some information about how [condition] affects you.",
+    meaning: "[상태]가 당신에게 어떻게 영향을 미치는지 정보를 공유하겠습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Understanding [condition] can help you take control of your health.",
+    meaning: "[상태]를 이해하면 건강을 관리하는 데 도움이 될 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Here’s what you need to know about managing [condition].",
+    meaning: "[상태] 관리에 대해 알아야 할 사항입니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "This [treatment] works by [simple explanation].",
+    meaning: "이 [치료]는 [간단한 설명]으로 작동합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Learning about [condition] can help you make informed choices.",
+    meaning: "[상태]에 대해 배우면 정보에 입각한 선택을 할 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "With this plan, I’m optimistic about your recovery.",
+    meaning: "이 계획으로 당신의 회복에 대해 낙관적입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Many patients with this condition see significant improvement.",
+    meaning: "이 상태를 가진 많은 환자들이 상당한 개선을 봅니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "This treatment has a good success rate for your condition.",
+    meaning: "이 치료는 당신의 상태에 대해 높은 성공률을 가지고 있습니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "With consistent effort, you’ll likely feel much better soon.",
+    meaning: "꾸준한 노력으로 곧 훨씬 나아질 가능성이 큽니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "I’m confident we can manage this and improve your quality of life.",
+    meaning: "이를 관리하여 삶의 질을 개선할 수 있다고 확신합니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+
+  {
+    term: "Good morning, Mrs. Lee. Thanks for coming in to discuss your recent blood test results.",
+    meaning:
+      "좋은 아침입니다, 이 씨. 최근 혈액 검사 결과를 논의하기 위해 와주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hello, Mr. Kim. It’s nice to see you. How’s your ankle feeling today?",
+    meaning: "안녕하세요, 김 씨. 뵙게 되어 반갑습니다. 오늘 발목은 어떤가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome, Ms. Park. I understand you’re here about your migraines.",
+    meaning: "환영합니다, 박 씨. 편두통 때문에 오신 것으로 알고 있습니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good afternoon, Mr. Choi. Thanks for bringing your daughter for her asthma check-up.",
+    meaning:
+      "좋은 오후입니다, 최 씨. 딸의 천식 검진을 위해 데려와 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hi, Mrs. Han. I’m glad you’re here to talk about your son’s ear infection.",
+    meaning: "안녕, 한 씨. 아들의 귀 감염에 대해 이야기하러 와주셔서 기쁩니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Can you tell me more about the dizziness you’ve been experiencing?",
+    meaning: "현기증에 대해 더 자세히 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been happening with your persistent cough over the past week?",
+    meaning: "지난 일주일 동안 지속된 기침에 대해 무슨 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you describe the swelling in your legs and when it started?",
+    meaning: "다리의 부종과 언제 시작되었는지 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I hear you’re here about your frequent stomach cramps. Can you share more?",
+    meaning:
+      "잦은 위경련 때문에 오신 것으로 들었습니다. 더 자세히 공유해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What symptoms have you noticed with your recurring sinus infections?",
+    meaning: "반복되는 부비동 감염으로 어떤 증상을 느끼셨나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about your daughter’s rash and when it first appeared?",
+    meaning: "딸의 발진과 처음 나타났을 때에 대해 말씀해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How has your son been coping with his asthma symptoms recently?",
+    meaning: "아들이 최근 천식 증상을 어떻게 대처하고 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has your child had these allergic reactions before?",
+    meaning: "아이에게 이전에 이런 알레르기 반응이 있었나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What changes have you noticed in your daughter’s energy levels?",
+    meaning: "딸의 에너지 수준에서 어떤 변화를 느끼셨나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Can you share how your son’s sleep has been affected by his ear pain?",
+    meaning:
+      "아들의 귀 통증이 수면에 어떤 영향을 미쳤는지 공유해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "I’m sorry to hear your migraines are making it hard to focus at work.",
+    meaning: "편두통 때문에 직장에서 집중하기 어렵다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can imagine how frustrating it is to deal with constant fatigue.",
+    meaning: "지속적인 피로를 다루는 것이 얼마나 답답할지 상상이 됩니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how worrying it must be to see your child in pain.",
+    meaning: "아이의 통증을 보는 것이 얼마나 걱정스러운지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this back pain is stopping you from enjoying your hobbies.",
+    meaning: "허리 통증 때문에 취미를 즐기지 못하고 있다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can see how upsetting it is to have recurring sinus infections.",
+    meaning: "반복되는 부비동 감염이 얼마나 속상한지 알 것 같습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "Can you tell me about your diet, especially how often you eat processed foods?",
+    meaning: "식단, 특히 가공 식품을 얼마나 자주 먹는지 말씀해 주시겠습니까?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How many hours of sleep do you typically get each night?",
+    meaning: "보통 매일 밤 몇 시간 자나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you engage in high-impact activities like running or jumping?",
+    meaning: "달리기나 점프 같은 고강도 활동을 하나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Have you been under more stress than usual at home or work?",
+    meaning: "집이나 직장에서 평소보다 더 많은 스트레스를 받고 있나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Can you share how much tea or soda you drink daily?",
+    meaning: "하루에 차나 탄산음료를 얼마나 마시는지 공유해 주시겠습니까?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Your chest X-ray shows signs of pneumonia.",
+    meaning: "가슴 X-ray에서 폐렴 징후가 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The blood test indicates you have low iron levels, suggesting anemia.",
+    meaning: "혈액 검사 결과 철분 수치가 낮아 빈혈을 시사합니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your ECG shows some irregular heart rhythms we need to investigate.",
+    meaning: "심전도에서 조사해야 할 불규칙한 심장 리듬이 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The MRI suggests a small tear in your shoulder muscle.",
+    meaning: "MRI 결과 어깨 근육에 작은 파열이 있는 것으로 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your daughter’s allergy test confirms a peanut allergy.",
+    meaning: "딸의 알레르기 검사에서 땅콩 알레르기가 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "You likely have bronchitis, which is causing your persistent cough.",
+    meaning: "지속적인 기침을 유발하는 기관지염이 있을 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your symptoms suggest type 2 diabetes, which affects blood sugar control.",
+    meaning: "증상이 혈당 조절에 영향을 미치는 제2형 당뇨병을 시사합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "You have a sprained ankle, likely from twisting it during exercise.",
+    meaning: "운동 중 발목을 삐어서 발목 염좌가 생겼을 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your child has conjunctivitis, an infection causing red, itchy eyes.",
+    meaning: "아이가 눈이 붉고 가려운 결막염에 걸렸습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your symptoms point to eczema, a skin condition causing itchy patches.",
+    meaning: "증상이 가려운 반점을 유발하는 피부 질환인 습진을 가리킵니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "I’d like to order a CT scan to check for any lung issues.",
+    meaning: "폐 문제를 확인하기 위해 CT 스캔을 의뢰하고 싶습니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll need a glucose test to confirm if you have diabetes.",
+    meaning: "당뇨병이 있는지 확인하기 위해 포도당 검사가 필요합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m recommending an ultrasound to examine your abdominal pain.",
+    meaning: "복통을 조사하기 위해 초음파를 추천합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A skin prick test will help identify your son’s allergies.",
+    meaning:
+      "피부 단자 검사가 아들의 알레르기를 확인하는 데 도움이 될 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll do a blood pressure check to monitor your hypertension.",
+    meaning: "고혈압을 모니터링하기 위해 혈압 검사를 할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m prescribing amoxicillin to treat your sinus infection.",
+    meaning: "부비동 감염 치료를 위해 아목시실린을 처방합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "We’ll start with a low dose of metformin to manage your diabetes.",
+    meaning: "당뇨병 관리를 위해 낮은 용량의 메트포르민으로 시작할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Use this corticosteroid cream to reduce your eczema flare-ups.",
+    meaning: "습진 발작을 줄이기 위해 이 코르티코스테로이드 크림을 사용하세요.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "I recommend physical therapy to strengthen your sprained ankle.",
+    meaning: "발목 염좌를 강화하기 위해 물리치료를 추천합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Your child needs antibiotic eye drops for the conjunctivitis.",
+    meaning: "아이는 결막염 치료를 위해 항생제 안약이 필요합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Try cutting down on sugary snacks to help control your diabetes.",
+    meaning: "당뇨병 조절을 위해 설탕이 많은 간식을 줄여보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Avoid heavy lifting to prevent further strain on your back.",
+    meaning: "허리에 추가 부담을 주지 않기 위해 무거운 물건을 들지 마세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Try using a humidifier to ease your sinus infection symptoms.",
+    meaning: "부비동 감염 증상을 완화하기 위해 가습기를 사용해 보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Gentle stretching exercises can help with your joint stiffness.",
+    meaning: "관절 뻣뻣함을 돕기 위해 부드러운 스트레칭 운동을 해보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Reduce screen time before bed to improve your sleep quality.",
+    meaning: "수면의 질을 개선하기 위해 취침 전 화면 시간을 줄이세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Your bronchitis is treatable, and we’ll monitor your recovery closely.",
+    meaning: "기관지염은 치료 가능하며, 회복을 면밀히 모니터링할 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "I’m confident we can manage your diabetes with this plan.",
+    meaning: "이 계획으로 당뇨병을 관리할 수 있다고 확신합니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your ankle sprain should heal well with proper care.",
+    meaning: "적절한 관리로 발목 염좌는 잘 치유될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your child’s conjunctivitis will clear up quickly with treatment.",
+    meaning: "치료로 아이의 결막염은 빠르게 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "With this cream, your eczema should improve within a week.",
+    meaning: "이 크림으로 습진은 일주일 안에 개선될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Taking metformin regularly will help stabilize your blood sugar.",
+    meaning:
+      "메트포르민을 정기적으로 복용하면 혈당을 안정시키는 데 도움이 됩니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Resting your ankle now will prevent a longer recovery time.",
+    meaning:
+      "지금 발목을 쉬게 하면 회복 시간이 길어지는 것을 방지할 수 있습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Using the eye drops as prescribed is the best way to treat conjunctivitis.",
+    meaning:
+      "처방된 대로 안약을 사용하는 것이 결막염을 치료하는 최선의 방법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "This cream has helped many patients control their eczema effectively.",
+    meaning:
+      "이 크림은 많은 환자들이 습진을 효과적으로 관리하는 데 도움이 되었습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Amoxicillin is the most effective treatment for your sinus infection.",
+    meaning: "아목시실린은 부비동 감염에 가장 효과적인 치료법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I’m concerned that untreated diabetes could lead to heart issues.",
+    meaning: "치료하지 않은 당뇨병이 심장 문제로 이어질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried your cough could worsen without antibiotics.",
+    meaning: "항생제 없이 기침이 악화될까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Continuing to lift heavy objects could aggravate your back pain.",
+    meaning: "무거운 물건을 계속 들면 허리 통증이 악화될 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m concerned that ignoring your eczema could lead to skin infections.",
+    meaning: "습진을 무시하면 피부 감염으로 이어질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I want to prevent complications from your child’s ear infection.",
+    meaning: "아이의 귀 감염으로 인한 합병증을 예방하고 싶습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Are you okay with starting metformin for your diabetes?",
+    meaning: "당뇨병 치료를 위해 메트포르민을 시작하는 것에 괜찮으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the plan to use antibiotic eye drops make sense to you?",
+    meaning: "항생제 안약을 사용하는 계획이 이해가 되시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Are you comfortable with resting your ankle for two weeks?",
+    meaning: "2주 동안 발목을 쉬는 것에 편안하신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Do you have any questions about using the corticosteroid cream?",
+    meaning: "코르티코스테로이드 크림 사용에 대해 질문이 있으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the treatment plan for your sinus infection sound clear?",
+    meaning: "부비동 감염 치료 계획이 명확해 보이나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "You asked about side effects of metformin. It may cause mild nausea at first.",
+    meaning:
+      "메트포르민의 부작용에 대해 물으셨습니다. 처음에는 약간의 메스꺼움을 유발할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re concerned about antibiotics. They’re safe and will clear the infection quickly.",
+    meaning:
+      "항생제에 대해 걱정하십니다. 안전하며 감염을 빠르게 제거할 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked if eczema is permanent. It can be managed well with proper care.",
+    meaning:
+      "습진이 영구적인지 물으셨습니다. 적절한 관리로 잘 관리할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re worried about your child’s rash spreading. We’ll treat it to prevent that.",
+    meaning:
+      "아이의 발진이 퍼질까 걱정하십니다. 이를 방지하기 위해 치료할 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked about recovery time. Your ankle should improve in about three weeks.",
+    meaning:
+      "회복 시간에 대해 물으셨습니다. 발목은 약 3주 안에 개선될 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I understand you’re worried about your diabetes affecting your vision.",
+    meaning: "당뇨병이 시력에 영향을 미칠까 걱정하시는 것을 이해합니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I can see why you’re concerned about your child’s recurring ear infections.",
+    meaning: "아이의 반복되는 귀 감염에 대해 걱정하시는 이유를 알겠습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Let’s address your worry about the side effects of this asthma inhaler.",
+    meaning: "천식 흡입기의 부작용에 대한 우려를 해결합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I know you’re anxious about your cough persisting. We’ll find a solution.",
+    meaning:
+      "기침이 지속되는 것에 대해 불안해하시는 것을 압니다. 해결책을 찾겠습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Your concern about ankle pain returning is valid. Let’s make a plan.",
+    meaning:
+      "발목 통증이 다시 올까 걱정하시는 것이 타당합니다. 계획을 세웁시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "We can treat your bronchitis with antibiotics or monitor it with rest. What do you prefer?",
+    meaning:
+      "기관지염을 항생제로 치료하거나 휴식으로 모니터링할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "You can use a cream or oral medication for your eczema. Which suits you better?",
+    meaning:
+      "습진에 크림이나 경구 약물을 사용할 수 있습니다. 어떤 것이 더 적합한가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can start with physical therapy or a brace for your ankle. What’s your choice?",
+    meaning:
+      "발목에 물리치료나 보조기를 시작할 수 있습니다. 어떤 것을 선택하시겠습니까?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For your child’s conjunctivitis, we can use drops or ointment. Which is easier?",
+    meaning:
+      "아이의 결막염에 안약이나 연고를 사용할 수 있습니다. 어떤 것이 더 쉬운가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can try a low-carb diet or medication for diabetes. Let’s discuss what’s best.",
+    meaning:
+      "당뇨병에 저탄수화물 식단이나 약물을 시도할 수 있습니다. 최선의 것을 논의합시다.",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Let’s follow up in one week to see how your sinus infection is improving.",
+    meaning:
+      "부비동 감염이 어떻게 개선되는지 보기 위해 일주일 후에 후속 조치합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "I’ll arrange a referral to an allergist for your daughter’s peanut allergy.",
+    meaning:
+      "딸의 땅콩 알레르기를 위해 알레르기 전문의에게 의뢰를 준비할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "We’ll review your blood sugar levels in two weeks to adjust the plan.",
+    meaning: "계획을 조정하기 위해 2주 후에 혈당 수치를 검토할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "If your cough doesn’t improve, we’ll consider a chest CT scan.",
+    meaning: "기침이 개선되지 않으면 가슴 CT 스캔을 고려할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Come back in ten days to check your ankle’s healing progress.",
+    meaning: "발목 치유 진행 상황을 확인하기 위해 10일 후에 다시 오세요.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Continuing to smoke could worsen your bronchitis significantly.",
+    meaning: "흡연을 계속하면 기관지염이 크게 악화될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Ignoring your diabetes could lead to kidney or eye complications.",
+    meaning: "당뇨병을 무시하면 신장이나 눈 합병증으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not treating your child’s conjunctivitis could cause vision issues.",
+    meaning: "아이의 결막염을 치료하지 않으면 시력 문제가 생길 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Continuing strenuous exercise could delay your ankle’s recovery.",
+    meaning: "격렬한 운동을 계속하면 발목 회복이 지연될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Untreated eczema could lead to skin infections if scratched excessively.",
+    meaning:
+      "과도하게 긁으면 치료하지 않은 습진이 피부 감염으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I know you want to avoid medication, but metformin is key for your diabetes.",
+    meaning:
+      "약을 피하고 싶으신 것을 알지만, 메트포르민은 당뇨병에 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re hesitant about eye drops, but they’re safe for your child.",
+    meaning: "안약에 대해 주저하시는 것을 이해하지만, 아이에게 안전합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I know you want to keep running, but resting your ankle is crucial now.",
+    meaning:
+      "계속 달리고 싶으신 것을 알지만, 지금은 발목을 쉬는 것이 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I hear you prefer natural remedies, but antibiotics are needed for bronchitis.",
+    meaning:
+      "자연 요법을 선호하신다는 것을 들었지만, 기관지염에는 항생제가 필요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re busy, but applying the eczema cream twice daily is essential.",
+    meaning:
+      "바쁘신 것을 이해하지만, 습진 크림을 하루 두 번 바르는 것이 필수입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Diabetes affects how your body processes sugar, so diet changes are vital.",
+    meaning:
+      "당뇨병은 신체가 설탕을 처리하는 방식에 영향을 미치므로 식단 변화가 중요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Bronchitis is an inflammation of the airways, often triggered by infections.",
+    meaning: "기관지염은 종종 감염에 의해 유발되는 기도 염증입니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Eczema causes skin inflammation, but moisturizing can prevent flare-ups.",
+    meaning: "습진은 피부 염증을 유발하지만, 보습은 발작을 예방할 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "A sprained ankle involves stretched ligaments, so rest helps them heal.",
+    meaning: "발목 염좌는 인대가 늘어난 것으로, 휴식이 치유에 도움이 됩니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Conjunctivitis is contagious, so good hygiene is key to prevent spreading.",
+    meaning: "결막염은 전염성이 있으므로, 위생 관리가 확산 방지에 중요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "With antibiotics, your bronchitis should improve within a few days.",
+    meaning: "항생제로 기관지염은 며칠 안에 개선될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Managing your diabetes well will help you stay active and healthy.",
+    meaning: "당뇨병을 잘 관리하면 활동적이고 건강하게 지낼 수 있습니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your ankle will recover fully with rest and physical therapy.",
+    meaning: "휴식과 물리치료로 발목은 완전히 회복될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your child’s conjunctivitis should clear up in a week with eye drops.",
+    meaning: "안약으로 아이의 결막염은 일주일 안에 나을 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "With consistent use of the cream, your eczema will be under control soon.",
+    meaning: "크림을 꾸준히 사용하면 습진이 곧 조절될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+
+  {
+    term: "Good morning, Sarah. Thanks for coming in to discuss your recent fatigue.",
+    meaning:
+      "좋은 아침입니다, 사라. 최근 피로에 대해 논의하러 와주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hello, James. It’s great to see you. How’s your knee pain today?",
+    meaning:
+      "안녕하세요, 제임스. 뵙게 되어 반갑습니다. 오늘 무릎 통증은 어떤가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome, Emma. I understand you’re here about your frequent headaches.",
+    meaning: "환영합니다, 엠마. 잦은 두통 때문에 오신 것으로 알고 있습니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good afternoon, Michael. Thanks for bringing your son for his check-up.",
+    meaning:
+      "좋은 오후입니다, 마이클. 아들의 검진을 위해 데려와 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hi, Lisa. I’m glad you’re here to talk about your daughter’s fever.",
+    meaning: "안녕, 리사. 딸의 발열에 대해 이야기하러 와주셔서 기쁩니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Can you describe the chest tightness you’ve been feeling recently?",
+    meaning: "최근 느꼈던 가슴 답답함에 대해 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been going on with your sore throat over the past few days?",
+    meaning: "지난 며칠 동안 인후통에 대해 무슨 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about the abdominal pain you’ve been experiencing?",
+    meaning: "경험했던 복통에 대해 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I hear you’re here about your recurring back spasms. Can you elaborate?",
+    meaning:
+      "반복되는 허리 경련 때문에 오신 것으로 들었습니다. 자세히 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What symptoms have you noticed with your chronic acid reflux?",
+    meaning: "만성 위산 역류로 어떤 증상을 느끼셨나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you share how long your son, Tom, has had this persistent cough?",
+    meaning:
+      "아들 톰이 이 지속적인 기침을 얼마나 오래 겪었는지 공유해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How has your daughter, Emily, been managing her asthma attacks?",
+    meaning: "딸 에밀리가 천식 발작을 어떻게 관리하고 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has your son, Jack, had these skin rashes in the past?",
+    meaning: "아들 잭이 과거에 이런 피부 발진을 겪은 적이 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What changes have you noticed in your daughter, Sophie’s, appetite recently?",
+    meaning: "최근 딸 소피의 식욕에서 어떤 변화를 느끼셨나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Can you describe how your son, Liam’s, sleep has been affected by his earache?",
+    meaning:
+      "아들 리암의 귀 통증이 수면에 어떤 영향을 미쳤는지 설명해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "I’m sorry to hear your headaches are disrupting your daily routine, Sarah.",
+    meaning: "두통이 일상생활을 방해하고 있다니 유감입니다, 사라.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can imagine how exhausting it must be to deal with insomnia, James.",
+    meaning: "불면증을 다루는 것이 얼마나 피곤할지 상상이 됩니다, 제임스.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how distressing it is to see your son, Tom, in pain.",
+    meaning: "아들 톰이 아픈 모습을 보는 것이 얼마나 괴로운지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this shoulder pain is keeping you from playing sports, Emma.",
+    meaning: "어깨 통증 때문에 스포츠를 못하고 있다니 유감입니다, 엠마.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can see how frustrating it is to deal with recurring urinary infections, Lisa.",
+    meaning:
+      "반복되는 요로 감염을 다루는 것이 얼마나 답답한지 알겠습니다, 리사.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "How often do you eat fast food, Sarah, and does it affect your digestion?",
+    meaning: "사라, 패스트푸드를 얼마나 자주 먹으며 소화에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How many hours of exercise do you get each week, James?",
+    meaning: "제임스, 매주 몇 시간 운동하나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you smoke or drink alcohol regularly, Emma?",
+    meaning: "엠마, 정기적으로 담배를 피우거나 술을 마시나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Have you noticed changes in your stress levels at work, Michael?",
+    meaning: "마이클, 직장에서 스트레스 수준의 변화를 느끼셨나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How much coffee do you drink daily, Lisa, and does it affect your sleep?",
+    meaning: "리사, 하루에 커피를 얼마나 마시며 수면에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Your blood test shows high cholesterol levels, Sarah.",
+    meaning: "혈액 검사 결과 콜레스테롤 수치가 높습니다, 사라.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "James, your X-ray indicates a minor fracture in your wrist.",
+    meaning: "제임스, X-ray에서 손목에 경미한 골절이 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Emma, your urine test suggests a bladder infection.",
+    meaning: "엠마, 소변 검사에서 방광 감염이 의심됩니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Michael, your son’s blood work shows low vitamin D levels.",
+    meaning: "마이클, 아들의 혈액 검사에서 비타민 D 수치가 낮습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Lisa, your daughter’s skin test confirms a dust mite allergy.",
+    meaning:
+      "리사, 딸의 피부 검사에서 집먼지 진드기 알레르기가 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Sarah, your symptoms suggest hypertension, causing your headaches.",
+    meaning: "사라, 증상이 두통을 유발하는 고혈압을 시사합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "James, you likely have tendonitis in your elbow from repetitive strain.",
+    meaning:
+      "제임스, 반복적인 긴장으로 인해 팔꿈치에 건염이 있을 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Emma, your symptoms point to irritable bowel syndrome, causing abdominal pain.",
+    meaning: "엠마, 증상이 복통을 유발하는 과민성 대장 증후군을 가리킵니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Michael, your son has tonsillitis, which explains his sore throat.",
+    meaning: "마이클, 아들의 인후통을 설명하는 편도선염이 있습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Lisa, your daughter’s rash is likely due to contact dermatitis.",
+    meaning: "리사, 딸의 발진은 접촉 피부염 때문일 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Sarah, I recommend a stress test to evaluate your heart function.",
+    meaning: "사라, 심장 기능을 평가하기 위해 스트레스 테스트를 추천합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "James, we’ll need an MRI to assess the extent of your wrist injury.",
+    meaning: "제임스, 손목 부상의 정도를 평가하기 위해 MRI가 필요합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "Emma, a stool test will help us understand your digestive issues better.",
+    meaning:
+      "엠마, 대변 검사는 소화 문제를 더 잘 이해하는 데 도움이 될 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "Michael, we’ll do a throat swab to confirm your son’s tonsillitis.",
+    meaning:
+      "마이클, 아들의 편도선염을 확인하기 위해 인후 면봉 검사를 할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "Lisa, an allergy panel will identify triggers for your daughter’s symptoms.",
+    meaning: "리사, 알레르기 패널은 딸의 증상 유발 요인을 식별할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "Sarah, I’m prescribing lisinopril to manage your high blood pressure.",
+    meaning: "사라, 고혈압 관리를 위해 리시노프릴을 처방합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "James, we’ll use a brace and rest to treat your wrist fracture.",
+    meaning: "제임스, 손목 골절 치료를 위해 보조기와 휴식을 사용할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Emma, I recommend probiotics to help with your irritable bowel syndrome.",
+    meaning:
+      "엠마, 과민성 대장 증후군에 도움이 되는 프로바이오틱스를 추천합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Michael, your son needs penicillin for his tonsillitis.",
+    meaning: "마이클, 아들의 편도선염 치료를 위해 페니실린이 필요합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Lisa, a hypoallergenic cream will soothe your daughter’s dermatitis.",
+    meaning: "리사, 저자극 크림이 딸의 피부염을 진정시킬 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Sarah, reducing salt in your diet will help lower your blood pressure.",
+    meaning: "사라, 식단에서 소금을 줄이면 혈압을 낮추는 데 도움이 됩니다.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "James, avoid repetitive wrist movements to prevent further tendonitis.",
+    meaning:
+      "제임스, 추가 건염을 예방하기 위해 반복적인 손목 움직임을 피하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Emma, eating smaller meals can reduce your IBS symptoms.",
+    meaning: "엠마, 소량의 식사를 하면 IBS 증상을 줄일 수 있습니다.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Michael, ensure your son drinks plenty of water to aid tonsillitis recovery.",
+    meaning: "마이클, 아들이 편도선염 회복을 위해 물을 충분히 마시도록 하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Lisa, use hypoallergenic bedding to reduce your daughter’s allergy symptoms.",
+    meaning: "리사, 딸의 알레르기 증상을 줄이기 위해 저자극 침구를 사용하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Sarah, your hypertension is manageable with medication and lifestyle changes.",
+    meaning: "사라, 고혈압은 약물과 생활 습관 변화로 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "James, your wrist fracture should heal well with proper rest.",
+    meaning: "제임스, 적절한 휴식으로 손목 골절은 잘 치유될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Emma, we can control your IBS symptoms effectively with this plan.",
+    meaning: "엠마, 이 계획으로 IBS 증상을 효과적으로 조절할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Michael, your son’s tonsillitis will improve quickly with antibiotics.",
+    meaning: "마이클, 아들의 편도선염은 항생제로 빠르게 개선될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Lisa, your daughter’s dermatitis should clear up with consistent treatment.",
+    meaning: "리사, 꾸준한 치료로 딸의 피부염은 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+
+  {
+    term: "Good morning, thanks for coming in to discuss recent test results.",
+    meaning: "좋은 아침입니다, 최근 검사 결과를 논의하러 와주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hello, it’s great to see you today. How’s the pain feeling?",
+    meaning: "안녕하세요, 오늘 뵙게 되어 반갑습니다. 통증은 어떤가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome to the clinic. I understand you’re here about digestive issues.",
+    meaning:
+      "클리닉에 오신 것을 환영합니다. 소화 문제로 오신 것으로 알고 있습니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good afternoon, thanks for bringing your child for their check-up.",
+    meaning: "좋은 오후입니다, 아이의 검진을 위해 데려와 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hi, I’m glad you’re here to talk about your recent symptoms.",
+    meaning: "안녕, 최근 증상에 대해 이야기하러 와주셔서 기쁩니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Can you describe the shortness of breath you’ve been experiencing?",
+    meaning: "경험했던 숨가쁨에 대해 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been happening with the joint pain over the past week?",
+    meaning: "지난 일주일 동안 관절 통증에 대해 무슨 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about the frequent urination you’ve noticed?",
+    meaning: "빈번한 배뇨에 대해 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I hear you’re here about chronic fatigue. Can you share more details?",
+    meaning:
+      "만성 피로로 오신 것으로 들었습니다. 더 자세히 공유해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What symptoms have been bothering you with your skin irritation?",
+    meaning: "피부 자극으로 어떤 증상이 당신을 괴롭혔나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you share how long your child’s stomach pain has been occurring?",
+    meaning: "아이의 복통이 얼마나 오래 지속되었는지 공유해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How has your child been coping with their frequent headaches?",
+    meaning: "아이가 잦은 두통을 어떻게 대처하고 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has your child experienced these breathing difficulties before?",
+    meaning: "아이가 이전에 이런 호흡 곤란을 겪은 적이 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What changes have you noticed in your child’s energy levels recently?",
+    meaning: "최근 아이의 에너지 수준에서 어떤 변화를 느끼셨나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Can you describe how your child’s sleep has been affected by their cough?",
+    meaning: "아이의 기침이 수면에 어떤 영향을 미쳤는지 설명해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "I’m sorry to hear this knee pain is affecting your daily activities.",
+    meaning: "무릎 통증이 일상 활동에 영향을 미치고 있다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can imagine how frustrating it is to deal with constant bloating.",
+    meaning:
+      "지속적인 복부 팽만감을 다루는 것이 얼마나 답답할지 상상이 됩니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how worrying it must be to see your child with a high fever.",
+    meaning:
+      "아이가 고열로 고생하는 모습을 보는 것이 얼마나 걱정스러운지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this neck stiffness is limiting your mobility.",
+    meaning: "목 뻣뻣함 때문에 이동성이 제한되고 있다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can see how upsetting it is to have recurring migraines.",
+    meaning: "반복되는 편두통이 얼마나 속상한지 알겠습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "How often do you consume processed foods, and does it impact your health?",
+    meaning: "가공 식품을 얼마나 자주 섭취하며, 건강에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How many hours do you spend sitting each day?",
+    meaning: "하루에 몇 시간 앉아 있나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you engage in activities like jogging or weightlifting regularly?",
+    meaning: "조깅이나 역도 같은 활동을 정기적으로 하나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Have you noticed changes in your sleep patterns recently?",
+    meaning: "최근 수면 패턴의 변화를 느끼셨나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How much alcohol do you consume weekly, and does it affect your symptoms?",
+    meaning: "일주일에 술을 얼마나 마시며, 증상에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "The blood test shows elevated liver enzymes, suggesting possible hepatitis.",
+    meaning: "혈액 검사에서 간 효소 수치가 높아 간염 가능성을 시사합니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The X-ray indicates a stress fracture in the foot.",
+    meaning: "X-ray에서 발에 스트레스 골절이 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The urine test suggests a kidney infection.",
+    meaning: "소변 검사에서 신장 감염이 의심됩니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your child’s blood work shows low iron, indicating anemia.",
+    meaning: "아이의 혈액 검사에서 철분 수치가 낮아 빈혈을 나타냅니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The allergy test confirms a sensitivity to pet dander.",
+    meaning: "알레르기 검사에서 반려동물 비듬에 대한 민감성이 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Symptoms suggest gastritis, likely caused by spicy food consumption.",
+    meaning: "증상이 매운 음식 섭취로 인한 위염을 시사합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "You likely have plantar fasciitis, causing heel pain from overuse.",
+    meaning:
+      "과사용으로 인한 발뒤꿈치 통증을 유발하는 족저근막염이 있을 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The symptoms point to a urinary tract infection, causing frequent urination.",
+    meaning: "증상이 빈번한 배뇨를 유발하는 요로 감염을 가리킵니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your child has croup, explaining the barking cough.",
+    meaning: "아이가 크룹에 걸려 짖는 듯한 기침을 설명합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The rash is likely psoriasis, causing scaly skin patches.",
+    meaning: "발진은 비늘 같은 피부 반점을 유발하는 건선일 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "I recommend an endoscopy to investigate your stomach pain further.",
+    meaning: "복통을 더 조사하기 위해 내시경 검사를 추천합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A CT scan will help us assess the cause of your chest discomfort.",
+    meaning: "CT 스캔은 가슴 불편의 원인을 평가하는 데 도움이 될 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll need a thyroid function test to check for hormonal imbalances.",
+    meaning: "호르몬 불균형을 확인하기 위해 갑상선 기능 검사가 필요합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A spirometry test will evaluate your child’s lung function for asthma.",
+    meaning: "폐활량 검사는 아이의 천식에 대한 폐 기능을 평가할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll do a skin biopsy to confirm the cause of the rash.",
+    meaning: "발진의 원인을 확인하기 위해 피부 생검을 할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m prescribing omeprazole to reduce stomach acid for gastritis.",
+    meaning: "위염을 위해 위산을 줄이기 위해 오메프라졸을 처방합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "We’ll use orthotics and rest to treat your plantar fasciitis.",
+    meaning: "족저근막염 치료를 위해 교정기와 휴식을 사용할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Ciprofloxacin will help clear your urinary tract infection.",
+    meaning: "시프로플록사신은 요로 감염을 제거하는 데 도움이 될 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Your child needs a humidifier and steroids for croup management.",
+    meaning: "아이의 크룹 관리를 위해 가습기와 스테로이드가 필요합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "A topical steroid cream will help control your psoriasis symptoms.",
+    meaning:
+      "국소 스테로이드 크림은 건선 증상을 조절하는 데 도움이 될 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Avoid spicy foods to help manage your gastritis symptoms.",
+    meaning: "위염 증상을 관리하기 위해 매운 음식을 피하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Wear supportive shoes to reduce stress on your plantar fasciitis.",
+    meaning:
+      "족저근막염에 대한 스트레스를 줄이기 위해 지지력 있는 신발을 신으세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Increase water intake to prevent recurring urinary tract infections.",
+    meaning: "재발하는 요로 감염을 예방하기 위해 물 섭취를 늘리세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Practice deep breathing exercises to improve lung function.",
+    meaning: "폐 기능을 개선하기 위해 심호흡 운동을 연습하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Avoid scratching the rash to prevent worsening your psoriasis.",
+    meaning: "건선을 악화시키지 않기 위해 발진을 긁지 마세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Gastritis is treatable with medication and dietary changes.",
+    meaning: "위염은 약물과 식이 변화로 치료할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your plantar fasciitis should improve with consistent care.",
+    meaning: "꾸준한 관리로 족저근막염은 개선될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "The urinary tract infection will clear up quickly with antibiotics.",
+    meaning: "항생제로 요로 감염은 빠르게 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your child’s croup should resolve within a few days with treatment.",
+    meaning: "치료로 아이의 크룹은 며칠 안에 해결될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Psoriasis can be managed effectively with the prescribed cream.",
+    meaning: "처방된 크림으로 건선을 효과적으로 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Taking omeprazole daily will significantly reduce your stomach pain.",
+    meaning: "오메프라졸을 매일 복용하면 복통이 크게 줄어들 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Resting your foot now will speed up plantar fasciitis recovery.",
+    meaning: "지금 발을 쉬게 하면 족저근막염 회복이 빨라질 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Using antibiotics is the best way to treat your urinary tract infection.",
+    meaning: "항생제를 사용하는 것이 요로 감염을 치료하는 최선의 방법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Steroids are essential for managing your child’s croup effectively.",
+    meaning: "스테로이드는 아이의 크룹을 효과적으로 관리하는 데 필수적입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Applying the cream regularly will control your psoriasis flare-ups.",
+    meaning: "크림을 정기적으로 바르면 건선 발작을 조절할 수 있습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I’m concerned that untreated gastritis could lead to ulcers.",
+    meaning: "치료하지 않은 위염이 궤양으로 이어질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried that ignoring plantar fasciitis could worsen the pain.",
+    meaning: "족저근막염을 무시하면 통증이 악화될까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Continuing to ignore the infection could lead to kidney complications.",
+    meaning: "감염을 계속 무시하면 신장 합병증으로 이어질 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m concerned that untreated croup could affect your child’s breathing.",
+    meaning: "치료하지 않은 크룹이 아이의 호흡에 영향을 미칠까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried that scratching the psoriasis could cause infections.",
+    meaning: "건선을 긁으면 감염이 생길까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Are you okay with starting omeprazole for your gastritis?",
+    meaning: "위염 치료를 위해 오메프라졸을 시작하는 것에 괜찮으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the plan to use orthotics for plantar fasciitis make sense?",
+    meaning: "족저근막염에 교정기를 사용하는 계획이 이해가 되시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Are you comfortable with antibiotics for the urinary tract infection?",
+    meaning: "요로 감염에 항생제를 사용하는 것에 편안하신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Do you have questions about the steroid treatment for croup?",
+    meaning: "크룹 치료를 위한 스테로이드에 대해 질문이 있으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the psoriasis treatment plan sound clear to you?",
+    meaning: "건선 치료 계획이 명확해 보이나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "You asked about omeprazole side effects. It may cause mild headaches initially.",
+    meaning:
+      "오메프라졸 부작용에 대해 물으셨습니다. 처음에는 약간의 두통을 유발할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re concerned about antibiotics. They’re safe and effective for this infection.",
+    meaning: "항생제에 대해 걱정하십니다. 이 감염에 안전하고 효과적입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked if psoriasis is curable. It can be managed with ongoing care.",
+    meaning:
+      "건선이 완치 가능한지 물으셨습니다. 지속적인 관리로 조절할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re worried about croup recurring. We’ll monitor and prevent it.",
+    meaning: "크룹 재발에 대해 걱정하십니다. 모니터링하고 예방할 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked about recovery time. Plantar fasciitis should improve in 4-6 weeks.",
+    meaning:
+      "회복 시간에 대해 물으셨습니다. 족저근막염은 4-6주 안에 개선될 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I understand you’re worried about gastritis affecting your daily meals.",
+    meaning: "위염이 일일 식사에 영향을 미칠까 걱정하시는 것을 이해합니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I can see why you’re concerned about recurring urinary infections.",
+    meaning: "재발하는 요로 감염에 대해 걱정하시는 이유를 알겠습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Let’s address your worry about the long-term effects of psoriasis.",
+    meaning: "건선의 장기적인 영향에 대한 우려를 해결합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I know you’re anxious about your child’s croup persisting.",
+    meaning: "아이의 크룹이 지속되는 것에 대해 불안해하시는 것을 압니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Your concern about foot pain returning is valid. Let’s make a plan.",
+    meaning: "발 통증이 다시 올까 걱정하시는 것이 타당합니다. 계획을 세웁시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "We can treat gastritis with omeprazole or dietary changes. What do you prefer?",
+    meaning:
+      "위염을 오메프라졸이나 식이 변화로 치료할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For plantar fasciitis, we can use orthotics or physical therapy. Which suits you?",
+    meaning:
+      "족저근막염에 교정기나 물리치료를 사용할 수 있습니다. 어떤 것이 적합한가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can treat the infection with oral antibiotics or IV treatment. Your choice?",
+    meaning:
+      "감염을 경구 항생제나 정맥 치료로 치료할 수 있습니다. 어떤 것을 선택하시겠습니까?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For croup, we can use steroids or a humidifier. Which is easier for your child?",
+    meaning:
+      "크룹에 스테로이드나 가습기를 사용할 수 있습니다. 아이에게 어떤 것이 더 쉬운가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can manage psoriasis with cream or light therapy. What’s your preference?",
+    meaning:
+      "건선을 크림이나 광선 요법으로 관리할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Let’s follow up in one week to check your gastritis improvement.",
+    meaning: "위염 개선을 확인하기 위해 일주일 후에 후속 조치합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "I’ll refer you to a podiatrist for your plantar fasciitis treatment.",
+    meaning: "족저근막염 치료를 위해 족부 전문의에게 의뢰할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "We’ll review your urine test results in five days to adjust the plan.",
+    meaning: "계획을 조정하기 위해 5일 후에 소변 검사 결과를 검토할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "If your child’s croup persists, we’ll consider further tests.",
+    meaning: "아이의 크룹이 지속되면 추가 검사를 고려할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Come back in two weeks to monitor your psoriasis progress.",
+    meaning: "건선 진행 상황을 모니터링하기 위해 2주 후에 다시 오세요.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Continuing to eat acidic foods could worsen your gastritis significantly.",
+    meaning: "산성 음식을 계속 먹으면 위염이 크게 악화될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Ignoring plantar fasciitis could lead to chronic foot pain.",
+    meaning: "족저근막염을 무시하면 만성 발 통증으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not treating the urinary infection could cause kidney damage.",
+    meaning: "요로 감염을 치료하지 않으면 신장 손상이 생길 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Untreated croup could lead to breathing difficulties in your child.",
+    meaning: "치료하지 않은 크룹은 아이의 호흡 곤란으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Scratching psoriasis patches could cause infections or scarring.",
+    meaning: "건선 반점을 긁으면 감염이나 흉터가 생길 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I know you prefer natural remedies, but omeprazole is necessary for gastritis.",
+    meaning:
+      "자연 요법을 선호하신다는 것을 알지만, 위염에는 오메프라졸이 필요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re hesitant about antibiotics, but they’re safe for this infection.",
+    meaning:
+      "항생제에 대해 주저하시는 것을 이해하지만, 이 감염에는 안전합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I know you want to stay active, but resting is crucial for plantar fasciitis.",
+    meaning:
+      "활동을 유지하고 싶으신 것을 알지만, 족저근막염에는 휴식이 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I hear you’re worried about steroids, but they’re effective for croup.",
+    meaning:
+      "스테로이드에 대해 걱정하신다는 것을 들었지만, 크룹에 효과적입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re busy, but applying the psoriasis cream daily is essential.",
+    meaning: "바쁘신 것을 이해하지만, 건선 크림을 매일 바르는 것이 필수입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Gastritis is inflammation of the stomach lining, often triggered by diet.",
+    meaning: "위염은 종종 식단에 의해 유발되는 위 내막의 염증입니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Plantar fasciitis is caused by strain on the foot’s arch, needing rest.",
+    meaning: "족저근막염은 발 아치의 긴장으로 발생하며 휴식이 필요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Urinary tract infections are caused by bacteria and need antibiotics.",
+    meaning: "요로 감염은 박테리아에 의해 발생하며 항생제가 필요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Croup causes swelling in the airways, leading to a distinctive cough.",
+    meaning: "크룹은 기도에 부종을 일으켜 독특한 기침을 유발합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Psoriasis is a chronic skin condition, but treatments can control symptoms.",
+    meaning: "건선은 만성 피부 질환이지만 치료로 증상을 조절할 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "With this treatment, your gastritis should improve significantly soon.",
+    meaning: "이 치료로 위염이 곧 크게 개선될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your plantar fasciitis will likely resolve with proper care in a few weeks.",
+    meaning: "적절한 관리로 족저근막염은 몇 주 안에 해결될 가능성이 큽니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "The urinary infection should clear up quickly with the right treatment.",
+    meaning: "적절한 치료로 요로 감염은 빠르게 나을 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "With steroids, your child’s croup should improve within days.",
+    meaning: "스테로이드로 아이의 크룹은 며칠 안에 개선될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Consistent psoriasis treatment will help you feel more comfortable soon.",
+    meaning: "꾸준한 건선 치료는 곧 더 편안함을 느끼게 해줄 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+
+  {
+    term: "Good morning, thank you for coming to discuss your recent health concerns.",
+    meaning: "좋은 아침입니다, 최근 건강 문제로 방문해 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hello, it’s great to see you. How’s the fatigue been lately?",
+    meaning: "안녕하세요, 뵙게 되어 반갑습니다. 최근 피로는 어떤가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome to the clinic. I understand you’re here about a persistent rash.",
+    meaning:
+      "클리닉에 오신 것을 환영합니다. 지속적인 발진 때문에 오신 것으로 알고 있습니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good afternoon, thanks for bringing your child for their follow-up visit.",
+    meaning: "좋은 오후입니다, 아이의 후속 방문으로 데려와 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hi, I’m glad you’re here to talk about your recent chest discomfort.",
+    meaning: "안녕, 최근 가슴 불편에 대해 이야기하러 와주셔서 기쁩니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Can you describe the lower back pain you’ve been experiencing?",
+    meaning: "경험했던 허리 통증에 대해 설명해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been happening with the frequent nosebleeds over the past month?",
+    meaning: "지난 한 달 동안 잦은 코피에 대해 무슨 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about the swelling in your hands and when it started?",
+    meaning: "손의 부종과 언제 시작되었는지 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "I hear you’re here about recurring dizziness. Can you share more details?",
+    meaning:
+      "반복되는 현기증 때문에 오신 것으로 들었습니다. 더 자세히 공유해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What symptoms have you noticed with your chronic sore throat?",
+    meaning: "만성 인후통으로 어떤 증상을 느끼셨나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you share how long your child’s ear pain has been occurring?",
+    meaning: "아이의 귀 통증이 얼마나 오래 지속되었는지 공유해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How has your child been managing their recurring stomach aches?",
+    meaning: "아이가 반복되는 복통을 어떻게 관리하고 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has your child experienced these allergic reactions in the past?",
+    meaning: "아이가 과거에 이런 알레르기 반응을 겪은 적이 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What changes have you noticed in your child’s sleep patterns recently?",
+    meaning: "최근 아이의 수면 패턴에서 어떤 변화를 느끼셨나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Can you describe how your child’s appetite has been affected by their fever?",
+    meaning: "아이의 발열이 식욕에 어떤 영향을 미쳤는지 설명해 주시겠습니까?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "I’m sorry to hear this shoulder pain is making daily tasks difficult.",
+    meaning: "어깨 통증이 일상 업무를 어렵게 하고 있다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can imagine how challenging it is to cope with constant nausea.",
+    meaning: "지속적인 메스꺼움을 다루는 것이 얼마나 힘든지 상상이 됩니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I understand how distressing it must be to see your child with a rash.",
+    meaning:
+      "아이가 발진으로 고생하는 모습을 보는 것이 얼마나 괴로운지 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this chronic cough is disrupting your sleep.",
+    meaning: "만성 기침 때문에 수면이 방해받고 있다니 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I can see how frustrating it is to deal with recurring ankle pain.",
+    meaning: "반복되는 발목 통증을 다루는 것이 얼마나 답답한지 알겠습니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "How often do you eat high-fat foods, and does it affect your digestion?",
+    meaning: "고지방 음식을 얼마나 자주 먹으며, 소화에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How many hours of sleep do you get each night on average?",
+    meaning: "평균적으로 매일 밤 몇 시간 자나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you participate in activities like cycling or swimming regularly?",
+    meaning: "사이클링이나 수영 같은 활동을 정기적으로 하나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Have you noticed increased stress from work or home life recently?",
+    meaning: "최근 직장이나 가정 생활에서 스트레스가 증가했는지 느끼셨나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How much soda do you drink daily, and does it impact your symptoms?",
+    meaning: "하루에 탄산음료를 얼마나 마시며, 증상에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "The blood test indicates high blood sugar, suggesting diabetes.",
+    meaning: "혈액 검사에서 혈당이 높아 당뇨병을 시사합니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The X-ray shows a small fracture in the collarbone.",
+    meaning: "X-ray에서 쇄골에 작은 골절이 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The urine test confirms a bacterial infection in the bladder.",
+    meaning: "소변 검사에서 방광의 세균 감염이 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your child’s blood work indicates a vitamin B12 deficiency.",
+    meaning: "아이의 혈액 검사에서 비타민 B12 결핍이 나타났습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The skin test shows an allergy to pollen.",
+    meaning: "피부 검사에서 꽃가루 알레르기가 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Symptoms suggest sciatica, causing pain from the lower back to the leg.",
+    meaning:
+      "증상이 허리에서 다리로 이어지는 통증을 유발하는 좌골신경통을 시사합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "You likely have strep throat, causing severe throat pain.",
+    meaning: "심한 인후통을 유발하는 연쇄상구균 인후염이 있을 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The symptoms point to allergic rhinitis, causing nasal congestion.",
+    meaning: "증상이 비강 혼잡을 유발하는 알레르기 비염을 가리킵니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your child has impetigo, explaining the red sores on their skin.",
+    meaning: "아이가 피부에 붉은 궤양을 설명하는 농가진에 걸렸습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The joint pain is likely due to osteoarthritis, causing stiffness.",
+    meaning: "관절 통증은 뻣뻣함을 유발하는 골관절염 때문일 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "I recommend an MRI to evaluate the cause of your sciatica.",
+    meaning: "좌골신경통의 원인을 평가하기 위해 MRI를 추천합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A throat culture will confirm if you have strep throat.",
+    meaning: "인후 배양 검사는 연쇄상구균 인후염이 있는지 확인할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll need a nasal swab to identify allergens causing rhinitis.",
+    meaning:
+      "비염을 유발하는 알레르겐을 확인하기 위해 비강 면봉 검사가 필요합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A skin scraping test will confirm your child’s impetigo diagnosis.",
+    meaning: "피부 긁힘 검사는 아이의 농가진 진단을 확인할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll do an X-ray to assess the progression of your osteoarthritis.",
+    meaning: "골관절염의 진행을 평가하기 위해 X-ray를 할 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m prescribing azithromycin to treat your strep throat.",
+    meaning: "연쇄상구균 인후염 치료를 위해 아지스로마이신을 처방합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "We’ll use physical therapy to manage your sciatica pain.",
+    meaning: "좌골신경통 통증 관리를 위해 물리치료를 사용할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Antihistamines will help reduce your allergic rhinitis symptoms.",
+    meaning:
+      "항히스타민제는 알레르기 비염 증상을 줄이는 데 도움이 될 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Your child needs mupirocin ointment for their impetigo sores.",
+    meaning: "아이의 농가진 궤양 치료를 위해 무피로신 연고가 필요합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Ibuprofen will help manage your osteoarthritis pain and inflammation.",
+    meaning:
+      "이부프로펜은 골관절염 통증과 염증을 관리하는 데 도움이 될 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Avoid high-impact exercises to prevent worsening your sciatica.",
+    meaning: "좌골신경통 악화를 방지하기 위해 고강도 운동을 피하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Limit exposure to dust to reduce allergic rhinitis symptoms.",
+    meaning: "알레르기 비염 증상을 줄이기 위해 먼지 노출을 제한하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Keep the skin clean to prevent spreading your child’s impetigo.",
+    meaning: "아이의 농가진 확산을 방지하기 위해 피부를 깨끗이 유지하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Incorporate low-impact exercises like swimming to help osteoarthritis.",
+    meaning: "골관절염에 도움이 되는 수영 같은 저강도 운동을 포함하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Reduce caffeine intake to improve throat irritation from strep throat.",
+    meaning:
+      "연쇄상구균 인후염으로 인한 목 자극을 개선하기 위해 카페인 섭취를 줄이세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Sciatica is manageable with physical therapy and lifestyle adjustments.",
+    meaning: "좌골신경통은 물리치료와 생활 습관 조정으로 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Strep throat should clear up quickly with the right antibiotics.",
+    meaning: "적절한 항생제로 연쇄상구균 인후염은 빠르게 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Allergic rhinitis can be controlled with medication and allergen avoidance.",
+    meaning: "알레르기 비염은 약물과 알레르겐 회피로 조절할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your child’s impetigo will improve with consistent ointment use.",
+    meaning: "꾸준한 연고 사용으로 아이의 농가진은 개선될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Osteoarthritis can be managed effectively with this treatment plan.",
+    meaning: "이 치료 계획으로 골관절염을 효과적으로 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Taking azithromycin as prescribed will effectively treat strep throat.",
+    meaning:
+      "처방된 대로 아지스로마이신을 복용하면 연쇄상구균 인후염을 효과적으로 치료할 수 있습니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Physical therapy is the best approach to relieve sciatica pain.",
+    meaning: "물리치료는 좌골신경통 통증을 완화하는 최선의 접근법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Antihistamines are the most effective way to manage allergic rhinitis.",
+    meaning:
+      "항히스타민제는 알레르기 비염을 관리하는 가장 효과적인 방법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Using mupirocin regularly will clear your child’s impetigo quickly.",
+    meaning:
+      "무피로신을 정기적으로 사용하면 아이의 농가진이 빠르게 나을 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Ibuprofen is essential for reducing osteoarthritis inflammation.",
+    meaning: "이부프로펜은 골관절염 염증을 줄이는 데 필수적입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I’m concerned that untreated sciatica could lead to chronic pain.",
+    meaning: "치료하지 않은 좌골신경통이 만성 통증으로 이어질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried that ignoring strep throat could cause complications like abscesses.",
+    meaning:
+      "연쇄상구균 인후염을 무시하면 농양 같은 합병증이 생길까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Not treating allergic rhinitis could worsen your breathing difficulties.",
+    meaning: "알레르기 비염을 치료하지 않으면 호흡 곤란이 악화될 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m concerned that untreated impetigo could spread to other areas.",
+    meaning: "치료하지 않은 농가진이 다른 부위로 퍼질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m worried that ignoring osteoarthritis could limit your mobility further.",
+    meaning: "골관절염을 무시하면 이동성이 더 제한될까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Are you comfortable with starting antihistamines for allergic rhinitis?",
+    meaning:
+      "알레르기 비염 치료를 위해 항히스타민제를 시작하는 것에 편안하신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the plan to use physical therapy for sciatica make sense?",
+    meaning: "좌골신경통에 물리치료를 사용하는 계획이 이해가 되시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Are you okay with using mupirocin for your child’s impetigo?",
+    meaning: "아이의 농가진 치료를 위해 무피로신을 사용하는 것에 괜찮으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Do you have questions about the ibuprofen dosage for osteoarthritis?",
+    meaning: "골관절염을 위한 이부프로펜 복용량에 대해 질문이 있으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the strep throat treatment plan sound clear to you?",
+    meaning: "연쇄상구균 인후염 치료 계획이 명확해 보이나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "You asked about antihistamine side effects. They may cause mild drowsiness.",
+    meaning:
+      "항히스타민제 부작용에 대해 물으셨습니다. 약간의 졸림을 유발할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re concerned about antibiotics. They’re safe for treating strep throat.",
+    meaning: "항생제에 대해 걱정하십니다. 연쇄상구균 인후염 치료에 안전합니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked if osteoarthritis is permanent. It can be managed with care.",
+    meaning: "골관절염이 영구적인지 물으셨습니다. 관리로 조절할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re worried about impetigo scarring. Proper treatment will prevent it.",
+    meaning:
+      "농가진 흉터에 대해 걱정하십니다. 적절한 치료로 이를 방지할 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked about sciatica recovery time. It should improve in 6-8 weeks.",
+    meaning:
+      "좌골신경통 회복 시간에 대해 물으셨습니다. 6-8주 안에 개선될 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I understand you’re worried about sciatica limiting your daily activities.",
+    meaning: "좌골신경통이 일상 활동을 제한할까 걱정하시는 것을 이해합니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I can see why you’re concerned about recurring allergic rhinitis symptoms.",
+    meaning: "반복되는 알레르기 비염 증상에 대해 걱정하시는 이유를 알겠습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Let’s address your worry about your child’s impetigo spreading to others.",
+    meaning: "아이의 농가진이 다른 사람에게 퍼질까 걱정하는 것을 해결합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I know you’re anxious about strep throat affecting your work schedule.",
+    meaning:
+      "연쇄상구균 인후염이 업무 일정에 영향을 미칠까 불안해하시는 것을 압니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Your concern about osteoarthritis progressing is valid. Let’s make a plan.",
+    meaning: "골관절염이 진행될까 걱정하시는 것이 타당합니다. 계획을 세웁시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "We can treat strep throat with azithromycin or amoxicillin. What do you prefer?",
+    meaning:
+      "연쇄상구균 인후염을 아지스로마이신이나 아목시실린으로 치료할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For sciatica, we can try physical therapy or medication. Which suits you?",
+    meaning:
+      "좌골신경통에 물리치료나 약물을 시도할 수 있습니다. 어떤 것이 적합한가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can manage rhinitis with antihistamines or nasal sprays. Your choice?",
+    meaning:
+      "비염을 항히스타민제나 비강 스프레이로 관리할 수 있습니다. 어떤 것을 선택하시겠습니까?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For impetigo, we can use ointment or oral antibiotics. Which is easier?",
+    meaning:
+      "농가진에 연고나 경구 항생제를 사용할 수 있습니다. 어떤 것이 더 쉬운가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Osteoarthritis can be treated with medication or exercise. What’s your preference?",
+    meaning:
+      "골관절염은 약물이나 운동으로 치료할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Let’s follow up in one week to monitor your strep throat recovery.",
+    meaning:
+      "연쇄상구균 인후염 회복을 모니터링하기 위해 일주일 후에 후속 조치합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "I’ll refer you to a specialist for your sciatica treatment plan.",
+    meaning: "좌골신경통 치료 계획을 위해 전문의에게 의뢰할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "We’ll check your allergy symptoms in two weeks to adjust the plan.",
+    meaning: "계획을 조정하기 위해 2주 후에 알레르기 증상을 확인할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "If your child’s impetigo doesn’t improve, we’ll consider further tests.",
+    meaning: "아이의 농가진이 개선되지 않으면 추가 검사를 고려할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Come back in three weeks to assess your osteoarthritis progress.",
+    meaning: "골관절염 진행 상황을 평가하기 위해 3주 후에 다시 오세요.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Continuing to ignore strep throat could lead to serious complications.",
+    meaning:
+      "연쇄상구균 인후염을 계속 무시하면 심각한 합병증으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not treating sciatica could result in prolonged nerve pain.",
+    meaning: "좌골신경통을 치료하지 않으면 장기적인 신경통이 생길 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Untreated allergic rhinitis could lead to sinus infections.",
+    meaning:
+      "치료하지 않은 알레르기 비염은 부비동 감염으로 이어질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Ignoring impetigo could cause it to spread to other family members.",
+    meaning: "농가진을 무시하면 다른 가족 구성원에게 퍼질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not managing osteoarthritis could worsen joint damage over time.",
+    meaning:
+      "골관절염을 관리하지 않으면 시간이 지나면서 관절 손상이 악화될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I know you’re hesitant about medication, but antihistamines are safe for rhinitis.",
+    meaning:
+      "약물에 대해 주저하시는 것을 알지만, 비염에는 항히스타민제가 안전합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you prefer natural remedies, but antibiotics are needed for impetigo.",
+    meaning:
+      "자연 요법을 선호하신다는 것을 이해하지만, 농가진에는 항생제가 필요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I know you want to stay active, but rest is crucial for sciatica recovery.",
+    meaning:
+      "활동을 유지하고 싶으신 것을 알지만, 좌골신경통 회복에는 휴식이 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I hear you’re concerned about ibuprofen, but it’s effective for osteoarthritis.",
+    meaning:
+      "이부프로펜에 대해 걱정하신다는 것을 들었지만, 골관절염에 효과적입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re busy, but taking azithromycin is essential for strep throat.",
+    meaning:
+      "바쁘신 것을 이해하지만, 연쇄상구균 인후염에는 아지스로마이신 복용이 필수입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Sciatica is caused by nerve compression, often relieved by physical therapy.",
+    meaning: "좌골신경통은 신경 압박으로 발생하며, 종종 물리치료로 완화됩니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Strep throat is a bacterial infection, requiring antibiotics for treatment.",
+    meaning:
+      "연쇄상구균 인후염은 세균 감염으로, 치료를 위해 항생제가 필요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Allergic rhinitis is triggered by allergens like pollen, manageable with medication.",
+    meaning:
+      "알레르기 비염은 꽃가루 같은 알레르겐에 의해 유발되며, 약물로 관리할 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Impetigo is a contagious skin infection, needing prompt treatment to prevent spread.",
+    meaning:
+      "농가진은 전염성 피부 감염으로, 확산 방지를 위해 즉각적인 치료가 필요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Osteoarthritis is a degenerative joint condition, managed with exercise and medication.",
+    meaning: "골관절염은 퇴행성 관절 질환으로, 운동과 약물로 관리됩니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "With proper treatment, strep throat should resolve within a few days.",
+    meaning: "적절한 치료로 연쇄상구균 인후염은 며칠 안에 해결될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Sciatica pain should improve significantly with this treatment plan.",
+    meaning: "이 치료 계획으로 좌골신경통 통증이 크게 개선될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Allergic rhinitis symptoms will likely decrease with consistent medication.",
+    meaning:
+      "꾸준한 약물 복용으로 알레르기 비염 증상이 줄어들 가능성이 큽니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your child’s impetigo should clear up quickly with proper care.",
+    meaning: "적절한 관리로 아이의 농가진은 빠르게 나을 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Osteoarthritis can be well-controlled with this approach, improving mobility.",
+    meaning:
+      "이 접근법으로 골관절염을 잘 조절하여 이동성을 개선할 수 있습니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+
+  {
+    term: "Good morning! Thanks for visiting today to talk about your health.",
+    meaning:
+      "좋은 아침입니다! 오늘 건강에 대해 이야기하러 와주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hi there, it’s nice to see you. How are you feeling today?",
+    meaning: "안녕하세요, 뵙게 되어 기쁩니다. 오늘 기분이 어떠신가요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Welcome! I hear you’re here about some pain. Let’s discuss it.",
+    meaning: "환영합니다! 통증 때문에 오신 것으로 들었습니다. 이야기해 봅시다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Good afternoon! Thanks for bringing your child to the clinic.",
+    meaning: "좋은 오후입니다! 아이를 클리닉에 데려와 주셔서 감사합니다.",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "Hello! I’m here to help with your concerns. What’s going on?",
+    meaning: "안녕! 걱정거리를 돕기 위해 여기 있습니다. 무슨 일이 있나요?",
+    category: "Greeting the Patient (첫 인사)",
+  },
+  {
+    term: "What’s been troubling you with your stomach pain lately?",
+    meaning: "최근 복통으로 어떤 문제가 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Can you tell me about the tingling in your feet?",
+    meaning: "발의 저림에 대해 말씀해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "How long have you had this itchy rash on your arms?",
+    meaning: "팔에 생긴 가려운 발진이 얼마나 오래되었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "What’s been happening with your sore eyes recently?",
+    meaning: "최근 눈의 통증에 무슨 일이 있었나요?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "Could you share more about the headaches you’ve been getting?",
+    meaning: "겪고 있는 두통에 대해 더 공유해 주시겠습니까?",
+    category: "Asking About the Reason for Visit (왜 왔는지 묻기)",
+  },
+  {
+    term: "How has your child’s fever been affecting them lately?",
+    meaning: "최근 아이의 발열이 어떻게 영향을 미쳤나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "What’s been going on with your child’s frequent coughing?",
+    meaning: "아이의 잦은 기침에 무슨 일이 있었나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Has your child had these skin allergies before?",
+    meaning: "아이가 이전에 이런 피부 알레르기를 겪은 적이 있나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "How’s your child been feeling with their sore throat?",
+    meaning: "아이의 인후통으로 기분이 어떤가요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "Have you noticed changes in your child’s mood due to their illness?",
+    meaning: "아이의 병 때문에 기분 변화가 있었나요?",
+    category: "Asking About Family (가족에 대해 묻기)",
+  },
+  {
+    term: "It must be tough dealing with this constant hip pain.",
+    meaning: "지속적인 고관절 통증을 다루는 것이 힘들겠어요.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I’m sorry this rash is making you feel uncomfortable.",
+    meaning: "이 발진 때문에 불편하실 것 같아 유감입니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "It’s hard to see your child struggling with asthma, I understand.",
+    meaning: "아이가 천식으로 고생하는 모습을 보는 것이 힘들죠, 이해합니다.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "I know how annoying it is to have frequent heartburn.",
+    meaning: "잦은 속쓰림이 얼마나 짜증나는지 알아요.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "It must be worrying to deal with your child’s high fever.",
+    meaning: "아이의 고열을 다루는 것이 걱정스러울 거예요.",
+    category: "Showing Empathy (공감하기)",
+  },
+  {
+    term: "Do you eat a lot of sugary foods, and how does it affect you?",
+    meaning:
+      "설탕이 많은 음식을 많이 먹나요, 그리고 그게 어떤 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How often do you exercise, like walking or yoga?",
+    meaning: "걷기나 요가 같은 운동을 얼마나 자주 하나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you spend a lot of time in dusty environments?",
+    meaning: "먼지가 많은 환경에서 많은 시간을 보내시나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "How much stress have you been under lately?",
+    meaning: "최근 얼마나 많은 스트레스를 받고 있나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Do you drink energy drinks often, and do they affect your sleep?",
+    meaning: "에너지 드링크를 자주 마시나요, 그리고 수면에 영향을 미치나요?",
+    category: "Asking About Lifestyle (생활 습관 묻기)",
+  },
+  {
+    term: "Your blood test shows high triglycerides, linked to heart risk.",
+    meaning:
+      "혈액 검사에서 트라이글리세라이드가 높아 심장 위험과 관련이 있습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The X-ray reveals a sprain in your wrist.",
+    meaning: "X-ray에서 손목 염좌가 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your urine test shows signs of a yeast infection.",
+    meaning: "소변 검사에서 효모 감염 징후가 보입니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The blood work indicates your child has low calcium levels.",
+    meaning: "혈액 검사에서 아이의 칼슘 수치가 낮습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "The allergy test confirms a reaction to shellfish.",
+    meaning: "알레르기 검사에서 조개류에 대한 반응이 확인되었습니다.",
+    category: "Explaining Test Results (검사 결과 설명하기)",
+  },
+  {
+    term: "Your symptoms suggest a tension headache, caused by stress.",
+    meaning: "증상이 스트레스로 인한 긴장성 두통을 가리킵니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The rash looks like hives, likely from an allergic reaction.",
+    meaning:
+      "발진이 두드러기처럼 보이며, 알레르기 반응 때문일 가능성이 큽니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "You might have laryngitis, causing your hoarse voice.",
+    meaning: "쉰 목소리를 유발하는 후두염이 있을 수 있습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Your child likely has hand, foot, and mouth disease, causing sores.",
+    meaning: "아이가 수족구병에 걸렸을 가능성이 높아 궤양이 생겼습니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "The leg pain suggests a muscle strain from overexertion.",
+    meaning: "다리 통증은 과도한 노력으로 인한 근육 긴장을 시사합니다.",
+    category: "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)",
+  },
+  {
+    term: "Let’s do an ultrasound to check your abdominal discomfort.",
+    meaning: "복부 불편을 확인하기 위해 초음파를 해봅시다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A blood pressure test will help monitor your condition.",
+    meaning: "혈압 검사는 상태를 모니터링하는 데 도움이 될 것입니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "We’ll need a stool sample to investigate your diarrhea.",
+    meaning: "설사를 조사하기 위해 대변 샘플이 필요합니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "A patch test can identify your child’s skin allergy triggers.",
+    meaning:
+      "패치 테스트는 아이의 피부 알레르기 유발 요인을 확인할 수 있습니다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "Let’s order an ECG to check your heart rhythm.",
+    meaning: "심장 리듬을 확인하기 위해 심전도를 의뢰합시다.",
+    category: "Explaining Tests (검사에 대해 설명하기)",
+  },
+  {
+    term: "I’m prescribing hydrocortisone cream for your hives.",
+    meaning: "두드러기 치료를 위해 하이드로코르티손 크림을 처방합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Rest and ice will help your muscle strain heal faster.",
+    meaning: "휴식과 얼음은 근육 긴장이 더 빨리 치유되도록 도울 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Antifungal cream will treat your yeast infection effectively.",
+    meaning: "항진균 크림은 효모 감염을 효과적으로 치료할 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Your child needs hydration and rest for hand, foot, and mouth disease.",
+    meaning: "아이의 수족구병 치료를 위해 수분 보충과 휴식이 필요합니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Voice rest and hydration will help your laryngitis recover.",
+    meaning: "목 쉼과 수분 보충은 후두염 회복에 도움이 될 것입니다.",
+    category: "Explaining Treatment (치료에 대해 설명하기)",
+  },
+  {
+    term: "Try relaxation techniques to reduce tension headache triggers.",
+    meaning: "긴장성 두통 유발 요인을 줄이기 위해 이완 기법을 시도해 보세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Avoid known allergens like shellfish to prevent hives.",
+    meaning: "두드러기를 예방하기 위해 조개류 같은 알려진 알레르겐을 피하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Limit shouting or singing to help your laryngitis heal.",
+    meaning: "후두염 치유를 돕기 위해 고함이나 노래를 제한하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Keep your child’s hands clean to stop hand, foot, and mouth disease spread.",
+    meaning: "수족구병 확산을 막기 위해 아이의 손을 깨끗이 유지하세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Avoid heavy lifting to prevent further muscle strain.",
+    meaning: "추가 근육 긴장을 방지하기 위해 무거운 물건을 들지 마세요.",
+    category:
+      "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)",
+  },
+  {
+    term: "Your hives should clear up soon with the right treatment.",
+    meaning: "적절한 치료로 두드러기가 곧 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Laryngitis usually improves quickly with rest and care.",
+    meaning: "후두염은 휴식과 관리로 보통 빨리 개선됩니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your muscle strain will heal well with proper rest.",
+    meaning: "적절한 휴식으로 근육 긴장은 잘 치유될 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Your child’s hand, foot, and mouth disease should resolve in a week.",
+    meaning: "아이의 수족구병은 일주일 안에 나을 것입니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Tension headaches can be managed well with this plan.",
+    meaning: "긴장성 두통은 이 계획으로 잘 관리할 수 있습니다.",
+    category: "Reassuring the Patient (안심시키기)",
+  },
+  {
+    term: "Using hydrocortisone cream will quickly reduce your hives.",
+    meaning:
+      "하이드로코르티손 크림을 사용하면 두드러기가 빠르게 줄어들 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Resting your voice is the best way to treat laryngitis.",
+    meaning: "목을 쉬게 하는 것이 후두염을 치료하는 최선의 방법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Antifungal cream is the most effective treatment for your yeast infection.",
+    meaning: "항진균 크림은 효모 감염에 가장 효과적인 치료법입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Hydration is key to helping your child recover from hand, foot, and mouth disease.",
+    meaning: "수분 보충은 아이가 수족구병에서 회복하는 데 핵심입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "Resting your leg will speed up muscle strain recovery.",
+    meaning: "다리를 쉬게 하면 근육 긴장 회복이 빨라질 것입니다.",
+    category: "Convincing the Patient (설득하기)",
+  },
+  {
+    term: "I’m worried that untreated hives could lead to skin infections.",
+    meaning: "치료하지 않은 두드러기가 피부 감염으로 이어질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Ignoring laryngitis could worsen your voice problems.",
+    meaning: "후두염을 무시하면 목소리 문제가 악화될 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Not treating the yeast infection could cause discomfort to persist.",
+    meaning: "효모 감염을 치료하지 않으면 불편함이 지속될 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "I’m concerned that hand, foot, and mouth disease could spread to others.",
+    meaning: "수족구병이 다른 사람에게 퍼질까 걱정됩니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Ignoring muscle strain could delay healing significantly.",
+    meaning: "근육 긴장을 무시하면 치유가 크게 지연될 수 있습니다.",
+    category: "Expressing Concern (우려 표현하기)",
+  },
+  {
+    term: "Are you okay with using cream for your hives?",
+    meaning: "두드러기에 크림을 사용하는 것에 괜찮으신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Does the plan to rest your voice for laryngitis make sense?",
+    meaning: "후두염을 위해 목을 쉬게 하는 계획이 이해가 되시나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Are you comfortable with antifungal treatment for the infection?",
+    meaning: "감염에 대한 항진균 치료에 편안하신가요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Do you understand how to care for your child’s hand, foot, and mouth disease?",
+    meaning: "아이의 수족구병 관리 방법을 이해하셨나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "Is the muscle strain treatment plan clear to you?",
+    meaning: "근육 긴장 치료 계획이 명확해 보이나요?",
+    category: "Checking for Agreement/Understanding (동의, 이해 확인하기)",
+  },
+  {
+    term: "You asked about cream side effects. It might cause mild skin redness.",
+    meaning:
+      "크림 부작용에 대해 물으셨습니다. 약간의 피부 발적을 유발할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re worried about laryngitis recovery. Rest should help within days.",
+    meaning:
+      "후두염 회복에 대해 걱정하십니다. 휴식은 며칠 안에 도움이 될 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked if yeast infections recur. Good hygiene can prevent them.",
+    meaning:
+      "효모 감염이 재발하는지 물으셨습니다. 좋은 위생으로 예방할 수 있습니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You’re concerned about your child’s sores. They’ll heal with care.",
+    meaning: "아이의 궤양에 대해 걱정하십니다. 관리로 나을 것입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "You asked about muscle strain healing time. It’s about 2-4 weeks.",
+    meaning: "근육 긴장 치유 시간에 대해 물으셨습니다. 약 2-4주입니다.",
+    category: "Answering Patient’s Questions (환자의 질문에 답하기)",
+  },
+  {
+    term: "I know you’re worried about hives affecting your appearance.",
+    meaning: "두드러기가 외모에 영향을 미칠까 걱정하시는 것을 압니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I understand your concern about your child’s recurring fevers.",
+    meaning: "아이의 반복되는 발열에 대한 우려를 이해합니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Let’s talk about your worry over laryngitis affecting your work.",
+    meaning: "후두염이 일에 영향을 미칠까 걱정하는 것에 대해 이야기합시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "I see why you’re anxious about the yeast infection persisting.",
+    meaning: "효모 감염이 지속될까 걱정하시는 이유를 알겠습니다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "Your concern about muscle pain returning makes sense. Let’s plan.",
+    meaning:
+      "근육 통증이 돌아올까 걱정하시는 것이 이해갑니다. 계획을 세웁시다.",
+    category: "Addressing Patient’s Specific Concerns (환자의 우려 다루기)",
+  },
+  {
+    term: "We can treat hives with cream or tablets. Which do you prefer?",
+    meaning:
+      "두드러기를 크림이나 정제로 치료할 수 있습니다. 어떤 것을 선호하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For laryngitis, you can try rest or lozenges. What works for you?",
+    meaning:
+      "후두염에 휴식이나 사탕을 시도할 수 있습니다. 어떤 것이 좋으신가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "We can use cream or oral medication for the yeast infection. Your choice?",
+    meaning:
+      "효모 감염에 크림이나 경구 약물을 사용할 수 있습니다. 어떤 것을 선택하시겠습니까?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "For your child’s sores, we can use ointment or monitor them. What’s easier?",
+    meaning:
+      "아이의 궤양에 연고를 사용하거나 모니터링할 수 있습니다. 어떤 것이 더 쉬운가요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Muscle strain can be treated with rest or therapy. What do you think?",
+    meaning:
+      "근육 긴장은 휴식이나 치료로 치료할 수 있습니다. 어떻게 생각하시나요?",
+    category: "Offering Options to the Patient (환자에게 선택지 제시하기)",
+  },
+  {
+    term: "Let’s check back in five days to see how your hives are doing.",
+    meaning: "두드러기가 어떻게 되는지 보기 위해 5일 후에 다시 확인합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "I’ll refer you to a dermatologist for your rash concerns.",
+    meaning: "발진 문제로 피부과 전문의에게 의뢰할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Come back in a week to review your laryngitis progress.",
+    meaning: "후두염 진행 상황을 검토하기 위해 일주일 후에 다시 오세요.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "If the yeast infection persists, we’ll do more tests.",
+    meaning: "효모 감염이 지속되면 추가 검사를 할 것입니다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Let’s follow up in two weeks to check your muscle strain recovery.",
+    meaning: "근육 긴장 회복을 확인하기 위해 2주 후에 후속 조치합시다.",
+    category: "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)",
+  },
+  {
+    term: "Not treating hives could lead to more skin irritation.",
+    meaning: "두드러기를 치료하지 않으면 피부 자극이 더 심해질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Ignoring laryngitis might cause longer voice issues.",
+    meaning: "후두염을 무시하면 목소리 문제가 더 오래갈 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Untreated yeast infections could spread or worsen.",
+    meaning: "치료하지 않은 효모 감염은 퍼지거나 악화될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Hand, foot, and mouth disease could spread without proper hygiene.",
+    meaning: "적절한 위생 없이 수족구병이 퍼질 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "Not resting could make your muscle strain worse.",
+    meaning: "휴식하지 않으면 근육 긴장이 더 악화될 수 있습니다.",
+    category: "Warning the Patient About Risks (환자에게 경고하기)",
+  },
+  {
+    term: "I know you don’t like creams, but hydrocortisone is best for hives.",
+    meaning:
+      "크림을 좋아하지 않으신다는 것을 알지만, 두드러기에는 하이드로코르티손이 최적입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re worried about medication, but antifungals are safe.",
+    meaning: "약물에 대해 걱정하시는 것을 이해하지만, 항진균제는 안전합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I know you want to stay active, but rest is key for muscle strain.",
+    meaning:
+      "활동을 유지하고 싶으신 것을 알지만, 근육 긴장에는 휴식이 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I hear you prefer natural remedies, but hydration is vital for your child.",
+    meaning:
+      "자연 요법을 선호하신다는 것을 들었지만, 아이에게는 수분 보충이 필수입니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "I understand you’re busy, but voice rest is crucial for laryngitis.",
+    meaning: "바쁘신 것을 이해하지만, 후두염에는 목 쉼이 중요합니다.",
+    category: "Handling Patient Resistance (환자의 반대 다루기)",
+  },
+  {
+    term: "Hives are caused by allergic reactions, often to food or stress.",
+    meaning:
+      "두드러기는 음식이나 스트레스에 대한 알레르기 반응으로 발생합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Laryngitis is inflammation of the voice box, often from overuse.",
+    meaning: "후두염은 과사용으로 인한 성대 염증입니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Yeast infections are caused by fungal growth, treatable with cream.",
+    meaning:
+      "효모 감염은 곰팡이 성장으로 발생하며, 크림으로 치료할 수 있습니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Hand, foot, and mouth disease is a viral infection, common in kids.",
+    meaning: "수족구병은 아이들에게 흔한 바이러스 감염입니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "Muscle strain happens when muscles are overworked, needing rest.",
+    meaning: "근육 긴장은 근육이 과로했을 때 발생하며, 휴식이 필요합니다.",
+    category: "Educating the Patient (환자에게 교육하기)",
+  },
+  {
+    term: "With treatment, your hives should disappear in a few days.",
+    meaning: "치료로 두드러기는 며칠 안에 사라질 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Laryngitis should improve soon with proper voice rest.",
+    meaning: "적절한 목 쉼으로 후두염은 곧 개선될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your yeast infection will likely clear up quickly with cream.",
+    meaning: "크림으로 효모 감염은 빠르게 나을 가능성이 큽니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "Your child’s sores should heal soon with good care.",
+    meaning: "좋은 관리로 아이의 궤양은 곧 치유될 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
+  {
+    term: "With rest, your muscle strain should feel better in weeks.",
+    meaning: "휴식으로 근육 긴장은 몇 주 안에 나아질 것입니다.",
+    category: "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)",
+  },
 ];
-
-
-
 
 // 페이지당 항목 수
 const itemsPerPage = 30;
 
 // 배열 섞기 함수
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
 }
 
 // TTS 초기화
@@ -2207,285 +5440,292 @@ const termList = document.getElementById("term-list");
 
 // 카테고리 목록 생성
 function populateCategorySelect() {
-    const categories = [...new Set(oetPhrases.map(item => item.category))].sort();
-    categorySelect.innerHTML = '<option value="">모든 카테고리</option>';
-    categories.forEach(category => {
-        const option = document.createElement("option");
-        option.value = category;
-        option.textContent = category;
-        categorySelect.appendChild(option);
-    });
+  const categories = [
+    ...new Set(oetPhrases.map((item) => item.category)),
+  ].sort();
+  categorySelect.innerHTML = '<option value="">모든 카테고리</option>';
+  categories.forEach((category) => {
+    const option = document.createElement("option");
+    option.value = category;
+    option.textContent = category;
+    categorySelect.appendChild(option);
+  });
 }
 
 // 언어 목록 생성
 function populateLanguageSelect() {
-    const languages = [...new Set(voices.map(voice => voice.lang))].sort();
-    languageSelect.innerHTML = '<option value="">언어를 선택하세요</option>';
-    languages.forEach(lang => {
-        const option = document.createElement("option");
-        option.value = lang;
-        option.textContent = lang;
-        languageSelect.appendChild(option);
-    });
+  const languages = [...new Set(voices.map((voice) => voice.lang))].sort();
+  languageSelect.innerHTML = '<option value="">언어를 선택하세요</option>';
+  languages.forEach((lang) => {
+    const option = document.createElement("option");
+    option.value = lang;
+    option.textContent = lang;
+    languageSelect.appendChild(option);
+  });
 }
 
 // 화자 목록 생성 및 기본 화자 설정
 function populateVoiceSelect(selectedLang) {
-    voiceSelect.innerHTML = '<option value="">화자를 선택하세요</option>';
-    const filteredVoices = voices.filter(voice => voice.lang === selectedLang);
-    filteredVoices.forEach(voice => {
-        const option = document.createElement("option");
-        option.value = voice.name;
-        option.textContent = `${voice.name} (${voice.lang})`;
-        voiceSelect.appendChild(option);
-    });
-    voiceSelect.disabled = filteredVoices.length === 0;
+  voiceSelect.innerHTML = '<option value="">화자를 선택하세요</option>';
+  const filteredVoices = voices.filter((voice) => voice.lang === selectedLang);
+  filteredVoices.forEach((voice) => {
+    const option = document.createElement("option");
+    option.value = voice.name;
+    option.textContent = `${voice.name} (${voice.lang})`;
+    voiceSelect.appendChild(option);
+  });
+  voiceSelect.disabled = filteredVoices.length === 0;
 }
 
 // 표현 목록 렌더링 (페이지당 30개, 번호 추가, 정답 보기 버튼, 힌트 보기 버튼)
 function renderTermList() {
-    termList.innerHTML = "";
-    const selectedCategory = categorySelect.value;
-    let filteredTerms = selectedCategory
-        ? oetPhrases.filter(item => item.category === selectedCategory)
-        : oetPhrases;
+  termList.innerHTML = "";
+  const selectedCategory = categorySelect.value;
+  let filteredTerms = selectedCategory
+    ? oetPhrases.filter((item) => item.category === selectedCategory)
+    : oetPhrases;
 
-    if (filteredTerms.length === 0) {
-        termList.innerHTML = '<p style="text-align: center; color: #e53e3e;">선택한 카테고리에 해당하는 표현이 없습니다.</p>';
-        return;
-    }
+  if (filteredTerms.length === 0) {
+    termList.innerHTML =
+      '<p style="text-align: center; color: #e53e3e;">선택한 카테고리에 해당하는 표현이 없습니다.</p>';
+    return;
+  }
 
-    const shuffledTerms = shuffleArray([...filteredTerms]);
-    const paginatedTerms = shuffledTerms.slice(0, itemsPerPage);
-    const hintLength = parseInt(hintLengthSelect.value) || 3;
+  const shuffledTerms = shuffleArray([...filteredTerms]);
+  const paginatedTerms = shuffledTerms.slice(0, itemsPerPage);
+  const hintLength = parseInt(hintLengthSelect.value) || 3;
 
-    paginatedTerms.forEach((item, index) => {
-        const termDiv = document.createElement("div");
-        termDiv.classList.add("term-item");
-        termDiv.title = `${item.term.slice(0, hintLength)}...`; // 동적 힌트 길이 적용
+  paginatedTerms.forEach((item, index) => {
+    const termDiv = document.createElement("div");
+    termDiv.classList.add("term-item");
+    termDiv.title = `${item.term.slice(0, hintLength)}...`; // 동적 힌트 길이 적용
 
-        const termHeader = document.createElement("div");
-        termHeader.classList.add("term-header");
+    const termHeader = document.createElement("div");
+    termHeader.classList.add("term-header");
 
-        const termNumber = document.createElement("span");
-        termNumber.classList.add("term-number");
-        termNumber.textContent = `${index + 1}. `;
+    const termNumber = document.createElement("span");
+    termNumber.classList.add("term-number");
+    termNumber.textContent = `${index + 1}. `;
 
-        const termText = document.createElement("span");
-        termText.classList.add("term-text");
-        termText.textContent = item.meaning;
+    const termText = document.createElement("span");
+    termText.classList.add("term-text");
+    termText.textContent = item.meaning;
 
-        const buttonContainer = document.createElement("div");
-        buttonContainer.classList.add("button-container");
+    const buttonContainer = document.createElement("div");
+    buttonContainer.classList.add("button-container");
 
-        const playButton = document.createElement("button");
-        playButton.classList.add("play-button");
-        playButton.innerHTML = "<span>재생</span>";
-        playButton.addEventListener("click", () => {
-            if (!isSpeaking && voiceSelect.value) {
-                playButton.disabled = true;
-                const repeatCount = parseInt(repeatCountSelect.value) || 1;
-                const textToSpeak = item.term;
-                speakTerm(textToSpeak, repeatCount);
-            } else if (!voiceSelect.value) {
-                alert("먼저 언어와 화자를 선택하세요.");
-            }
-        });
-
-        const hintButton = document.createElement("button");
-        hintButton.classList.add("hint-button");
-        hintButton.innerHTML = "<span>힌트 보기</span>";
-        hintButton.addEventListener("click", () => {
-            alert(`힌트: ${item.term.slice(0, hintLength)}...`);
-        });
-
-        const revealButton = document.createElement("button");
-        revealButton.classList.add("reveal-button");
-        revealButton.innerHTML = "<span>정답 보기</span>";
-        revealButton.addEventListener("click", () => {
-            termText.classList.add("revealed");
-            termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
-            revealButton.disabled = true;
-        });
-
-        termHeader.appendChild(termNumber);
-        termHeader.appendChild(termText);
-        buttonContainer.appendChild(playButton);
-        buttonContainer.appendChild(hintButton);
-        buttonContainer.appendChild(revealButton);
-        termDiv.appendChild(termHeader);
-        termDiv.appendChild(buttonContainer);
-        termList.appendChild(termDiv);
+    const playButton = document.createElement("button");
+    playButton.classList.add("play-button");
+    playButton.innerHTML = "<span>재생</span>";
+    playButton.addEventListener("click", () => {
+      if (!isSpeaking && voiceSelect.value) {
+        playButton.disabled = true;
+        const repeatCount = parseInt(repeatCountSelect.value) || 1;
+        const textToSpeak = item.term;
+        speakTerm(textToSpeak, repeatCount);
+      } else if (!voiceSelect.value) {
+        alert("먼저 언어와 화자를 선택하세요.");
+      }
     });
 
-    // 총 문제 수 업데이트
-    document.getElementById("term-count").textContent = `총 문제 수: ${filteredTerms.length}`;
+    const hintButton = document.createElement("button");
+    hintButton.classList.add("hint-button");
+    hintButton.innerHTML = "<span>힌트 보기</span>";
+    hintButton.addEventListener("click", () => {
+      alert(`힌트: ${item.term.slice(0, hintLength)}...`);
+    });
+
+    const revealButton = document.createElement("button");
+    revealButton.classList.add("reveal-button");
+    revealButton.innerHTML = "<span>정답 보기</span>";
+    revealButton.addEventListener("click", () => {
+      termText.classList.add("revealed");
+      termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
+      revealButton.disabled = true;
+    });
+
+    termHeader.appendChild(termNumber);
+    termHeader.appendChild(termText);
+    buttonContainer.appendChild(playButton);
+    buttonContainer.appendChild(hintButton);
+    buttonContainer.appendChild(revealButton);
+    termDiv.appendChild(termHeader);
+    termDiv.appendChild(buttonContainer);
+    termList.appendChild(termDiv);
+  });
+
+  // 총 문제 수 업데이트
+  document.getElementById(
+    "term-count"
+  ).textContent = `총 문제 수: ${filteredTerms.length}`;
 }
 
 // 음성 재생 후 버튼 활성화
 function speakTerm(text, repeatCount) {
-    let currentCount = 0;
-    isSpeaking = true;
-    const utterance = new SpeechSynthesisUtterance(text);
-    const selectedVoice = speechSynthesis
-        .getVoices()
-        .find(voice => voice.name === voiceSelect.value);
-    if (selectedVoice) {
-        utterance.voice = selectedVoice;
+  let currentCount = 0;
+  isSpeaking = true;
+  const utterance = new SpeechSynthesisUtterance(text);
+  const selectedVoice = speechSynthesis
+    .getVoices()
+    .find((voice) => voice.name === voiceSelect.value);
+  if (selectedVoice) {
+    utterance.voice = selectedVoice;
+  }
+  utterance.lang = languageSelect.value;
+  utterance.onend = () => {
+    currentCount++;
+    if (currentCount < repeatCount) {
+      speechSynthesis.speak(utterance);
+    } else {
+      isSpeaking = false;
+      document
+        .querySelectorAll(".play-button")
+        .forEach((btn) => (btn.disabled = false));
     }
-    utterance.lang = languageSelect.value;
-    utterance.onend = () => {
-        currentCount++;
-        if (currentCount < repeatCount) {
-            speechSynthesis.speak(utterance);
-        } else {
-            isSpeaking = false;
-            document
-                .querySelectorAll(".play-button")
-                .forEach(btn => (btn.disabled = false));
-        }
-    };
-    speechSynthesis.speak(utterance);
+  };
+  speechSynthesis.speak(utterance);
 }
 
 // 음성 로드 및 초기화
 function loadVoices() {
-    voices = synth.getVoices();
-    if (voices.length > 0) {
-        populateLanguageSelect();
-        populateCategorySelect();
+  voices = synth.getVoices();
+  if (voices.length > 0) {
+    populateLanguageSelect();
+    populateCategorySelect();
 
-        // 저장된 설정 불러오기
-        const savedLang =
-            localStorage.getItem("language") ||
-            (navigator.platform.includes("Win") ? "en-GB" : "en-AU");
-        const savedVoice = localStorage.getItem("voice");
-        const savedRepeatCount = localStorage.getItem("repeatCount") || "1";
-        const savedCategory = localStorage.getItem("category") || "";
-        const savedHintLength = localStorage.getItem("hintLength") || "3";
+    // 저장된 설정 불러오기
+    const savedLang =
+      localStorage.getItem("language") ||
+      (navigator.platform.includes("Win") ? "en-GB" : "en-AU");
+    const savedVoice = localStorage.getItem("voice");
+    const savedRepeatCount = localStorage.getItem("repeatCount") || "1";
+    const savedCategory = localStorage.getItem("category") || "";
+    const savedHintLength = localStorage.getItem("hintLength") || "3";
 
-        repeatCountSelect.value = savedRepeatCount;
-        categorySelect.value = savedCategory;
-        hintLengthSelect.value = savedHintLength;
+    repeatCountSelect.value = savedRepeatCount;
+    categorySelect.value = savedCategory;
+    hintLengthSelect.value = savedHintLength;
 
-        // 언어 설정
-        if (voices.find(voice => voice.lang === savedLang)) {
-            languageSelect.value = savedLang;
-        } else {
-            languageSelect.value =
-                navigator.platform.includes("Win") &&
-                voices.find(voice => voice.lang === "en-GB")
-                    ? "en-GB"
-                    : voices.find(voice => voice.lang === "en-AU")
-                    ? "en-AU"
-                    : voices[0]?.lang || "";
-        }
-
-        // 화자 설정
-        if (languageSelect.value) {
-            populateVoiceSelect(languageSelect.value);
-            if (
-                savedVoice &&
-                voices.find(
-                    voice =>
-                        voice.name === savedVoice && voice.lang === languageSelect.value
-                )
-            ) {
-                voiceSelect.value = savedVoice;
-            } else if (
-                navigator.platform.includes("Win") &&
-                voices.find(
-                    voice =>
-                        voice.name === "Google UK English Female" && voice.lang === "en-GB"
-                )
-            ) {
-                voiceSelect.value = "Google UK English Female";
-            } else {
-                const gordonVoice = voices.find(
-                    voice =>
-                        voice.name.toLowerCase().includes("gordon") &&
-                        voice.lang === "en-AU"
-                );
-                voiceSelect.value = gordonVoice
-                    ? gordonVoice.name
-                    : voices.find(voice => voice.lang === languageSelect.value)?.name ||
-                      "";
-            }
-        }
-
-        renderTermList();
+    // 언어 설정
+    if (voices.find((voice) => voice.lang === savedLang)) {
+      languageSelect.value = savedLang;
+    } else {
+      languageSelect.value =
+        navigator.platform.includes("Win") &&
+        voices.find((voice) => voice.lang === "en-GB")
+          ? "en-GB"
+          : voices.find((voice) => voice.lang === "en-AU")
+          ? "en-AU"
+          : voices[0]?.lang || "";
     }
+
+    // 화자 설정
+    if (languageSelect.value) {
+      populateVoiceSelect(languageSelect.value);
+      if (
+        savedVoice &&
+        voices.find(
+          (voice) =>
+            voice.name === savedVoice && voice.lang === languageSelect.value
+        )
+      ) {
+        voiceSelect.value = savedVoice;
+      } else if (
+        navigator.platform.includes("Win") &&
+        voices.find(
+          (voice) =>
+            voice.name === "Google UK English Female" && voice.lang === "en-GB"
+        )
+      ) {
+        voiceSelect.value = "Google UK English Female";
+      } else {
+        const gordonVoice = voices.find(
+          (voice) =>
+            voice.name.toLowerCase().includes("gordon") &&
+            voice.lang === "en-AU"
+        );
+        voiceSelect.value = gordonVoice
+          ? gordonVoice.name
+          : voices.find((voice) => voice.lang === languageSelect.value)?.name ||
+            "";
+      }
+    }
+
+    renderTermList();
+  }
 }
 
 // 음성 비동기 로드 처리
 synth.onvoiceschanged = () => {
-    loadVoices();
+  loadVoices();
 };
 
 // 언어 변경 시 화자 목록 업데이트 및 저장
 languageSelect.addEventListener("change", () => {
-    const selectedLang = languageSelect.value;
-    if (selectedLang) {
-        populateVoiceSelect(selectedLang);
-        localStorage.setItem("language", selectedLang);
-        if (voiceSelect.value) {
-            localStorage.setItem("voice", voiceSelect.value);
-        }
-    } else {
-        voiceSelect.innerHTML = '<option value="">먼저 언어를 선택하세요</option>';
-        voiceSelect.disabled = true;
+  const selectedLang = languageSelect.value;
+  if (selectedLang) {
+    populateVoiceSelect(selectedLang);
+    localStorage.setItem("language", selectedLang);
+    if (voiceSelect.value) {
+      localStorage.setItem("voice", voiceSelect.value);
     }
-    renderTermList();
+  } else {
+    voiceSelect.innerHTML = '<option value="">먼저 언어를 선택하세요</option>';
+    voiceSelect.disabled = true;
+  }
+  renderTermList();
 });
 
 // 화자 변경 시 저장
 voiceSelect.addEventListener("change", () => {
-    if (voiceSelect.value) {
-        localStorage.setItem("voice", voiceSelect.value);
-    }
+  if (voiceSelect.value) {
+    localStorage.setItem("voice", voiceSelect.value);
+  }
 });
 
 // 재생 횟수 변경 시 저장
 repeatCountSelect.addEventListener("change", () => {
-    localStorage.setItem("repeatCount", repeatCountSelect.value);
+  localStorage.setItem("repeatCount", repeatCountSelect.value);
 });
 
 // 카테고리 변경 시 저장 및 목록 갱신
 categorySelect.addEventListener("change", () => {
-    localStorage.setItem("category", categorySelect.value);
-    renderTermList();
+  localStorage.setItem("category", categorySelect.value);
+  renderTermList();
 });
 
 // 힌트 길이 변경 시 저장 및 목록 갱신
 hintLengthSelect.addEventListener("change", () => {
-    localStorage.setItem("hintLength", hintLengthSelect.value);
-    renderTermList();
+  localStorage.setItem("hintLength", hintLengthSelect.value);
+  renderTermList();
 });
 
 // 새로고침 버튼 이벤트
 document.getElementById("refresh-button").addEventListener("click", () => {
-    renderTermList();
+  renderTermList();
 });
 
 // 하단 새로고침 버튼 이벤트
-document.getElementById("refresh-button-bottom").addEventListener("click", () => {
+document
+  .getElementById("refresh-button-bottom")
+  .addEventListener("click", () => {
     renderTermList();
-});
+  });
 
 // TTS 지원 여부 확인
 if (!synth) {
-    const warning = document.createElement("p");
-    warning.textContent =
-        "이 브라우저는 TTS를 지원하지 않습니다. 최신 브라우저를 사용해 주세요.";
-    warning.style.color = "#e53e3e";
-    warning.style.textAlign = "center";
-    warning.style.marginBottom = "20px";
-    document.querySelector(".container").prepend(warning);
-    languageSelect.disabled = true;
-    voiceSelect.disabled = true;
-    repeatCountSelect.disabled = true;
-    categorySelect.disabled = true;
-    hintLengthSelect.disabled = true;
+  const warning = document.createElement("p");
+  warning.textContent =
+    "이 브라우저는 TTS를 지원하지 않습니다. 최신 브라우저를 사용해 주세요.";
+  warning.style.color = "#e53e3e";
+  warning.style.textAlign = "center";
+  warning.style.marginBottom = "20px";
+  document.querySelector(".container").prepend(warning);
+  languageSelect.disabled = true;
+  voiceSelect.disabled = true;
+  repeatCountSelect.disabled = true;
+  categorySelect.disabled = true;
+  hintLengthSelect.disabled = true;
 } else {
-    loadVoices();
+  loadVoices();
 }
