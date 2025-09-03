@@ -16004,1146 +16004,1715 @@
     "right_sentence": "The patient is requesting a medical procedure to end their life, which is a controversial topic known as euthanasia."
   },
 
-  [
-    {
-      "term": "Sciatica",
-      "meaning": "좌골신경통: 좌골신경이 압박되어 발생하는 허리 및 다리 통증",
-      "sentence": "The patient complained of a sharp, shooting pain down the back of their leg, a classic symptom of ______.",
-      "right_sentence": "The patient complained of a sharp, shooting pain down the back of their leg, a classic symptom of sciatica."
-    },
-    {
-      "term": "Ultrasound",
-      "meaning": "초음파: 초음파를 이용하여 신체 내부를 진단하는 기술",
-      "sentence": "The doctor ordered an ______ to get a clear image of the patient's knee joint.",
-      "right_sentence": "The doctor ordered an ultrasound to get a clear image of the patient's knee joint."
-    },
-    {
-      "term": "Acupuncture",
-      "meaning": "침술: 통증 완화를 위해 신체 특정 부위에 침을 놓는 치료법",
-      "sentence": "After trying various physical therapies, she considered getting ______ for her chronic back pain.",
-      "right_sentence": "After trying various physical therapies, she considered getting acupuncture for her chronic back pain."
-    },
-    {
-      "term": "Slipped disc",
-      "meaning": "추간판 탈출증: 척추 사이의 추간판이 제자리에서 벗어나는 질환",
-      "sentence": "The physician suspected a ______ when the patient described a sudden, sharp pain after lifting a heavy object.",
-      "right_sentence": "The physician suspected a slipped disc when the patient described a sudden, sharp pain after lifting a heavy object."
-    },
-    {
-      "term": "Malignant melanoma",
-      "meaning": "악성 흑색종: 피부암의 일종으로, 멜라닌 세포에서 발생하는 악성 종양",
-      "sentence": "A biopsy was performed on the suspicious mole to rule out a diagnosis of ______.",
-      "right_sentence": "A biopsy was performed on the suspicious mole to rule out a diagnosis of malignant melanoma."
-    },
-    {
-      "term": "Cold sores",
-      "meaning": "헤르페스: 단순 포진 바이러스로 인해 입술 주변에 발생하는 수포",
-      "sentence": "The patient asked for an anti-viral cream to treat the ______ on her upper lip.",
-      "right_sentence": "The patient asked for an anti-viral cream to treat the cold sores on her upper lip."
-    },
-    {
-      "term": "Biopsy",
-      "meaning": "생체검사: 질병 진단을 위해 조직 일부를 채취하여 검사하는 것",
-      "sentence": "To confirm the dermatologist's suspicion, they decided to organize a skin ______.",
-      "right_sentence": "To confirm the dermatologist's suspicion, they decided to organize a skin biopsy."
-    },
-    {
-      "term": "Pneumonia",
-      "meaning": "폐렴: 폐에 염증이 생기는 호흡기 질환",
-      "sentence": "Mrs. Green was admitted to the hospital last night with a fever and a cough, and was diagnosed with ______.",
-      "right_sentence": "Mrs. Green was admitted to the hospital last night with a fever and a cough, and was diagnosed with pneumonia."
-    },
-    {
-      "term": "Paranoid schizophrenia",
-      "meaning": "편집증적 조현병: 망상과 환각을 특징으로 하는 조현병의 한 유형",
-      "sentence": "The patient was admitted due to poorly controlled symptoms of his ______.",
-      "right_sentence": "The patient was admitted due to poorly controlled symptoms of his paranoid schizophrenia."
-    },
-    {
-      "term": "Epidural",
-      "meaning": "경막외 마취: 출산 시 통증 완화를 위해 척추에 주사하는 마취법",
-      "sentence": "The pregnant woman wanted a home birth but was informed that a home ______ was not possible.",
-      "right_sentence": "The pregnant woman wanted a home birth but was informed that a home epidural was not possible."
-    },
-    {
-      "term": "Depressed",
-      "meaning": "우울한: 우울증 상태에 있는, 의기소침한",
-      "sentence": "After her last child, the patient felt really ______ for a short period of time.",
-      "right_sentence": "After her last child, the patient felt really depressed for a short period of time."
-    },
-    {
-      "term": "Collapsed veins",
-      "meaning": "혈관 허탈: 정맥이 손상되거나 압박되어 납작하게 눌린 상태",
-      "sentence": "The trainee doctor had difficulty taking blood due to the patient's ______.",
-      "right_sentence": "The trainee doctor had difficulty taking blood due to the patient's collapsed veins."
-    },
-    {
-      "term": "Scaphoid bone",
-      "meaning": "손배뼈: 손목에 있는 여덟 개의 손목뼈 중 하나",
-      "sentence": "The doctor suspected a broken ______ after the teenager fell off his skateboard and injured his wrist.",
-      "right_sentence": "The doctor suspected a broken scaphoid bone after the teenager fell off his skateboard and injured his wrist."
-    },
-    {
-      "term": "X-ray",
-      "meaning": "엑스레이: 방사선을 이용하여 신체 내부를 촬영하는 검사",
-      "sentence": "An ______ was needed to see where the two ends of the broken bone were.",
-      "right_sentence": "An X-ray was needed to see where the two ends of the broken bone were."
-    },
-    {
-      "term": "Chagas disease",
-      "meaning": "샤가스병: 트리파노소마 크루지 기생충에 의해 발생하는 질병",
-      "sentence": "A cardiologist gave a presentation on a neglected disease known as ______.",
-      "right_sentence": "A cardiologist gave a presentation on a neglected disease known as Chagas disease."
-    },
-    {
-      "term": "Parasite",
-      "meaning": "기생충: 다른 생명체에 기생하여 영양분을 얻는 생물",
-      "sentence": "Chagas disease is caused by a ______ called Trypanosoma cruzi.",
-      "right_sentence": "Chagas disease is caused by a parasite called Trypanosoma cruzi."
-    },
-    {
-      "term": "Infected",
-      "meaning": "감염된: 병원체에 노출되어 질병에 걸린 상태",
-      "sentence": "Most sufferers of Chagas disease become ______ when they are bitten by an insect.",
-      "right_sentence": "Most sufferers of Chagas disease become infected when they are bitten by an insect."
-    },
-    {
-      "term": "Cardiac disorders",
-      "meaning": "심장 질환: 심장 기능에 이상이 있는 질병",
-      "sentence": "In its chronic phase, the disease is characterized by serious digestive and neurological disorders, as well as ______.",
-      "right_sentence": "In its chronic phase, the disease is characterized by serious digestive and neurological disorders, as well as cardiac disorders."
-    },
-    {
-      "term": "Chronic",
-      "meaning": "만성의: 질병이 장기간 지속되는",
-      "sentence": "For a significant proportion of people with Chagas disease, the illness becomes ______.",
-      "right_sentence": "For a significant proportion of people with Chagas disease, the illness becomes chronic."
-    },
-    {
-      "term": "Dilated cardiomyopathy",
-      "meaning": "확장성 심근병증: 심장 근육이 늘어나고 약해지는 질환",
-      "sentence": "A sixty-two-year-old patient was diagnosed with ______ eight years ago.",
-      "right_sentence": "A sixty-two-year-old patient was diagnosed with dilated cardiomyopathy eight years ago."
-    },
-    {
-      "term": "Occupational therapist",
-      "meaning": "작업 치료사: 환자가 일상생활 활동에 참여하도록 돕는 전문가",
-      "sentence": "An ______ gave a presentation to a group of trainee doctors about a case study.",
-      "right_sentence": "An occupational therapist gave a presentation to a group of trainee doctors about a case study."
-    },
-    {
-      "term": "Trainee doctors",
-      "meaning": "수련의: 수련 과정에 있는 의사",
-      "sentence": "The occupational therapist's presentation was for a group of ______.",
-      "right_sentence": "The occupational therapist's presentation was for a group of trainee doctors."
-    },
-    {
-      "term": "Recovery",
-      "meaning": "회복: 질병이나 부상으로부터 건강을 되찾는 과정",
-      "sentence": "Occupational therapy plays a vital part in a patient's ______.",
-      "right_sentence": "Occupational therapy plays a vital part in a patient's recovery."
-    },
-    {
-      "term": "Regain skills",
-      "meaning": "기술을 되찾다: 잃어버렸던 신체적, 인지적 능력을 다시 습득하다",
-      "sentence": "The therapist's job is to help patients who are recovering from illness to ______ and get back to work.",
-      "right_sentence": "The therapist's job is to help patients who are recovering from illness to regain skills and get back to work."
-    },
-    {
-      "term": "Physiotherapist",
-      "meaning": "물리 치료사: 물리적인 방법을 사용하여 환자의 기능 회복을 돕는 전문가",
-      "sentence": "A ______ was talking to a new patient called Ray Sands who was suffering from sciatica.",
-      "right_sentence": "A physiotherapist was talking to a new patient called Ray Sands who was suffering from sciatica."
-    },
-    {
-      "term": "Osteopath",
-      "meaning": "정골 의사: 수기 치료를 통해 근골격계 질환을 치료하는 전문가",
-      "sentence": "After seeing his physician, Ray Sands was sent to see an ______.",
-      "right_sentence": "After seeing his physician, Ray Sands was sent to see an osteopath."
-    },
-    {
-      "term": "Consultant dermatologist",
-      "meaning": "피부과 전문의: 피부 질환을 전문적으로 진료하는 의사",
-      "sentence": "A patient with a sore on his hand was referred to a ______.",
-      "right_sentence": "A patient with a sore on his hand was referred to a consultant dermatologist."
-    },
-    {
-      "term": "Ibuprofen",
-      "meaning": "이부프로펜: 해열, 진통, 소염 효과가 있는 비스테로이드성 항염증제",
-      "sentence": "The patient was initially given painkillers like ______ for the pain.",
-      "right_sentence": "The patient was initially given painkillers like Ibuprofen for the pain."
-    },
-    {
-      "term": "Compression packs",
-      "meaning": "압박팩: 부상 부위에 압력을 가하여 통증과 부기를 줄이는 팩",
-      "sentence": "He was told to put ______ on the affected area to ease the pain.",
-      "right_sentence": "He was told to put compression packs on the affected area to ease the pain."
-    },
-    {
-      "term": "Numb",
-      "meaning": "무감각한: 감각이 없는, 마비된",
-      "sentence": "At other times, the patient's whole leg just felt a bit ______.",
-      "right_sentence": "At other times, the patient's whole leg just felt a bit numb."
-    },
-    {
-      "term": "Tingling",
-      "meaning": "얼얼한: 찌릿찌릿하거나 따끔거리는 느낌",
-      "sentence": "Sometimes the patient experienced a ______ feeling in their calves as well.",
-      "right_sentence": "Sometimes the patient experienced a tingling feeling in their calves as well."
-    },
-    {
-      "term": "Chronic persecutory delusions",
-      "meaning": "만성적 피해망상: 자신에게 해를 끼치려는 사람이 있다는 비현실적인 믿음이 지속되는 상태",
-      "sentence": "The patient presents with significant thought disorder and also ______.",
-      "right_sentence": "The patient presents with significant thought disorder and also chronic persecutory delusions."
-    },
-    {
-      "term": "High Dependency Unit",
-      "meaning": "고의존 병동: 중환자실(ICU)과 일반 병동의 중간 단계 치료를 제공하는 병동",
-      "sentence": "She is to remain in the ______ until her symptoms stabilize.",
-      "right_sentence": "She is to remain in the High Dependency Unit until her symptoms stabilize."
-    },
-    {
-      "term": "Intravenous (IV) antibiotics",
-      "meaning": "정맥 주사 항생제: 정맥을 통해 투여되는 항생제",
-      "sentence": "The patient was switched from her ______ to oral antibiotics.",
-      "right_sentence": "The patient was switched from her intravenous (IV) antibiotics to oral antibiotics."
-    },
-    {
-      "term": "Oral antibiotics",
-      "meaning": "경구 항생제: 입으로 복용하는 항생제",
-      "sentence": "The nurse was briefing her colleague about the patient's change from IV to ______.",
-      "right_sentence": "The nurse was briefing her colleague about the patient's change from IV to oral."
-    },
-    {
-      "term": "Drug interactions",
-      "meaning": "약물 상호작용: 두 가지 이상의 약물이 함께 사용될 때 서로 영향을 미치는 현상",
-      "sentence": "Staff should always be on the lookout for potential ______ and side-effects.",
-      "right_sentence": "Staff should always be on the lookout for potential drug interactions and side-effects."
-    },
-    {
-      "term": "Care home",
-      "meaning": "요양원: 노인이나 장애인에게 장기적인 돌봄을 제공하는 시설",
-      "sentence": "The manager of a local ______ was talking to the nursing staff about medication administration.",
-      "right_sentence": "The manager of a local care home was talking to the nursing staff about medication administration."
-    },
-    {
-      "term": "Sore",
-      "meaning": "상처: 피부나 조직에 생긴 염증, 궤양 또는 상처",
-      "sentence": "The patient went to see a dermatologist because of a persistent ______ on the palm of his left hand.",
-      "right_sentence": "The patient went to see a dermatologist because of a persistent sore on the palm of his left hand."
-    },
-    {
-      "term": "Itching",
-      "meaning": "가려움증: 피부를 긁고 싶은 불쾌한 감각",
-      "sentence": "The patient experiences intense ______ beforehand, and then little blisters appear.",
-      "right_sentence": "The patient experiences intense itching beforehand, and then little blisters appear."
-    },
-    {
-      "term": "Blisters",
-      "meaning": "수포: 피부에 물집이 잡힌 상태",
-      "sentence": "The condition starts with one or two small, painful ______.",
-      "right_sentence": "The condition starts with one or two small, painful blisters."
-    },
-    {
-      "term": "Chaotic",
-      "meaning": "혼란스러운: 무질서하고 예측할 수 없는",
-      "sentence": "The doctor used the word '______' to describe the condition on the patient's hand.",
-      "right_sentence": "The doctor used the word 'chaotic' to describe the condition on the patient's hand."
-    },
-    {
-      "term": "Fracture",
-      "meaning": "골절: 뼈가 부러지거나 금이 간 상태",
-      "sentence": "The doctor suspected a bone ______ after the patient's fall.",
-      "right_sentence": "The doctor suspected a bone fracture after the patient's fall."
-    },
-    {
-      "term": "Postnatal depression",
-      "meaning": "산후 우울증: 출산 후 발생하는 우울증",
-      "sentence": "Mrs. Summer felt really ______ after giving birth to her last child, which is a form of ______.",
-      "right_sentence": "Mrs. Summer felt really depressed after giving birth to her last child, which is a form of postnatal depression."
-    },
-    {
-      "term": "Physiotherapist",
-      "meaning": "물리 치료사: 물리적인 방법을 사용하여 환자의 기능 회복을 돕는 전문가",
-      "sentence": "A patient with long COVID symptoms was referred to a ______ to help with his recovery.",
-      "right_sentence": "A patient with long COVID symptoms was referred to a physiotherapist to help with his recovery."
-    },
-    {
-      "term": "Arrhythmia",
-      "meaning": "부정맥: 심장 박동이 불규칙하거나 비정상적인 상태",
-      "sentence": "The patient's chest pains and palpitations were diagnosed as ______.",
-      "right_sentence": "The patient's chest pains and palpitations were diagnosed as arrhythmia."
-    },
-    {
-      "term": "Beta blockers",
-      "meaning": "베타 차단제: 심장 박동을 늦추고 혈압을 낮추는 데 사용되는 약물",
-      "sentence": "He was prescribed ______ to help regulate his heart rate.",
-      "right_sentence": "He was prescribed beta blockers to help regulate his heart rate."
-    },
-    {
-      "term": "Fatigue",
-      "meaning": "피로: 극심한 피로감이나 기력 상실",
-      "sentence": "The main symptom the patient was still experiencing was severe ______.",
-      "right_sentence": "The main symptom the patient was still experiencing was severe fatigue."
-    },
-    {
-      "term": "Joint pain",
-      "meaning": "관절통: 관절 부위의 통증",
-      "sentence": "He also experienced some dull aches and ______ in his hips and ankles.",
-      "right_sentence": "He also experienced some dull aches and joint pain in his hips and ankles."
-    },
-    {
-      "term": "Numbness",
-      "meaning": "저림: 감각이 둔해지거나 마비되는 현상",
-      "sentence": "A worrying symptom for the patient was a certain amount of ______ in his fingers.",
-      "right_sentence": "A worrying symptom for the patient was a certain amount of numbness in his fingers."
-    },
-    {
-      "term": "Dizziness",
-      "meaning": "어지러움: 현기증을 느끼는 증상",
-      "sentence": "The patient, Mrs. Green, was at a high risk for falls due to her ______.",
-      "right_sentence": "The patient, Mrs. Green, was at a high risk for falls due to her dizziness."
-    },
-    {
-      "term": "Hip replacement",
-      "meaning": "고관절 치환술: 손상된 고관절을 인공 관절로 바꾸는 수술",
-      "sentence": "The nurse was talking to a patient who had recently undergone a ______ surgery.",
-      "right_sentence": "The nurse was talking to a patient who had recently undergone a hip replacement."
-    },
-    {
-      "term": "Community nurses",
-      "meaning": "지역사회 간호사: 병원이 아닌 지역사회에서 환자를 돌보는 간호사",
-      "sentence": "The handover was being conducted between two ______ about a patient named Carlos.",
-      "right_sentence": "The handover was being conducted between two community nurses about a patient named Carlos."
-    },
-    {
-      "term": "Vascular dementia",
-      "meaning": "혈관성 치매: 뇌혈관 질환으로 인해 발생하는 치매",
-      "sentence": "Carlos, an 80-year-old male, had a diagnosis of ______.",
-      "right_sentence": "Carlos, an 80-year-old male, had a diagnosis of vascular dementia."
-    },
-    {
-      "term": "Ischemic stroke",
-      "meaning": "허혈성 뇌졸중: 뇌혈관이 막혀서 발생하는 뇌졸중",
-      "sentence": "Carlos had a significant ______ five years ago, which led to his current condition.",
-      "right_sentence": "Carlos had a significant ischemic stroke five years ago, which led to his current condition."
-    },
-    {
-      "term": "Hallucinations",
-      "meaning": "환각: 실제로 존재하지 않는 것을 보고 듣고 느끼는 것",
-      "sentence": "The patient with vascular dementia presents with memory problems and occasional non-distressing ______.",
-      "right_sentence": "The patient with vascular dementia presents with memory problems and occasional non-distressing hallucinations."
-    },
-    {
-      "term": "Speech pathologist",
-      "meaning": "언어 병리학자: 언어, 발음, 삼킴 장애 등을 평가하고 치료하는 전문가",
-      "sentence": "A ______ offered conservative advice for the patient's expressive dysphasia.",
-      "right_sentence": "A speech pathologist offered conservative advice for the patient's expressive dysphasia."
-    },
-    {
-      "term": "Nerve",
-      "meaning": "신경: 신체 각 부위의 자극을 뇌에 전달하고 뇌의 명령을 신체에 전달하는 기관",
-      "sentence": "The pain in his leg was due to the sciatic ______ getting trapped in his back.",
-      "right_sentence": "The pain in his leg was due to the sciatic nerve getting trapped in his back."
-    },
-    {
-      "term": "Spine",
-      "meaning": "척추: 목에서 등, 허리, 엉덩이까지 이어지는 뼈의 기둥",
-      "sentence": "The osteopath was working on the patient's ______ and lower legs.",
-      "right_sentence": "The osteopath was working on the patient's spine and lower legs."
-    },
-    {
-      "term": "Diet",
-      "meaning": "식단: 먹는 음식의 종류와 양",
-      "sentence": "The patient's condition did not seem to be linked to anything in his ______.",
-      "right_sentence": "The patient's condition did not seem to be linked to anything in his diet."
-    },
-    {
-      "term": "Subside",
-      "meaning": "가라앉다: 통증이나 증상이 줄어들거나 멈추다",
-      "sentence": "The symptoms began to ______ after he started his new treatments.",
-      "right_sentence": "The symptoms began to subside after he started his new treatments."
-    },
-    {
-      "term": "Radiologist",
-      "meaning": "영상의학과 의사: 방사선 촬영 및 판독을 전문으로 하는 의사",
-      "sentence": "The doctor sent the patient for an X-ray, and the images were reviewed by a ______.",
-      "right_sentence": "The doctor sent the patient for an X-ray, and the images were reviewed by a radiologist."
-    },
-    {
-      "term": "Painkillers",
-      "meaning": "진통제: 통증을 완화하기 위해 사용되는 약물",
-      "sentence": "In the first instance, the patient was given over-the-counter ______.",
-      "right_sentence": "In the first instance, the patient was given over-the-counter painkillers."
-    },
-    {
-      "term": "Diagnosis",
-      "meaning": "진단: 환자의 증상과 검사 결과를 바탕으로 병명을 판단하는 것",
-      "sentence": "The doctor's preliminary ______ for the teenager's wrist injury was a broken scaphoid bone.",
-      "right_sentence": "The doctor's preliminary diagnosis for the teenager's wrist injury was a broken scaphoid bone."
-    },
-    {
-      "term": "Referred",
-      "meaning": "의뢰된: 다른 전문의나 부서로 보내진",
-      "sentence": "The patient was ______ to a physiotherapist because of his sciatica.",
-      "right_sentence": "The patient was referred to a physiotherapist because of his sciatica."
-    },
-    {
-      "term": "Symptoms",
-      "meaning": "증상: 질병의 징후나 특징",
-      "sentence": "He described various ______ of his long-term illness, including numbness and fatigue.",
-      "right_sentence": "He described various symptoms of his long-term illness, including numbness and fatigue."
-    },
-    {
-      "term": "Medication",
-      "meaning": "약물: 질병 치료나 증상 완화에 사용되는 약",
-      "sentence": "The manager of the care home reminded the staff to be careful with the administration of ______.",
-      "right_sentence": "The manager of the care home reminded the staff to be careful with the administration of medication."
-    },
-    {
-      "term": "Dose",
-      "meaning": "복용량: 약을 한 번에 복용하는 양",
-      "sentence": "Staff were told to avoid distractions while preparing the patient's ______.",
-      "right_sentence": "Staff were told to avoid distractions while preparing the patient's dose."
-    },
-    {
-      "term": "Persecutory",
-      "meaning": "피해의: 자신을 해치려 한다는 비현실적인 믿음과 관련된",
-      "sentence": "The patient was suffering from ______ and paranoid delusions.",
-      "right_sentence": "The patient was suffering from persecutory and paranoid delusions."
-    },
-    {
-      "term": "Consultation",
-      "meaning": "상담: 전문의와 환자가 질병이나 건강 문제에 대해 이야기하는 것",
-      "sentence": "The patient was at her GP's office for an ante-natal ______.",
-      "right_sentence": "The patient was at her GP's office for an ante-natal consultation."
-    },
-    {
-      "term": "Analgesics",
-      "meaning": "진통제: 통증을 완화하는 약물",
-      "sentence": "The doctor suggested using effective ______ such as pethidine or gas and air during the home birth.",
-      "right_sentence": "The doctor suggested using effective analgesics such as pethidine or gas and air during the home birth."
-    },
-    {
-      "term": "Trainee doctor",
-      "meaning": "수련의: 수련 과정에 있는 의사",
-      "sentence": "A ______ told his supervisor about a problem he had with a procedure.",
-      "right_sentence": "A trainee doctor told his supervisor about a problem he had with a procedure."
-    },
-    {
-      "term": "Injections",
-      "meaning": "주사: 바늘을 이용하여 몸에 약물을 투여하는 것",
-      "sentence": "The patient received a course of ______ as part of his treatment plan.",
-      "right_sentence": "The patient received a course of injections as part of his treatment plan."
-    },
-    {
-      "term": "Endemic",
-      "meaning": "고유한: 특정 지역이나 집단에서만 발생하는",
-      "sentence": "Chagas disease is primarily a disease of marginalized communities where it is ______.",
-      "right_sentence": "Chagas disease is primarily a disease of marginalized communities where it is endemic."
-    },
-    {
-      "term": "Pathologist",
-      "meaning": "병리학자: 질병의 원인과 영향을 연구하는 의사",
-      "sentence": "The biopsy was sent to a ______ to be analyzed for a definitive diagnosis.",
-      "right_sentence": "The biopsy was sent to a pathologist to be analyzed for a definitive diagnosis."
-    },
-    {
-      "term": "Insulin",
-      "meaning": "인슐린: 혈당을 조절하는 호르몬",
-      "sentence": "Juan, the patient with Chagas disease, was also found to have type-two diabetes and his body initially rejected ______.",
-      "right_sentence": "Juan, the patient with Chagas disease, was also found to have type-two diabetes and his body initially rejected insulin."
-    },
-    {
-      "term": "Cardiologist",
-      "meaning": "심장 전문의: 심장 질환을 진료하는 의사",
-      "sentence": "Dr. Jack Robson, a ______, was an expert on Chagas disease.",
-      "right_sentence": "Dr. Jack Robson, a cardiologist, was an expert on Chagas disease."
-    },
-    {
-      "term": "Pharmacist",
-      "meaning": "약사: 약물을 조제하고 판매하는 전문가",
-      "sentence": "I need to speak to the ______ about a new prescription.",
-      "right_sentence": "I need to speak to the pharmacist about a new prescription."
-    },
-    {
-      "term": "Rehabilitation",
-      "meaning": "재활: 질병이나 부상 후 기능을 회복하는 과정",
-      "sentence": "The patient was transferred to the ______ center after their hip surgery.",
-      "right_sentence": "The patient was transferred to the rehabilitation center after their hip surgery."
-    },
-    {
-      "term": "Geriatrician",
-      "meaning": "노인병 전문의: 노인 질환을 전문으로 다루는 의사",
-      "sentence": "My grandmother was referred to a ______ for her complex health issues.",
-      "right_sentence": "My grandmother was referred to a geriatrician for her complex health issues."
-    },
-    {
-      "term": "Occupational therapy",
-      "meaning": "작업 치료: 환자의 일상생활 활동 참여를 돕는 치료",
-      "sentence": "The presentation was on the role of ______ in a patient's recovery.",
-      "right_sentence": "The presentation was on the role of occupational therapy in a patient's recovery."
-    },
-    {
-      "term": "Anaesthetist",
-      "meaning": "마취과 의사: 수술 중 마취를 담당하는 의사",
-      "sentence": "An ______ is required for an epidural to be administered.",
-      "right_sentence": "An anaesthetist is required for an epidural to be administered."
-    },
-    {
-      "term": "Antenatal",
-      "meaning": "산전의: 임신 중인, 출산 전의",
-      "sentence": "Mrs. Summer was having an ______ consultation with her GP.",
-      "right_sentence": "Mrs. Summer was having an antenatal consultation with her GP."
-    },
-    {
-      "term": "Dysphasia",
-      "meaning": "실어증: 언어 능력이 손상된 상태",
-      "sentence": "The patient had some expressive ______ and dribbling of saliva.",
-      "right_sentence": "The patient had some expressive dysphasia and dribbling of saliva."
-    },
-    {
-      "term": "Psychosis",
-      "meaning": "정신병: 현실과 비현실을 구분하지 못하는 정신 질환",
-      "sentence": "The nurse was monitoring the level of the patient's distress and ______.",
-      "right_sentence": "The nurse was monitoring the level of the patient's distress and psychosis."
-    },
-    {
-      "term": "Home remedies",
-      "meaning": "가정 요법: 가정에서 간단히 질병을 치료하는 방법",
-      "sentence": "The mother had tried several over-the-counter creams before resorting to internet-based ______ for her son's skin condition.",
-      "right_sentence": "The mother had tried several over-the-counter creams before resorting to internet-based home remedies for her son's skin condition."
-    },
-    {
-      "term": "Eczema",
-      "meaning": "습진: 피부에 염증이 생기는 질환으로, 가려움과 발진을 동반",
-      "sentence": "The patient's sister had a skin condition known as ______.",
-      "right_sentence": "The patient's sister had a skin condition known as eczema."
-    },
-    {
-      "term": "Intensive farming",
-      "meaning": "집약 농업: 좁은 공간에서 많은 수의 가축을 기르는 방식",
-      "sentence": "The overuse of antibiotics is common in ______ where animals are kept in confined conditions.",
-      "right_sentence": "The overuse of antibiotics is common in intensive farming where animals are kept in confined conditions."
-    },
-    {
-      "term": "Antibiotics",
-      "meaning": "항생제: 세균 감염을 치료하는 약물",
-      "sentence": "The doctor was choosing narrow-spectrum ______ to cause less general resistance.",
-      "right_sentence": "The doctor was choosing narrow-spectrum antibiotics to cause less general resistance."
-    },
-    {
-      "term": "Phages",
-      "meaning": "박테리오파지: 세균을 감염시키는 바이러스",
-      "sentence": "A therapy that uses bacterial viruses called ______ is being talked about excitedly in the pharmaceutical industry.",
-      "right_sentence": "A therapy that uses bacterial viruses called phages is being talked about excitedly in the pharmaceutical industry."
-    },
-    {
-      "term": "Rheumatologist",
-      "meaning": "류마티스 전문의: 관절, 근육, 뼈 질환을 다루는 의사",
-      "sentence": "A patient suffering from gout was attending a medication review with a ______.",
-      "right_sentence": "A patient suffering from gout was attending a medication review with a rheumatologist."
-    },
-    {
-      "term": "Gout",
-      "meaning": "통풍: 요산 결정이 관절에 쌓여 통증을 유발하는 질환",
-      "sentence": "The patient was suffering from ______ and was at the clinic for a review.",
-      "right_sentence": "The patient was suffering from gout and was at the clinic for a review."
-    },
-    {
-      "term": "Infection",
-      "meaning": "감염: 병원체가 몸속에 침입하여 증식하는 것",
-      "sentence": "The doctor said that the skin did not need to be covered unless there was a risk of ______.",
-      "right_sentence": "The doctor said that the skin did not need to be covered unless there was a risk of infection."
-    },
-    {
-      "term": "Neurological disorders",
-      "meaning": "신경계 질환: 신경계에 영향을 미치는 질병",
-      "sentence": "The chronic phase of Chagas disease is characterized by serious cardiac, digestive system, and ______.",
-      "right_sentence": "The chronic phase of Chagas disease is characterized by serious cardiac, digestive system, and neurological disorders."
-    },
-    {
-      "term": "Cardiomyopathy",
-      "meaning": "심근병증: 심장 근육이 손상되거나 약해지는 질환",
-      "sentence": "The patient was diagnosed with a type of ______ eight years ago.",
-      "right_sentence": "The patient was diagnosed with a type of cardiomyopathy eight years ago."
-    },
-    {
-      "term": "Vaccine",
-      "meaning": "백신: 특정 질병에 대한 면역력을 유도하는 물질",
-      "sentence": "Researchers are working on improved drugs to treat Chagas disease and a new ______.",
-      "right_sentence": "Researchers are working on improved drugs to treat Chagas disease and a new vaccine."
-    },
-    {
-      "term": "Symptom",
-      "meaning": "증상: 질병의 징후나 특징",
-      "sentence": "The patient's vision problems and numbness were key ______ leading to the diagnosis.",
-      "right_sentence": "The patient's vision problems and numbness were key symptom leading to the diagnosis."
-    },
-    {
-      "term": "Pethidine",
-      "meaning": "페티딘: 진통제로 사용되는 마약성 진통제",
-      "sentence": "The GP mentioned that painkillers like gas and air or ______ are available during home birth.",
-      "right_sentence": "The GP mentioned that painkillers like gas and air or pethidine are available during home birth."
-    },
-    {
-      "term": "Spinal",
-      "meaning": "척추의: 척추와 관련된",
-      "sentence": "The patient's pain was thought to be due to a ______ issue.",
-      "right_sentence": "The patient's pain was thought to be due to a spinal issue."
-    },
-    {
-      "term": "Antiviral cream",
-      "meaning": "항바이러스 크림: 바이러스 감염을 치료하는 크림",
-      "sentence": "The patient asked for a prescription for an ______ to stop cold sores from developing.",
-      "right_sentence": "The patient asked for a prescription for an antiviral cream to stop cold sores from developing."
-    },
-    {
-      "term": "Dermis",
-      "meaning": "진피: 표피 아래에 있는 피부의 층",
-      "sentence": "A skin disease is happening lower in the ______ than just the surface level.",
-      "right_sentence": "A skin disease is happening lower in the dermis than just the surface level."
-    },
-    {
-      "term": "Lesion",
-      "meaning": "병변: 질병이나 손상으로 인해 생긴 조직의 변화",
-      "sentence": "Emily had a ______ on the mons pubis which required surgical intervention.",
-      "right_sentence": "Emily had a lesion on the mons pubis which required surgical intervention."
-    },
-    {
-      "term": "Incision and drainage",
-      "meaning": "절개 및 배농: 고름이나 액체를 빼내기 위해 피부를 절개하는 시술",
-      "sentence": "Following a procedure of ______, the patient's condition improved.",
-      "right_sentence": "Following a procedure of incision and drainage, the patient's condition improved."
-    },
-    {
-      "term": "Hormones",
-      "meaning": "호르몬: 내분비기관에서 분비되어 생체 기능을 조절하는 물질",
-      "sentence": "Over-production of one group of ______ called androgens may contribute to the symptoms of a disease.",
-      "right_sentence": "Over-production of one group of hormones called androgens may contribute to the symptoms of a disease."
-    },
-    {
-      "term": "Adenosine",
-      "meaning": "아데노신: 세포 에너지 대사에 중요한 역할을 하는 유기 화합물",
-      "sentence": "Sleep loss degrades the energy molecule ATP to produce ______ monophosphate.",
-      "right_sentence": "Sleep loss degrades the energy molecule ATP to produce adenosine monophosphate."
-    },
-    {
-      "term": "Mitochondrial activation",
-      "meaning": "미토콘드리아 활성화: 세포 내 에너지 생산 기관인 미토콘드리아가 활발히 작용하는 현상",
-      "sentence": "A team found signs of ______ in the cortical neurons of mice that were kept awake for a long time.",
-      "right_sentence": "A team found signs of mitochondrial activation in the cortical neurons of mice that were kept awake for a long time."
-    },
-    {
-      "term": "Cortical neurons",
-      "meaning": "피질 뉴런: 대뇌 피질에 있는 신경 세포",
-      "sentence": "There were structural changes in the ______ of mice when the animals were kept awake for long periods.",
-      "right_sentence": "There were structural changes in the cortical neurons of mice when the animals were kept awake for long periods."
-    },
-    {
-      "term": "Dementia",
-      "meaning": "치매: 기억력, 사고력, 언어 능력 등이 점진적으로 저하되는 질환",
-      "sentence": "Some experts are convinced that some form of ______, most likely Alzheimer's, is inevitable if people live long enough.",
-      "right_sentence": "Some experts are convinced that some form of dementia, most likely Alzheimer's, is inevitable if people live long enough."
-    },
-    {
-      "term": "Amyloid proteins",
-      "meaning": "아밀로이드 단백질: 알츠하이머병과 관련된 뇌의 비정상적인 단백질",
-      "sentence": "A diagram showed the signals passed among brain nerves that are triggered by ______.",
-      "right_sentence": "A diagram showed the signals passed among brain nerves that are triggered by amyloid proteins."
-    },
-    {
-      "term": "Ibuprofen",
-      "meaning": "이부프로펜: 비스테로이드성 소염진통제",
-      "sentence": "The patient was prescribed ______ to help with the pain and inflammation.",
-      "right_sentence": "The patient was prescribed Ibuprofen to help with the pain and inflammation."
-    },
-    {
-      "term": "Allergies",
-      "meaning": "알레르기: 특정 물질에 대한 과민 반응",
-      "sentence": "The patient had a regular diet and no known ______.",
-      "right_sentence": "The patient had a regular diet and no known allergies."
-    },
-    {
-      "term": "Melanoma",
-      "meaning": "흑색종: 피부암의 일종",
-      "sentence": "The patient mentioned that he had a malignant ______ removed from his back in 2006.",
-      "right_sentence": "The patient mentioned that he had a malignant melanoma removed from his back in 2006."
-    },
-    {
-      "term": "Dermatologist",
-      "meaning": "피부과 의사: 피부 질환을 전문으로 다루는 의사",
-      "sentence": "She said she’d better see a ______ about the sore on her hand.",
-      "right_sentence": "She said she’d better see a dermatologist about the sore on her hand."
-    },
-    {
-      "term": "Diarrhea",
-      "meaning": "설사: 묽은 변을 자주 보는 증상",
-      "sentence": "The doctor had to find the cause of the patient's awful ______.",
-      "right_sentence": "The doctor had to find the cause of the patient's awful diarrhea."
-    },
-    {
-      "term": "Meningitis",
-      "meaning": "뇌수막염: 뇌와 척수를 덮고 있는 막에 염증이 생기는 질환",
-      "sentence": "Symptoms like a splitting headache and fever could indicate ______.",
-      "right_sentence": "Symptoms like a splitting headache and fever could indicate meningitis."
-    },
-    {
-      "term": "Jaundice",
-      "meaning": "황달: 피부나 눈이 노랗게 변하는 증상",
-      "sentence": "The patient's liver problems were causing him to have severe ______.",
-      "right_sentence": "The patient's liver problems were causing him to have severe jaundice."
-    },
-    {
-      "term": "Hepatitis A",
-      "meaning": "A형 간염: A형 간염 바이러스로 인해 발생하는 간 염증",
-      "sentence": "He was diagnosed with ______ after returning from his trip abroad.",
-      "right_sentence": "He was diagnosed with hepatitis A after returning from his trip abroad."
-    },
-    {
-      "term": "Lumpectomy",
-      "meaning": "부분 절제술: 유방암 수술의 한 종류로, 종양과 주변 조직 일부를 제거",
-      "sentence": "The patient underwent a ______ to remove a cancerous lump from her breast.",
-      "right_sentence": "The patient underwent a lumpectomy to remove a cancerous lump from her breast."
-    },
-    {
-      "term": "Arthritis",
-      "meaning": "관절염: 관절에 염증이 생겨 통증과 부기를 유발하는 질환",
-      "sentence": "The customer was experiencing jaw pain, but it was not related to her existing ______.",
-      "right_sentence": "The customer was experiencing jaw pain, but it was not related to her existing arthritis."
-    },
-    {
-      "term": "Anxious",
-      "meaning": "불안한: 불안감을 느끼는",
-      "sentence": "Her jaw pain flares up whenever she gets ______ or stressed.",
-      "right_sentence": "Her jaw pain flares up whenever she gets anxious or stressed."
-    },
-    {
-      "term": "Septicaemia",
-      "meaning": "패혈증: 혈액에 세균이 침투하여 전신에 염증을 일으키는 심각한 감염",
-      "sentence": "The doctor was concerned about the patient's condition, fearing it could lead to ______.",
-      "right_sentence": "The doctor was concerned about the patient's condition, fearing it could lead to septicaemia."
-    },
-    {
-      "term": "Scoliosis",
-      "meaning": "척추측만증: 척추가 비정상적으로 옆으로 휘는 상태",
-      "sentence": "The school nurse noticed a significant curve in the child's spine, a possible sign of ______.",
-      "right_sentence": "The school nurse noticed a significant curve in the child's spine, a possible sign of scoliosis."
-    },
-    {
-      "term": "Hypertension",
-      "meaning": "고혈압: 혈압이 지속적으로 높은 상태",
-      "sentence": "The patient's headaches and blurred vision were caused by his untreated ______.",
-      "right_sentence": "The patient's headaches and blurred vision were caused by his untreated hypertension."
-    },
-    {
-      "term": "Diabetes mellitus",
-      "meaning": "당뇨병: 혈당 조절 이상으로 인한 만성 질환",
-      "sentence": "The doctor ordered a blood test for ______ after the patient reported frequent urination and thirst.",
-      "right_sentence": "The doctor ordered a blood test for diabetes mellitus after the patient reported frequent urination and thirst."
-    },
-    {
-      "term": "Myocardial infarction",
-      "meaning": "심근경색: 심장 근육의 혈액 공급 부족으로 인한 손상",
-      "sentence": "The patient was rushed to the emergency room with chest pain and shortness of breath, symptoms of a suspected ______.",
-      "right_sentence": "The patient was rushed to the emergency room with chest pain and shortness of breath, symptoms of a suspected myocardial infarction."
-    },
-    {
-      "term": "Neural tube defect",
-      "meaning": "신경관 결손: 태아의 신경관이 정상적으로 닫히지 않아 발생하는 선천적 기형",
-      "sentence": "The prenatal ultrasound revealed a ______, which could lead to spina bifida.",
-      "right_sentence": "The prenatal ultrasound revealed a neural tube defect, which could lead to spina bifida."
-    },
-    {
-      "term": "Multiple sclerosis",
-      "meaning": "다발성 경화증: 신경계의 만성 질환으로 신경 보호막 손상",
-      "sentence": "Her vision problems and numbness led the neurologist to suspect ______.",
-      "right_sentence": "Her vision problems and numbness led the neurologist to suspect multiple sclerosis."
-    },
-    {
-      "term": "Physician",
-      "meaning": "의사: 일반적인 질병을 진료하고 치료하는 의사",
-      "sentence": "The patient's family doctor, a ______, referred him to an osteopath.",
-      "right_sentence": "The patient's family doctor, a physician, referred him to an osteopath."
-    },
-    {
-      "term": "Anaesthetic",
-      "meaning": "마취제: 감각을 마비시키는 약물",
-      "sentence": "The nurse prepared the local ______ before the minor surgical procedure.",
-      "right_sentence": "The nurse prepared the local anaesthetic before the minor surgical procedure."
-    },
-    {
-      "term": "Antibiotic resistance",
-      "meaning": "항생제 내성: 세균이 항생제에 저항하여 약효가 떨어지는 현상",
-      "sentence": "The overuse of antibiotics is directly related to increased ______ in humans.",
-      "right_sentence": "The overuse of antibiotics is directly related to increased antibiotic resistance in humans."
-    },
-    {
-      "term": "Pharmaceutical",
-      "meaning": "제약의: 약품과 관련된",
-      "sentence": "The new therapy is being talked about excitedly in the ______ industry.",
-      "right_sentence": "The new therapy is being talked about excitedly in the pharmaceutical industry."
-    },
-    {
-      "term": "Neurologist",
-      "meaning": "신경과 의사: 신경계 질환을 전문으로 다루는 의사",
-      "sentence": "The patient with memory problems and hallucinations was referred to a ______.",
-      "right_sentence": "The patient with memory problems and hallucinations was referred to a neurologist."
-    },
-    {
-      "term": "Radiology",
-      "meaning": "영상의학: 방사선 등을 이용하여 질병을 진단하는 의학 분야",
-      "sentence": "The hospital department that specializes in X-rays and other scans is called ______.",
-      "right_sentence": "The hospital department that specializes in X-rays and other scans is called radiology."
-    },
-    {
-      "term": "Geriatric",
-      "meaning": "노인병의: 노인과 관련된 질환이나 의학",
-      "sentence": "The nursing staff specializes in ______ care for elderly patients.",
-      "right_sentence": "The nursing staff specializes in geriatric care for elderly patients."
-    },
-    {
-      "term": "Oncology",
-      "meaning": "종양학: 암을 연구하고 치료하는 의학 분야",
-      "sentence": "After the diagnosis of melanoma, the patient was referred to a specialist in ______.",
-      "right_sentence": "After the diagnosis of melanoma, the patient was referred to a specialist in oncology."
-    },
-    {
-      "term": "Immunologist",
-      "meaning": "면역학자: 면역 체계를 연구하는 전문가",
-      "sentence": "The patient's severe allergies led them to consult with an ______.",
-      "right_sentence": "The patient's severe allergies led them to consult with an immunologist."
-    },
-    {
-      "term": "Endocrinologist",
-      "meaning": "내분비학자: 호르몬과 내분비 시스템 질환을 다루는 의사",
-      "sentence": "The patient with uncontrolled diabetes was referred to an ______.",
-      "right_sentence": "The patient with uncontrolled diabetes was referred to an endocrinologist."
-    },
-    {
-      "term": "Cardiovascular",
-      "meaning": "심혈관의: 심장과 혈관에 관련된",
-      "sentence": "The patient's symptoms indicated a serious ______ problem.",
-      "right_sentence": "The patient's symptoms indicated a serious cardiovascular problem."
-    },
-    {
-      "term": "Inpatient",
-      "meaning": "입원 환자: 병원에 입원하여 치료를 받는 환자",
-      "sentence": "Mrs. Green was an ______ at the hospital for pneumonia.",
-      "right_sentence": "Mrs. Green was an inpatient at the hospital for pneumonia."
-    },
-    {
-      "term": "Outpatient",
-      "meaning": "외래 환자: 병원에 입원하지 않고 진료만 받는 환자",
-      "sentence": "After her discharge, she will continue to be an ______ for follow-up appointments.",
-      "right_sentence": "After her discharge, she will continue to be an outpatient for follow-up appointments."
-    },
-    {
-      "term": "Respiration",
-      "meaning": "호흡: 산소를 들이마시고 이산화탄소를 내뱉는 과정",
-      "sentence": "The patient was experiencing mild shortness of breath and wheezing, affecting her ______.",
-      "right_sentence": "The patient was experiencing mild shortness of breath and wheezing, affecting her respiration."
-    },
-    {
-      "term": "Vital signs",
-      "meaning": "활력 징후: 체온, 맥박, 혈압, 호흡 등 생명 활동의 중요한 징후",
-      "sentence": "The nurse checked the patient's ______ and found them to be stable.",
-      "right_sentence": "The nurse checked the patient's vital signs and found them to be stable."
-    },
-    {
-      "term": "Orthopedic",
-      "meaning": "정형외과의: 뼈, 근육, 관절 질환을 다루는 의학 분야",
-      "sentence": "The patient's knee replacement surgery was performed by an ______ surgeon.",
-      "right_sentence": "The patient's knee replacement surgery was performed by an orthopedic surgeon."
-    },
-    {
-      "term": "Neurologist",
-      "meaning": "신경과 의사: 신경계 질환을 전문으로 다루는 의사",
-      "sentence": "Her numbness and vision problems led the ______ to suspect a chronic neurological disorder.",
-      "right_sentence": "Her numbness and vision problems led the neurologist to suspect a chronic neurological disorder."
-    },
-    {
-      "term": "Gastroenterologist",
-      "meaning": "소화기내과 의사: 소화기 질환을 전문으로 다루는 의사",
-      "sentence": "A patient with persistent abdominal pain was referred to a ______.",
-      "right_sentence": "A patient with persistent abdominal pain was referred to a gastroenterologist."
-    },
-    {
-      "term": "Urologist",
-      "meaning": "비뇨기과 의사: 비뇨기계 질환을 전문으로 다루는 의사",
-      "sentence": "He was experiencing issues with frequent urination, so his doctor referred him to a ______.",
-      "right_sentence": "He was experiencing issues with frequent urination, so his doctor referred him to a urologist."
-    },
-    {
-      "term": "Infection control",
-      "meaning": "감염 관리: 병원 내 감염을 예방하고 통제하는 절차",
-      "sentence": "The hospital had strict ______ policies to prevent the spread of diseases.",
-      "right_sentence": "The hospital had strict infection control policies to prevent the spread of diseases."
-    },
-    {
-      "term": "Discharge",
-      "meaning": "퇴원: 병원 치료를 마치고 집으로 돌아가는 것",
-      "sentence": "The ward manager was discussing the plan for the patient's ______.",
-      "right_sentence": "The ward manager was discussing the plan for the patient's discharge."
-    },
-    {
-      "term": "Referred",
-      "meaning": "의뢰된: 다른 전문의나 부서로 보내진",
-      "sentence": "The sports injury specialist had ______ the patient to a physiotherapist.",
-      "right_sentence": "The sports injury specialist had referred the patient to a physiotherapist."
-    },
-    {
-      "term": "Sedation",
-      "meaning": "진정: 약물을 사용하여 흥분을 가라앉히거나 의식을 진정시키는 것",
-      "sentence": "The patient was given light ______ before the uncomfortable procedure.",
-      "right_sentence": "The patient was given light sedation before the uncomfortable procedure."
-    },
-    {
-      "term": "Anxiety",
-      "meaning": "불안: 걱정이나 공포를 느끼는 정신적 상태",
-      "sentence": "He was prescribed medication to help manage his ______ during stressful times.",
-      "right_sentence": "He was prescribed medication to help manage his anxiety during stressful times."
-    },
-    {
-      "term": "Rehydration",
-      "meaning": "재수화: 탈수 상태에서 수분을 보충하는 것",
-      "sentence": "The patient with severe diarrhea was given intravenous fluids for ______.",
-      "right_sentence": "The patient with severe diarrhea was given intravenous fluids for rehydration."
-    },
-    {
-      "term": "Immunization",
-      "meaning": "예방접종: 백신을 통해 면역력을 얻는 것",
-      "sentence": "The doctor recommended a new ______ for the patient before her international trip.",
-      "right_sentence": "The doctor recommended a new immunization for the patient before her international trip."
-    },
-    {
-      "term": "Chronic pain",
-      "meaning": "만성 통증: 3개월 이상 지속되는 통증",
-      "sentence": "She has been living with ______ for years and is seeking long-term management strategies.",
-      "right_sentence": "She has been living with chronic pain for years and is seeking long-term management strategies."
-    },
-    {
-      "term": "Hypoglycemia",
-      "meaning": "저혈당: 혈당 수치가 비정상적으로 낮은 상태",
-      "sentence": "The patient, a diabetic, needed to be careful to avoid sudden episodes of ______.",
-      "right_sentence": "The patient, a diabetic, needed to be careful to avoid sudden episodes of hypoglycemia."
-    },
-    {
-      "term": "Tachycardia",
-      "meaning": "빈맥: 비정상적으로 빠른 심장 박동",
-      "sentence": "The nurse noted the patient's heart rate was unusually high, a condition known as ______.",
-      "right_sentence": "The nurse noted the patient's heart rate was unusually high, a condition known as tachycardia."
-    },
-    {
-      "term": "Bradycardia",
-      "meaning": "서맥: 비정상적으로 느린 심장 박동",
-      "sentence": "The ECG showed a heart rate below 60 beats per minute, which is classified as ______.",
-      "right_sentence": "The ECG showed a heart rate below 60 beats per minute, which is classified as bradycardia."
-    },
-    {
-      "term": "Hyponatremia",
-      "meaning": "저나트륨혈증: 혈액 내 나트륨 수치가 낮은 상태",
-      "sentence": "The patient's lab results indicated a low sodium level, a condition called ______.",
-      "right_sentence": "The patient's lab results indicated a low sodium level, a condition called hyponatremia."
-    },
-    {
-      "term": "Edema",
-      "meaning": "부종: 체액이 조직에 쌓여 부어오르는 증상",
-      "sentence": "The patient's ankles and feet were visibly swollen, a clear sign of ______.",
-      "right_sentence": "The patient's ankles and feet were visibly swollen, a clear sign of edema."
-    },
-    {
-      "term": "Hypotension",
-      "meaning": "저혈압: 혈압이 정상보다 낮은 상태",
-      "sentence": "She felt dizzy and faint when standing up, which could be a sign of ______.",
-      "right_sentence": "She felt dizzy and faint when standing up, which could be a sign of hypotension."
-    },
-    {
-      "term": "Atrophy",
-      "meaning": "위축: 신체 기관이나 조직이 퇴화하여 크기가 줄어드는 것",
-      "sentence": "The patient's muscles showed signs of ______ due to prolonged inactivity.",
-      "right_sentence": "The patient's muscles showed signs of atrophy due to prolonged inactivity."
-    },
-    {
-      "term": "Hemiplegia",
-      "meaning": "반신마비: 신체의 한쪽이 마비되는 상태",
-      "sentence": "After the stroke, the patient experienced ______ on the left side of his body.",
-      "right_sentence": "After the stroke, the patient experienced hemiplegia on the left side of his body."
-    },
-    {
-      "term": "Aphasia",
-      "meaning": "실어증: 뇌 손상으로 인해 언어 능력이 상실되는 증상",
-      "sentence": "The patient had difficulty speaking and understanding language, which is known as ______.",
-      "right_sentence": "The patient had difficulty speaking and understanding language, which is known as aphasia."
-    },
-    {
-      "term": "Tinnitus",
-      "meaning": "이명: 외부 소리 없이 귀에서 소리가 들리는 현상",
-      "sentence": "He complained of a constant ringing sound in his ears, a condition called ______.",
-      "right_sentence": "He complained of a constant ringing sound in his ears, a condition called tinnitus."
-    },
-    {
-      "term": "Vertigo",
-      "meaning": "현훈: 주위가 뱅뱅 도는 듯한 어지러움",
-      "sentence": "The patient's feeling of the room spinning was diagnosed as ______.",
-      "right_sentence": "The patient's feeling of the room spinning was diagnosed as vertigo."
-    },
-    {
-      "term": "Cataract",
-      "meaning": "백내장: 눈의 수정체가 혼탁해져 시야가 흐려지는 질환",
-      "sentence": "His vision was getting blurry, and his doctor said he might have a ______.",
-      "right_sentence": "His vision was getting blurry, and his doctor said he might have a cataract."
-    },
-    {
-      "term": "Glaucoma",
-      "meaning": "녹내장: 안압 상승으로 시신경이 손상되는 질환",
-      "sentence": "The ophthalmologist was checking for signs of ______ by measuring the patient's eye pressure.",
-      "right_sentence": "The ophthalmologist was checking for signs of glaucoma by measuring the patient's eye pressure."
-    },
-    {
-      "term": "Osteoporosis",
-      "meaning": "골다공증: 뼈의 밀도가 낮아져 골절 위험이 높아지는 질환",
-      "sentence": "The patient, an elderly woman, was at risk of fractures due to her ______.",
-      "right_sentence": "The patient, an elderly woman, was at risk of fractures due to her osteoporosis."
-    },
-    {
-      "term": "Palliative care",
-      "meaning": "완화 의료: 완치가 어려운 환자의 삶의 질을 향상시키는 치료",
-      "sentence": "The doctor discussed the option of ______ with the family of the terminally ill patient.",
-      "right_sentence": "The doctor discussed the option of palliative care with the family of the terminally ill patient."
-    },
-    {
-      "term": "Anemia",
-      "meaning": "빈혈: 혈액 내 적혈구 수가 부족하여 발생하는 질환",
-      "sentence": "The patient's fatigue and pale skin were a result of her ______.",
-      "right_sentence": "The patient's fatigue and pale skin were a result of her anemia."
-    },
-    {
-      "term": "Seizure",
-      "meaning": "발작: 뇌의 비정상적인 전기 활동으로 인한 갑작스러운 증상",
-      "sentence": "The patient's uncontrolled epilepsy led to a severe ______.",
-      "right_sentence": "The patient's uncontrolled epilepsy led to a severe seizure."
-    },
-    {
-      "term": "Respiratory",
-      "meaning": "호흡기의: 호흡과 관련된",
-      "sentence": "The patient was experiencing several ______ symptoms, including shortness of breath.",
-      "right_sentence": "The patient was experiencing several respiratory symptoms, including shortness of breath."
-    },
-    {
-      "term": "Congenital",
-      "meaning": "선천적인: 출생 시부터 가지고 있는",
-      "sentence": "The mother was worried about passing the Chagas parasite on to her children because it can be transmitted ______.",
-      "right_sentence": "The mother was worried about passing the Chagas parasite on to her children because it can be transmitted congenitally."
-    },
-    {
-      "term": "Trauma",
-      "meaning": "외상: 외부 충격으로 인한 신체적 또는 정신적 손상",
-      "sentence": "The patient's injury was a direct result of a significant physical ______.",
-      "right_sentence": "The patient's injury was a direct result of a significant physical trauma."
-    },
-    {
-      "term": "Inflammation",
-      "meaning": "염증: 조직이 손상되었을 때 나타나는 면역 반응",
-      "sentence": "The patient's joint pain and swelling were caused by acute ______.",
-      "right_sentence": "The patient's joint pain and swelling were caused by acute inflammation."
-    },
-    {
-      "term": "Dehydration",
-      "meaning": "탈수: 체내 수분량이 부족한 상태",
-      "sentence": "The patient's high fever and diarrhea led to severe ______.",
-      "right_sentence": "The patient's high fever and diarrhea led to severe dehydration."
-    },
-    {
-      "term": "Dermatitis",
-      "meaning": "피부염: 피부에 염증이 생기는 질환",
-      "sentence": "The patient's hand rash was diagnosed as a type of contact ______.",
-      "right_sentence": "The patient's hand rash was diagnosed as a type of contact dermatitis."
-    },
-    {
-      "term": "Hypothyroidism",
-      "meaning": "갑상선 기능 저하증: 갑상선 호르몬이 부족한 상태",
-      "sentence": "Symptoms like fatigue and weight gain could indicate ______.",
-      "right_sentence": "Symptoms like fatigue and weight gain could indicate hypothyroidism."
-    },
-    {
-      "term": "Hyperthyroidism",
-      "meaning": "갑상선 기능 항진증: 갑상선 호르몬이 과다하게 분비되는 상태",
-      "sentence": "The patient's rapid heartbeat and weight loss were symptoms of ______.",
-      "right_sentence": "The patient's rapid heartbeat and weight loss were symptoms of hyperthyroidism."
-    },
-    {
-      "term": "Urinary tract infection (UTI)",
-      "meaning": "요로 감염: 요로에 발생하는 감염",
-      "sentence": "The patient had pain and a burning sensation during urination, a common symptom of a ______.",
-      "right_sentence": "The patient had pain and a burning sensation during urination, a common symptom of a urinary tract infection (UTI)."
-    },
-    {
-      "term": "Surgical intervention",
-      "meaning": "외과적 처치: 수술을 통해 질병을 치료하는 것",
-      "sentence": "The lesion on the patient's skin was severe enough to require ______.",
-      "right_sentence": "The lesion on the patient's skin was severe enough to require surgical intervention."
-    },
-    {
-      "term": "Prognosis",
-      "meaning": "예후: 질병의 미래 경과에 대한 예측",
-      "sentence": "The doctor gave a good ______ for the patient's full recovery after the treatment.",
-      "right_sentence": "The doctor gave a good prognosis for the patient's full recovery after the treatment."
-    },
-    {
-      "term": "Immunosuppression",
-      "meaning": "면역 억제: 면역 반응을 약화시키는 것",
-      "sentence": "The patient was on a drug that caused ______ after his organ transplant.",
-      "right_sentence": "The patient was on a drug that caused immunosuppression after his organ transplant."
-    },
-    {
-      "term": "Chemotherapy",
-      "meaning": "화학 요법: 항암제를 사용하여 암을 치료하는 방법",
-      "sentence": "After her cancer diagnosis, she began a course of ______.",
-      "right_sentence": "After her cancer diagnosis, she began a course of chemotherapy."
-    },
-    {
-      "term": "Radiotherapy",
-      "meaning": "방사선 치료: 방사선을 이용하여 암세포를 파괴하는 치료",
-      "sentence": "The doctor recommended a combination of surgery and ______ for the patient's tumor.",
-      "right_sentence": "The doctor recommended a combination of surgery and radiotherapy for the patient's tumor."
-    },
-    {
-      "term": "Dialysis",
-      "meaning": "투석: 신장 기능이 저하된 환자의 혈액을 정화하는 시술",
-      "sentence": "The patient with kidney failure had to undergo regular ______ sessions.",
-      "right_sentence": "The patient with kidney failure had to undergo regular dialysis sessions."
-    },
-    {
-      "term": "Intensive care unit (ICU)",
-      "meaning": "중환자실: 중증 환자를 집중적으로 치료하는 병동",
-      "sentence": "The patient with severe sepsis was transferred to the ______.",
-      "right_sentence": "The patient with severe sepsis was transferred to the intensive care unit (ICU)."
-    },
-    {
-      "term": "Physical therapy",
-      "meaning": "물리 치료: 물리적인 방법을 사용하여 기능 회복을 돕는 치료",
-      "sentence": "After his injury, the patient underwent ______ to regain strength in his leg.",
-      "right_sentence": "After his injury, the patient underwent physical therapy to regain strength in his leg."
-    },
-    {
-      "term": "Occupational therapy",
-      "meaning": "작업 치료: 환자의 일상생활 활동 참여를 돕는 치료",
-      "sentence": "The patient was referred to an ______ to help him relearn daily tasks after his stroke.",
-      "right_sentence": "The patient was referred to an occupational therapy to help him relearn daily tasks after his stroke."
-    },
-    {
-      "term": "Influenza",
-      "meaning": "인플루엔자: 인플루엔자 바이러스에 의해 발생하는 호흡기 질환",
-      "sentence": "The patient had the usual flu-like symptoms that are characteristic of ______.",
-      "right_sentence": "The patient had the usual flu-like symptoms that are characteristic of influenza."
-    },
-    {
-      "term": "Sprain",
-      "meaning": "염좌: 인대나 관절이 늘어나거나 손상되는 부상",
-      "sentence": "The patient's mother thought he had a simple wrist ______, but the doctor suspected a fracture.",
-      "right_sentence": "The patient's mother thought he had a simple wrist sprain, but the doctor suspected a fracture."
-    }
-  ]
+  {
+    "term": "Sciatica",
+    "meaning": "좌골신경통: 좌골신경이 압박되어 발생하는 허리 및 다리 통증",
+    "sentence": "The patient complained of a sharp, shooting pain down the back of their leg, a classic symptom of ______.",
+    "right_sentence": "The patient complained of a sharp, shooting pain down the back of their leg, a classic symptom of sciatica."
+  },
+  {
+    "term": "Ultrasound",
+    "meaning": "초음파: 초음파를 이용하여 신체 내부를 진단하는 기술",
+    "sentence": "The doctor ordered an ______ to get a clear image of the patient's knee joint.",
+    "right_sentence": "The doctor ordered an ultrasound to get a clear image of the patient's knee joint."
+  },
+  {
+    "term": "Acupuncture",
+    "meaning": "침술: 통증 완화를 위해 신체 특정 부위에 침을 놓는 치료법",
+    "sentence": "After trying various physical therapies, she considered getting ______ for her chronic back pain.",
+    "right_sentence": "After trying various physical therapies, she considered getting acupuncture for her chronic back pain."
+  },
+  {
+    "term": "Slipped disc",
+    "meaning": "추간판 탈출증: 척추 사이의 추간판이 제자리에서 벗어나는 질환",
+    "sentence": "The physician suspected a ______ when the patient described a sudden, sharp pain after lifting a heavy object.",
+    "right_sentence": "The physician suspected a slipped disc when the patient described a sudden, sharp pain after lifting a heavy object."
+  },
+  {
+    "term": "Malignant melanoma",
+    "meaning": "악성 흑색종: 피부암의 일종으로, 멜라닌 세포에서 발생하는 악성 종양",
+    "sentence": "A biopsy was performed on the suspicious mole to rule out a diagnosis of ______.",
+    "right_sentence": "A biopsy was performed on the suspicious mole to rule out a diagnosis of malignant melanoma."
+  },
+  {
+    "term": "Cold sores",
+    "meaning": "헤르페스: 단순 포진 바이러스로 인해 입술 주변에 발생하는 수포",
+    "sentence": "The patient asked for an anti-viral cream to treat the ______ on her upper lip.",
+    "right_sentence": "The patient asked for an anti-viral cream to treat the cold sores on her upper lip."
+  },
+  {
+    "term": "Biopsy",
+    "meaning": "생체검사: 질병 진단을 위해 조직 일부를 채취하여 검사하는 것",
+    "sentence": "To confirm the dermatologist's suspicion, they decided to organize a skin ______.",
+    "right_sentence": "To confirm the dermatologist's suspicion, they decided to organize a skin biopsy."
+  },
+  {
+    "term": "Pneumonia",
+    "meaning": "폐렴: 폐에 염증이 생기는 호흡기 질환",
+    "sentence": "Mrs. Green was admitted to the hospital last night with a fever and a cough, and was diagnosed with ______.",
+    "right_sentence": "Mrs. Green was admitted to the hospital last night with a fever and a cough, and was diagnosed with pneumonia."
+  },
+  {
+    "term": "Paranoid schizophrenia",
+    "meaning": "편집증적 조현병: 망상과 환각을 특징으로 하는 조현병의 한 유형",
+    "sentence": "The patient was admitted due to poorly controlled symptoms of his ______.",
+    "right_sentence": "The patient was admitted due to poorly controlled symptoms of his paranoid schizophrenia."
+  },
+  {
+    "term": "Epidural",
+    "meaning": "경막외 마취: 출산 시 통증 완화를 위해 척추에 주사하는 마취법",
+    "sentence": "The pregnant woman wanted a home birth but was informed that a home ______ was not possible.",
+    "right_sentence": "The pregnant woman wanted a home birth but was informed that a home epidural was not possible."
+  },
+  {
+    "term": "Depressed",
+    "meaning": "우울한: 우울증 상태에 있는, 의기소침한",
+    "sentence": "After her last child, the patient felt really ______ for a short period of time.",
+    "right_sentence": "After her last child, the patient felt really depressed for a short period of time."
+  },
+  {
+    "term": "Collapsed veins",
+    "meaning": "혈관 허탈: 정맥이 손상되거나 압박되어 납작하게 눌린 상태",
+    "sentence": "The trainee doctor had difficulty taking blood due to the patient's ______.",
+    "right_sentence": "The trainee doctor had difficulty taking blood due to the patient's collapsed veins."
+  },
+  {
+    "term": "Scaphoid bone",
+    "meaning": "손배뼈: 손목에 있는 여덟 개의 손목뼈 중 하나",
+    "sentence": "The doctor suspected a broken ______ after the teenager fell off his skateboard and injured his wrist.",
+    "right_sentence": "The doctor suspected a broken scaphoid bone after the teenager fell off his skateboard and injured his wrist."
+  },
+  {
+    "term": "X-ray",
+    "meaning": "엑스레이: 방사선을 이용하여 신체 내부를 촬영하는 검사",
+    "sentence": "An ______ was needed to see where the two ends of the broken bone were.",
+    "right_sentence": "An X-ray was needed to see where the two ends of the broken bone were."
+  },
+  {
+    "term": "Chagas disease",
+    "meaning": "샤가스병: 트리파노소마 크루지 기생충에 의해 발생하는 질병",
+    "sentence": "A cardiologist gave a presentation on a neglected disease known as ______.",
+    "right_sentence": "A cardiologist gave a presentation on a neglected disease known as Chagas disease."
+  },
+  {
+    "term": "Parasite",
+    "meaning": "기생충: 다른 생명체에 기생하여 영양분을 얻는 생물",
+    "sentence": "Chagas disease is caused by a ______ called Trypanosoma cruzi.",
+    "right_sentence": "Chagas disease is caused by a parasite called Trypanosoma cruzi."
+  },
+  {
+    "term": "Infected",
+    "meaning": "감염된: 병원체에 노출되어 질병에 걸린 상태",
+    "sentence": "Most sufferers of Chagas disease become ______ when they are bitten by an insect.",
+    "right_sentence": "Most sufferers of Chagas disease become infected when they are bitten by an insect."
+  },
+  {
+    "term": "Cardiac disorders",
+    "meaning": "심장 질환: 심장 기능에 이상이 있는 질병",
+    "sentence": "In its chronic phase, the disease is characterized by serious digestive and neurological disorders, as well as ______.",
+    "right_sentence": "In its chronic phase, the disease is characterized by serious digestive and neurological disorders, as well as cardiac disorders."
+  },
+  {
+    "term": "Chronic",
+    "meaning": "만성의: 질병이 장기간 지속되는",
+    "sentence": "For a significant proportion of people with Chagas disease, the illness becomes ______.",
+    "right_sentence": "For a significant proportion of people with Chagas disease, the illness becomes chronic."
+  },
+  {
+    "term": "Dilated cardiomyopathy",
+    "meaning": "확장성 심근병증: 심장 근육이 늘어나고 약해지는 질환",
+    "sentence": "A sixty-two-year-old patient was diagnosed with ______ eight years ago.",
+    "right_sentence": "A sixty-two-year-old patient was diagnosed with dilated cardiomyopathy eight years ago."
+  },
+  {
+    "term": "Occupational therapist",
+    "meaning": "작업 치료사: 환자가 일상생활 활동에 참여하도록 돕는 전문가",
+    "sentence": "An ______ gave a presentation to a group of trainee doctors about a case study.",
+    "right_sentence": "An occupational therapist gave a presentation to a group of trainee doctors about a case study."
+  },
+  {
+    "term": "Trainee doctors",
+    "meaning": "수련의: 수련 과정에 있는 의사",
+    "sentence": "The occupational therapist's presentation was for a group of ______.",
+    "right_sentence": "The occupational therapist's presentation was for a group of trainee doctors."
+  },
+  {
+    "term": "Recovery",
+    "meaning": "회복: 질병이나 부상으로부터 건강을 되찾는 과정",
+    "sentence": "Occupational therapy plays a vital part in a patient's ______.",
+    "right_sentence": "Occupational therapy plays a vital part in a patient's recovery."
+  },
+  {
+    "term": "Regain skills",
+    "meaning": "기술을 되찾다: 잃어버렸던 신체적, 인지적 능력을 다시 습득하다",
+    "sentence": "The therapist's job is to help patients who are recovering from illness to ______ and get back to work.",
+    "right_sentence": "The therapist's job is to help patients who are recovering from illness to regain skills and get back to work."
+  },
+  {
+    "term": "Physiotherapist",
+    "meaning": "물리 치료사: 물리적인 방법을 사용하여 환자의 기능 회복을 돕는 전문가",
+    "sentence": "A ______ was talking to a new patient called Ray Sands who was suffering from sciatica.",
+    "right_sentence": "A physiotherapist was talking to a new patient called Ray Sands who was suffering from sciatica."
+  },
+  {
+    "term": "Osteopath",
+    "meaning": "정골 의사: 수기 치료를 통해 근골격계 질환을 치료하는 전문가",
+    "sentence": "After seeing his physician, Ray Sands was sent to see an ______.",
+    "right_sentence": "After seeing his physician, Ray Sands was sent to see an osteopath."
+  },
+  {
+    "term": "Consultant dermatologist",
+    "meaning": "피부과 전문의: 피부 질환을 전문적으로 진료하는 의사",
+    "sentence": "A patient with a sore on his hand was referred to a ______.",
+    "right_sentence": "A patient with a sore on his hand was referred to a consultant dermatologist."
+  },
+  {
+    "term": "Ibuprofen",
+    "meaning": "이부프로펜: 해열, 진통, 소염 효과가 있는 비스테로이드성 항염증제",
+    "sentence": "The patient was initially given painkillers like ______ for the pain.",
+    "right_sentence": "The patient was initially given painkillers like Ibuprofen for the pain."
+  },
+  {
+    "term": "Compression packs",
+    "meaning": "압박팩: 부상 부위에 압력을 가하여 통증과 부기를 줄이는 팩",
+    "sentence": "He was told to put ______ on the affected area to ease the pain.",
+    "right_sentence": "He was told to put compression packs on the affected area to ease the pain."
+  },
+  {
+    "term": "Numb",
+    "meaning": "무감각한: 감각이 없는, 마비된",
+    "sentence": "At other times, the patient's whole leg just felt a bit ______.",
+    "right_sentence": "At other times, the patient's whole leg just felt a bit numb."
+  },
+  {
+    "term": "Tingling",
+    "meaning": "얼얼한: 찌릿찌릿하거나 따끔거리는 느낌",
+    "sentence": "Sometimes the patient experienced a ______ feeling in their calves as well.",
+    "right_sentence": "Sometimes the patient experienced a tingling feeling in their calves as well."
+  },
+  {
+    "term": "Chronic persecutory delusions",
+    "meaning": "만성적 피해망상: 자신에게 해를 끼치려는 사람이 있다는 비현실적인 믿음이 지속되는 상태",
+    "sentence": "The patient presents with significant thought disorder and also ______.",
+    "right_sentence": "The patient presents with significant thought disorder and also chronic persecutory delusions."
+  },
+  {
+    "term": "High Dependency Unit",
+    "meaning": "고의존 병동: 중환자실(ICU)과 일반 병동의 중간 단계 치료를 제공하는 병동",
+    "sentence": "She is to remain in the ______ until her symptoms stabilize.",
+    "right_sentence": "She is to remain in the High Dependency Unit until her symptoms stabilize."
+  },
+  {
+    "term": "Intravenous (IV) antibiotics",
+    "meaning": "정맥 주사 항생제: 정맥을 통해 투여되는 항생제",
+    "sentence": "The patient was switched from her ______ to oral antibiotics.",
+    "right_sentence": "The patient was switched from her intravenous (IV) antibiotics to oral antibiotics."
+  },
+  {
+    "term": "Oral antibiotics",
+    "meaning": "경구 항생제: 입으로 복용하는 항생제",
+    "sentence": "The nurse was briefing her colleague about the patient's change from IV to ______.",
+    "right_sentence": "The nurse was briefing her colleague about the patient's change from IV to oral."
+  },
+  {
+    "term": "Drug interactions",
+    "meaning": "약물 상호작용: 두 가지 이상의 약물이 함께 사용될 때 서로 영향을 미치는 현상",
+    "sentence": "Staff should always be on the lookout for potential ______ and side-effects.",
+    "right_sentence": "Staff should always be on the lookout for potential drug interactions and side-effects."
+  },
+  {
+    "term": "Care home",
+    "meaning": "요양원: 노인이나 장애인에게 장기적인 돌봄을 제공하는 시설",
+    "sentence": "The manager of a local ______ was talking to the nursing staff about medication administration.",
+    "right_sentence": "The manager of a local care home was talking to the nursing staff about medication administration."
+  },
+  {
+    "term": "Sore",
+    "meaning": "상처: 피부나 조직에 생긴 염증, 궤양 또는 상처",
+    "sentence": "The patient went to see a dermatologist because of a persistent ______ on the palm of his left hand.",
+    "right_sentence": "The patient went to see a dermatologist because of a persistent sore on the palm of his left hand."
+  },
+  {
+    "term": "Itching",
+    "meaning": "가려움증: 피부를 긁고 싶은 불쾌한 감각",
+    "sentence": "The patient experiences intense ______ beforehand, and then little blisters appear.",
+    "right_sentence": "The patient experiences intense itching beforehand, and then little blisters appear."
+  },
+  {
+    "term": "Blisters",
+    "meaning": "수포: 피부에 물집이 잡힌 상태",
+    "sentence": "The condition starts with one or two small, painful ______.",
+    "right_sentence": "The condition starts with one or two small, painful blisters."
+  },
+  {
+    "term": "Chaotic",
+    "meaning": "혼란스러운: 무질서하고 예측할 수 없는",
+    "sentence": "The doctor used the word '______' to describe the condition on the patient's hand.",
+    "right_sentence": "The doctor used the word 'chaotic' to describe the condition on the patient's hand."
+  },
+  {
+    "term": "Fracture",
+    "meaning": "골절: 뼈가 부러지거나 금이 간 상태",
+    "sentence": "The doctor suspected a bone ______ after the patient's fall.",
+    "right_sentence": "The doctor suspected a bone fracture after the patient's fall."
+  },
+  {
+    "term": "Postnatal depression",
+    "meaning": "산후 우울증: 출산 후 발생하는 우울증",
+    "sentence": "Mrs. Summer felt really ______ after giving birth to her last child, which is a form of ______.",
+    "right_sentence": "Mrs. Summer felt really depressed after giving birth to her last child, which is a form of postnatal depression."
+  },
+  {
+    "term": "Physiotherapist",
+    "meaning": "물리 치료사: 물리적인 방법을 사용하여 환자의 기능 회복을 돕는 전문가",
+    "sentence": "A patient with long COVID symptoms was referred to a ______ to help with his recovery.",
+    "right_sentence": "A patient with long COVID symptoms was referred to a physiotherapist to help with his recovery."
+  },
+  {
+    "term": "Arrhythmia",
+    "meaning": "부정맥: 심장 박동이 불규칙하거나 비정상적인 상태",
+    "sentence": "The patient's chest pains and palpitations were diagnosed as ______.",
+    "right_sentence": "The patient's chest pains and palpitations were diagnosed as arrhythmia."
+  },
+  {
+    "term": "Beta blockers",
+    "meaning": "베타 차단제: 심장 박동을 늦추고 혈압을 낮추는 데 사용되는 약물",
+    "sentence": "He was prescribed ______ to help regulate his heart rate.",
+    "right_sentence": "He was prescribed beta blockers to help regulate his heart rate."
+  },
+  {
+    "term": "Fatigue",
+    "meaning": "피로: 극심한 피로감이나 기력 상실",
+    "sentence": "The main symptom the patient was still experiencing was severe ______.",
+    "right_sentence": "The main symptom the patient was still experiencing was severe fatigue."
+  },
+  {
+    "term": "Joint pain",
+    "meaning": "관절통: 관절 부위의 통증",
+    "sentence": "He also experienced some dull aches and ______ in his hips and ankles.",
+    "right_sentence": "He also experienced some dull aches and joint pain in his hips and ankles."
+  },
+  {
+    "term": "Numbness",
+    "meaning": "저림: 감각이 둔해지거나 마비되는 현상",
+    "sentence": "A worrying symptom for the patient was a certain amount of ______ in his fingers.",
+    "right_sentence": "A worrying symptom for the patient was a certain amount of numbness in his fingers."
+  },
+  {
+    "term": "Dizziness",
+    "meaning": "어지러움: 현기증을 느끼는 증상",
+    "sentence": "The patient, Mrs. Green, was at a high risk for falls due to her ______.",
+    "right_sentence": "The patient, Mrs. Green, was at a high risk for falls due to her dizziness."
+  },
+  {
+    "term": "Hip replacement",
+    "meaning": "고관절 치환술: 손상된 고관절을 인공 관절로 바꾸는 수술",
+    "sentence": "The nurse was talking to a patient who had recently undergone a ______ surgery.",
+    "right_sentence": "The nurse was talking to a patient who had recently undergone a hip replacement."
+  },
+  {
+    "term": "Community nurses",
+    "meaning": "지역사회 간호사: 병원이 아닌 지역사회에서 환자를 돌보는 간호사",
+    "sentence": "The handover was being conducted between two ______ about a patient named Carlos.",
+    "right_sentence": "The handover was being conducted between two community nurses about a patient named Carlos."
+  },
+  {
+    "term": "Vascular dementia",
+    "meaning": "혈관성 치매: 뇌혈관 질환으로 인해 발생하는 치매",
+    "sentence": "Carlos, an 80-year-old male, had a diagnosis of ______.",
+    "right_sentence": "Carlos, an 80-year-old male, had a diagnosis of vascular dementia."
+  },
+  {
+    "term": "Ischemic stroke",
+    "meaning": "허혈성 뇌졸중: 뇌혈관이 막혀서 발생하는 뇌졸중",
+    "sentence": "Carlos had a significant ______ five years ago, which led to his current condition.",
+    "right_sentence": "Carlos had a significant ischemic stroke five years ago, which led to his current condition."
+  },
+  {
+    "term": "Hallucinations",
+    "meaning": "환각: 실제로 존재하지 않는 것을 보고 듣고 느끼는 것",
+    "sentence": "The patient with vascular dementia presents with memory problems and occasional non-distressing ______.",
+    "right_sentence": "The patient with vascular dementia presents with memory problems and occasional non-distressing hallucinations."
+  },
+  {
+    "term": "Speech pathologist",
+    "meaning": "언어 병리학자: 언어, 발음, 삼킴 장애 등을 평가하고 치료하는 전문가",
+    "sentence": "A ______ offered conservative advice for the patient's expressive dysphasia.",
+    "right_sentence": "A speech pathologist offered conservative advice for the patient's expressive dysphasia."
+  },
+  {
+    "term": "Nerve",
+    "meaning": "신경: 신체 각 부위의 자극을 뇌에 전달하고 뇌의 명령을 신체에 전달하는 기관",
+    "sentence": "The pain in his leg was due to the sciatic ______ getting trapped in his back.",
+    "right_sentence": "The pain in his leg was due to the sciatic nerve getting trapped in his back."
+  },
+  {
+    "term": "Spine",
+    "meaning": "척추: 목에서 등, 허리, 엉덩이까지 이어지는 뼈의 기둥",
+    "sentence": "The osteopath was working on the patient's ______ and lower legs.",
+    "right_sentence": "The osteopath was working on the patient's spine and lower legs."
+  },
+  {
+    "term": "Diet",
+    "meaning": "식단: 먹는 음식의 종류와 양",
+    "sentence": "The patient's condition did not seem to be linked to anything in his ______.",
+    "right_sentence": "The patient's condition did not seem to be linked to anything in his diet."
+  },
+  {
+    "term": "Subside",
+    "meaning": "가라앉다: 통증이나 증상이 줄어들거나 멈추다",
+    "sentence": "The symptoms began to ______ after he started his new treatments.",
+    "right_sentence": "The symptoms began to subside after he started his new treatments."
+  },
+  {
+    "term": "Radiologist",
+    "meaning": "영상의학과 의사: 방사선 촬영 및 판독을 전문으로 하는 의사",
+    "sentence": "The doctor sent the patient for an X-ray, and the images were reviewed by a ______.",
+    "right_sentence": "The doctor sent the patient for an X-ray, and the images were reviewed by a radiologist."
+  },
+  {
+    "term": "Painkillers",
+    "meaning": "진통제: 통증을 완화하기 위해 사용되는 약물",
+    "sentence": "In the first instance, the patient was given over-the-counter ______.",
+    "right_sentence": "In the first instance, the patient was given over-the-counter painkillers."
+  },
+  {
+    "term": "Diagnosis",
+    "meaning": "진단: 환자의 증상과 검사 결과를 바탕으로 병명을 판단하는 것",
+    "sentence": "The doctor's preliminary ______ for the teenager's wrist injury was a broken scaphoid bone.",
+    "right_sentence": "The doctor's preliminary diagnosis for the teenager's wrist injury was a broken scaphoid bone."
+  },
+  {
+    "term": "Referred",
+    "meaning": "의뢰된: 다른 전문의나 부서로 보내진",
+    "sentence": "The patient was ______ to a physiotherapist because of his sciatica.",
+    "right_sentence": "The patient was referred to a physiotherapist because of his sciatica."
+  },
+  {
+    "term": "Symptoms",
+    "meaning": "증상: 질병의 징후나 특징",
+    "sentence": "He described various ______ of his long-term illness, including numbness and fatigue.",
+    "right_sentence": "He described various symptoms of his long-term illness, including numbness and fatigue."
+  },
+  {
+    "term": "Medication",
+    "meaning": "약물: 질병 치료나 증상 완화에 사용되는 약",
+    "sentence": "The manager of the care home reminded the staff to be careful with the administration of ______.",
+    "right_sentence": "The manager of the care home reminded the staff to be careful with the administration of medication."
+  },
+  {
+    "term": "Dose",
+    "meaning": "복용량: 약을 한 번에 복용하는 양",
+    "sentence": "Staff were told to avoid distractions while preparing the patient's ______.",
+    "right_sentence": "Staff were told to avoid distractions while preparing the patient's dose."
+  },
+  {
+    "term": "Persecutory",
+    "meaning": "피해의: 자신을 해치려 한다는 비현실적인 믿음과 관련된",
+    "sentence": "The patient was suffering from ______ and paranoid delusions.",
+    "right_sentence": "The patient was suffering from persecutory and paranoid delusions."
+  },
+  {
+    "term": "Consultation",
+    "meaning": "상담: 전문의와 환자가 질병이나 건강 문제에 대해 이야기하는 것",
+    "sentence": "The patient was at her GP's office for an ante-natal ______.",
+    "right_sentence": "The patient was at her GP's office for an ante-natal consultation."
+  },
+  {
+    "term": "Analgesics",
+    "meaning": "진통제: 통증을 완화하는 약물",
+    "sentence": "The doctor suggested using effective ______ such as pethidine or gas and air during the home birth.",
+    "right_sentence": "The doctor suggested using effective analgesics such as pethidine or gas and air during the home birth."
+  },
+  {
+    "term": "Trainee doctor",
+    "meaning": "수련의: 수련 과정에 있는 의사",
+    "sentence": "A ______ told his supervisor about a problem he had with a procedure.",
+    "right_sentence": "A trainee doctor told his supervisor about a problem he had with a procedure."
+  },
+  {
+    "term": "Injections",
+    "meaning": "주사: 바늘을 이용하여 몸에 약물을 투여하는 것",
+    "sentence": "The patient received a course of ______ as part of his treatment plan.",
+    "right_sentence": "The patient received a course of injections as part of his treatment plan."
+  },
+  {
+    "term": "Endemic",
+    "meaning": "고유한: 특정 지역이나 집단에서만 발생하는",
+    "sentence": "Chagas disease is primarily a disease of marginalized communities where it is ______.",
+    "right_sentence": "Chagas disease is primarily a disease of marginalized communities where it is endemic."
+  },
+  {
+    "term": "Pathologist",
+    "meaning": "병리학자: 질병의 원인과 영향을 연구하는 의사",
+    "sentence": "The biopsy was sent to a ______ to be analyzed for a definitive diagnosis.",
+    "right_sentence": "The biopsy was sent to a pathologist to be analyzed for a definitive diagnosis."
+  },
+  {
+    "term": "Insulin",
+    "meaning": "인슐린: 혈당을 조절하는 호르몬",
+    "sentence": "Juan, the patient with Chagas disease, was also found to have type-two diabetes and his body initially rejected ______.",
+    "right_sentence": "Juan, the patient with Chagas disease, was also found to have type-two diabetes and his body initially rejected insulin."
+  },
+  {
+    "term": "Cardiologist",
+    "meaning": "심장 전문의: 심장 질환을 진료하는 의사",
+    "sentence": "Dr. Jack Robson, a ______, was an expert on Chagas disease.",
+    "right_sentence": "Dr. Jack Robson, a cardiologist, was an expert on Chagas disease."
+  },
+  {
+    "term": "Pharmacist",
+    "meaning": "약사: 약물을 조제하고 판매하는 전문가",
+    "sentence": "I need to speak to the ______ about a new prescription.",
+    "right_sentence": "I need to speak to the pharmacist about a new prescription."
+  },
+  {
+    "term": "Rehabilitation",
+    "meaning": "재활: 질병이나 부상 후 기능을 회복하는 과정",
+    "sentence": "The patient was transferred to the ______ center after their hip surgery.",
+    "right_sentence": "The patient was transferred to the rehabilitation center after their hip surgery."
+  },
+  {
+    "term": "Geriatrician",
+    "meaning": "노인병 전문의: 노인 질환을 전문으로 다루는 의사",
+    "sentence": "My grandmother was referred to a ______ for her complex health issues.",
+    "right_sentence": "My grandmother was referred to a geriatrician for her complex health issues."
+  },
+  {
+    "term": "Occupational therapy",
+    "meaning": "작업 치료: 환자의 일상생활 활동 참여를 돕는 치료",
+    "sentence": "The presentation was on the role of ______ in a patient's recovery.",
+    "right_sentence": "The presentation was on the role of occupational therapy in a patient's recovery."
+  },
+  {
+    "term": "Anaesthetist",
+    "meaning": "마취과 의사: 수술 중 마취를 담당하는 의사",
+    "sentence": "An ______ is required for an epidural to be administered.",
+    "right_sentence": "An anaesthetist is required for an epidural to be administered."
+  },
+  {
+    "term": "Antenatal",
+    "meaning": "산전의: 임신 중인, 출산 전의",
+    "sentence": "Mrs. Summer was having an ______ consultation with her GP.",
+    "right_sentence": "Mrs. Summer was having an antenatal consultation with her GP."
+  },
+  {
+    "term": "Dysphasia",
+    "meaning": "실어증: 언어 능력이 손상된 상태",
+    "sentence": "The patient had some expressive ______ and dribbling of saliva.",
+    "right_sentence": "The patient had some expressive dysphasia and dribbling of saliva."
+  },
+  {
+    "term": "Psychosis",
+    "meaning": "정신병: 현실과 비현실을 구분하지 못하는 정신 질환",
+    "sentence": "The nurse was monitoring the level of the patient's distress and ______.",
+    "right_sentence": "The nurse was monitoring the level of the patient's distress and psychosis."
+  },
+  {
+    "term": "Home remedies",
+    "meaning": "가정 요법: 가정에서 간단히 질병을 치료하는 방법",
+    "sentence": "The mother had tried several over-the-counter creams before resorting to internet-based ______ for her son's skin condition.",
+    "right_sentence": "The mother had tried several over-the-counter creams before resorting to internet-based home remedies for her son's skin condition."
+  },
+  {
+    "term": "Eczema",
+    "meaning": "습진: 피부에 염증이 생기는 질환으로, 가려움과 발진을 동반",
+    "sentence": "The patient's sister had a skin condition known as ______.",
+    "right_sentence": "The patient's sister had a skin condition known as eczema."
+  },
+  {
+    "term": "Intensive farming",
+    "meaning": "집약 농업: 좁은 공간에서 많은 수의 가축을 기르는 방식",
+    "sentence": "The overuse of antibiotics is common in ______ where animals are kept in confined conditions.",
+    "right_sentence": "The overuse of antibiotics is common in intensive farming where animals are kept in confined conditions."
+  },
+  {
+    "term": "Antibiotics",
+    "meaning": "항생제: 세균 감염을 치료하는 약물",
+    "sentence": "The doctor was choosing narrow-spectrum ______ to cause less general resistance.",
+    "right_sentence": "The doctor was choosing narrow-spectrum antibiotics to cause less general resistance."
+  },
+  {
+    "term": "Phages",
+    "meaning": "박테리오파지: 세균을 감염시키는 바이러스",
+    "sentence": "A therapy that uses bacterial viruses called ______ is being talked about excitedly in the pharmaceutical industry.",
+    "right_sentence": "A therapy that uses bacterial viruses called phages is being talked about excitedly in the pharmaceutical industry."
+  },
+  {
+    "term": "Rheumatologist",
+    "meaning": "류마티스 전문의: 관절, 근육, 뼈 질환을 다루는 의사",
+    "sentence": "A patient suffering from gout was attending a medication review with a ______.",
+    "right_sentence": "A patient suffering from gout was attending a medication review with a rheumatologist."
+  },
+  {
+    "term": "Gout",
+    "meaning": "통풍: 요산 결정이 관절에 쌓여 통증을 유발하는 질환",
+    "sentence": "The patient was suffering from ______ and was at the clinic for a review.",
+    "right_sentence": "The patient was suffering from gout and was at the clinic for a review."
+  },
+  {
+    "term": "Infection",
+    "meaning": "감염: 병원체가 몸속에 침입하여 증식하는 것",
+    "sentence": "The doctor said that the skin did not need to be covered unless there was a risk of ______.",
+    "right_sentence": "The doctor said that the skin did not need to be covered unless there was a risk of infection."
+  },
+  {
+    "term": "Neurological disorders",
+    "meaning": "신경계 질환: 신경계에 영향을 미치는 질병",
+    "sentence": "The chronic phase of Chagas disease is characterized by serious cardiac, digestive system, and ______.",
+    "right_sentence": "The chronic phase of Chagas disease is characterized by serious cardiac, digestive system, and neurological disorders."
+  },
+  {
+    "term": "Cardiomyopathy",
+    "meaning": "심근병증: 심장 근육이 손상되거나 약해지는 질환",
+    "sentence": "The patient was diagnosed with a type of ______ eight years ago.",
+    "right_sentence": "The patient was diagnosed with a type of cardiomyopathy eight years ago."
+  },
+  {
+    "term": "Vaccine",
+    "meaning": "백신: 특정 질병에 대한 면역력을 유도하는 물질",
+    "sentence": "Researchers are working on improved drugs to treat Chagas disease and a new ______.",
+    "right_sentence": "Researchers are working on improved drugs to treat Chagas disease and a new vaccine."
+  },
+  {
+    "term": "Symptom",
+    "meaning": "증상: 질병의 징후나 특징",
+    "sentence": "The patient's vision problems and numbness were key ______ leading to the diagnosis.",
+    "right_sentence": "The patient's vision problems and numbness were key symptom leading to the diagnosis."
+  },
+  {
+    "term": "Pethidine",
+    "meaning": "페티딘: 진통제로 사용되는 마약성 진통제",
+    "sentence": "The GP mentioned that painkillers like gas and air or ______ are available during home birth.",
+    "right_sentence": "The GP mentioned that painkillers like gas and air or pethidine are available during home birth."
+  },
+  {
+    "term": "Spinal",
+    "meaning": "척추의: 척추와 관련된",
+    "sentence": "The patient's pain was thought to be due to a ______ issue.",
+    "right_sentence": "The patient's pain was thought to be due to a spinal issue."
+  },
+  {
+    "term": "Antiviral cream",
+    "meaning": "항바이러스 크림: 바이러스 감염을 치료하는 크림",
+    "sentence": "The patient asked for a prescription for an ______ to stop cold sores from developing.",
+    "right_sentence": "The patient asked for a prescription for an antiviral cream to stop cold sores from developing."
+  },
+  {
+    "term": "Dermis",
+    "meaning": "진피: 표피 아래에 있는 피부의 층",
+    "sentence": "A skin disease is happening lower in the ______ than just the surface level.",
+    "right_sentence": "A skin disease is happening lower in the dermis than just the surface level."
+  },
+  {
+    "term": "Lesion",
+    "meaning": "병변: 질병이나 손상으로 인해 생긴 조직의 변화",
+    "sentence": "Emily had a ______ on the mons pubis which required surgical intervention.",
+    "right_sentence": "Emily had a lesion on the mons pubis which required surgical intervention."
+  },
+  {
+    "term": "Incision and drainage",
+    "meaning": "절개 및 배농: 고름이나 액체를 빼내기 위해 피부를 절개하는 시술",
+    "sentence": "Following a procedure of ______, the patient's condition improved.",
+    "right_sentence": "Following a procedure of incision and drainage, the patient's condition improved."
+  },
+  {
+    "term": "Hormones",
+    "meaning": "호르몬: 내분비기관에서 분비되어 생체 기능을 조절하는 물질",
+    "sentence": "Over-production of one group of ______ called androgens may contribute to the symptoms of a disease.",
+    "right_sentence": "Over-production of one group of hormones called androgens may contribute to the symptoms of a disease."
+  },
+  {
+    "term": "Adenosine",
+    "meaning": "아데노신: 세포 에너지 대사에 중요한 역할을 하는 유기 화합물",
+    "sentence": "Sleep loss degrades the energy molecule ATP to produce ______ monophosphate.",
+    "right_sentence": "Sleep loss degrades the energy molecule ATP to produce adenosine monophosphate."
+  },
+  {
+    "term": "Mitochondrial activation",
+    "meaning": "미토콘드리아 활성화: 세포 내 에너지 생산 기관인 미토콘드리아가 활발히 작용하는 현상",
+    "sentence": "A team found signs of ______ in the cortical neurons of mice that were kept awake for a long time.",
+    "right_sentence": "A team found signs of mitochondrial activation in the cortical neurons of mice that were kept awake for a long time."
+  },
+  {
+    "term": "Cortical neurons",
+    "meaning": "피질 뉴런: 대뇌 피질에 있는 신경 세포",
+    "sentence": "There were structural changes in the ______ of mice when the animals were kept awake for long periods.",
+    "right_sentence": "There were structural changes in the cortical neurons of mice when the animals were kept awake for long periods."
+  },
+  {
+    "term": "Dementia",
+    "meaning": "치매: 기억력, 사고력, 언어 능력 등이 점진적으로 저하되는 질환",
+    "sentence": "Some experts are convinced that some form of ______, most likely Alzheimer's, is inevitable if people live long enough.",
+    "right_sentence": "Some experts are convinced that some form of dementia, most likely Alzheimer's, is inevitable if people live long enough."
+  },
+  {
+    "term": "Amyloid proteins",
+    "meaning": "아밀로이드 단백질: 알츠하이머병과 관련된 뇌의 비정상적인 단백질",
+    "sentence": "A diagram showed the signals passed among brain nerves that are triggered by ______.",
+    "right_sentence": "A diagram showed the signals passed among brain nerves that are triggered by amyloid proteins."
+  },
+  {
+    "term": "Ibuprofen",
+    "meaning": "이부프로펜: 비스테로이드성 소염진통제",
+    "sentence": "The patient was prescribed ______ to help with the pain and inflammation.",
+    "right_sentence": "The patient was prescribed Ibuprofen to help with the pain and inflammation."
+  },
+  {
+    "term": "Allergies",
+    "meaning": "알레르기: 특정 물질에 대한 과민 반응",
+    "sentence": "The patient had a regular diet and no known ______.",
+    "right_sentence": "The patient had a regular diet and no known allergies."
+  },
+  {
+    "term": "Melanoma",
+    "meaning": "흑색종: 피부암의 일종",
+    "sentence": "The patient mentioned that he had a malignant ______ removed from his back in 2006.",
+    "right_sentence": "The patient mentioned that he had a malignant melanoma removed from his back in 2006."
+  },
+  {
+    "term": "Dermatologist",
+    "meaning": "피부과 의사: 피부 질환을 전문으로 다루는 의사",
+    "sentence": "She said she’d better see a ______ about the sore on her hand.",
+    "right_sentence": "She said she’d better see a dermatologist about the sore on her hand."
+  },
+  {
+    "term": "Diarrhea",
+    "meaning": "설사: 묽은 변을 자주 보는 증상",
+    "sentence": "The doctor had to find the cause of the patient's awful ______.",
+    "right_sentence": "The doctor had to find the cause of the patient's awful diarrhea."
+  },
+  {
+    "term": "Meningitis",
+    "meaning": "뇌수막염: 뇌와 척수를 덮고 있는 막에 염증이 생기는 질환",
+    "sentence": "Symptoms like a splitting headache and fever could indicate ______.",
+    "right_sentence": "Symptoms like a splitting headache and fever could indicate meningitis."
+  },
+  {
+    "term": "Jaundice",
+    "meaning": "황달: 피부나 눈이 노랗게 변하는 증상",
+    "sentence": "The patient's liver problems were causing him to have severe ______.",
+    "right_sentence": "The patient's liver problems were causing him to have severe jaundice."
+  },
+  {
+    "term": "Hepatitis A",
+    "meaning": "A형 간염: A형 간염 바이러스로 인해 발생하는 간 염증",
+    "sentence": "He was diagnosed with ______ after returning from his trip abroad.",
+    "right_sentence": "He was diagnosed with hepatitis A after returning from his trip abroad."
+  },
+  {
+    "term": "Lumpectomy",
+    "meaning": "부분 절제술: 유방암 수술의 한 종류로, 종양과 주변 조직 일부를 제거",
+    "sentence": "The patient underwent a ______ to remove a cancerous lump from her breast.",
+    "right_sentence": "The patient underwent a lumpectomy to remove a cancerous lump from her breast."
+  },
+  {
+    "term": "Arthritis",
+    "meaning": "관절염: 관절에 염증이 생겨 통증과 부기를 유발하는 질환",
+    "sentence": "The customer was experiencing jaw pain, but it was not related to her existing ______.",
+    "right_sentence": "The customer was experiencing jaw pain, but it was not related to her existing arthritis."
+  },
+  {
+    "term": "Anxious",
+    "meaning": "불안한: 불안감을 느끼는",
+    "sentence": "Her jaw pain flares up whenever she gets ______ or stressed.",
+    "right_sentence": "Her jaw pain flares up whenever she gets anxious or stressed."
+  },
+  {
+    "term": "Septicaemia",
+    "meaning": "패혈증: 혈액에 세균이 침투하여 전신에 염증을 일으키는 심각한 감염",
+    "sentence": "The doctor was concerned about the patient's condition, fearing it could lead to ______.",
+    "right_sentence": "The doctor was concerned about the patient's condition, fearing it could lead to septicaemia."
+  },
+  {
+    "term": "Scoliosis",
+    "meaning": "척추측만증: 척추가 비정상적으로 옆으로 휘는 상태",
+    "sentence": "The school nurse noticed a significant curve in the child's spine, a possible sign of ______.",
+    "right_sentence": "The school nurse noticed a significant curve in the child's spine, a possible sign of scoliosis."
+  },
+  {
+    "term": "Hypertension",
+    "meaning": "고혈압: 혈압이 지속적으로 높은 상태",
+    "sentence": "The patient's headaches and blurred vision were caused by his untreated ______.",
+    "right_sentence": "The patient's headaches and blurred vision were caused by his untreated hypertension."
+  },
+  {
+    "term": "Diabetes mellitus",
+    "meaning": "당뇨병: 혈당 조절 이상으로 인한 만성 질환",
+    "sentence": "The doctor ordered a blood test for ______ after the patient reported frequent urination and thirst.",
+    "right_sentence": "The doctor ordered a blood test for diabetes mellitus after the patient reported frequent urination and thirst."
+  },
+  {
+    "term": "Myocardial infarction",
+    "meaning": "심근경색: 심장 근육의 혈액 공급 부족으로 인한 손상",
+    "sentence": "The patient was rushed to the emergency room with chest pain and shortness of breath, symptoms of a suspected ______.",
+    "right_sentence": "The patient was rushed to the emergency room with chest pain and shortness of breath, symptoms of a suspected myocardial infarction."
+  },
+  {
+    "term": "Neural tube defect",
+    "meaning": "신경관 결손: 태아의 신경관이 정상적으로 닫히지 않아 발생하는 선천적 기형",
+    "sentence": "The prenatal ultrasound revealed a ______, which could lead to spina bifida.",
+    "right_sentence": "The prenatal ultrasound revealed a neural tube defect, which could lead to spina bifida."
+  },
+  {
+    "term": "Multiple sclerosis",
+    "meaning": "다발성 경화증: 신경계의 만성 질환으로 신경 보호막 손상",
+    "sentence": "Her vision problems and numbness led the neurologist to suspect ______.",
+    "right_sentence": "Her vision problems and numbness led the neurologist to suspect multiple sclerosis."
+  },
+  {
+    "term": "Physician",
+    "meaning": "의사: 일반적인 질병을 진료하고 치료하는 의사",
+    "sentence": "The patient's family doctor, a ______, referred him to an osteopath.",
+    "right_sentence": "The patient's family doctor, a physician, referred him to an osteopath."
+  },
+  {
+    "term": "Anaesthetic",
+    "meaning": "마취제: 감각을 마비시키는 약물",
+    "sentence": "The nurse prepared the local ______ before the minor surgical procedure.",
+    "right_sentence": "The nurse prepared the local anaesthetic before the minor surgical procedure."
+  },
+  {
+    "term": "Antibiotic resistance",
+    "meaning": "항생제 내성: 세균이 항생제에 저항하여 약효가 떨어지는 현상",
+    "sentence": "The overuse of antibiotics is directly related to increased ______ in humans.",
+    "right_sentence": "The overuse of antibiotics is directly related to increased antibiotic resistance in humans."
+  },
+  {
+    "term": "Pharmaceutical",
+    "meaning": "제약의: 약품과 관련된",
+    "sentence": "The new therapy is being talked about excitedly in the ______ industry.",
+    "right_sentence": "The new therapy is being talked about excitedly in the pharmaceutical industry."
+  },
+  {
+    "term": "Neurologist",
+    "meaning": "신경과 의사: 신경계 질환을 전문으로 다루는 의사",
+    "sentence": "The patient with memory problems and hallucinations was referred to a ______.",
+    "right_sentence": "The patient with memory problems and hallucinations was referred to a neurologist."
+  },
+  {
+    "term": "Radiology",
+    "meaning": "영상의학: 방사선 등을 이용하여 질병을 진단하는 의학 분야",
+    "sentence": "The hospital department that specializes in X-rays and other scans is called ______.",
+    "right_sentence": "The hospital department that specializes in X-rays and other scans is called radiology."
+  },
+  {
+    "term": "Geriatric",
+    "meaning": "노인병의: 노인과 관련된 질환이나 의학",
+    "sentence": "The nursing staff specializes in ______ care for elderly patients.",
+    "right_sentence": "The nursing staff specializes in geriatric care for elderly patients."
+  },
+  {
+    "term": "Oncology",
+    "meaning": "종양학: 암을 연구하고 치료하는 의학 분야",
+    "sentence": "After the diagnosis of melanoma, the patient was referred to a specialist in ______.",
+    "right_sentence": "After the diagnosis of melanoma, the patient was referred to a specialist in oncology."
+  },
+  {
+    "term": "Immunologist",
+    "meaning": "면역학자: 면역 체계를 연구하는 전문가",
+    "sentence": "The patient's severe allergies led them to consult with an ______.",
+    "right_sentence": "The patient's severe allergies led them to consult with an immunologist."
+  },
+  {
+    "term": "Endocrinologist",
+    "meaning": "내분비학자: 호르몬과 내분비 시스템 질환을 다루는 의사",
+    "sentence": "The patient with uncontrolled diabetes was referred to an ______.",
+    "right_sentence": "The patient with uncontrolled diabetes was referred to an endocrinologist."
+  },
+  {
+    "term": "Cardiovascular",
+    "meaning": "심혈관의: 심장과 혈관에 관련된",
+    "sentence": "The patient's symptoms indicated a serious ______ problem.",
+    "right_sentence": "The patient's symptoms indicated a serious cardiovascular problem."
+  },
+  {
+    "term": "Inpatient",
+    "meaning": "입원 환자: 병원에 입원하여 치료를 받는 환자",
+    "sentence": "Mrs. Green was an ______ at the hospital for pneumonia.",
+    "right_sentence": "Mrs. Green was an inpatient at the hospital for pneumonia."
+  },
+  {
+    "term": "Outpatient",
+    "meaning": "외래 환자: 병원에 입원하지 않고 진료만 받는 환자",
+    "sentence": "After her discharge, she will continue to be an ______ for follow-up appointments.",
+    "right_sentence": "After her discharge, she will continue to be an outpatient for follow-up appointments."
+  },
+  {
+    "term": "Respiration",
+    "meaning": "호흡: 산소를 들이마시고 이산화탄소를 내뱉는 과정",
+    "sentence": "The patient was experiencing mild shortness of breath and wheezing, affecting her ______.",
+    "right_sentence": "The patient was experiencing mild shortness of breath and wheezing, affecting her respiration."
+  },
+  {
+    "term": "Vital signs",
+    "meaning": "활력 징후: 체온, 맥박, 혈압, 호흡 등 생명 활동의 중요한 징후",
+    "sentence": "The nurse checked the patient's ______ and found them to be stable.",
+    "right_sentence": "The nurse checked the patient's vital signs and found them to be stable."
+  },
+  {
+    "term": "Orthopedic",
+    "meaning": "정형외과의: 뼈, 근육, 관절 질환을 다루는 의학 분야",
+    "sentence": "The patient's knee replacement surgery was performed by an ______ surgeon.",
+    "right_sentence": "The patient's knee replacement surgery was performed by an orthopedic surgeon."
+  },
+  {
+    "term": "Neurologist",
+    "meaning": "신경과 의사: 신경계 질환을 전문으로 다루는 의사",
+    "sentence": "Her numbness and vision problems led the ______ to suspect a chronic neurological disorder.",
+    "right_sentence": "Her numbness and vision problems led the neurologist to suspect a chronic neurological disorder."
+  },
+  {
+    "term": "Gastroenterologist",
+    "meaning": "소화기내과 의사: 소화기 질환을 전문으로 다루는 의사",
+    "sentence": "A patient with persistent abdominal pain was referred to a ______.",
+    "right_sentence": "A patient with persistent abdominal pain was referred to a gastroenterologist."
+  },
+  {
+    "term": "Urologist",
+    "meaning": "비뇨기과 의사: 비뇨기계 질환을 전문으로 다루는 의사",
+    "sentence": "He was experiencing issues with frequent urination, so his doctor referred him to a ______.",
+    "right_sentence": "He was experiencing issues with frequent urination, so his doctor referred him to a urologist."
+  },
+  {
+    "term": "Infection control",
+    "meaning": "감염 관리: 병원 내 감염을 예방하고 통제하는 절차",
+    "sentence": "The hospital had strict ______ policies to prevent the spread of diseases.",
+    "right_sentence": "The hospital had strict infection control policies to prevent the spread of diseases."
+  },
+  {
+    "term": "Discharge",
+    "meaning": "퇴원: 병원 치료를 마치고 집으로 돌아가는 것",
+    "sentence": "The ward manager was discussing the plan for the patient's ______.",
+    "right_sentence": "The ward manager was discussing the plan for the patient's discharge."
+  },
+  {
+    "term": "Referred",
+    "meaning": "의뢰된: 다른 전문의나 부서로 보내진",
+    "sentence": "The sports injury specialist had ______ the patient to a physiotherapist.",
+    "right_sentence": "The sports injury specialist had referred the patient to a physiotherapist."
+  },
+  {
+    "term": "Sedation",
+    "meaning": "진정: 약물을 사용하여 흥분을 가라앉히거나 의식을 진정시키는 것",
+    "sentence": "The patient was given light ______ before the uncomfortable procedure.",
+    "right_sentence": "The patient was given light sedation before the uncomfortable procedure."
+  },
+  {
+    "term": "Anxiety",
+    "meaning": "불안: 걱정이나 공포를 느끼는 정신적 상태",
+    "sentence": "He was prescribed medication to help manage his ______ during stressful times.",
+    "right_sentence": "He was prescribed medication to help manage his anxiety during stressful times."
+  },
+  {
+    "term": "Rehydration",
+    "meaning": "재수화: 탈수 상태에서 수분을 보충하는 것",
+    "sentence": "The patient with severe diarrhea was given intravenous fluids for ______.",
+    "right_sentence": "The patient with severe diarrhea was given intravenous fluids for rehydration."
+  },
+  {
+    "term": "Immunization",
+    "meaning": "예방접종: 백신을 통해 면역력을 얻는 것",
+    "sentence": "The doctor recommended a new ______ for the patient before her international trip.",
+    "right_sentence": "The doctor recommended a new immunization for the patient before her international trip."
+  },
+  {
+    "term": "Chronic pain",
+    "meaning": "만성 통증: 3개월 이상 지속되는 통증",
+    "sentence": "She has been living with ______ for years and is seeking long-term management strategies.",
+    "right_sentence": "She has been living with chronic pain for years and is seeking long-term management strategies."
+  },
+  {
+    "term": "Hypoglycemia",
+    "meaning": "저혈당: 혈당 수치가 비정상적으로 낮은 상태",
+    "sentence": "The patient, a diabetic, needed to be careful to avoid sudden episodes of ______.",
+    "right_sentence": "The patient, a diabetic, needed to be careful to avoid sudden episodes of hypoglycemia."
+  },
+  {
+    "term": "Tachycardia",
+    "meaning": "빈맥: 비정상적으로 빠른 심장 박동",
+    "sentence": "The nurse noted the patient's heart rate was unusually high, a condition known as ______.",
+    "right_sentence": "The nurse noted the patient's heart rate was unusually high, a condition known as tachycardia."
+  },
+  {
+    "term": "Bradycardia",
+    "meaning": "서맥: 비정상적으로 느린 심장 박동",
+    "sentence": "The ECG showed a heart rate below 60 beats per minute, which is classified as ______.",
+    "right_sentence": "The ECG showed a heart rate below 60 beats per minute, which is classified as bradycardia."
+  },
+  {
+    "term": "Hyponatremia",
+    "meaning": "저나트륨혈증: 혈액 내 나트륨 수치가 낮은 상태",
+    "sentence": "The patient's lab results indicated a low sodium level, a condition called ______.",
+    "right_sentence": "The patient's lab results indicated a low sodium level, a condition called hyponatremia."
+  },
+  {
+    "term": "Edema",
+    "meaning": "부종: 체액이 조직에 쌓여 부어오르는 증상",
+    "sentence": "The patient's ankles and feet were visibly swollen, a clear sign of ______.",
+    "right_sentence": "The patient's ankles and feet were visibly swollen, a clear sign of edema."
+  },
+  {
+    "term": "Hypotension",
+    "meaning": "저혈압: 혈압이 정상보다 낮은 상태",
+    "sentence": "She felt dizzy and faint when standing up, which could be a sign of ______.",
+    "right_sentence": "She felt dizzy and faint when standing up, which could be a sign of hypotension."
+  },
+  {
+    "term": "Atrophy",
+    "meaning": "위축: 신체 기관이나 조직이 퇴화하여 크기가 줄어드는 것",
+    "sentence": "The patient's muscles showed signs of ______ due to prolonged inactivity.",
+    "right_sentence": "The patient's muscles showed signs of atrophy due to prolonged inactivity."
+  },
+  {
+    "term": "Hemiplegia",
+    "meaning": "반신마비: 신체의 한쪽이 마비되는 상태",
+    "sentence": "After the stroke, the patient experienced ______ on the left side of his body.",
+    "right_sentence": "After the stroke, the patient experienced hemiplegia on the left side of his body."
+  },
+  {
+    "term": "Aphasia",
+    "meaning": "실어증: 뇌 손상으로 인해 언어 능력이 상실되는 증상",
+    "sentence": "The patient had difficulty speaking and understanding language, which is known as ______.",
+    "right_sentence": "The patient had difficulty speaking and understanding language, which is known as aphasia."
+  },
+  {
+    "term": "Tinnitus",
+    "meaning": "이명: 외부 소리 없이 귀에서 소리가 들리는 현상",
+    "sentence": "He complained of a constant ringing sound in his ears, a condition called ______.",
+    "right_sentence": "He complained of a constant ringing sound in his ears, a condition called tinnitus."
+  },
+  {
+    "term": "Vertigo",
+    "meaning": "현훈: 주위가 뱅뱅 도는 듯한 어지러움",
+    "sentence": "The patient's feeling of the room spinning was diagnosed as ______.",
+    "right_sentence": "The patient's feeling of the room spinning was diagnosed as vertigo."
+  },
+  {
+    "term": "Cataract",
+    "meaning": "백내장: 눈의 수정체가 혼탁해져 시야가 흐려지는 질환",
+    "sentence": "His vision was getting blurry, and his doctor said he might have a ______.",
+    "right_sentence": "His vision was getting blurry, and his doctor said he might have a cataract."
+  },
+  {
+    "term": "Glaucoma",
+    "meaning": "녹내장: 안압 상승으로 시신경이 손상되는 질환",
+    "sentence": "The ophthalmologist was checking for signs of ______ by measuring the patient's eye pressure.",
+    "right_sentence": "The ophthalmologist was checking for signs of glaucoma by measuring the patient's eye pressure."
+  },
+  {
+    "term": "Osteoporosis",
+    "meaning": "골다공증: 뼈의 밀도가 낮아져 골절 위험이 높아지는 질환",
+    "sentence": "The patient, an elderly woman, was at risk of fractures due to her ______.",
+    "right_sentence": "The patient, an elderly woman, was at risk of fractures due to her osteoporosis."
+  },
+  {
+    "term": "Palliative care",
+    "meaning": "완화 의료: 완치가 어려운 환자의 삶의 질을 향상시키는 치료",
+    "sentence": "The doctor discussed the option of ______ with the family of the terminally ill patient.",
+    "right_sentence": "The doctor discussed the option of palliative care with the family of the terminally ill patient."
+  },
+  {
+    "term": "Anemia",
+    "meaning": "빈혈: 혈액 내 적혈구 수가 부족하여 발생하는 질환",
+    "sentence": "The patient's fatigue and pale skin were a result of her ______.",
+    "right_sentence": "The patient's fatigue and pale skin were a result of her anemia."
+  },
+  {
+    "term": "Seizure",
+    "meaning": "발작: 뇌의 비정상적인 전기 활동으로 인한 갑작스러운 증상",
+    "sentence": "The patient's uncontrolled epilepsy led to a severe ______.",
+    "right_sentence": "The patient's uncontrolled epilepsy led to a severe seizure."
+  },
+  {
+    "term": "Respiratory",
+    "meaning": "호흡기의: 호흡과 관련된",
+    "sentence": "The patient was experiencing several ______ symptoms, including shortness of breath.",
+    "right_sentence": "The patient was experiencing several respiratory symptoms, including shortness of breath."
+  },
+  {
+    "term": "Congenital",
+    "meaning": "선천적인: 출생 시부터 가지고 있는",
+    "sentence": "The mother was worried about passing the Chagas parasite on to her children because it can be transmitted ______.",
+    "right_sentence": "The mother was worried about passing the Chagas parasite on to her children because it can be transmitted congenitally."
+  },
+  {
+    "term": "Trauma",
+    "meaning": "외상: 외부 충격으로 인한 신체적 또는 정신적 손상",
+    "sentence": "The patient's injury was a direct result of a significant physical ______.",
+    "right_sentence": "The patient's injury was a direct result of a significant physical trauma."
+  },
+  {
+    "term": "Inflammation",
+    "meaning": "염증: 조직이 손상되었을 때 나타나는 면역 반응",
+    "sentence": "The patient's joint pain and swelling were caused by acute ______.",
+    "right_sentence": "The patient's joint pain and swelling were caused by acute inflammation."
+  },
+  {
+    "term": "Dehydration",
+    "meaning": "탈수: 체내 수분량이 부족한 상태",
+    "sentence": "The patient's high fever and diarrhea led to severe ______.",
+    "right_sentence": "The patient's high fever and diarrhea led to severe dehydration."
+  },
+  {
+    "term": "Dermatitis",
+    "meaning": "피부염: 피부에 염증이 생기는 질환",
+    "sentence": "The patient's hand rash was diagnosed as a type of contact ______.",
+    "right_sentence": "The patient's hand rash was diagnosed as a type of contact dermatitis."
+  },
+  {
+    "term": "Hypothyroidism",
+    "meaning": "갑상선 기능 저하증: 갑상선 호르몬이 부족한 상태",
+    "sentence": "Symptoms like fatigue and weight gain could indicate ______.",
+    "right_sentence": "Symptoms like fatigue and weight gain could indicate hypothyroidism."
+  },
+  {
+    "term": "Hyperthyroidism",
+    "meaning": "갑상선 기능 항진증: 갑상선 호르몬이 과다하게 분비되는 상태",
+    "sentence": "The patient's rapid heartbeat and weight loss were symptoms of ______.",
+    "right_sentence": "The patient's rapid heartbeat and weight loss were symptoms of hyperthyroidism."
+  },
+  {
+    "term": "Urinary tract infection (UTI)",
+    "meaning": "요로 감염: 요로에 발생하는 감염",
+    "sentence": "The patient had pain and a burning sensation during urination, a common symptom of a ______.",
+    "right_sentence": "The patient had pain and a burning sensation during urination, a common symptom of a urinary tract infection (UTI)."
+  },
+  {
+    "term": "Surgical intervention",
+    "meaning": "외과적 처치: 수술을 통해 질병을 치료하는 것",
+    "sentence": "The lesion on the patient's skin was severe enough to require ______.",
+    "right_sentence": "The lesion on the patient's skin was severe enough to require surgical intervention."
+  },
+  {
+    "term": "Prognosis",
+    "meaning": "예후: 질병의 미래 경과에 대한 예측",
+    "sentence": "The doctor gave a good ______ for the patient's full recovery after the treatment.",
+    "right_sentence": "The doctor gave a good prognosis for the patient's full recovery after the treatment."
+  },
+  {
+    "term": "Immunosuppression",
+    "meaning": "면역 억제: 면역 반응을 약화시키는 것",
+    "sentence": "The patient was on a drug that caused ______ after his organ transplant.",
+    "right_sentence": "The patient was on a drug that caused immunosuppression after his organ transplant."
+  },
+  {
+    "term": "Chemotherapy",
+    "meaning": "화학 요법: 항암제를 사용하여 암을 치료하는 방법",
+    "sentence": "After her cancer diagnosis, she began a course of ______.",
+    "right_sentence": "After her cancer diagnosis, she began a course of chemotherapy."
+  },
+  {
+    "term": "Radiotherapy",
+    "meaning": "방사선 치료: 방사선을 이용하여 암세포를 파괴하는 치료",
+    "sentence": "The doctor recommended a combination of surgery and ______ for the patient's tumor.",
+    "right_sentence": "The doctor recommended a combination of surgery and radiotherapy for the patient's tumor."
+  },
+  {
+    "term": "Dialysis",
+    "meaning": "투석: 신장 기능이 저하된 환자의 혈액을 정화하는 시술",
+    "sentence": "The patient with kidney failure had to undergo regular ______ sessions.",
+    "right_sentence": "The patient with kidney failure had to undergo regular dialysis sessions."
+  },
+  {
+    "term": "Intensive care unit (ICU)",
+    "meaning": "중환자실: 중증 환자를 집중적으로 치료하는 병동",
+    "sentence": "The patient with severe sepsis was transferred to the ______.",
+    "right_sentence": "The patient with severe sepsis was transferred to the intensive care unit (ICU)."
+  },
+  {
+    "term": "Physical therapy",
+    "meaning": "물리 치료: 물리적인 방법을 사용하여 기능 회복을 돕는 치료",
+    "sentence": "After his injury, the patient underwent ______ to regain strength in his leg.",
+    "right_sentence": "After his injury, the patient underwent physical therapy to regain strength in his leg."
+  },
+  {
+    "term": "Occupational therapy",
+    "meaning": "작업 치료: 환자의 일상생활 활동 참여를 돕는 치료",
+    "sentence": "The patient was referred to an ______ to help him relearn daily tasks after his stroke.",
+    "right_sentence": "The patient was referred to an occupational therapy to help him relearn daily tasks after his stroke."
+  },
+  {
+    "term": "Influenza",
+    "meaning": "인플루엔자: 인플루엔자 바이러스에 의해 발생하는 호흡기 질환",
+    "sentence": "The patient had the usual flu-like symptoms that are characteristic of ______.",
+    "right_sentence": "The patient had the usual flu-like symptoms that are characteristic of influenza."
+  },
+  {
+    "term": "Sprain",
+    "meaning": "염좌: 인대나 관절이 늘어나거나 손상되는 부상",
+    "sentence": "The patient's mother thought he had a simple wrist ______, but the doctor suspected a fracture.",
+    "right_sentence": "The patient's mother thought he had a simple wrist sprain, but the doctor suspected a fracture."
+  },
+
+  {
+    "term": "Aneurysm",
+    "meaning": "동맥류: 혈관 벽의 비정상적인 확장",
+    "sentence": "The CT scan revealed an ______ in the patient’s abdominal aorta.",
+    "right_sentence": "The CT scan revealed an aneurysm in the patient’s abdominal aorta."
+  },
+  {
+    "term": "Arrhythmia",
+    "meaning": "부정맥: 심장의 비정상적인 리듬",
+    "sentence": "The ECG showed signs of ______ requiring immediate intervention.",
+    "right_sentence": "The ECG showed signs of arrhythmia requiring immediate intervention."
+  },
+  {
+    "term": "Atherosclerosis",
+    "meaning": "동맥경화증: 동맥 벽에 플라크가 축적되는 상태",
+    "sentence": "His chest pain was linked to ______ in the coronary arteries.",
+    "right_sentence": "His chest pain was linked to atherosclerosis in the coronary arteries."
+  },
+  {
+    "term": "Bradycardia",
+    "meaning": "서맥: 비정상적으로 느린 심박수",
+    "sentence": "The patient’s ______ was detected during a routine check-up.",
+    "right_sentence": "The patient’s bradycardia was detected during a routine check-up."
+  },
+  {
+    "term": "Cardiomyopathy",
+    "meaning": "심근증: 심장 근육의 질환으로 펌프 기능이 약화됨",
+    "sentence": "The echocardiogram confirmed a diagnosis of ______.",
+    "right_sentence": "The echocardiogram confirmed a diagnosis of cardiomyopathy."
+  },
+  {
+    "term": "Cerebrovascular",
+    "meaning": "뇌혈관: 뇌의 혈관과 관련된",
+    "sentence": "The patient suffered a ______ accident, leading to partial paralysis.",
+    "right_sentence": "The patient suffered a cerebrovascular accident, leading to partial paralysis."
+  },
+  {
+    "term": "Cholecystitis",
+    "meaning": "담낭염: 담낭의 염증",
+    "sentence": "Severe right upper quadrant pain suggested ______ in the patient.",
+    "right_sentence": "Severe right upper quadrant pain suggested cholecystitis in the patient."
+  },
+  {
+    "term": "Coagulation",
+    "meaning": "응고: 혈액이 굳어지는 과정",
+    "sentence": "The patient’s abnormal ______ profile indicated a bleeding disorder.",
+    "right_sentence": "The patient’s abnormal coagulation profile indicated a bleeding disorder."
+  },
+  {
+    "term": "Colitis",
+    "meaning": "대장염: 대장의 염증",
+    "sentence": "Her chronic abdominal pain was due to ulcerative ______.",
+    "right_sentence": "Her chronic abdominal pain was due to ulcerative colitis."
+  },
+  {
+    "term": "Congestive",
+    "meaning": "울혈성: 체액 축적으로 인한 장기 기능 부전",
+    "sentence": "The patient was diagnosed with ______ heart failure after experiencing shortness of breath.",
+    "right_sentence": "The patient was diagnosed with congestive heart failure after experiencing shortness of breath."
+  },
+  {
+    "term": "Coronary",
+    "meaning": "관상동맥: 심장에 혈액을 공급하는 동맥",
+    "sentence": "A blockage in the ______ artery caused his heart attack.",
+    "right_sentence": "A blockage in the coronary artery caused his heart attack."
+  },
+  {
+    "term": "Cystoscopy",
+    "meaning": "방광경 검사: 방광과 요도를 관찰하는 내시경 절차",
+    "sentence": "The urologist performed a ______ to investigate recurrent urinary infections.",
+    "right_sentence": "The urologist performed a cystoscopy to investigate recurrent urinary infections."
+  },
+  {
+    "term": "Dysphagia",
+    "meaning": "연하곤란: 삼키기 어려운 상태",
+    "sentence": "The patient reported ______ when eating solid foods.",
+    "right_sentence": "The patient reported dysphagia when eating solid foods."
+  },
+  {
+    "term": "Electrocardiogram",
+    "meaning": "심전도: 심장의 전기적 활동을 기록하는 검사",
+    "sentence": "The doctor ordered an ______ to evaluate heart function.",
+    "right_sentence": "The doctor ordered an electrocardiogram to evaluate heart function."
+  },
+  {
+    "term": "Emphysema",
+    "meaning": "폐기종: 폐포가 손상되어 호흡이 어려운 상태",
+    "sentence": "His chronic cough was a symptom of ______ caused by long-term smoking.",
+    "right_sentence": "His chronic cough was a symptom of emphysema caused by long-term smoking."
+  },
+  {
+    "term": "Endocarditis",
+    "meaning": "심내막염: 심장 내막의 감염",
+    "sentence": "The patient’s fever and heart murmur suggested ______.",
+    "right_sentence": "The patient’s fever and heart murmur suggested endocarditis."
+  },
+  {
+    "term": "Fibrosis",
+    "meaning": "섬유증: 조직에 흉터가 생기는 상태",
+    "sentence": "The lung scan showed signs of pulmonary ______ in the patient.",
+    "right_sentence": "The lung scan showed signs of pulmonary fibrosis in the patient."
+  },
+  {
+    "term": "Gastroenteritis",
+    "meaning": "위장염: 위와 장의 염증",
+    "sentence": "The child’s vomiting and diarrhea were symptoms of ______.",
+    "right_sentence": "The child’s vomiting and diarrhea were symptoms of gastroenteritis."
+  },
+  {
+    "term": "Hematoma",
+    "meaning": "혈종: 혈액이 조직 내에 고이는 상태",
+    "sentence": "The injury caused a large ______ under the skin.",
+    "right_sentence": "The injury caused a large hematoma under the skin."
+  },
+  {
+    "term": "Hyperglycemia",
+    "meaning": "고혈당: 혈당 수치가 비정상적으로 높은 상태",
+    "sentence": "The patient’s ______ was managed with insulin therapy.",
+    "right_sentence": "The patient’s hyperglycemia was managed with insulin therapy."
+  },
+  {
+    "term": "Hypoxia",
+    "meaning": "저산소증: 조직에 산소 공급이 부족한 상태",
+    "sentence": "The patient’s blue lips indicated severe ______ during the asthma attack.",
+    "right_sentence": "The patient’s blue lips indicated severe hypoxia during the asthma attack."
+  },
+  {
+    "term": "Immunosuppressant",
+    "meaning": "면역억제제: 면역 반응을 억제하는 약물",
+    "sentence": "The transplant patient was prescribed an ______ to prevent rejection.",
+    "right_sentence": "The transplant patient was prescribed an immunosuppressant to prevent rejection."
+  },
+  {
+    "term": "Infarction",
+    "meaning": "경색: 혈액 공급 부족으로 인한 조직 사망",
+    "sentence": "The patient suffered a myocardial ______ due to a blocked artery.",
+    "right_sentence": "The patient suffered a myocardial infarction due to a blocked artery."
+  },
+  {
+    "term": "Intravenous",
+    "meaning": "정맥내: 정맥을 통해 약물을 투여하는 방식",
+    "sentence": "The patient received ______ fluids to treat dehydration.",
+    "right_sentence": "The patient received intravenous fluids to treat dehydration."
+  },
+  {
+    "term": "Laparoscopy",
+    "meaning": "복강경 검사: 복부 내부를 관찰하는 최소 침습 수술",
+    "sentence": "The surgeon performed a ______ to diagnose the cause of abdominal pain.",
+    "right_sentence": "The surgeon performed a laparoscopy to diagnose the cause of abdominal pain."
+  },
+  {
+    "term": "Lumbar",
+    "meaning": "요추: 허리의 척추 부위",
+    "sentence": "The patient reported pain in the ______ region after lifting a heavy object.",
+    "right_sentence": "The patient reported pain in the lumbar region after lifting a heavy object."
+  },
+  {
+    "term": "Lymphadenopathy",
+    "meaning": "림프절병증: 림프절의 비정상적인 비대",
+    "sentence": "The swollen neck glands indicated ______ possibly due to infection.",
+    "right_sentence": "The swollen neck glands indicated lymphadenopathy possibly due to infection."
+  },
+  {
+    "term": "Malignancy",
+    "meaning": "악성: 암성 질환 또는 종양",
+    "sentence": "The biopsy confirmed the presence of a ______ in the tissue.",
+    "right_sentence": "The biopsy confirmed the presence of a malignancy in the tissue."
+  },
+  {
+    "term": "Myocarditis",
+    "meaning": "심근염: 심장 근육의 염증",
+    "sentence": "The patient’s chest pain and fatigue were symptoms of ______.",
+    "right_sentence": "The patient’s chest pain and fatigue were symptoms of myocarditis."
+  },
+  {
+    "term": "Nephritis",
+    "meaning": "신염: 신장의 염증",
+    "sentence": "Blood in the urine suggested ______ as a possible diagnosis.",
+    "right_sentence": "Blood in the urine suggested nephritis as a possible diagnosis."
+  },
+  {
+    "term": "Neurology",
+    "meaning": "신경학: 신경계 질환을 다루는 의학 분야",
+    "sentence": "The patient was referred to the ______ department for seizure management.",
+    "right_sentence": "The patient was referred to the neurology department for seizure management."
+  },
+  {
+    "term": "Oncology",
+    "meaning": "종양학: 암을 연구하고 치료하는 의학 분야",
+    "sentence": "She consulted an ______ specialist to discuss her cancer treatment options.",
+    "right_sentence": "She consulted an oncology specialist to discuss her cancer treatment options."
+  },
+  {
+    "term": "Osteomyelitis",
+    "meaning": "골수염: 뼈와 골수의 감염",
+    "sentence": "The patient’s persistent bone pain was diagnosed as ______.",
+    "right_sentence": "The patient’s persistent bone pain was diagnosed as osteomyelitis."
+  },
+  {
+    "term": "Palliative",
+    "meaning": "완화: 증상을 완화하여 삶의 질을 높이는 치료",
+    "sentence": "The patient received ______ care to manage terminal illness symptoms.",
+    "right_sentence": "The patient received palliative care to manage terminal illness symptoms."
+  },
+  {
+    "term": "Pancreatitis",
+    "meaning": "췌장염: 췌장의 염증",
+    "sentence": "Severe abdominal pain and nausea indicated acute ______.",
+    "right_sentence": "Severe abdominal pain and nausea indicated acute pancreatitis."
+  },
+  {
+    "term": "Pericarditis",
+    "meaning": "심낭염: 심장을 둘러싼 막의 염증",
+    "sentence": "The patient’s chest pain worsened with ______ during deep breathing.",
+    "right_sentence": "The patient’s chest pain worsened with pericarditis during deep breathing."
+  },
+  {
+    "term": "Peritonitis",
+    "meaning": "복막염: 복막의 염증",
+    "sentence": "The patient required urgent surgery due to ______ caused by a perforated appendix.",
+    "right_sentence": "The patient required urgent surgery due to peritonitis caused by a perforated appendix."
+  },
+  {
+    "term": "Phlebitis",
+    "meaning": "정맥염: 정맥의 염증",
+    "sentence": "The redness and swelling in her leg suggested ______.",
+    "right_sentence": "The redness and swelling in her leg suggested phlebitis."
+  },
+  {
+    "term": "Pleurisy",
+    "meaning": "흉막염: 폐를 둘러싼 흉막의 염증",
+    "sentence": "The patient experienced sharp chest pain due to ______.",
+    "right_sentence": "The patient experienced sharp chest pain due to pleurisy."
+  },
+  {
+    "term": "Polycythemia",
+    "meaning": "적혈구증가증: 적혈구 수가 비정상적으로 많은 상태",
+    "sentence": "The patient’s high red blood cell count indicated ______.",
+    "right_sentence": "The patient’s high red blood cell count indicated polycythemia."
+  },
+  {
+    "term": "Preeclampsia",
+    "meaning": "자간전증: 임신 중 고혈압과 단백뇨를 동반한 상태",
+    "sentence": "The pregnant patient was monitored for ______ due to elevated blood pressure.",
+    "right_sentence": "The pregnant patient was monitored for preeclampsia due to elevated blood pressure."
+  },
+  {
+    "term": "Prolapse",
+    "meaning": "탈출: 장기가 정상 위치에서 벗어나는 상태",
+    "sentence": "She was diagnosed with a uterine ______ after experiencing pelvic discomfort.",
+    "right_sentence": "She was diagnosed with a uterine prolapse after experiencing pelvic discomfort."
+  },
+  {
+    "term": "Pulmonary",
+    "meaning": "폐의: 폐와 관련된",
+    "sentence": "The patient was treated for a ______ embolism in the ICU.",
+    "right_sentence": "The patient was treated for a pulmonary embolism in the ICU."
+  },
+  {
+    "term": "Renal",
+    "meaning": "신장의: 신장과 관련된",
+    "sentence": "The patient’s ______ failure required immediate dialysis.",
+    "right_sentence": "The patient’s renal failure required immediate dialysis."
+  },
+  {
+    "term": "Sclerotherapy",
+    "meaning": "경화요법: 정맥류를 치료하기 위해 약물을 주입하는 방법",
+    "sentence": "The patient underwent ______ to treat varicose veins.",
+    "right_sentence": "The patient underwent sclerotherapy to treat varicose veins."
+  },
+  {
+    "term": "Stenosis",
+    "meaning": "협착: 혈관 또는 관의 비정상적인 좁아짐",
+    "sentence": "The patient’s symptoms were caused by spinal ______.",
+    "right_sentence": "The patient’s symptoms were caused by spinal stenosis."
+  },
+  {
+    "term": "Syncope",
+    "meaning": "실신: 일시적인 의식 상실",
+    "sentence": "The patient experienced ______ after standing for too long.",
+    "right_sentence": "The patient experienced syncope after standing for too long."
+  },
+  {
+    "term": "Thrombolytic",
+    "meaning": "혈전용해제: 혈전을 녹이는 약물",
+    "sentence": "The patient was given a ______ to dissolve the clot in his lung.",
+    "right_sentence": "The patient was given a thrombolytic to dissolve the clot in his lung."
+  },
+  {
+    "term": "Tinnitus",
+    "meaning": "이명: 귀에서 들리는 소음",
+    "sentence": "The patient reported persistent ______ in both ears.",
+    "right_sentence": "The patient reported persistent tinnitus in both ears."
+  },
+  {
+    "term": "Vasculitis",
+    "meaning": "혈관염: 혈관 벽의 염증",
+    "sentence": "The rash and joint pain were symptoms of ______.",
+    "right_sentence": "The rash and joint pain were symptoms of vasculitis."
+  },
+  {
+    "term": "Venous",
+    "meaning": "정맥의: 정맥과 관련된",
+    "sentence": "The patient developed a ______ thrombosis in her leg.",
+    "right_sentence": "The patient developed a venous thrombosis in her leg."
+  },
+  {
+    "term": "Angiography",
+    "meaning": "혈관조영술: 혈관을 시각화하는 영상 진단",
+    "sentence": "The doctor ordered an ______ to assess the blockage in the arteries.",
+    "right_sentence": "The doctor ordered an angiography to assess the blockage in the arteries."
+  },
+  {
+    "term": "Arteriosclerosis",
+    "meaning": "동맥경화: 동맥 벽이 두꺼워지고 단단해지는 상태",
+    "sentence": "His condition was linked to advanced ______ in the peripheral arteries.",
+    "right_sentence": "His condition was linked to advanced arteriosclerosis in the peripheral arteries."
+  },
+  {
+    "term": "Atrophy",
+    "meaning": "위축: 조직이나 장기의 크기 감소",
+    "sentence": "The MRI showed muscle ______ in the patient’s leg.",
+    "right_sentence": "The MRI showed muscle atrophy in the patient’s leg."
+  },
+  {
+    "term": "Bacteremia",
+    "meaning": "균혈증: 혈액 내 세균의 존재",
+    "sentence": "The patient’s fever was caused by ______ from an untreated infection.",
+    "right_sentence": "The patient’s fever was caused by bacteremia from an untreated infection."
+  },
+  {
+    "term": "Bronchoscopy",
+    "meaning": "기관지경 검사: 기관지를 관찰하는 내시경 절차",
+    "sentence": "The doctor performed a ______ to investigate the cause of chronic cough.",
+    "right_sentence": "The doctor performed a bronchoscopy to investigate the cause of chronic cough."
+  },
+  {
+    "term": "Cardiac",
+    "meaning": "심장의: 심장과 관련된",
+    "sentence": "The patient was admitted for a ______ arrest during the night.",
+    "right_sentence": "The patient was admitted for a cardiac arrest during the night."
+  },
+  {
+    "term": "Cholelithiasis",
+    "meaning": "담석증: 담낭 또는 담관에 담석이 형성된 상태",
+    "sentence": "The ultrasound confirmed ______ as the cause of her pain.",
+    "right_sentence": "The ultrasound confirmed cholelithiasis as the cause of her pain."
+  },
+  {
+    "term": "Cirrhotic",
+    "meaning": "간경변의: 간경변과 관련된",
+    "sentence": "The patient’s ______ liver was causing ascites and jaundice.",
+    "right_sentence": "The patient’s cirrhotic liver was causing ascites and jaundice."
+  },
+  {
+    "term": "Colectomy",
+    "meaning": "대장절제술: 대장의 일부 또는 전체를 제거하는 수술",
+    "sentence": "The patient underwent a ______ to treat severe colon cancer.",
+    "right_sentence": "The patient underwent a colectomy to treat severe colon cancer."
+  },
+  {
+    "term": "Cytology",
+    "meaning": "세포학: 세포를 연구하는 학문",
+    "sentence": "The ______ report confirmed the presence of abnormal cells.",
+    "right_sentence": "The cytology report confirmed the presence of abnormal cells."
+  },
+  {
+    "term": "Dyspepsia",
+    "meaning": "소화불량: 위장 장애로 인한 불쾌감",
+    "sentence": "The patient complained of chronic ______ after meals.",
+    "right_sentence": "The patient complained of chronic dyspepsia after meals."
+  },
+  {
+    "term": "Echocardiography",
+    "meaning": "심초음파: 심장의 초음파 영상 진단",
+    "sentence": "The doctor ordered an ______ to evaluate heart valve function.",
+    "right_sentence": "The doctor ordered an echocardiography to evaluate heart valve function."
+  },
+  {
+    "term": "Encephalitis",
+    "meaning": "뇌염: 뇌의 염증",
+    "sentence": "The patient’s seizures were caused by viral ______.",
+    "right_sentence": "The patient’s seizures were caused by viral encephalitis."
+  },
+  {
+    "term": "Endometriosis",
+    "meaning": "자궁내막증: 자궁내막 조직이 자궁 외부에서 자라는 상태",
+    "sentence": "Her pelvic pain was attributed to ______ after diagnostic tests.",
+    "right_sentence": "Her pelvic pain was attributed to endometriosis after diagnostic tests."
+  },
+  {
+    "term": "Erythrocyte",
+    "meaning": "적혈구: 산소를 운반하는 혈액 세포",
+    "sentence": "The patient’s low ______ count indicated severe anemia.",
+    "right_sentence": "The patient’s low erythrocyte count indicated severe anemia."
+  },
+  {
+    "term": "Esophagitis",
+    "meaning": "식도염: 식도의 염증",
+    "sentence": "The patient’s difficulty swallowing was due to ______.",
+    "right_sentence": "The patient’s difficulty swallowing was due to esophagitis."
+  },
+  {
+    "term": "Fibrillation",
+    "meaning": "세동: 심장의 불규칙하고 빠른 수축",
+    "sentence": "The ECG detected atrial ______ in the patient.",
+    "right_sentence": "The ECG detected atrial fibrillation in the patient."
+  },
+  {
+    "term": "Gastrectomy",
+    "meaning": "위절제술: 위의 일부 또는 전체를 제거하는 수술",
+    "sentence": "The patient underwent a ______ to treat stomach cancer.",
+    "right_sentence": "The patient underwent a gastrectomy to treat stomach cancer."
+  },
+  {
+    "term": "Hematocrit",
+    "meaning": "헴토크릿: 혈액 내 적혈구의 비율",
+    "sentence": "The patient’s low ______ indicated possible blood loss.",
+    "right_sentence": "The patient’s low hematocrit indicated possible blood loss."
+  },
+  {
+    "term": "Hemodialysis",
+    "meaning": "혈액투석: 혈액을 여과하여 노폐물을 제거하는 치료",
+    "sentence": "The patient required ______ due to end-stage renal disease.",
+    "right_sentence": "The patient required hemodialysis due to end-stage renal disease."
+  },
+  {
+    "term": "Hepatomegaly",
+    "meaning": "간비대: 간이 비정상적으로 커진 상태",
+    "sentence": "The ultrasound revealed ______ in the patient with liver disease.",
+    "right_sentence": "The ultrasound revealed hepatomegaly in the patient with liver disease."
+  },
+  {
+    "term": "Hyperlipidemia",
+    "meaning": "고지혈증: 혈액 내 지질 수치가 높은 상태",
+    "sentence": "The patient was prescribed statins to manage ______.",
+    "right_sentence": "The patient was prescribed statins to manage hyperlipidemia."
+  },
+  {
+    "term": "Hypertrophy",
+    "meaning": "비대: 조직이나 장기의 크기 증가",
+    "sentence": "The echocardiogram showed left ventricular ______ in the patient.",
+    "right_sentence": "The echocardiogram showed left ventricular hypertrophy in the patient."
+  },
+  {
+    "term": "Ileus",
+    "meaning": "장폐색: 장의 운동이 멈춘 상태",
+    "sentence": "The patient’s abdominal distension was due to postoperative ______.",
+    "right_sentence": "The patient’s abdominal distension was due to postoperative ileus."
+  },
+  {
+    "term": "Immunotherapy",
+    "meaning": "면역치료: 면역 체계를 이용한 치료법",
+    "sentence": "The patient was enrolled in an ______ trial for cancer treatment.",
+    "right_sentence": "The patient was enrolled in an immunotherapy trial for cancer treatment."
+  },
+  {
+    "term": "Ischemic",
+    "meaning": "허혈성: 혈액 공급 부족과 관련된",
+    "sentence": "The patient suffered an ______ stroke due to a blocked artery.",
+    "right_sentence": "The patient suffered an ischemic stroke due to a blocked artery."
+  },
+  {
+    "term": "Lymphoma",
+    "meaning": "림프종: 림프계의 암",
+    "sentence": "The biopsy confirmed a diagnosis of non-Hodgkin’s ______.",
+    "right_sentence": "The biopsy confirmed a diagnosis of non-Hodgkin’s lymphoma."
+  },
+  {
+    "term": "Melanoma",
+    "meaning": "흑색종: 피부의 악성 종양",
+    "sentence": "The dermatologist removed a suspicious ______ from her arm.",
+    "right_sentence": "The dermatologist removed a suspicious melanoma from her arm."
+  },
+  {
+    "term": "Myopathy",
+    "meaning": "근육병: 근육 기능 장애를 유발하는 질환",
+    "sentence": "The patient’s muscle weakness was diagnosed as ______.",
+    "right_sentence": "The patient’s muscle weakness was diagnosed as myopathy."
+  },
+  {
+    "term": "Necrosis",
+    "meaning": "괴사: 조직 또는 세포의 사망",
+    "sentence": "The tissue sample showed signs of ______ due to infection.",
+    "right_sentence": "The tissue sample showed signs of necrosis due to infection."
+  },
+  {
+    "term": "Neoplasm",
+    "meaning": "신생물: 비정상적인 조직 성장, 종양",
+    "sentence": "The scan detected a ______ in the patient’s lung.",
+    "right_sentence": "The scan detected a neoplasm in the patient’s lung."
+  },
+  {
+    "term": "Neuropathic",
+    "meaning": "신경병성: 신경 손상과 관련된",
+    "sentence": "The patient’s chronic pain was classified as ______ in origin.",
+    "right_sentence": "The patient’s chronic pain was classified as neuropathic in origin."
+  },
+  {
+    "term": "Oophorectomy",
+    "meaning": "난소절제술: 난소를 제거하는 수술",
+    "sentence": "She underwent an ______ to treat ovarian cancer.",
+    "right_sentence": "She underwent an oophorectomy to treat ovarian cancer."
+  },
+  {
+    "term": "Orthopedic",
+    "meaning": "정형외과: 뼈와 근육계 질환을 다루는 의학 분야",
+    "sentence": "The patient was referred to the ______ department for a knee injury.",
+    "right_sentence": "The patient was referred to the orthopedic department for a knee injury."
+  },
+  {
+    "term": "Pleural",
+    "meaning": "흉막의: 흉막과 관련된",
+    "sentence": "The patient developed a ______ effusion after pneumonia.",
+    "right_sentence": "The patient developed a pleural effusion after pneumonia."
+  },
+  {
+    "term": "Pneumothorax",
+    "meaning": "기흉: 폐와 흉벽 사이에 공기가 고이는 상태",
+    "sentence": "The chest X-ray confirmed a ______ in the right lung.",
+    "right_sentence": "The chest X-ray confirmed a pneumothorax in the right lung."
+  },
+  {
+    "term": "Pyelonephritis",
+    "meaning": "신우신염: 신장과 신우의 감염",
+    "sentence": "The patient’s fever and flank pain suggested ______.",
+    "right_sentence": "The patient’s fever and flank pain suggested pyelonephritis."
+  },
+  {
+    "term": "Radiotherapy",
+    "meaning": "방사선 치료: 암 치료를 위한 방사선 사용",
+    "sentence": "The patient underwent ______ to target the tumor.",
+    "right_sentence": "The patient underwent radiotherapy to target the tumor."
+  },
+  {
+    "term": "Sepsis",
+    "meaning": "패혈증: 감염에 대한 심각한 전신 면역 반응",
+    "sentence": "The patient was admitted to the ICU with suspected ______.",
+    "right_sentence": "The patient was admitted to the ICU with suspected sepsis."
+  },
+  {
+    "term": "Splenomegaly",
+    "meaning": "비장비대: 비장이 비정상적으로 커진 상태",
+    "sentence": "The ultrasound revealed ______ in the patient with an infection.",
+    "right_sentence": "The ultrasound revealed splenomegaly in the patient with an infection."
+  },
+  {
+    "term": "Thrombocytopenia",
+    "meaning": "혈소판감소증: 혈소판 수가 비정상적으로 낮은 상태",
+    "sentence": "The patient’s bruising was due to ______.",
+    "right_sentence": "The patient’s bruising was due to thrombocytopenia."
+  },
+  {
+    "term": "Toxicology",
+    "meaning": "독성학: 독성 물질과 그 영향을 연구하는 학문",
+    "sentence": "The ______ report identified the cause of the patient’s overdose.",
+    "right_sentence": "The toxicology report identified the cause of the patient’s overdose."
+  },
+  {
+    "term": "Uremia",
+    "meaning": "요독증: 혈액 내 요독 물질의 축적",
+    "sentence": "The patient’s fatigue and nausea were symptoms of ______.",
+    "right_sentence": "The patient’s fatigue and nausea were symptoms of uremia."
+  },
+  {
+    "term": "Varicose",
+    "meaning": "정맥류: 정맥이 비정상적으로 확장된 상태",
+    "sentence": "The patient sought treatment for ______ veins in her legs.",
+    "right_sentence": "The patient sought treatment for varicose veins in her legs."
+  }
 ]
