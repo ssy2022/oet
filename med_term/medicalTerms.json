@@ -19440,5 +19440,1201 @@
     "meaning": "스포츠 부상",
     "sentence": "Basketball gave me a ___________ to my ankle.",
     "right_sentence": "Basketball gave me a sports injury to my ankle."
+  },
+
+  {
+    "term": "scratchy",
+    "meaning": "간질거리는",
+    "sentence": "My throat feels ___________ and irritated when I swallow.",
+    "right_sentence": "My throat feels scratchy and irritated when I swallow."
+  },
+  {
+    "term": "tight",
+    "meaning": "조이는",
+    "sentence": "My chest feels ___________ when I try to breathe deeply.",
+    "right_sentence": "My chest feels tight when I try to breathe deeply."
+  },
+  {
+    "term": "shaky",
+    "meaning": "떨리는",
+    "sentence": "My hands are ___________ after drinking too much coffee.",
+    "right_sentence": "My hands are shaky after drinking too much coffee."
+  },
+  {
+    "term": "faint",
+    "meaning": "기절할 것 같은",
+    "sentence": "I feel ___________ when I stand up quickly.",
+    "right_sentence": "I feel faint when I stand up quickly."
+  },
+  {
+    "term": "clogged",
+    "meaning": "막힌",
+    "sentence": "My ears feel ___________ after swimming.",
+    "right_sentence": "My ears feel clogged after swimming."
+  },
+  {
+    "term": "gritty",
+    "meaning": "모래 같은",
+    "sentence": "My eyes feel ___________ and dry all the time.",
+    "right_sentence": "My eyes feel gritty and dry all the time."
+  },
+  {
+    "term": "thumping",
+    "meaning": "쿵쾅거리는",
+    "sentence": "I feel a ___________ sensation in my chest sometimes.",
+    "right_sentence": "I feel a thumping sensation in my chest sometimes."
+  },
+  {
+    "term": "stabbing",
+    "meaning": "찌르는",
+    "sentence": "I get a ___________ pain in my side when I twist.",
+    "right_sentence": "I get a stabbing pain in my side when I twist."
+  },
+  {
+    "term": "radiating",
+    "meaning": "퍼지는",
+    "sentence": "The pain in my back is ___________ down my leg.",
+    "right_sentence": "The pain in my back is radiating down my leg."
+  },
+  {
+    "term": "gnawing",
+    "meaning": "갉는 듯한",
+    "sentence": "I have a ___________ pain in my stomach when hungry.",
+    "right_sentence": "I have a gnawing pain in my stomach when hungry."
+  },
+  {
+    "term": "heavy",
+    "meaning": "무거운",
+    "sentence": "My legs feel ___________ after walking a short distance.",
+    "right_sentence": "My legs feel heavy after walking a short distance."
+  },
+  {
+    "term": "fluttering",
+    "meaning": "펄럭이는",
+    "sentence": "My heart feels ___________ during stressful moments.",
+    "right_sentence": "My heart feels fluttering during stressful moments."
+  },
+  {
+    "term": "churning",
+    "meaning": "휘젓는 듯한",
+    "sentence": "My stomach is ___________ before big presentations.",
+    "right_sentence": "My stomach is churning before big presentations."
+  },
+  {
+    "term": "prickly",
+    "meaning": "따끔거리는",
+    "sentence": "My skin feels ___________ after using that cream.",
+    "right_sentence": "My skin feels prickly after using that cream."
+  },
+  {
+    "term": "pounding",
+    "meaning": "두근거리는",
+    "sentence": "My head is ___________ after a long day.",
+    "right_sentence": "My head is pounding after a long day."
+  },
+  {
+    "term": "tingly",
+    "meaning": "저릿한",
+    "sentence": "My feet feel ___________ after sitting cross-legged.",
+    "right_sentence": "My feet feel tingly after sitting cross-legged."
+  },
+  {
+    "term": "achy",
+    "meaning": "쑤시는",
+    "sentence": "My joints are ___________ in cold weather.",
+    "right_sentence": "My joints are achy in cold weather."
+  },
+  {
+    "term": "stuffy nose",
+    "meaning": "코막힘",
+    "sentence": "I wake up with a ___________ every morning.",
+    "right_sentence": "I wake up with a stuffy nose every morning."
+  },
+  {
+    "term": "runny eyes",
+    "meaning": "눈물 흐름",
+    "sentence": "My ___________ make it hard to see in spring.",
+    "right_sentence": "My runny eyes make it hard to see in spring."
+  },
+  {
+    "term": "raspy",
+    "meaning": "쉰 목소리",
+    "sentence": "My voice is ___________ after a cold.",
+    "right_sentence": "My voice is raspy after a cold."
+  },
+  {
+    "term": "pounding heart",
+    "meaning": "심하게 뛰는 심장",
+    "sentence": "I get a ___________ when I’m nervous.",
+    "right_sentence": "I get a pounding heart when I’m nervous."
+  },
+  {
+    "term": "chapped",
+    "meaning": "터진",
+    "sentence": "My lips are ___________ from the cold wind.",
+    "right_sentence": "My lips are chapped from the cold wind."
+  },
+  {
+    "term": "flaky",
+    "meaning": " 벗겨지는",
+    "sentence": "My scalp is ___________ and itchy.",
+    "right_sentence": "My scalp is flaky and itchy."
+  },
+  {
+    "term": "grumbling",
+    "meaning": "꾸르륵거리는",
+    "sentence": "My stomach is ___________ when I skip meals.",
+    "right_sentence": "My stomach is grumbling when I skip meals."
+  },
+  {
+    "term": "sickly",
+    "meaning": "병약한",
+    "sentence": "I’ve been feeling ___________ and weak lately.",
+    "right_sentence": "I’ve been feeling sickly and weak lately."
+  },
+  {
+    "term": "wobbly",
+    "meaning": "휘청거리는",
+    "sentence": "I feel ___________ after spinning around.",
+    "right_sentence": "I feel wobbly after spinning around."
+  },
+  {
+    "term": "fogged",
+    "meaning": "멍한",
+    "sentence": "My brain feels ___________ after no sleep.",
+    "right_sentence": "My brain feels fogged after no sleep."
+  },
+  {
+    "term": "irritable",
+    "meaning": "짜증나는",
+    "sentence": "I’ve been ___________ and snapping at everyone.",
+    "right_sentence": "I’ve been irritable and snapping at everyone."
+  },
+  {
+    "term": "weary",
+    "meaning": "지친",
+    "sentence": "I feel ___________ even after resting.",
+    "right_sentence": "I feel weary even after resting."
+  },
+  {
+    "term": "panting",
+    "meaning": "헐떡이는",
+    "sentence": "I’m ___________ after climbing a few stairs.",
+    "right_sentence": "I’m panting after climbing a few stairs."
+  },
+  {
+    "term": "gasping",
+    "meaning": "숨을 몰아쉬는",
+    "sentence": "I was ___________ for air during the run.",
+    "right_sentence": "I was gasping for air during the run."
+  },
+  {
+    "term": "queasy",
+    "meaning": "속이 울렁거리는",
+    "sentence": "I feel ___________ after riding the bus.",
+    "right_sentence": "I feel queasy after riding the bus."
+  },
+  {
+    "term": "cranky",
+    "meaning": "신경질적인",
+    "sentence": "Lack of sleep makes me ___________ all day.",
+    "right_sentence": "Lack of sleep makes me cranky all day."
+  },
+  {
+    "term": "lopsided",
+    "meaning": "불균형한",
+    "sentence": "My face feels ___________ after dental work.",
+    "right_sentence": "My face feels lopsided after dental work."
+  },
+  {
+    "term": "spasming",
+    "meaning": "경련하는",
+    "sentence": "My calf muscle keeps ___________ at night.",
+    "right_sentence": "My calf muscle keeps spasming at night."
+  },
+  {
+    "term": "twitchy",
+    "meaning": "씰룩거리는",
+    "sentence": "My eyelid is ___________ and annoying.",
+    "right_sentence": "My eyelid is twitchy and annoying."
+  },
+  {
+    "term": "clenched",
+    "meaning": "꽉 쥔",
+    "sentence": "My jaw feels ___________ from stress.",
+    "right_sentence": "My jaw feels clenched from stress."
+  },
+  {
+    "term": "knotted",
+    "meaning": "뭉친",
+    "sentence": "My shoulder muscles are ___________ and sore.",
+    "right_sentence": "My shoulder muscles are knotted and sore."
+  },
+  {
+    "term": "grating",
+    "meaning": "삐걱거리는",
+    "sentence": "My knee makes a ___________ sound when I move.",
+    "right_sentence": "My knee makes a grating sound when I move."
+  },
+  {
+    "term": "popping",
+    "meaning": "딱 소리 나는",
+    "sentence": "My joints keep ___________ when I stretch.",
+    "right_sentence": "My joints keep popping when I stretch."
+  },
+  {
+    "term": "gurgling",
+    "meaning": "꼬르륵거리는",
+    "sentence": "My stomach is ___________ after eating.",
+    "right_sentence": "My stomach is gurgling after eating."
+  },
+  {
+    "term": "drippy",
+    "meaning": "질질 흐르는",
+    "sentence": "My nose is ___________ during allergy season.",
+    "right_sentence": "My nose is drippy during allergy season."
+  },
+  {
+    "term": "scratchy eyes",
+    "meaning": "간질거리는 눈",
+    "sentence": "I have ___________ from all the pollen.",
+    "right_sentence": "I have scratchy eyes from all the pollen."
+  },
+  {
+    "term": "stinging eyes",
+    "meaning": "따끔한 눈",
+    "sentence": "Smoke makes my ___________ and watery.",
+    "right_sentence": "Smoke makes my stinging eyes and watery."
+  },
+  {
+    "term": "sandy",
+    "meaning": "모래 같은",
+    "sentence": "My mouth feels ___________ and dry.",
+    "right_sentence": "My mouth feels sandy and dry."
+  },
+  {
+    "term": "lump",
+    "meaning": "덩어리",
+    "sentence": "I found a ___________ in my neck yesterday.",
+    "right_sentence": "I found a lump in my neck yesterday."
+  },
+  {
+    "term": "spot",
+    "meaning": "반점",
+    "sentence": "I noticed a new ___________ on my skin.",
+    "right_sentence": "I noticed a new spot on my skin."
+  },
+  {
+    "term": "patchy",
+    "meaning": "얼룩덜룩한",
+    "sentence": "My skin is ___________ with red areas.",
+    "right_sentence": "My skin is patchy with red areas."
+  },
+  {
+    "term": "raw",
+    "meaning": "쓰라린",
+    "sentence": "My throat feels ___________ after coughing.",
+    "right_sentence": "My throat feels raw after coughing."
+  },
+  {
+    "term": "tender spot",
+    "meaning": "압통 부위",
+    "sentence": "I have a ___________ on my scalp.",
+    "right_sentence": "I have a tender spot on my scalp."
+  },
+  {
+    "term": "pulsing",
+    "meaning": "맥동하는",
+    "sentence": "My temple is ___________ during headaches.",
+    "right_sentence": "My temple is pulsing during headaches."
+  },
+  {
+    "term": "fluttery",
+    "meaning": "펄럭이는",
+    "sentence": "My stomach feels ___________ when anxious.",
+    "right_sentence": "My stomach feels fluttery when anxious."
+  },
+  {
+    "term": "grumbly",
+    "meaning": "투덜거리는",
+    "sentence": "My gut is ___________ after spicy food.",
+    "right_sentence": "My gut is grumbly after spicy food."
+  },
+  {
+    "term": "woozy",
+    "meaning": "어지러운",
+    "sentence": "I feel ___________ after taking medicine.",
+    "right_sentence": "I feel woozy after taking medicine."
+  },
+  {
+    "term": "sluggish",
+    "meaning": "느린",
+    "sentence": "I’ve been ___________ and tired all week.",
+    "right_sentence": "I’ve been sluggish and tired all week."
+  },
+  {
+    "term": "spacey",
+    "meaning": "멍한",
+    "sentence": "My mind feels ___________ and unfocused.",
+    "right_sentence": "My mind feels spacey and unfocused."
+  },
+  {
+    "term": "jumpy",
+    "meaning": "깜짝 놀라는",
+    "sentence": "I’ve been ___________ and on edge lately.",
+    "right_sentence": "I’ve been jumpy and on edge lately."
+  },
+  {
+    "term": "racing thoughts",
+    "meaning": "빠르게 흐르는 생각",
+    "sentence": "I have ___________ at night, keeping me awake.",
+    "right_sentence": "I have racing thoughts at night, keeping me awake."
+  },
+  {
+    "term": "muddled",
+    "meaning": "혼란한",
+    "sentence": "My thinking is ___________ after the fever.",
+    "right_sentence": "My thinking is muddled after the fever."
+  },
+  {
+    "term": "tingle",
+    "meaning": "저림",
+    "sentence": "My arms ___________ after lifting weights.",
+    "right_sentence": "My arms tingle after lifting weights."
+  },
+  {
+    "term": "nagging",
+    "meaning": "지속적인",
+    "sentence": "I have a ___________ pain in my hip.",
+    "right_sentence": "I have a nagging pain in my hip."
+  },
+  {
+    "term": "piercing",
+    "meaning": "찌르는 듯한",
+    "sentence": "I get a ___________ sensation in my ear.",
+    "right_sentence": "I get a piercing sensation in my ear."
+  },
+  {
+    "term": "squeezing",
+    "meaning": "쥐어짜는",
+    "sentence": "My chest feels a ___________ pain when stressed.",
+    "right_sentence": "My chest feels a squeezing pain when stressed."
+  },
+  {
+    "term": "burn",
+    "meaning": "화끈거리는",
+    "sentence": "My skin has a ___________ after sun exposure.",
+    "right_sentence": "My skin has a burn after sun exposure."
+  },
+  {
+    "term": "itch",
+    "meaning": "가려움",
+    "sentence": "My arms ___________ after that bug bite.",
+    "right_sentence": "My arms itch after that bug bite."
+  },
+  {
+    "term": "shooting pain",
+    "meaning": "찌르는 통증",
+    "sentence": "I get a ___________ in my back randomly.",
+    "right_sentence": "I get a shooting pain in my back randomly."
+  },
+  {
+    "term": "throb",
+    "meaning": "맥박 치는",
+    "sentence": "My finger ___________ after I hit it.",
+    "right_sentence": "My finger throbs after I hit it."
+  },
+  {
+    "term": "crampy",
+    "meaning": "경련하는",
+    "sentence": "My stomach feels ___________ after running.",
+    "right_sentence": "My stomach feels crampy after running."
+  },
+  {
+    "term": "stinging pain",
+    "meaning": "따끔한 통증",
+    "sentence": "I have a ___________ in my foot from a cut.",
+    "right_sentence": "I have a stinging pain in my foot from a cut."
+  },
+  {
+    "term": "achy joints",
+    "meaning": "쑤시는 관절",
+    "sentence": "My ___________ make mornings tough.",
+    "right_sentence": "My achy joints make mornings tough."
+  },
+  {
+    "term": "swollen feet",
+    "meaning": "부은 발",
+    "sentence": "My ___________ hurt after standing all day.",
+    "right_sentence": "My swollen feet hurt after standing all day."
+  },
+  {
+    "term": "raspy cough",
+    "meaning": "쉰 기침",
+    "sentence": "I have a ___________ that won’t go away.",
+    "right_sentence": "I have a raspy cough that won’t go away."
+  },
+  {
+    "term": "hacking cough",
+    "meaning": "거친 기침",
+    "sentence": "My ___________ keeps me up at night.",
+    "right_sentence": "My hacking cough keeps me up at night."
+  },
+  {
+    "term": "wheezy breathing",
+    "meaning": "쌕쌕거리는 호흡",
+    "sentence": "I have ___________ during allergies.",
+    "right_sentence": "I have wheezy breathing during allergies."
+  },
+  {
+    "term": "clogged sinuses",
+    "meaning": "막힌 부비동",
+    "sentence": "My ___________ cause pressure in my face.",
+    "right_sentence": "My clogged sinuses cause pressure in my face."
+  },
+  {
+    "term": "watery eyes",
+    "meaning": "눈물 나는 눈",
+    "sentence": "My ___________ are worse in spring.",
+    "right_sentence": "My watery eyes are worse in spring."
+  },
+  {
+    "term": "dry mouth",
+    "meaning": "구강 건조",
+    "sentence": "I have ___________ from my medication.",
+    "right_sentence": "I have dry mouth from my medication."
+  },
+  {
+    "term": "sore gums",
+    "meaning": "아픈 잇몸",
+    "sentence": "My ___________ bleed when I brush.",
+    "right_sentence": "My sore gums bleed when I brush."
+  },
+  {
+    "term": "bloated belly",
+    "meaning": "부풀어 오른 배",
+    "sentence": "I have a ___________ after big meals.",
+    "right_sentence": "I have a bloated belly after big meals."
+  },
+  {
+    "term": "upset stomach",
+    "meaning": "속쓰림",
+    "sentence": "Spicy food gives me an ___________.",
+    "right_sentence": "Spicy food gives me an upset stomach."
+  },
+  {
+    "term": "loose bowels",
+    "meaning": "묽은 장",
+    "sentence": "I’ve had ___________ since yesterday.",
+    "right_sentence": "I’ve had loose bowels since yesterday."
+  },
+  {
+    "term": "hard stools",
+    "meaning": "딱딱한 변",
+    "sentence": "My ___________ make going painful.",
+    "right_sentence": "My hard stools make going painful."
+  },
+  {
+    "term": "leaky bladder",
+    "meaning": "누출되는 방광",
+    "sentence": "I have a ___________ when I sneeze.",
+    "right_sentence": "I have a leaky bladder when I sneeze."
+  },
+  {
+    "term": "burning pee",
+    "meaning": "타는 듯한 소변",
+    "sentence": "I feel ___________ during urination.",
+    "right_sentence": "I feel burning pee during urination."
+  },
+  {
+    "term": "cloudy urine",
+    "meaning": "탁한 소변",
+    "sentence": "My ___________ worried me this morning.",
+    "right_sentence": "My cloudy urine worried me this morning."
+  },
+  {
+    "term": "heavy legs",
+    "meaning": "무거운 다리",
+    "sentence": "My ___________ slow me down.",
+    "right_sentence": "My heavy legs slow me down."
+  },
+  {
+    "term": "stiff back",
+    "meaning": "뻣뻣한 등",
+    "sentence": "My ___________ hurts after sitting.",
+    "right_sentence": "My stiff back hurts after sitting."
+  },
+  {
+    "term": "sore muscles",
+    "meaning": "아픈 근육",
+    "sentence": "My ___________ ache after exercise.",
+    "right_sentence": "My sore muscles ache after exercise."
+  },
+  {
+    "term": "itchy scalp",
+    "meaning": "가려운 두피",
+    "sentence": "My ___________ drives me crazy.",
+    "right_sentence": "My itchy scalp drives me crazy."
+  },
+  {
+    "term": "flaky skin",
+    "meaning": " 벗겨지는 피부",
+    "sentence": "My ___________ is worse in winter.",
+    "right_sentence": "My flaky skin is worse in winter."
+  },
+  {
+    "term": "red spots",
+    "meaning": "붉은 반점",
+    "sentence": "I have ___________ on my arms.",
+    "right_sentence": "I have red spots on my arms."
+  },
+  {
+    "term": "dry eyes",
+    "meaning": "건조한 눈",
+    "sentence": "My ___________ make reading hard.",
+    "right_sentence": "My dry eyes make reading hard."
+  },
+  {
+    "term": "blurry vision",
+    "meaning": "흐린 시야",
+    "sentence": "I get ___________ when looking at screens.",
+    "right_sentence": "I get blurry vision when looking at screens."
+  },
+  {
+    "term": "ringing ears",
+    "meaning": "울리는 귀",
+    "sentence": "My ___________ bother me at night.",
+    "right_sentence": "My ringing ears bother me at night."
+  },
+  {
+    "term": "muffled hearing",
+    "meaning": "둔한 청력",
+    "sentence": "I have ___________ after a cold.",
+    "right_sentence": "I have muffled hearing after a cold."
+  },
+  {
+    "term": "hot skin",
+    "meaning": "뜨거운 피부",
+    "sentence": "My ___________ feels like it’s burning.",
+    "right_sentence": "My hot skin feels like it’s burning."
+  },
+  {
+    "term": "cold hands",
+    "meaning": "차가운 손",
+    "sentence": "My ___________ are always freezing.",
+    "right_sentence": "My cold hands are always freezing."
+  },
+  {
+    "term": "shaky voice",
+    "meaning": "떨리는 목소리",
+    "sentence": "My ___________ makes speaking hard.",
+    "right_sentence": "My shaky voice makes speaking hard."
+  },
+  {
+    "term": "fuzzy thinking",
+    "meaning": "흐릿한 사고",
+    "sentence": "I have ___________ when stressed.",
+    "right_sentence": "I have fuzzy thinking when stressed."
+  },
+
+  {
+    "term": "achy back",
+    "meaning": "쑤시는 등",
+    "sentence": "I have an ___________ after sitting at my desk all day.",
+    "right_sentence": "I have an achy back after sitting at my desk all day."
+  },
+  {
+    "term": "stuffy head",
+    "meaning": "막힌 머리",
+    "sentence": "My ___________ makes it hard to think during a cold.",
+    "right_sentence": "My stuffy head makes it hard to think during a cold."
+  },
+  {
+    "term": "burning eyes",
+    "meaning": "타는 듯한 눈",
+    "sentence": "My ___________ hurt after staring at screens.",
+    "right_sentence": "My burning eyes hurt after staring at screens."
+  },
+  {
+    "term": "scratchy throat",
+    "meaning": "간질거리는 목",
+    "sentence": "I have a ___________ that makes swallowing painful.",
+    "right_sentence": "I have a scratchy throat that makes swallowing painful."
+  },
+  {
+    "term": "thumping pulse",
+    "meaning": "쿵쾅거리는 맥박",
+    "sentence": "I feel a ___________ in my neck when anxious.",
+    "right_sentence": "I feel a thumping pulse in my neck when anxious."
+  },
+  {
+    "term": "gnawing ache",
+    "meaning": "갉는 듯한 통증",
+    "sentence": "My stomach has a ___________ when I’m hungry.",
+    "right_sentence": "My stomach has a gnawing ache when I’m hungry."
+  },
+  {
+    "term": "stinging rash",
+    "meaning": "따끔한 발진",
+    "sentence": "I got a ___________ from touching that plant.",
+    "right_sentence": "I got a stinging rash from touching that plant."
+  },
+  {
+    "term": "tight jaw",
+    "meaning": "조이는 턱",
+    "sentence": "My ___________ hurts from grinding my teeth.",
+    "right_sentence": "My tight jaw hurts from grinding my teeth."
+  },
+  {
+    "term": "dull pain",
+    "meaning": "둔한 통증",
+    "sentence": "I have a ___________ in my shoulder all the time.",
+    "right_sentence": "I have a dull pain in my shoulder all the time."
+  },
+  {
+    "term": "shooting ache",
+    "meaning": "찌르는 통증",
+    "sentence": "I get a ___________ down my arm sometimes.",
+    "right_sentence": "I get a shooting ache down my arm sometimes."
+  },
+  {
+    "term": "crampy legs",
+    "meaning": "경련하는 다리",
+    "sentence": "My ___________ wake me up at night.",
+    "right_sentence": "My crampy legs wake me up at night."
+  },
+  {
+    "term": "heavy chest",
+    "meaning": "무거운 가슴",
+    "sentence": "I feel a ___________ when I try to breathe.",
+    "right_sentence": "I feel a heavy chest when I try to breathe."
+  },
+  {
+    "term": "fluttery heart",
+    "meaning": "펄럭이는 심장",
+    "sentence": "My ___________ happens when I’m nervous.",
+    "right_sentence": "My fluttery heart happens when I’m nervous."
+  },
+  {
+    "term": "itchy eyes",
+    "meaning": "가려운 눈",
+    "sentence": "My ___________ are bad during pollen season.",
+    "right_sentence": "My itchy eyes are bad during pollen season."
+  },
+  {
+    "term": "sore neck",
+    "meaning": "아픈 목",
+    "sentence": "My ___________ hurts from looking down too long.",
+    "right_sentence": "My sore neck hurts from looking down too long."
+  },
+  {
+    "term": "puffy ankles",
+    "meaning": "부은 발목",
+    "sentence": "My ___________ swell after standing all day.",
+    "right_sentence": "My puffy ankles swell after standing all day."
+  },
+  {
+    "term": "clammy skin",
+    "meaning": "축축한 피부",
+    "sentence": "My ___________ feels cold and sweaty.",
+    "right_sentence": "My clammy skin feels cold and sweaty."
+  },
+  {
+    "term": "hot flashes",
+    "meaning": "안면 홍조",
+    "sentence": "I get ___________ several times a day.",
+    "right_sentence": "I get hot flashes several times a day."
+  },
+  {
+    "term": "chilly spells",
+    "meaning": "오한 발작",
+    "sentence": "I have ___________ even in warm rooms.",
+    "right_sentence": "I have chilly spells even in warm rooms."
+  },
+  {
+    "term": "tingly hands",
+    "meaning": "저릿한 손",
+    "sentence": "My ___________ bother me after typing.",
+    "right_sentence": "My tingly hands bother me after typing."
+  },
+  {
+    "term": "numb toes",
+    "meaning": "무감각한 발가락",
+    "sentence": "My ___________ feel strange in tight shoes.",
+    "right_sentence": "My numb toes feel strange in tight shoes."
+  },
+  {
+    "term": "wheezy chest",
+    "meaning": "쌕쌕거리는 가슴",
+    "sentence": "My ___________ acts up in cold air.",
+    "right_sentence": "My wheezy chest acts up in cold air."
+  },
+  {
+    "term": "raspy voice",
+    "meaning": "쉰 목소리",
+    "sentence": "My ___________ makes talking difficult.",
+    "right_sentence": "My raspy voice makes talking difficult."
+  },
+  {
+    "term": "runny nose",
+    "meaning": "콧물",
+    "sentence": "I have a ___________ every spring.",
+    "right_sentence": "I have a runny nose every spring."
+  },
+  {
+    "term": "gritty feeling",
+    "meaning": "모래 같은 느낌",
+    "sentence": "My eyes have a ___________ after being outside.",
+    "right_sentence": "My eyes have a gritty feeling after being outside."
+  },
+  {
+    "term": "pounding head",
+    "meaning": "두근거리는 머리",
+    "sentence": "I get a ___________ from loud noises.",
+    "right_sentence": "I get a pounding head from loud noises."
+  },
+  {
+    "term": "foggy brain",
+    "meaning": "멍한 뇌",
+    "sentence": "My ___________ makes focusing hard.",
+    "right_sentence": "My foggy brain makes focusing hard."
+  },
+  {
+    "term": "jittery feeling",
+    "meaning": "불안한 느낌",
+    "sentence": "I get a ___________ after too much caffeine.",
+    "right_sentence": "I get a jittery feeling after too much caffeine."
+  },
+  {
+    "term": "spacey head",
+    "meaning": "멍한 머리",
+    "sentence": "My ___________ makes me forget things.",
+    "right_sentence": "My spacey head makes me forget things."
+  },
+  {
+    "term": "moody swings",
+    "meaning": "기분 변화",
+    "sentence": "My ___________ are worse before my period.",
+    "right_sentence": "My moody swings are worse before my period."
+  },
+  {
+    "term": "restless nights",
+    "meaning": "불안한 밤",
+    "sentence": "I have ___________ and can’t sleep well.",
+    "right_sentence": "I have restless nights and can’t sleep well."
+  },
+  {
+    "term": "sweaty palms",
+    "meaning": "땀나는 손바닥",
+    "sentence": "My ___________ happen when I’m nervous.",
+    "right_sentence": "My sweaty palms happen when I’m nervous."
+  },
+  {
+    "term": "lumpy throat",
+    "meaning": "목에 덩어리진 느낌",
+    "sentence": "I feel a ___________ when swallowing.",
+    "right_sentence": "I feel a lumpy throat when swallowing."
+  },
+  {
+    "term": "scaly patches",
+    "meaning": "비늘 같은 반점",
+    "sentence": "My ___________ itch on my arms.",
+    "right_sentence": "My scaly patches itch on my arms."
+  },
+  {
+    "term": "weepy sores",
+    "meaning": "진물이 나는 상처",
+    "sentence": "My ___________ won’t heal quickly.",
+    "right_sentence": "My weepy sores won’t heal quickly."
+  },
+  {
+    "term": "tender ribs",
+    "meaning": "압통이 있는 갈비뼈",
+    "sentence": "My ___________ hurt after coughing a lot.",
+    "right_sentence": "My tender ribs hurt after coughing a lot."
+  },
+  {
+    "term": "swollen glands",
+    "meaning": "부은 샘",
+    "sentence": "My ___________ are sore when I’m sick.",
+    "right_sentence": "My swollen glands are sore when I’m sick."
+  },
+  {
+    "term": "bruised feeling",
+    "meaning": "멍든 느낌",
+    "sentence": "My legs have a ___________ without injury.",
+    "right_sentence": "My legs have a bruised feeling without injury."
+  },
+  {
+    "term": "yellow skin",
+    "meaning": "황색 피부",
+    "sentence": "My ___________ worried my doctor.",
+    "right_sentence": "My yellow skin worried my doctor."
+  },
+  {
+    "term": "pale face",
+    "meaning": "창백한 얼굴",
+    "sentence": "My ___________ makes me look sick.",
+    "right_sentence": "My pale face makes me look sick."
+  },
+  {
+    "term": "spotty vision",
+    "meaning": "반점이 있는 시야",
+    "sentence": "I get ___________ when I stand up.",
+    "right_sentence": "I get spotty vision when I stand up."
+  },
+  {
+    "term": "dry throat",
+    "meaning": "마른 목",
+    "sentence": "My ___________ makes speaking hard.",
+    "right_sentence": "My dry throat makes speaking hard."
+  },
+  {
+    "term": "sore tongue",
+    "meaning": "아픈 혀",
+    "sentence": "My ___________ burns when I eat spicy food.",
+    "right_sentence": "My sore tongue burns when I eat spicy food."
+  },
+  {
+    "term": "grumbly stomach",
+    "meaning": "꾸르륵거리는 위",
+    "sentence": "My ___________ acts up after dairy.",
+    "right_sentence": "My grumbly stomach acts up after dairy."
+  },
+  {
+    "term": "queasy feeling",
+    "meaning": "울렁거리는 느낌",
+    "sentence": "I get a ___________ on boats.",
+    "right_sentence": "I get a queasy feeling on boats."
+  },
+  {
+    "term": "cranky mood",
+    "meaning": "신경질적인 기분",
+    "sentence": "My ___________ makes me snap at people.",
+    "right_sentence": "My cranky mood makes me snap at people."
+  },
+  {
+    "term": "wobbly legs",
+    "meaning": "휘청거리는 다리",
+    "sentence": "My ___________ make walking tricky.",
+    "right_sentence": "My wobbly legs make walking tricky."
+  },
+  {
+    "term": "muffled ears",
+    "meaning": "막힌 귀",
+    "sentence": "My ___________ make sounds dull.",
+    "right_sentence": "My muffled ears make sounds dull."
+  },
+  {
+    "term": "hot head",
+    "meaning": "뜨거운 머리",
+    "sentence": "My ___________ feels feverish.",
+    "right_sentence": "My hot head feels feverish."
+  },
+  {
+    "term": "cold feet",
+    "meaning": "차가운 발",
+    "sentence": "My ___________ are always freezing.",
+    "right_sentence": "My cold feet are always freezing."
+  },
+  {
+    "term": "shaky hands",
+    "meaning": "떨리는 손",
+    "sentence": "My ___________ drop things often.",
+    "right_sentence": "My shaky hands drop things often."
+  },
+  {
+    "term": "fuzzy head",
+    "meaning": "멍한 머리",
+    "sentence": "My ___________ makes studying hard.",
+    "right_sentence": "My fuzzy head makes studying hard."
+  },
+  {
+    "term": "jumpy nerves",
+    "meaning": "불안한 신경",
+    "sentence": "My ___________ make me startle easily.",
+    "right_sentence": "My jumpy nerves make me startle easily."
+  },
+  {
+    "term": "racing pulse",
+    "meaning": "빠른 맥박",
+    "sentence": "I feel a ___________ when scared.",
+    "right_sentence": "I feel a racing pulse when scared."
+  },
+  {
+    "term": "sore feet",
+    "meaning": "아픈 발",
+    "sentence": "My ___________ hurt after long walks.",
+    "right_sentence": "My sore feet hurt after long walks."
+  },
+  {
+    "term": "itchy rash",
+    "meaning": "가려운 발진",
+    "sentence": "My ___________ appeared after hiking.",
+    "right_sentence": "My itchy rash appeared after hiking."
+  },
+  {
+    "term": "burning stomach",
+    "meaning": "타는 듯한 위",
+    "sentence": "My ___________ flares after spicy meals.",
+    "right_sentence": "My burning stomach flares after spicy meals."
+  },
+  {
+    "term": "loose stomach",
+    "meaning": "묽은 위",
+    "sentence": "My ___________ started after bad food.",
+    "right_sentence": "My loose stomach started after bad food."
+  },
+  {
+    "term": "hard belly",
+    "meaning": "딱딱한 배",
+    "sentence": "My ___________ feels tight and painful.",
+    "right_sentence": "My hard belly feels tight and painful."
+  },
+  {
+    "term": "leaky nose",
+    "meaning": "흐르는 코",
+    "sentence": "My ___________ won’t stop dripping.",
+    "right_sentence": "My leaky nose won’t stop dripping."
+  },
+  {
+    "term": "sore eyes",
+    "meaning": "아픈 눈",
+    "sentence": "My ___________ sting in bright light.",
+    "right_sentence": "My sore eyes sting in bright light."
+  },
+  {
+    "term": "dry lips",
+    "meaning": "마른 입술",
+    "sentence": "My ___________ crack in cold weather.",
+    "right_sentence": "My dry lips crack in cold weather."
+  },
+  {
+    "term": "tender scalp",
+    "meaning": "압통이 있는 두피",
+    "sentence": "My ___________ hurts when I brush my hair.",
+    "right_sentence": "My tender scalp hurts when I brush my hair."
+  },
+  {
+    "term": "pulsing pain",
+    "meaning": "맥동하는 통증",
+    "sentence": "I have a ___________ in my knee.",
+    "right_sentence": "I have a pulsing pain in my knee."
+  },
+  {
+    "term": "fluttery stomach",
+    "meaning": "펄럭이는 위",
+    "sentence": "My ___________ happens before speeches.",
+    "right_sentence": "My fluttery stomach happens before speeches."
+  },
+  {
+    "term": "grumbly gut",
+    "meaning": "꾸르륵거리는 장",
+    "sentence": "My ___________ acts up with stress.",
+    "right_sentence": "My grumbly gut acts up with stress."
+  },
+  {
+    "term": "woozy head",
+    "meaning": "어지러운 머리",
+    "sentence": "My ___________ makes me feel unsteady.",
+    "right_sentence": "My woozy head makes me feel unsteady."
+  },
+  {
+    "term": "sluggish body",
+    "meaning": "느린 몸",
+    "sentence": "My ___________ feels tired all day.",
+    "right_sentence": "My sluggish body feels tired all day."
+  },
+  {
+    "term": "spacey feeling",
+    "meaning": "멍한 느낌",
+    "sentence": "My ___________ makes work difficult.",
+    "right_sentence": "My spacey feeling makes work difficult."
+  },
+  {
+    "term": "jumpy mood",
+    "meaning": "불안한 기분",
+    "sentence": "My ___________ makes me restless.",
+    "right_sentence": "My jumpy mood makes me restless."
+  },
+  {
+    "term": "racing mind",
+    "meaning": "빠르게 흐르는 정신",
+    "sentence": "My ___________ keeps me from sleeping.",
+    "right_sentence": "My racing mind keeps me from sleeping."
+  },
+  {
+    "term": "muddled thoughts",
+    "meaning": "혼란한 생각",
+    "sentence": "My ___________ make decisions hard.",
+    "right_sentence": "My muddled thoughts make decisions hard."
+  },
+  {
+    "term": "tingly feet",
+    "meaning": "저릿한 발",
+    "sentence": "My ___________ bother me after sitting.",
+    "right_sentence": "My tingly feet bother me after sitting."
+  },
+  {
+    "term": "nagging ache",
+    "meaning": "지속적인 통증",
+    "sentence": "My ___________ in my hip won’t stop.",
+    "right_sentence": "My nagging ache in my hip won’t stop."
+  },
+  {
+    "term": "piercing headache",
+    "meaning": "찌르는 두통",
+    "sentence": "I get a ___________ behind my eyes.",
+    "right_sentence": "I get a piercing headache behind my eyes."
+  },
+  {
+    "term": "squeezing chest",
+    "meaning": "조이는 가슴",
+    "sentence": "My ___________ worries me during stress.",
+    "right_sentence": "My squeezing chest worries me during stress."
+  },
+  {
+    "term": "burning rash",
+    "meaning": "타는 듯한 발진",
+    "sentence": "My ___________ appeared after new soap.",
+    "right_sentence": "My burning rash appeared after new soap."
+  },
+  {
+    "term": "itchy skin",
+    "meaning": "가려운 피부",
+    "sentence": "My ___________ flares up in winter.",
+    "right_sentence": "My itchy skin flares up in winter."
+  },
+  {
+    "term": "shooting pain",
+    "meaning": "찌르는 통증",
+    "sentence": "I get a ___________ in my leg randomly.",
+    "right_sentence": "I get a shooting pain in my leg randomly."
+  },
+  {
+    "term": "throbbing toe",
+    "meaning": "맥박 치는 발가락",
+    "sentence": "My ___________ hurts after stubbing it.",
+    "right_sentence": "My throbbing toe hurts after stubbing it."
+  },
+  {
+    "term": "crampy stomach",
+    "meaning": "경련하는 위",
+    "sentence": "My ___________ acts up after greasy food.",
+    "right_sentence": "My crampy stomach acts up after greasy food."
+  },
+  {
+    "term": "stinging cut",
+    "meaning": "따끔한 상처",
+    "sentence": "My ___________ burns when I clean it.",
+    "right_sentence": "My stinging cut burns when I clean it."
+  },
+  {
+    "term": "achy knees",
+    "meaning": "쑤시는 무릎",
+    "sentence": "My ___________ hurt when climbing stairs.",
+    "right_sentence": "My achy knees hurt when climbing stairs."
+  },
+  {
+    "term": "swollen hands",
+    "meaning": "부은 손",
+    "sentence": "My ___________ feel tight after salty food.",
+    "right_sentence": "My swollen hands feel tight after salty food."
+  },
+  {
+    "term": "raspy breathing",
+    "meaning": "쉰 호흡",
+    "sentence": "My ___________ worries me at night.",
+    "right_sentence": "My raspy breathing worries me at night."
+  },
+  {
+    "term": "hacking cough",
+    "meaning": "거친 기침",
+    "sentence": "My ___________ disrupts my sleep.",
+    "right_sentence": "My hacking cough disrupts my sleep."
+  },
+  {
+    "term": "wheezy lungs",
+    "meaning": "쌕쌕거리는 폐",
+    "sentence": "My ___________ act up during exercise.",
+    "right_sentence": "My wheezy lungs act up during exercise."
+  },
+  {
+    "term": "clogged nose",
+    "meaning": "막힌 코",
+    "sentence": "My ___________ makes breathing hard.",
+    "right_sentence": "My clogged nose makes breathing hard."
+  },
+  {
+    "term": "watery discharge",
+    "meaning": "물 같은 분비물",
+    "sentence": "My ___________ started after a cold.",
+    "right_sentence": "My watery discharge started after a cold."
+  },
+  {
+    "term": "dry scalp",
+    "meaning": "마른 두피",
+    "sentence": "My ___________ flakes in cold weather.",
+    "right_sentence": "My dry scalp flakes in cold weather."
+  },
+  {
+    "term": "sore gums",
+    "meaning": "아픈 잇몸",
+    "sentence": "My ___________ bleed when I brush.",
+    "right_sentence": "My sore gums bleed when I brush."
+  },
+  {
+    "term": "bloated stomach",
+    "meaning": "부풀어 오른 위",
+    "sentence": "My ___________ feels tight after eating.",
+    "right_sentence": "My bloated stomach feels tight after eating."
+  },
+  {
+    "term": "upset tummy",
+    "meaning": "속이 안 좋은 배",
+    "sentence": "My ___________ started after fast food.",
+    "right_sentence": "My upset tummy started after fast food."
+  },
+  {
+    "term": "loose motions",
+    "meaning": "묽은 배변",
+    "sentence": "I’ve had ___________ for two days.",
+    "right_sentence": "I’ve had loose motions for two days."
+  },
+  {
+    "term": "hard poop",
+    "meaning": "딱딱한 대변",
+    "sentence": "My ___________ makes going tough.",
+    "right_sentence": "My hard poop makes going tough."
+  },
+  {
+    "term": "leaky urine",
+    "meaning": "누출되는 소변",
+    "sentence": "I have ___________ when I laugh.",
+    "right_sentence": "I have leaky urine when I laugh."
+  },
+  {
+    "term": "burning sensation",
+    "meaning": "타는 듯한 느낌",
+    "sentence": "I feel a ___________ when I urinate.",
+    "right_sentence": "I feel a burning sensation when I urinate."
+  },
+  {
+    "term": "cloudy pee",
+    "meaning": "탁한 소변",
+    "sentence": "My ___________ looks odd lately.",
+    "right_sentence": "My cloudy pee looks odd lately."
+  },
+  {
+    "term": "heavy arms",
+    "meaning": "무거운 팔",
+    "sentence": "My ___________ feel weak after work.",
+    "right_sentence": "My heavy arms feel weak after work."
+  },
+  {
+    "term": "stiff shoulders",
+    "meaning": "뻣뻣한 어깨",
+    "sentence": "My ___________ hurt after lifting.",
+    "right_sentence": "My stiff shoulders hurt after lifting."
   }
 ]
