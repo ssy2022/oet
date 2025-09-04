@@ -5114,1428 +5114,1401 @@
     "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
   },
 
+  {
+    "term": "Hello, thanks for coming in to talk about your elbow X-ray results.",
+    "meaning": "안녕하세요, 팔꿈치 X-ray 결과에 대해 이야기하러 와주셔서 감사합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hi, it’s good to see you. How’s your foot feeling today?",
+    "meaning": "안녕, 뵙게 되어 기쁩니다. 오늘 발은 어떤가요?",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Welcome to the clinic. I hear you’re worried about your son’s health.",
+    "meaning": "클리닉에 오신 것을 환영합니다. 아들의 건강이 걱정된다고 들었습니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Good afternoon! Thanks for visiting to discuss your daughter’s recovery.",
+    "meaning": "좋은 오후입니다! 딸의 회복에 대해 논의하러 와주셔서 감사합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hello! Let’s talk about why you fainted on the train yesterday.",
+    "meaning": "안녕하세요! 어제 기차에서 기절한 이유에 대해 이야기합시다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "What happened when you injured your elbow at work?",
+    "meaning": "직장에서 팔꿈치를 다쳤을 때 무슨 일이 있었나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "Can you tell me about your smoking habits and why you want to quit?",
+    "meaning": "흡연 습관과 왜 끊고 싶은지 말씀해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How did you hurt your foot at the gym today?",
+    "meaning": "오늘 체육관에서 발을 어떻게 다쳤나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "What’s been going on with your son’s toilet training efforts?",
+    "meaning": "아들의 배변 훈련 노력에 무슨 일이 있었나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "Can you describe what happened when you fainted yesterday?",
+    "meaning": "어제 기절했을 때 무슨 일이 있었는지 설명해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How has your son’s behavior changed recently?",
+    "meaning": "최근 아들의 행동이 어떻게 변했나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "What symptoms has your daughter had since her tonsil surgery?",
+    "meaning": "딸이 편도 수술 후 어떤 증상을 보였나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Has your son shown any other health issues besides blood in his urine?",
+    "meaning": "아들이 소변에 피 외에 다른 건강 문제를 보였나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "How has your daughter’s pain been since taking the painkillers?",
+    "meaning": "딸이 진통제를 복용한 후 통증이 어땠나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Have you noticed changes in your son’s social habits lately?",
+    "meaning": "최근 아들의 사교적 습관에 변화가 있었나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "I’m sorry your elbow injury is making work difficult for you.",
+    "meaning": "팔꿈치 부상 때문에 일이 힘들어졌다니 유감입니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It must be hard to think about quitting smoking after so long.",
+    "meaning": "그렇게 오랫동안 흡연한 후에 끊는 것을 생각하기 힘들겠어요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I know it’s tough to deal with your son’s possible drug use.",
+    "meaning": "아들의 약물 사용 가능성을 다루는 것이 힘들다는 것을 알아요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It’s upsetting to see your daughter in pain after surgery.",
+    "meaning": "수술 후 딸이 아픈 모습을 보는 것이 속상하죠.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I understand how worrying it is to see blood in your son’s urine.",
+    "meaning": "아들의 소변에 피가 보이는 것이 얼마나 걱정스러운지 이해합니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "Do you smoke every day, and how much do you smoke?",
+    "meaning": "매일 담배를 피우시나요, 그리고 얼마나 피우시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "What’s your daily routine like, especially your diet?",
+    "meaning": "일상생활, 특히 식단은 어떤가요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "How often do you lift weights or do other exercises?",
+    "meaning": "얼마나 자주 웨이트를 들거나 다른 운동을 하나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "Do you feel stressed often, and how do you manage it?",
+    "meaning": "자주 스트레스를 느끼시나요, 그리고 어떻게 관리하시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "What does your son do daily, like school or hobbies?",
+    "meaning": "아들이 매일 무엇을 하나요, 예를 들어 학교나 취미는요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "The X-ray shows a small break in your elbow’s olecranon bone.",
+    "meaning": "X-ray에서 팔꿈치 뼈(상완골)의 작은 골절이 보입니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your urine test shows blood, likely from a kidney issue.",
+    "meaning": "소변 검사에서 피가 보이며, 신장 문제 때문일 가능성이 큽니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The foot X-ray confirms a break in your little toe only.",
+    "meaning": "발 X-ray에서 새끼발가락만 골절된 것이 확인되었습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your blood tests suggest low protein, possibly from your diet.",
+    "meaning": "혈액 검사에서 단백질이 낮아 식단 때문일 가능성이 있습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The measurements show your knee cyst hasn’t grown bigger.",
+    "meaning": "측정 결과 무릎 낭종이 더 커지지 않았습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your chest pain suggests angina, linked to heart blood flow issues.",
+    "meaning": "가슴 통증은 심장 혈류 문제와 관련된 협심증을 시사합니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "The sore throat and blood in urine point to tonsillitis with kidney effects.",
+    "meaning": "인후통과 소변의 피는 신장에 영향을 미치는 편도염을 가리킵니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your daughter’s constipation is likely from the painkiller oxycodone.",
+    "meaning": "딸의 변비는 진통제 옥시코돈 때문일 가능성이 큽니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Fainting may be due to malnutrition from your vegan diet.",
+    "meaning": "기절은 비건 식단으로 인한 영양실조 때문일 수 있습니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your son’s behavior suggests possible marijuana use affecting his health.",
+    "meaning": "아들의 행동은 마리화나 사용이 건강에 영향을 미칠 가능성을 시사합니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll need a blood test to check your heart health risks.",
+    "meaning": "심장 건강 위험을 확인하기 위해 혈액 검사가 필요합니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "Let’s do another X-ray in two weeks to monitor your elbow.",
+    "meaning": "팔꿈치를 모니터링하기 위해 2주 후에 X-ray를 다시 해봅시다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "A blood test can check for nutrient deficiencies causing fainting.",
+    "meaning": "기절을 유발하는 영양 결핍을 확인하기 위해 혈액 검사를 할 수 있습니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll need a urine test to monitor your son’s kidney function.",
+    "meaning": "아들의 신장 기능을 모니터링하기 위해 소변 검사가 필요합니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "Let’s measure the knee cyst again in three months to check its size.",
+    "meaning": "무릎 낭종의 크기를 확인하기 위해 3개월 후에 다시 측정합시다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "I’m prescribing paracetamol to ease your toe pain.",
+    "meaning": "발가락 통증을 완화하기 위해 파라세타몰을 처방합니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "A sling and rest will help your elbow heal properly.",
+    "meaning": "슬링과 휴식은 팔꿈치가 제대로 치유되도록 도울 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Penicillin will treat your son’s throat infection and kidney issue.",
+    "meaning": "페니실린은 아들의 인후 감염과 신장 문제를 치료할 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Try laxatives to help your daughter’s constipation from painkillers.",
+    "meaning": "진통제로 인한 딸의 변비를 돕기 위해 완하제를 시도해 보세요.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Nicotine patches can help you quit smoking safely.",
+    "meaning": "니코틴 패치는 안전하게 금연하는 데 도움이 될 수 있습니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Avoid heavy lifting to help your elbow heal faster.",
+    "meaning": "팔꿈치가 더 빨리 치유되도록 무거운 물건을 들지 마세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Cut down on smoking to reduce your chest pain risks.",
+    "meaning": "가슴 통증 위험을 줄이기 위해 흡연을 줄이세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Try a reward system to encourage your son’s toilet training.",
+    "meaning": "아들의 배변 훈련을 장려하기 위해 보상 시스템을 시도해 보세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Add more protein like nuts to your vegan diet to stay healthy.",
+    "meaning": "건강을 유지하기 위해 비건 식단에 견과류 같은 단백질을 더하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Use ice and elevation to help your toe heal without a cast.",
+    "meaning": "깁스 없이 발가락 치유를 돕기 위해 얼음과 거상을 사용하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Your elbow should heal well with rest in about six weeks.",
+    "meaning": "휴식을 취하면 팔꿈치는 약 6주 안에 잘 치유될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your toe will get better soon with proper care at home.",
+    "meaning": "집에서 적절히 관리하면 발가락은 곧 나을 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your son’s toilet training will improve with time and patience.",
+    "meaning": "시간과 인내로 아들의 배변 훈련은 개선될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your daughter’s constipation should ease with the new plan.",
+    "meaning": "새로운 계획으로 딸의 변비가 완화될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Angina can be managed well with the right treatment.",
+    "meaning": "올바른 치료로 협심증은 잘 관리할 수 있습니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Resting now will help your elbow heal faster for work.",
+    "meaning": "지금 쉬면 팔꿈치가 더 빨리 치유되어 일에 복귀할 수 있습니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Hypnotherapy is a safe way to help you quit smoking.",
+    "meaning": "최면 요법은 금연에 도움이 되는 안전한 방법입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "A splint is better than a cast for your toe’s recovery.",
+    "meaning": "발가락 회복에는 깁스보다 부목이 더 좋습니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Antibiotics are needed to treat your son’s kidney issue.",
+    "meaning": "아들의 신장 문제를 치료하려면 항생제가 필요합니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Continuing physio will keep your knee cyst under control.",
+    "meaning": "물리치료를 계속하면 무릎 낭종을 관리할 수 있습니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "I’m worried that not resting could worsen your elbow injury.",
+    "meaning": "쉬지 않으면 팔꿈치 부상이 악화될까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Continuing smoking could make your chest pain worse.",
+    "meaning": "흡연을 계속하면 가슴 통증이 더 심해질 수 있습니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "I’m concerned your son’s drug use could harm his health.",
+    "meaning": "아들의 약물 사용이 건강을 해칠까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Not treating your daughter’s constipation could cause discomfort.",
+    "meaning": "딸의 변비를 치료하지 않으면 불편함이 생길 수 있습니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "I’m worried your fainting could be a sign of a bigger issue.",
+    "meaning": "기절이 더 큰 문제의 신호일까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Are you okay with resting your elbow for two weeks?",
+    "meaning": "2주 동안 팔꿈치를 쉬는 것에 괜찮으신가요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Does the plan for your son’s toilet training sound clear?",
+    "meaning": "아들의 배변 훈련 계획이 명확해 보이나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Are you comfortable with trying nicotine patches to quit smoking?",
+    "meaning": "금연을 위해 니코틴 패치를 시도하는 것에 편안하신가요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Do you understand why a splint is better for your toe?",
+    "meaning": "발가락에 부목이 더 나은 이유를 이해하셨나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Is the treatment plan for your daughter’s constipation clear?",
+    "meaning": "딸의 변비 치료 계획이 명확해 보이나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "You asked how long your elbow will take to heal. About six weeks.",
+    "meaning": "팔꿈치 치유에 시간이 얼마나 걸리는지 물으셨습니다. 약 6주입니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You’re worried about smoking risks. It can harm your heart.",
+    "meaning": "흡연 위험에 대해 걱정하십니다. 심장에 해를 끼칠 수 있습니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You asked if oxycodone is safe. It can cause constipation.",
+    "meaning": "옥시코돈이 안전한지 물으셨습니다. 변비를 유발할 수 있습니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You’re concerned about your son’s urine. It’s linked to his throat infection.",
+    "meaning": "아들의 소변에 대해 걱정하십니다. 인후 감염과 관련이 있습니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You asked if the cyst will grow. It’s stable with current treatment.",
+    "meaning": "낭종이 커질지 물으셨습니다. 현재 치료로 안정적입니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "I know you’re worried about missing work with your elbow injury.",
+    "meaning": "팔꿈치 부상으로 일을 놓칠까 걱정하시는 것을 압니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "I understand your concern about your son not being ready for kindergarten.",
+    "meaning": "아들이 유치원에 준비되지 않을까 걱정하시는 것을 이해합니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "Let’s address your worry about fainting happening again.",
+    "meaning": "다시 기절할까 걱정하는 것에 대해 이야기합시다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "I see why you’re anxious about your daughter’s pain after surgery.",
+    "meaning": "수술 후 딸의 통증에 대해 걱정하시는 이유를 알겠습니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "Your concern about chest pain and heart attack risk is valid.",
+    "meaning": "가슴 통증과 심장마비 위험에 대한 우려는 타당합니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "You can do office work or mentoring to ease back into duties.",
+    "meaning": "사무 업무 또는 멘토링으로 업무에 서서히 복귀할 수 있습니다.",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For quitting smoking, try patches or hypnotherapy. Which do you like?",
+    "meaning": "금연을 위해 패치나 최면 요법을 시도해 보세요. 어떤 것을 좋아하시나요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For your toe, we can use a splint or just rest. What’s better?",
+    "meaning": "발가락에 부목을 사용하거나 그냥 쉴 수 있습니다. 어떤 것이 더 나은가요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For your son, try rewards or books for toilet training. Your choice?",
+    "meaning": "아들에게 배변 훈련을 위해 보상이나 책을 시도해 보세요. 어떤 것을 선택하시겠습니까?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For the cyst, continue physio or see a specialist. What do you prefer?",
+    "meaning": "낭종에 대해 물리치료를 계속하거나 전문의를 만나세요. 어떤 것을 선호하시나요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "Let’s review your elbow in two weeks to check healing.",
+    "meaning": "치유를 확인하기 위해 2주 후에 팔꿈치를 검토합시다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Come back in three weeks to discuss your smoking progress.",
+    "meaning": "금연 진행 상황을 논의하기 위해 3주 후에 다시 오세요.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "I’ll refer your son to a pediatrician for his kidney issue.",
+    "meaning": "아들의 신장 문제로 소아과 전문의에게 의뢰할 것입니다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Let’s check your daughter’s constipation again in one week.",
+    "meaning": "딸의 변비를 일주일 후에 다시 확인합시다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Visit in two weeks to review your blood test results.",
+    "meaning": "혈액 검사 결과를 검토하기 위해 2주 후에 방문하세요.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Not resting your elbow could delay healing and cause more pain.",
+    "meaning": "팔꿈치를 쉬지 않으면 치유가 지연되고 통증이 더 심해질 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Smoking could increase your risk of a heart attack.",
+    "meaning": "흡연은 심장마비 위험을 증가시킬 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Ignoring your son’s drug use could harm his mental health.",
+    "meaning": "아들의 약물 사용을 무시하면 정신 건강에 해를 끼칠 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Not treating the kidney issue could damage your son’s health.",
+    "meaning": "신장 문제를 치료하지 않으면 아들의 건강이 손상될 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Ignoring the cyst could affect your dancing in the future.",
+    "meaning": "낭종을 무시하면 앞으로 춤추는 데 영향을 미칠 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "I know you don’t want to rest, but it’s best for your elbow.",
+    "meaning": "쉬고 싶지 않으신 것을 알지만, 팔꿈치에 가장 좋습니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I understand you want Zyban, but it’s risky with epilepsy.",
+    "meaning": "Zyban을 원하신다는 것을 이해하지만, 간질에는 위험합니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I know you want a cast, but a splint is better for your toe.",
+    "meaning": "깁스를 원하신다는 것을 알지만, 발가락에는 부목이 더 좋습니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I hear you don’t like antibiotics, but they’re needed for your son.",
+    "meaning": "항생제를 좋아하지 않으신다는 것을 들었지만, 아들에게 필요합니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I understand you’re worried about surgery, but physio is working for the cyst.",
+    "meaning": "수술에 대해 걱정하시는 것을 이해하지만, 낭종에는 물리치료가 효과적입니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "Angina is when your heart doesn’t get enough blood or oxygen.",
+    "meaning": "협심증은 심장이 충분한 혈액이나 산소를 받지 못할 때입니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Marijuana can affect your son’s focus and school performance.",
+    "meaning": "마리화나는 아들의 집중력과 학교 성적에 영향을 미칠 수 있습니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "A Baker’s cyst is a fluid sac behind the knee, often from overuse.",
+    "meaning": "베이커 낭종은 무릎 뒤의 액체 주머니로, 종종 과사용 때문입니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Oxycodone can cause constipation as a common side effect.",
+    "meaning": "옥시코돈은 일반적인 부작용으로 변비를 유발할 수 있습니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Toilet training varies for each child and takes time.",
+    "meaning": "배변 훈련은 아이마다 다르며 시간이 걸립니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Your elbow should feel much better with rest and treatment.",
+    "meaning": "휴식과 치료로 팔꿈치는 훨씬 나아질 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "With help, you can quit smoking and feel healthier soon.",
+    "meaning": "도움을 받으면 금연하고 곧 더 건강해질 수 있습니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your toe will heal well with a splint in a few weeks.",
+    "meaning": "부목을 사용하면 발가락은 몇 주 안에 잘 치유될 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your son will learn toilet training when he’s ready.",
+    "meaning": "아들은 준비가 되면 배변 훈련을 배울 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your daughter’s throat will improve soon with less pain medication.",
+    "meaning": "진통제를 줄이면 딸의 목이 곧 나아질 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
 
+  {
+    "term": "Hello, I’m here to discuss your elbow X-ray results today.",
+    "meaning": "안녕하세요, 오늘 팔꿈치 X-ray 결과에 대해 이야기하려고 합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hi, thanks for coming to talk about your chest pain concerns.",
+    "meaning": "안녕, 가슴 통증 걱정에 대해 이야기하러 와주셔서 감사합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Welcome! Let’s talk about your son’s recent health issues.",
+    "meaning": "환영합니다! 아들의 최근 건강 문제에 대해 이야기합시다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Good morning! I’m glad you’re here to discuss your knee cyst.",
+    "meaning": "좋은 아침입니다! 무릎 낭종에 대해 논의하러 와주셔서 기쁩니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hi there, let’s go over why your daughter is having trouble after surgery.",
+    "meaning": "안녕하세요, 딸이 수술 후 왜 어려움을 겪는지 알아봅시다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Can you explain how your elbow got hurt at work?",
+    "meaning": "직장에서 팔꿈치를 어떻게 다쳤는지 설명해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "What made you think your son might be using drugs?",
+    "meaning": "아들이 약물을 사용할지도 모른다고 생각하게 된 이유는 무엇인가요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How did the accident with the weight happen at the gym?",
+    "meaning": "체육관에서 웨이트로 인한 사고는 어떻게 일어났나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "What’s been happening with your vegan diet and fainting spell?",
+    "meaning": "비건 식단과 기절에 무슨 일이 있었나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "Can you tell me why you’re worried about your son’s toilet training?",
+    "meaning": "아들의 배변 훈련에 대해 왜 걱정하는지 말씀해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How has your daughter’s recovery been since her tonsil surgery?",
+    "meaning": "딸이 편도 수술 후 회복은 어땠나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "What changes have you seen in your son’s mood or habits?",
+    "meaning": "아들의 기분이나 습관에서 어떤 변화를 보셨나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Has your son had any other issues besides his sore throat?",
+    "meaning": "아들이 인후통 외에 다른 문제를 보였나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "How has your daughter been feeling with her constipation?",
+    "meaning": "딸이 변비로 인해 어떤 기분을 느끼고 있나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Have you noticed anything different about your son’s daily routine?",
+    "meaning": "아들의 일상에서 다른 점을 느끼셨나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "I know it’s hard to take time off with your elbow injury.",
+    "meaning": "팔꿈치 부상으로 휴가를 내는 것이 힘들다는 것을 알아요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It must be stressful to keep trying to quit smoking.",
+    "meaning": "금연을 계속 시도하는 것이 스트레스일 거예요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I’m sorry you’re worried about your son’s possible drug use.",
+    "meaning": "아들의 약물 사용 가능성에 대해 걱정하셔서 유감입니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It’s tough to see your daughter struggling with constipation.",
+    "meaning": "딸이 변비로 고생하는 모습을 보는 것이 힘들죠.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I understand how scary it is to faint unexpectedly.",
+    "meaning": "예기치 않게 기절하는 것이 얼마나 무서운지 이해합니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "Do you exercise regularly, like dancing or walking?",
+    "meaning": "춤이나 걷기 같은 운동을 정기적으로 하나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "What foods do you eat daily on your vegan diet?",
+    "meaning": "비건 식단으로 매일 어떤 음식을 먹나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "How often does your son stay in his room alone?",
+    "meaning": "아들이 혼자 방에 얼마나 자주 있나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "Do you feel tired or stressed from your daily work?",
+    "meaning": "일상 업무로 인해 피곤하거나 스트레스를 느끼시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "How much time do you spend dancing each week?",
+    "meaning": "매주 춤추는 데 얼마나 많은 시간을 보내시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "Your X-ray shows a small fracture in your elbow bone.",
+    "meaning": "X-ray에서 팔꿈치 뼈에 작은 골절이 보입니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The urine test confirms blood, likely from a throat infection.",
+    "meaning": "소변 검사에서 피가 확인되었으며, 인후 감염 때문일 가능성이 큽니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your toe X-ray shows only the little toe is broken.",
+    "meaning": "발가락 X-ray에서 새끼발가락만 부러진 것이 보입니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Blood tests show low iron, which could explain your fainting.",
+    "meaning": "혈액 검사에서 철분이 낮아 기절을 설명할 수 있습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The knee cyst size is the same as last time we checked.",
+    "meaning": "무릎 낭종 크기는 지난번 확인했을 때와 같습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your chest pain is likely angina, caused by low heart blood flow.",
+    "meaning": "가슴 통증은 심장 혈류 저하로 인한 협심증일 가능성이 큽니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your son’s symptoms suggest tonsillitis affecting his kidneys.",
+    "meaning": "아들의 증상은 신장에 영향을 미치는 편도염을 시사합니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Constipation is a side effect of your daughter’s pain medication.",
+    "meaning": "변비는 딸의 진통제 부작용입니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Fainting could be from an irregular heartbeat due to diet issues.",
+    "meaning": "기절은 식단 문제로 인한 불규칙한 심장 박동 때문일 수 있습니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your son’s weight loss and sleepiness may be from drug use.",
+    "meaning": "아들의 체중 감소와 졸림은 약물 사용 때문일 수 있습니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll need a cholesterol test to check your heart health.",
+    "meaning": "심장 건강을 확인하기 위해 콜레스테롤 검사가 필요합니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "Let’s do a follow-up X-ray for your toe in six weeks.",
+    "meaning": "6주 후에 발가락을 위한 후속 X-ray를 해봅시다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "A blood test will help us check your son’s overall health.",
+    "meaning": "혈액 검사는 아들의 전반적인 건강을 확인하는 데 도움이 될 것입니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll check your blood pressure to monitor your heart risks.",
+    "meaning": "심장 위험을 모니터링하기 위해 혈압을 확인할 것입니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "Let’s measure your knee cyst again in a few months.",
+    "meaning": "몇 달 후에 무릎 낭종을 다시 측정합시다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "I’m prescribing ibuprofen to help with your elbow pain.",
+    "meaning": "팔꿈치 통증을 돕기 위해 이부프로펜을 처방합니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Use nicotine lozenges to help you stop smoking safely.",
+    "meaning": "안전하게 금연하도록 니코틴 사탕을 사용하세요.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "A splint will support your toe while it heals.",
+    "meaning": "부목은 발가락이 치유되는 동안 지지해 줄 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Try dietary fiber to ease your daughter’s constipation.",
+    "meaning": "딸의 변비를 완화하기 위해 식이 섬유를 시도해 보세요.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Antibiotics will help your son’s throat and kidney issues.",
+    "meaning": "항생제는 아들의 인후와 신장 문제를 도울 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Rest your foot and avoid walking too much to help your toe.",
+    "meaning": "발을 쉬고 너무 많이 걷지 마세요, 발가락에 도움이 됩니다.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Cut back on heavy exercise to protect your heart from angina.",
+    "meaning": "협심증으로부터 심장을 보호하기 위해 무거운 운동을 줄이세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Use books or videos to help your son with toilet training.",
+    "meaning": "아들의 배변 훈련을 돕기 위해 책이나 비디오를 사용하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Eat more tofu or beans to boost protein in your diet.",
+    "meaning": "식단에서 단백질을 늘리기 위해 두부나 콩을 더 드세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Keep doing physio to manage your knee cyst effectively.",
+    "meaning": "무릎 낭종을 효과적으로 관리하기 위해 물리치료를 계속하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Your elbow will recover well if you rest it properly.",
+    "meaning": "제대로 쉬면 팔꿈치가 잘 회복될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "With the right help, your son will overcome his challenges.",
+    "meaning": "적절한 도움으로 아들은 어려움을 극복할 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your toe should heal nicely with a splint and care.",
+    "meaning": "부목과 관리로 발가락은 잘 치유될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your son’s kidney issue can be treated with antibiotics.",
+    "meaning": "아들의 신장 문제는 항생제로 치료할 수 있습니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your knee cyst is stable and manageable with treatment.",
+    "meaning": "무릎 낭종은 치료로 안정적이고 관리 가능합니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "A sling is the best way to help your elbow heal quickly.",
+    "meaning": "슬링은 팔꿈치가 빠르게 치유되도록 돕는 최선의 방법입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Nicotine patches are safer than Zyban for quitting smoking.",
+    "meaning": "니코틴 패치는 금연을 위해 Zyban보다 안전합니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Rest and ice are better than a cast for your toe.",
+    "meaning": "발가락에는 깁스보다 휴식과 얼음이 더 좋습니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Laxatives will help your daughter more than painkillers alone.",
+    "meaning": "완하제는 진통제 단독보다 딸에게 더 도움이 될 것입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
 
-
-
-    {
-      "term": "Hello, thanks for coming in to talk about your elbow X-ray results.",
-      "meaning": "안녕하세요, 팔꿈치 X-ray 결과에 대해 이야기하러 와주셔서 감사합니다.",
-      "category": "Greeting the Patient (첫 인사)"
-    },
-    {
-      "term": "Hi, it’s good to see you. How’s your foot feeling today?",
-      "meaning": "안녕, 뵙게 되어 기쁩니다. 오늘 발은 어떤가요?",
-      "category": "Greeting the Patient (첫 인사)"
-    },
-    {
-      "term": "Welcome to the clinic. I hear you’re worried about your son’s health.",
-      "meaning": "클리닉에 오신 것을 환영합니다. 아들의 건강이 걱정된다고 들었습니다.",
-      "category": "Greeting the Patient (첫 인사)"
-    },
-    {
-      "term": "Good afternoon! Thanks for visiting to discuss your daughter’s recovery.",
-      "meaning": "좋은 오후입니다! 딸의 회복에 대해 논의하러 와주셔서 감사합니다.",
-      "category": "Greeting the Patient (첫 인사)"
-    },
-    {
-      "term": "Hello! Let’s talk about why you fainted on the train yesterday.",
-      "meaning": "안녕하세요! 어제 기차에서 기절한 이유에 대해 이야기합시다.",
-      "category": "Greeting the Patient (첫 인사)"
-    },
-    {
-      "term": "What happened when you injured your elbow at work?",
-      "meaning": "직장에서 팔꿈치를 다쳤을 때 무슨 일이 있었나요?",
-      "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-    },
-    {
-      "term": "Can you tell me about your smoking habits and why you want to quit?",
-      "meaning": "흡연 습관과 왜 끊고 싶은지 말씀해 주시겠습니까?",
-      "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-    },
-    {
-      "term": "How did you hurt your foot at the gym today?",
-      "meaning": "오늘 체육관에서 발을 어떻게 다쳤나요?",
-      "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-    },
-    {
-      "term": "What’s been going on with your son’s toilet training efforts?",
-      "meaning": "아들의 배변 훈련 노력에 무슨 일이 있었나요?",
-      "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-    },
-    {
-      "term": "Can you describe what happened when you fainted yesterday?",
-      "meaning": "어제 기절했을 때 무슨 일이 있었는지 설명해 주시겠습니까?",
-      "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-    },
-    {
-      "term": "How has your son’s behavior changed recently?",
-      "meaning": "최근 아들의 행동이 어떻게 변했나요?",
-      "category": "Asking About Family (가족에 대해 묻기)"
-    },
-    {
-      "term": "What symptoms has your daughter had since her tonsil surgery?",
-      "meaning": "딸이 편도 수술 후 어떤 증상을 보였나요?",
-      "category": "Asking About Family (가족에 대해 묻기)"
-    },
-    {
-      "term": "Has your son shown any other health issues besides blood in his urine?",
-      "meaning": "아들이 소변에 피 외에 다른 건강 문제를 보였나요?",
-      "category": "Asking About Family (가족에 대해 묻기)"
-    },
-    {
-      "term": "How has your daughter’s pain been since taking the painkillers?",
-      "meaning": "딸이 진통제를 복용한 후 통증이 어땠나요?",
-      "category": "Asking About Family (가족에 대해 묻기)"
-    },
-    {
-      "term": "Have you noticed changes in your son’s social habits lately?",
-      "meaning": "최근 아들의 사교적 습관에 변화가 있었나요?",
-      "category": "Asking About Family (가족에 대해 묻기)"
-    },
-    {
-      "term": "I’m sorry your elbow injury is making work difficult for you.",
-      "meaning": "팔꿈치 부상 때문에 일이 힘들어졌다니 유감입니다.",
-      "category": "Showing Empathy (공감하기)"
-    },
-    {
-      "term": "It must be hard to think about quitting smoking after so long.",
-      "meaning": "그렇게 오랫동안 흡연한 후에 끊는 것을 생각하기 힘들겠어요.",
-      "category": "Showing Empathy (공감하기)"
-    },
-    {
-      "term": "I know it’s tough to deal with your son’s possible drug use.",
-      "meaning": "아들의 약물 사용 가능성을 다루는 것이 힘들다는 것을 알아요.",
-      "category": "Showing Empathy (공감하기)"
-    },
-    {
-      "term": "It’s upsetting to see your daughter in pain after surgery.",
-      "meaning": "수술 후 딸이 아픈 모습을 보는 것이 속상하죠.",
-      "category": "Showing Empathy (공감하기)"
-    },
-    {
-      "term": "I understand how worrying it is to see blood in your son’s urine.",
-      "meaning": "아들의 소변에 피가 보이는 것이 얼마나 걱정스러운지 이해합니다.",
-      "category": "Showing Empathy (공감하기)"
-    },
-    {
-      "term": "Do you smoke every day, and how much do you smoke?",
-      "meaning": "매일 담배를 피우시나요, 그리고 얼마나 피우시나요?",
-      "category": "Asking About Lifestyle (생활 습관 묻기)"
-    },
-    {
-      "term": "What’s your daily routine like, especially your diet?",
-      "meaning": "일상생활, 특히 식단은 어떤가요?",
-      "category": "Asking About Lifestyle (생활 습관 묻기)"
-    },
-    {
-      "term": "How often do you lift weights or do other exercises?",
-      "meaning": "얼마나 자주 웨이트를 들거나 다른 운동을 하나요?",
-      "category": "Asking About Lifestyle (생활 습관 묻기)"
-    },
-    {
-      "term": "Do you feel stressed often, and how do you manage it?",
-      "meaning": "자주 스트레스를 느끼시나요, 그리고 어떻게 관리하시나요?",
-      "category": "Asking About Lifestyle (생활 습관 묻기)"
-    },
-    {
-      "term": "What does your son do daily, like school or hobbies?",
-      "meaning": "아들이 매일 무엇을 하나요, 예를 들어 학교나 취미는요?",
-      "category": "Asking About Lifestyle (생활 습관 묻기)"
-    },
-    {
-      "term": "The X-ray shows a small break in your elbow’s olecranon bone.",
-      "meaning": "X-ray에서 팔꿈치 뼈(상완골)의 작은 골절이 보입니다.",
-      "category": "Explaining Test Results (검사 결과 설명하기)"
-    },
-    {
-      "term": "Your urine test shows blood, likely from a kidney issue.",
-      "meaning": "소변 검사에서 피가 보이며, 신장 문제 때문일 가능성이 큽니다.",
-      "category": "Explaining Test Results (검사 결과 설명하기)"
-    },
-    {
-      "term": "The foot X-ray confirms a break in your little toe only.",
-      "meaning": "발 X-ray에서 새끼발가락만 골절된 것이 확인되었습니다.",
-      "category": "Explaining Test Results (검사 결과 설명하기)"
-    },
-    {
-      "term": "Your blood tests suggest low protein, possibly from your diet.",
-      "meaning": "혈액 검사에서 단백질이 낮아 식단 때문일 가능성이 있습니다.",
-      "category": "Explaining Test Results (검사 결과 설명하기)"
-    },
-    {
-      "term": "The measurements show your knee cyst hasn’t grown bigger.",
-      "meaning": "측정 결과 무릎 낭종이 더 커지지 않았습니다.",
-      "category": "Explaining Test Results (검사 결과 설명하기)"
-    },
-    {
-      "term": "Your chest pain suggests angina, linked to heart blood flow issues.",
-      "meaning": "가슴 통증은 심장 혈류 문제와 관련된 협심증을 시사합니다.",
-      "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-    },
-    {
-      "term": "The sore throat and blood in urine point to tonsillitis with kidney effects.",
-      "meaning": "인후통과 소변의 피는 신장에 영향을 미치는 편도염을 가리킵니다.",
-      "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-    },
-    {
-      "term": "Your daughter’s constipation is likely from the painkiller oxycodone.",
-      "meaning": "딸의 변비는 진통제 옥시코돈 때문일 가능성이 큽니다.",
-      "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-    },
-    {
-      "term": "Fainting may be due to malnutrition from your vegan diet.",
-      "meaning": "기절은 비건 식단으로 인한 영양실조 때문일 수 있습니다.",
-      "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-    },
-    {
-      "term": "Your son’s behavior suggests possible marijuana use affecting his health.",
-      "meaning": "아들의 행동은 마리화나 사용이 건강에 영향을 미칠 가능성을 시사합니다.",
-      "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-    },
-    {
-      "term": "We’ll need a blood test to check your heart health risks.",
-      "meaning": "심장 건강 위험을 확인하기 위해 혈액 검사가 필요합니다.",
-      "category": "Explaining Tests (검사에 대해 설명하기)"
-    },
-    {
-      "term": "Let’s do another X-ray in two weeks to monitor your elbow.",
-      "meaning": "팔꿈치를 모니터링하기 위해 2주 후에 X-ray를 다시 해봅시다.",
-      "category": "Explaining Tests (검사에 대해 설명하기)"
-    },
-    {
-      "term": "A blood test can check for nutrient deficiencies causing fainting.",
-      "meaning": "기절을 유발하는 영양 결핍을 확인하기 위해 혈액 검사를 할 수 있습니다.",
-      "category": "Explaining Tests (검사에 대해 설명하기)"
-    },
-    {
-      "term": "We’ll need a urine test to monitor your son’s kidney function.",
-      "meaning": "아들의 신장 기능을 모니터링하기 위해 소변 검사가 필요합니다.",
-      "category": "Explaining Tests (검사에 대해 설명하기)"
-    },
-    {
-      "term": "Let’s measure the knee cyst again in three months to check its size.",
-      "meaning": "무릎 낭종의 크기를 확인하기 위해 3개월 후에 다시 측정합시다.",
-      "category": "Explaining Tests (검사에 대해 설명하기)"
-    },
-    {
-      "term": "I’m prescribing paracetamol to ease your toe pain.",
-      "meaning": "발가락 통증을 완화하기 위해 파라세타몰을 처방합니다.",
-      "category": "Explaining Treatment (치료에 대해 설명하기)"
-    },
-    {
-      "term": "A sling and rest will help your elbow heal properly.",
-      "meaning": "슬링과 휴식은 팔꿈치가 제대로 치유되도록 도울 것입니다.",
-      "category": "Explaining Treatment (치료에 대해 설명하기)"
-    },
-    {
-      "term": "Penicillin will treat your son’s throat infection and kidney issue.",
-      "meaning": "페니실린은 아들의 인후 감염과 신장 문제를 치료할 것입니다.",
-      "category": "Explaining Treatment (치료에 대해 설명하기)"
-    },
-    {
-      "term": "Try laxatives to help your daughter’s constipation from painkillers.",
-      "meaning": "진통제로 인한 딸의 변비를 돕기 위해 완하제를 시도해 보세요.",
-      "category": "Explaining Treatment (치료에 대해 설명하기)"
-    },
-    {
-      "term": "Nicotine patches can help you quit smoking safely.",
-      "meaning": "니코틴 패치는 안전하게 금연하는 데 도움이 될 수 있습니다.",
-      "category": "Explaining Treatment (치료에 대해 설명하기)"
-    },
-    {
-      "term": "Avoid heavy lifting to help your elbow heal faster.",
-      "meaning": "팔꿈치가 더 빨리 치유되도록 무거운 물건을 들지 마세요.",
-      "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-    },
-    {
-      "term": "Cut down on smoking to reduce your chest pain risks.",
-      "meaning": "가슴 통증 위험을 줄이기 위해 흡연을 줄이세요.",
-      "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-    },
-    {
-      "term": "Try a reward system to encourage your son’s toilet training.",
-      "meaning": "아들의 배변 훈련을 장려하기 위해 보상 시스템을 시도해 보세요.",
-      "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-    },
-    {
-      "term": "Add more protein like nuts to your vegan diet to stay healthy.",
-      "meaning": "건강을 유지하기 위해 비건 식단에 견과류 같은 단백질을 더하세요.",
-      "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-    },
-    {
-      "term": "Use ice and elevation to help your toe heal without a cast.",
-      "meaning": "깁스 없이 발가락 치유를 돕기 위해 얼음과 거상을 사용하세요.",
-      "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-    },
-    {
-      "term": "Your elbow should heal well with rest in about six weeks.",
-      "meaning": "휴식을 취하면 팔꿈치는 약 6주 안에 잘 치유될 것입니다.",
-      "category": "Reassuring the Patient (안심시키기)"
-    },
-    {
-      "term": "Your toe will get better soon with proper care at home.",
-      "meaning": "집에서 적절히 관리하면 발가락은 곧 나을 것입니다.",
-      "category": "Reassuring the Patient (안심시키기)"
-    },
-    {
-      "term": "Your son’s toilet training will improve with time and patience.",
-      "meaning": "시간과 인내로 아들의 배변 훈련은 개선될 것입니다.",
-      "category": "Reassuring the Patient (안심시키기)"
-    },
-    {
-      "term": "Your daughter’s constipation should ease with the new plan.",
-      "meaning": "새로운 계획으로 딸의 변비가 완화될 것입니다.",
-      "category": "Reassuring the Patient (안심시키기)"
-    },
-    {
-      "term": "Angina can be managed well with the right treatment.",
-      "meaning": "올바른 치료로 협심증은 잘 관리할 수 있습니다.",
-      "category": "Reassuring the Patient (안심시키기)"
-    },
-    {
-      "term": "Resting now will help your elbow heal faster for work.",
-      "meaning": "지금 쉬면 팔꿈치가 더 빨리 치유되어 일에 복귀할 수 있습니다.",
-      "category": "Convincing the Patient (설득하기)"
-    },
-    {
-      "term": "Hypnotherapy is a safe way to help you quit smoking.",
-      "meaning": "최면 요법은 금연에 도움이 되는 안전한 방법입니다.",
-      "category": "Convincing the Patient (설득하기)"
-    },
-    {
-      "term": "A splint is better than a cast for your toe’s recovery.",
-      "meaning": "발가락 회복에는 깁스보다 부목이 더 좋습니다.",
-      "category": "Convincing the Patient (설득하기)"
-    },
-    {
-      "term": "Antibiotics are needed to treat your son’s kidney issue.",
-      "meaning": "아들의 신장 문제를 치료하려면 항생제가 필요합니다.",
-      "category": "Convincing the Patient (설득하기)"
-    },
-    {
-      "term": "Continuing physio will keep your knee cyst under control.",
-      "meaning": "물리치료를 계속하면 무릎 낭종을 관리할 수 있습니다.",
-      "category": "Convincing the Patient (설득하기)"
-    },
-    {
-      "term": "I’m worried that not resting could worsen your elbow injury.",
-      "meaning": "쉬지 않으면 팔꿈치 부상이 악화될까 걱정됩니다.",
-      "category": "Expressing Concern (우려 표현하기)"
-    },
-    {
-      "term": "Continuing smoking could make your chest pain worse.",
-      "meaning": "흡연을 계속하면 가슴 통증이 더 심해질 수 있습니다.",
-      "category": "Expressing Concern (우려 표현하기)"
-    },
-    {
-      "term": "I’m concerned your son’s drug use could harm his health.",
-      "meaning": "아들의 약물 사용이 건강을 해칠까 걱정됩니다.",
-      "category": "Expressing Concern (우려 표현하기)"
-    },
-    {
-      "term": "Not treating your daughter’s constipation could cause discomfort.",
-      "meaning": "딸의 변비를 치료하지 않으면 불편함이 생길 수 있습니다.",
-      "category": "Expressing Concern (우려 표현하기)"
-    },
-    {
-      "term": "I’m worried your fainting could be a sign of a bigger issue.",
-      "meaning": "기절이 더 큰 문제의 신호일까 걱정됩니다.",
-      "category": "Expressing Concern (우려 표현하기)"
-    },
-    {
-      "term": "Are you okay with resting your elbow for two weeks?",
-      "meaning": "2주 동안 팔꿈치를 쉬는 것에 괜찮으신가요?",
-      "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-    },
-    {
-      "term": "Does the plan for your son’s toilet training sound clear?",
-      "meaning": "아들의 배변 훈련 계획이 명확해 보이나요?",
-      "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-    },
-    {
-      "term": "Are you comfortable with trying nicotine patches to quit smoking?",
-      "meaning": "금연을 위해 니코틴 패치를 시도하는 것에 편안하신가요?",
-      "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-    },
-    {
-      "term": "Do you understand why a splint is better for your toe?",
-      "meaning": "발가락에 부목이 더 나은 이유를 이해하셨나요?",
-      "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-    },
-    {
-      "term": "Is the treatment plan for your daughter’s constipation clear?",
-      "meaning": "딸의 변비 치료 계획이 명확해 보이나요?",
-      "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-    },
-    {
-      "term": "You asked how long your elbow will take to heal. About six weeks.",
-      "meaning": "팔꿈치 치유에 시간이 얼마나 걸리는지 물으셨습니다. 약 6주입니다.",
-      "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-    },
-    {
-      "term": "You’re worried about smoking risks. It can harm your heart.",
-      "meaning": "흡연 위험에 대해 걱정하십니다. 심장에 해를 끼칠 수 있습니다.",
-      "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-    },
-    {
-      "term": "You asked if oxycodone is safe. It can cause constipation.",
-      "meaning": "옥시코돈이 안전한지 물으셨습니다. 변비를 유발할 수 있습니다.",
-      "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-    },
-    {
-      "term": "You’re concerned about your son’s urine. It’s linked to his throat infection.",
-      "meaning": "아들의 소변에 대해 걱정하십니다. 인후 감염과 관련이 있습니다.",
-      "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-    },
-    {
-      "term": "You asked if the cyst will grow. It’s stable with current treatment.",
-      "meaning": "낭종이 커질지 물으셨습니다. 현재 치료로 안정적입니다.",
-      "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-    },
-    {
-      "term": "I know you’re worried about missing work with your elbow injury.",
-      "meaning": "팔꿈치 부상으로 일을 놓칠까 걱정하시는 것을 압니다.",
-      "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-    },
-    {
-      "term": "I understand your concern about your son not being ready for kindergarten.",
-      "meaning": "아들이 유치원에 준비되지 않을까 걱정하시는 것을 이해합니다.",
-      "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-    },
-    {
-      "term": "Let’s address your worry about fainting happening again.",
-      "meaning": "다시 기절할까 걱정하는 것에 대해 이야기합시다.",
-      "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-    },
-    {
-      "term": "I see why you’re anxious about your daughter’s pain after surgery.",
-      "meaning": "수술 후 딸의 통증에 대해 걱정하시는 이유를 알겠습니다.",
-      "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-    },
-    {
-      "term": "Your concern about chest pain and heart attack risk is valid.",
-      "meaning": "가슴 통증과 심장마비 위험에 대한 우려는 타당합니다.",
-      "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-    },
-    {
-      "term": "You can do office work or mentoring to ease back into duties.",
-      "meaning": "사무 업무 또는 멘토링으로 업무에 서서히 복귀할 수 있습니다.",
-      "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-    },
-    {
-      "term": "For quitting smoking, try patches or hypnotherapy. Which do you like?",
-      "meaning": "금연을 위해 패치나 최면 요법을 시도해 보세요. 어떤 것을 좋아하시나요?",
-      "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-    },
-    {
-      "term": "For your toe, we can use a splint or just rest. What’s better?",
-      "meaning": "발가락에 부목을 사용하거나 그냥 쉴 수 있습니다. 어떤 것이 더 나은가요?",
-      "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-    },
-    {
-      "term": "For your son, try rewards or books for toilet training. Your choice?",
-      "meaning": "아들에게 배변 훈련을 위해 보상이나 책을 시도해 보세요. 어떤 것을 선택하시겠습니까?",
-      "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-    },
-    {
-      "term": "For the cyst, continue physio or see a specialist. What do you prefer?",
-      "meaning": "낭종에 대해 물리치료를 계속하거나 전문의를 만나세요. 어떤 것을 선호하시나요?",
-      "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-    },
-    {
-      "term": "Let’s review your elbow in two weeks to check healing.",
-      "meaning": "치유를 확인하기 위해 2주 후에 팔꿈치를 검토합시다.",
-      "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-    },
-    {
-      "term": "Come back in three weeks to discuss your smoking progress.",
-      "meaning": "금연 진행 상황을 논의하기 위해 3주 후에 다시 오세요.",
-      "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-    },
-    {
-      "term": "I’ll refer your son to a pediatrician for his kidney issue.",
-      "meaning": "아들의 신장 문제로 소아과 전문의에게 의뢰할 것입니다.",
-      "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-    },
-    {
-      "term": "Let’s check your daughter’s constipation again in one week.",
-      "meaning": "딸의 변비를 일주일 후에 다시 확인합시다.",
-      "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-    },
-    {
-      "term": "Visit in two weeks to review your blood test results.",
-      "meaning": "혈액 검사 결과를 검토하기 위해 2주 후에 방문하세요.",
-      "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-    },
-    {
-      "term": "Not resting your elbow could delay healing and cause more pain.",
-      "meaning": "팔꿈치를 쉬지 않으면 치유가 지연되고 통증이 더 심해질 수 있습니다.",
-      "category": "Warning the Patient About Risks (환자에게 경고하기)"
-    },
-    {
-      "term": "Smoking could increase your risk of a heart attack.",
-      "meaning": "흡연은 심장마비 위험을 증가시킬 수 있습니다.",
-      "category": "Warning the Patient About Risks (환자에게 경고하기)"
-    },
-    {
-      "term": "Ignoring your son’s drug use could harm his mental health.",
-      "meaning": "아들의 약물 사용을 무시하면 정신 건강에 해를 끼칠 수 있습니다.",
-      "category": "Warning the Patient About Risks (환자에게 경고하기)"
-    },
-    {
-      "term": "Not treating the kidney issue could damage your son’s health.",
-      "meaning": "신장 문제를 치료하지 않으면 아들의 건강이 손상될 수 있습니다.",
-      "category": "Warning the Patient About Risks (환자에게 경고하기)"
-    },
-    {
-      "term": "Ignoring the cyst could affect your dancing in the future.",
-      "meaning": "낭종을 무시하면 앞으로 춤추는 데 영향을 미칠 수 있습니다.",
-      "category": "Warning the Patient About Risks (환자에게 경고하기)"
-    },
-    {
-      "term": "I know you don’t want to rest, but it’s best for your elbow.",
-      "meaning": "쉬고 싶지 않으신 것을 알지만, 팔꿈치에 가장 좋습니다.",
-      "category": "Handling Patient Resistance (환자의 반대 다루기)"
-    },
-    {
-      "term": "I understand you want Zyban, but it’s risky with epilepsy.",
-      "meaning": "Zyban을 원하신다는 것을 이해하지만, 간질에는 위험합니다.",
-      "category": "Handling Patient Resistance (환자의 반대 다루기)"
-    },
-    {
-      "term": "I know you want a cast, but a splint is better for your toe.",
-      "meaning": "깁스를 원하신다는 것을 알지만, 발가락에는 부목이 더 좋습니다.",
-      "category": "Handling Patient Resistance (환자의 반대 다루기)"
-    },
-    {
-      "term": "I hear you don’t like antibiotics, but they’re needed for your son.",
-      "meaning": "항생제를 좋아하지 않으신다는 것을 들었지만, 아들에게 필요합니다.",
-      "category": "Handling Patient Resistance (환자의 반대 다루기)"
-    },
-    {
-      "term": "I understand you’re worried about surgery, but physio is working for the cyst.",
-      "meaning": "수술에 대해 걱정하시는 것을 이해하지만, 낭종에는 물리치료가 효과적입니다.",
-      "category": "Handling Patient Resistance (환자의 반대 다루기)"
-    },
-    {
-      "term": "Angina is when your heart doesn’t get enough blood or oxygen.",
-      "meaning": "협심증은 심장이 충분한 혈액이나 산소를 받지 못할 때입니다.",
-      "category": "Educating the Patient (환자에게 교육하기)"
-    },
-    {
-      "term": "Marijuana can affect your son’s focus and school performance.",
-      "meaning": "마리화나는 아들의 집중력과 학교 성적에 영향을 미칠 수 있습니다.",
-      "category": "Educating the Patient (환자에게 교육하기)"
-    },
-    {
-      "term": "A Baker’s cyst is a fluid sac behind the knee, often from overuse.",
-      "meaning": "베이커 낭종은 무릎 뒤의 액체 주머니로, 종종 과사용 때문입니다.",
-      "category": "Educating the Patient (환자에게 교육하기)"
-    },
-    {
-      "term": "Oxycodone can cause constipation as a common side effect.",
-      "meaning": "옥시코돈은 일반적인 부작용으로 변비를 유발할 수 있습니다.",
-      "category": "Educating the Patient (환자에게 교육하기)"
-    },
-    {
-      "term": "Toilet training varies for each child and takes time.",
-      "meaning": "배변 훈련은 아이마다 다르며 시간이 걸립니다.",
-      "category": "Educating the Patient (환자에게 교육하기)"
-    },
-    {
-      "term": "Your elbow should feel much better with rest and treatment.",
-      "meaning": "휴식과 치료로 팔꿈치는 훨씬 나아질 것입니다.",
-      "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-    },
-    {
-      "term": "With help, you can quit smoking and feel healthier soon.",
-      "meaning": "도움을 받으면 금연하고 곧 더 건강해질 수 있습니다.",
-      "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-    },
-    {
-      "term": "Your toe will heal well with a splint in a few weeks.",
-      "meaning": "부목을 사용하면 발가락은 몇 주 안에 잘 치유될 것입니다.",
-      "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-    },
-    {
-      "term": "Your son will learn toilet training when he’s ready.",
-      "meaning": "아들은 준비가 되면 배변 훈련을 배울 것입니다.",
-      "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-    },
-    {
-      "term": "Your daughter’s throat will improve soon with less pain medication.",
-      "meaning": "진통제를 줄이면 딸의 목이 곧 나아질 것입니다.",
-      "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-    },
-
-
-
-
-
-
-
-
-
-
-    
-        {
-          "term": "Hello, I’m here to discuss your elbow X-ray results today.",
-          "meaning": "안녕하세요, 오늘 팔꿈치 X-ray 결과에 대해 이야기하려고 합니다.",
-          "category": "Greeting the Patient (첫 인사)"
-        },
-        {
-          "term": "Hi, thanks for coming to talk about your chest pain concerns.",
-          "meaning": "안녕, 가슴 통증 걱정에 대해 이야기하러 와주셔서 감사합니다.",
-          "category": "Greeting the Patient (첫 인사)"
-        },
-        {
-          "term": "Welcome! Let’s talk about your son’s recent health issues.",
-          "meaning": "환영합니다! 아들의 최근 건강 문제에 대해 이야기합시다.",
-          "category": "Greeting the Patient (첫 인사)"
-        },
-        {
-          "term": "Good morning! I’m glad you’re here to discuss your knee cyst.",
-          "meaning": "좋은 아침입니다! 무릎 낭종에 대해 논의하러 와주셔서 기쁩니다.",
-          "category": "Greeting the Patient (첫 인사)"
-        },
-        {
-          "term": "Hi there, let’s go over why your daughter is having trouble after surgery.",
-          "meaning": "안녕하세요, 딸이 수술 후 왜 어려움을 겪는지 알아봅시다.",
-          "category": "Greeting the Patient (첫 인사)"
-        },
-        {
-          "term": "Can you explain how your elbow got hurt at work?",
-          "meaning": "직장에서 팔꿈치를 어떻게 다쳤는지 설명해 주시겠습니까?",
-          "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-        },
-        {
-          "term": "What made you think your son might be using drugs?",
-          "meaning": "아들이 약물을 사용할지도 모른다고 생각하게 된 이유는 무엇인가요?",
-          "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-        },
-        {
-          "term": "How did the accident with the weight happen at the gym?",
-          "meaning": "체육관에서 웨이트로 인한 사고는 어떻게 일어났나요?",
-          "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-        },
-        {
-          "term": "What’s been happening with your vegan diet and fainting spell?",
-          "meaning": "비건 식단과 기절에 무슨 일이 있었나요?",
-          "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-        },
-        {
-          "term": "Can you tell me why you’re worried about your son’s toilet training?",
-          "meaning": "아들의 배변 훈련에 대해 왜 걱정하는지 말씀해 주시겠습니까?",
-          "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-        },
-        {
-          "term": "How has your daughter’s recovery been since her tonsil surgery?",
-          "meaning": "딸이 편도 수술 후 회복은 어땠나요?",
-          "category": "Asking About Family (가족에 대해 묻기)"
-        },
-        {
-          "term": "What changes have you seen in your son’s mood or habits?",
-          "meaning": "아들의 기분이나 습관에서 어떤 변화를 보셨나요?",
-          "category": "Asking About Family (가족에 대해 묻기)"
-        },
-        {
-          "term": "Has your son had any other issues besides his sore throat?",
-          "meaning": "아들이 인후통 외에 다른 문제를 보였나요?",
-          "category": "Asking About Family (가족에 대해 묻기)"
-        },
-        {
-          "term": "How has your daughter been feeling with her constipation?",
-          "meaning": "딸이 변비로 인해 어떤 기분을 느끼고 있나요?",
-          "category": "Asking About Family (가족에 대해 묻기)"
-        },
-        {
-          "term": "Have you noticed anything different about your son’s daily routine?",
-          "meaning": "아들의 일상에서 다른 점을 느끼셨나요?",
-          "category": "Asking About Family (가족에 대해 묻기)"
-        },
-        {
-          "term": "I know it’s hard to take time off with your elbow injury.",
-          "meaning": "팔꿈치 부상으로 휴가를 내는 것이 힘들다는 것을 알아요.",
-          "category": "Showing Empathy (공감하기)"
-        },
-        {
-          "term": "It must be stressful to keep trying to quit smoking.",
-          "meaning": "금연을 계속 시도하는 것이 스트레스일 거예요.",
-          "category": "Showing Empathy (공감하기)"
-        },
-        {
-          "term": "I’m sorry you’re worried about your son’s possible drug use.",
-          "meaning": "아들의 약물 사용 가능성에 대해 걱정하셔서 유감입니다.",
-          "category": "Showing Empathy (공감하기)"
-        },
-        {
-          "term": "It’s tough to see your daughter struggling with constipation.",
-          "meaning": "딸이 변비로 고생하는 모습을 보는 것이 힘들죠.",
-          "category": "Showing Empathy (공감하기)"
-        },
-        {
-          "term": "I understand how scary it is to faint unexpectedly.",
-          "meaning": "예기치 않게 기절하는 것이 얼마나 무서운지 이해합니다.",
-          "category": "Showing Empathy (공감하기)"
-        },
-        {
-          "term": "Do you exercise regularly, like dancing or walking?",
-          "meaning": "춤이나 걷기 같은 운동을 정기적으로 하나요?",
-          "category": "Asking About Lifestyle (생활 습관 묻기)"
-        },
-        {
-          "term": "What foods do you eat daily on your vegan diet?",
-          "meaning": "비건 식단으로 매일 어떤 음식을 먹나요?",
-          "category": "Asking About Lifestyle (생활 습관 묻기)"
-        },
-        {
-          "term": "How often does your son stay in his room alone?",
-          "meaning": "아들이 혼자 방에 얼마나 자주 있나요?",
-          "category": "Asking About Lifestyle (생활 습관 묻기)"
-        },
-        {
-          "term": "Do you feel tired or stressed from your daily work?",
-          "meaning": "일상 업무로 인해 피곤하거나 스트레스를 느끼시나요?",
-          "category": "Asking About Lifestyle (생활 습관 묻기)"
-        },
-        {
-          "term": "How much time do you spend dancing each week?",
-          "meaning": "매주 춤추는 데 얼마나 많은 시간을 보내시나요?",
-          "category": "Asking About Lifestyle (생활 습관 묻기)"
-        },
-        {
-          "term": "Your X-ray shows a small fracture in your elbow bone.",
-          "meaning": "X-ray에서 팔꿈치 뼈에 작은 골절이 보입니다.",
-          "category": "Explaining Test Results (검사 결과 설명하기)"
-        },
-        {
-          "term": "The urine test confirms blood, likely from a throat infection.",
-          "meaning": "소변 검사에서 피가 확인되었으며, 인후 감염 때문일 가능성이 큽니다.",
-          "category": "Explaining Test Results (검사 결과 설명하기)"
-        },
-        {
-          "term": "Your toe X-ray shows only the little toe is broken.",
-          "meaning": "발가락 X-ray에서 새끼발가락만 부러진 것이 보입니다.",
-          "category": "Explaining Test Results (검사 결과 설명하기)"
-        },
-        {
-          "term": "Blood tests show low iron, which could explain your fainting.",
-          "meaning": "혈액 검사에서 철분이 낮아 기절을 설명할 수 있습니다.",
-          "category": "Explaining Test Results (검사 결과 설명하기)"
-        },
-        {
-          "term": "The knee cyst size is the same as last time we checked.",
-          "meaning": "무릎 낭종 크기는 지난번 확인했을 때와 같습니다.",
-          "category": "Explaining Test Results (검사 결과 설명하기)"
-        },
-        {
-          "term": "Your chest pain is likely angina, caused by low heart blood flow.",
-          "meaning": "가슴 통증은 심장 혈류 저하로 인한 협심증일 가능성이 큽니다.",
-          "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-        },
-        {
-          "term": "Your son’s symptoms suggest tonsillitis affecting his kidneys.",
-          "meaning": "아들의 증상은 신장에 영향을 미치는 편도염을 시사합니다.",
-          "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-        },
-        {
-          "term": "Constipation is a side effect of your daughter’s pain medication.",
-          "meaning": "변비는 딸의 진통제 부작용입니다.",
-          "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-        },
-        {
-          "term": "Fainting could be from an irregular heartbeat due to diet issues.",
-          "meaning": "기절은 식단 문제로 인한 불규칙한 심장 박동 때문일 수 있습니다.",
-          "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-        },
-        {
-          "term": "Your son’s weight loss and sleepiness may be from drug use.",
-          "meaning": "아들의 체중 감소와 졸림은 약물 사용 때문일 수 있습니다.",
-          "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-        },
-        {
-          "term": "We’ll need a cholesterol test to check your heart health.",
-          "meaning": "심장 건강을 확인하기 위해 콜레스테롤 검사가 필요합니다.",
-          "category": "Explaining Tests (검사에 대해 설명하기)"
-        },
-        {
-          "term": "Let’s do a follow-up X-ray for your toe in six weeks.",
-          "meaning": "6주 후에 발가락을 위한 후속 X-ray를 해봅시다.",
-          "category": "Explaining Tests (검사에 대해 설명하기)"
-        },
-        {
-          "term": "A blood test will help us check your son’s overall health.",
-          "meaning": "혈액 검사는 아들의 전반적인 건강을 확인하는 데 도움이 될 것입니다.",
-          "category": "Explaining Tests (검사에 대해 설명하기)"
-        },
-        {
-          "term": "We’ll check your blood pressure to monitor your heart risks.",
-          "meaning": "심장 위험을 모니터링하기 위해 혈압을 확인할 것입니다.",
-          "category": "Explaining Tests (검사에 대해 설명하기)"
-        },
-        {
-          "term": "Let’s measure your knee cyst again in a few months.",
-          "meaning": "몇 달 후에 무릎 낭종을 다시 측정합시다.",
-          "category": "Explaining Tests (검사에 대해 설명하기)"
-        },
-        {
-          "term": "I’m prescribing ibuprofen to help with your elbow pain.",
-          "meaning": "팔꿈치 통증을 돕기 위해 이부프로펜을 처방합니다.",
-          "category": "Explaining Treatment (치료에 대해 설명하기)"
-        },
-        {
-          "term": "Use nicotine lozenges to help you stop smoking safely.",
-          "meaning": "안전하게 금연하도록 니코틴 사탕을 사용하세요.",
-          "category": "Explaining Treatment (치료에 대해 설명하기)"
-        },
-        {
-          "term": "A splint will support your toe while it heals.",
-          "meaning": "부목은 발가락이 치유되는 동안 지지해 줄 것입니다.",
-          "category": "Explaining Treatment (치료에 대해 설명하기)"
-        },
-        {
-          "term": "Try dietary fiber to ease your daughter’s constipation.",
-          "meaning": "딸의 변비를 완화하기 위해 식이 섬유를 시도해 보세요.",
-          "category": "Explaining Treatment (치료에 대해 설명하기)"
-        },
-        {
-          "term": "Antibiotics will help your son’s throat and kidney issues.",
-          "meaning": "항생제는 아들의 인후와 신장 문제를 도울 것입니다.",
-          "category": "Explaining Treatment (치료에 대해 설명하기)"
-        },
-        {
-          "term": "Rest your foot and avoid walking too much to help your toe.",
-          "meaning": "발을 쉬고 너무 많이 걷지 마세요, 발가락에 도움이 됩니다.",
-          "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-        },
-        {
-          "term": "Cut back on heavy exercise to protect your heart from angina.",
-          "meaning": "협심증으로부터 심장을 보호하기 위해 무거운 운동을 줄이세요.",
-          "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-        },
-        {
-          "term": "Use books or videos to help your son with toilet training.",
-          "meaning": "아들의 배변 훈련을 돕기 위해 책이나 비디오를 사용하세요.",
-          "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-        },
-        {
-          "term": "Eat more tofu or beans to boost protein in your diet.",
-          "meaning": "식단에서 단백질을 늘리기 위해 두부나 콩을 더 드세요.",
-          "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-        },
-        {
-          "term": "Keep doing physio to manage your knee cyst effectively.",
-          "meaning": "무릎 낭종을 효과적으로 관리하기 위해 물리치료를 계속하세요.",
-          "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-        },
-        {
-          "term": "Your elbow will recover well if you rest it properly.",
-          "meaning": "제대로 쉬면 팔꿈치가 잘 회복될 것입니다.",
-          "category": "Reassuring the Patient (안심시키기)"
-        },
-        {
-          "term": "With the right help, your son will overcome his challenges.",
-          "meaning": "적절한 도움으로 아들은 어려움을 극복할 것입니다.",
-          "category": "Reassuring the Patient (안심시키기)"
-        },
-        {
-          "term": "Your toe should heal nicely with a splint and care.",
-          "meaning": "부목과 관리로 발가락은 잘 치유될 것입니다.",
-          "category": "Reassuring the Patient (안심시키기)"
-        },
-        {
-          "term": "Your son’s kidney issue can be treated with antibiotics.",
-          "meaning": "아들의 신장 문제는 항생제로 치료할 수 있습니다.",
-          "category": "Reassuring the Patient (안심시키기)"
-        },
-        {
-          "term": "Your knee cyst is stable and manageable with treatment.",
-          "meaning": "무릎 낭종은 치료로 안정적이고 관리 가능합니다.",
-          "category": "Reassuring the Patient (안심시키기)"
-        },
-        {
-          "term": "A sling is the best way to help your elbow heal quickly.",
-          "meaning": "슬링은 팔꿈치가 빠르게 치유되도록 돕는 최선의 방법입니다.",
-          "category": "Convincing the Patient (설득하기)"
-        },
-        {
-          "term": "Nicotine patches are safer than Zyban for quitting smoking.",
-          "meaning": "니코틴 패치는 금연을 위해 Zyban보다 안전합니다.",
-          "category": "Convincing the Patient (설득하기)"
-        },
-        {
-          "term": "Rest and ice are better than a cast for your toe.",
-          "meaning": "발가락에는 깁스보다 휴식과 얼음이 더 좋습니다.",
-          "category": "Convincing the Patient (설득하기)"
-        },
-        {
-          "term": "Laxatives will help your daughter more than painkillers alone.",
-          "meaning": "완하제는 진통제 단독보다 딸에게 더 도움이 될 것입니다.",
-          "category": "Convincing the Patient (설득하기)"
-        },
-        
-
-
-
-
-
-
-
-
-
-
-        
-            {
-              "term": "Hello, thank you for coming to discuss your breathing problems today.",
-              "meaning": "안녕하세요, 오늘 호흡 문제에 대해 이야기하러 와주셔서 감사합니다.",
-              "category": "Greeting the Patient (첫 인사)"
-            },
-            {
-              "term": "Hi, it’s great to see you. Let’s talk about your recent fatigue.",
-              "meaning": "안녕, 뵙게 되어 기쁩니다. 최근 피로에 대해 이야기합시다.",
-              "category": "Greeting the Patient (첫 인사)"
-            },
-            {
-              "term": "Welcome to the clinic. I hear you’re worried about your child’s cough.",
-              "meaning": "클리닉에 오신 것을 환영합니다. 아이의 기침이 걱정된다고 들었습니다.",
-              "category": "Greeting the Patient (첫 인사)"
-            },
-            {
-              "term": "Good morning! Thanks for visiting to talk about your back pain.",
-              "meaning": "좋은 아침입니다! 허리 통증에 대해 이야기하러 와주셔서 감사합니다.",
-              "category": "Greeting the Patient (첫 인사)"
-            },
-            {
-              "term": "Hi there, let’s discuss why you’re feeling so anxious lately.",
-              "meaning": "안녕하세요, 최근 왜 그렇게 불안해하는지 논의합시다.",
-              "category": "Greeting the Patient (첫 인사)"
-            },
-            {
-              "term": "Can you describe the chest tightness you’ve been feeling?",
-              "meaning": "가슴이 답답한 느낌을 설명해 주시겠습니까?",
-              "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-            },
-            {
-              "term": "What’s been happening with your blood sugar levels recently?",
-              "meaning": "최근 혈당 수치에 무슨 일이 있었나요?",
-              "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-            },
-            {
-              "term": "How did you notice your child’s ear infection started?",
-              "meaning": "아이의 귀 감염이 어떻게 시작되었는지 어떻게 알았나요?",
-              "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-            },
-            {
-              "term": "What brought you here about your knee swelling today?",
-              "meaning": "오늘 무릎 부종으로 무엇 때문에 오셨나요?",
-              "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-            },
-            {
-              "term": "Can you tell me about the sleep issues you’ve been having?",
-              "meaning": "겪고 있는 수면 문제에 대해 말씀해 주시겠습니까?",
-              "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
-            },
-            {
-              "term": "How has your child’s asthma been affecting their daily life?",
-              "meaning": "아이의 천식이 일상생활에 어떤 영향을 미쳤나요?",
-              "category": "Asking About Family (가족에 대해 묻기)"
-            },
-            {
-              "term": "What symptoms has your child shown with their stomach upset?",
-              "meaning": "아이의 위장 장애로 어떤 증상을 보였나요?",
-              "category": "Asking About Family (가족에 대해 묻기)"
-            },
-            {
-              "term": "Has your child had any other issues besides frequent headaches?",
-              "meaning": "아이가 잦은 두통 외에 다른 문제를 보였나요?",
-              "category": "Asking About Family (가족에 대해 묻기)"
-            },
-            {
-              "term": "How has your child been feeling since their recent fever?",
-              "meaning": "최근 발열 이후 아이의 기분이 어땠나요?",
-              "category": "Asking About Family (가족에 대해 묻기)"
-            },
-            {
-              "term": "Have you noticed changes in your child’s energy levels lately?",
-              "meaning": "최근 아이의 에너지 수준에 변화가 있었나요?",
-              "category": "Asking About Family (가족에 대해 묻기)"
-            },
-            {
-              "term": "I’m sorry your breathing issues are making daily tasks hard.",
-              "meaning": "호흡 문제로 일상 업무가 힘들어졌다니 유감입니다.",
-              "category": "Showing Empathy (공감하기)"
-            },
-            {
-              "term": "It must be tough managing your diabetes with a busy schedule.",
-              "meaning": "바쁜 일정 속에서 당뇨병을 관리하는 것이 힘들겠어요.",
-              "category": "Showing Empathy (공감하기)"
-            },
-            {
-              "term": "I know it’s worrying to see your child struggle with ear pain.",
-              "meaning": "아이가 귀 통증으로 고생하는 모습을 보는 것이 걱정스럽죠.",
-              "category": "Showing Empathy (공감하기)"
-            },
-            {
-              "term": "It’s hard to deal with constant back pain, I understand.",
-              "meaning": "지속적인 허리 통증을 다루는 것이 힘들다는 것을 이해합니다.",
-              "category": "Showing Empathy (공감하기)"
-            },
-            {
-              "term": "I’m sorry you’re feeling so anxious; it must be overwhelming.",
-              "meaning": "너무 불안해하셔서 유감입니다; 힘들겠어요.",
-              "category": "Showing Empathy (공감하기)"
-            },
-            {
-              "term": "Do you eat a balanced diet, or do you skip meals often?",
-              "meaning": "균형 잡힌 식사를 하나요, 아니면 식사를 자주 거르나요?",
-              "category": "Asking About Lifestyle (생활 습관 묻기)"
-            },
-            {
-              "term": "How much time do you spend sitting at work each day?",
-              "meaning": "매일 직장에서 얼마나 앉아서 시간을 보내시나요?",
-              "category": "Asking About Lifestyle (생활 습관 묻기)"
-            },
-            {
-              "term": "Do you drink coffee or energy drinks to stay alert?",
-              "meaning": "깨어 있기 위해 커피나 에너지 드링크를 마시나요?",
-              "category": "Asking About Lifestyle (생활 습관 묻기)"
-            },
-            {
-              "term": "How often does your child play outdoors or stay active?",
-              "meaning": "아이가 야외에서 놀거나 활동적으로 지내는 빈도는 얼마나 되나요?",
-              "category": "Asking About Lifestyle (생활 습관 묻기)"
-            },
-            {
-              "term": "What’s your daily routine like for managing stress?",
-              "meaning": "스트레스 관리를 위해 일상은 어떤가요?",
-              "category": "Asking About Lifestyle (생활 습관 묻기)"
-            },
-            {
-              "term": "Your lung test shows reduced airflow, likely from asthma.",
-              "meaning": "폐 기능 검사에서 기류 감소가 보이며, 천식 때문일 가능성이 큽니다.",
-              "category": "Explaining Test Results (검사 결과 설명하기)"
-            },
-            {
-              "term": "The blood test shows high sugar levels, indicating diabetes.",
-              "meaning": "혈액 검사에서 높은 혈당 수치가 보여 당뇨병을 나타냅니다.",
-              "category": "Explaining Test Results (검사 결과 설명하기)"
-            },
-            {
-              "term": "Your child’s ear exam confirms an infection in the middle ear.",
-              "meaning": "아이의 귀 검사에서 중이 감염이 확인되었습니다.",
-              "category": "Explaining Test Results (검사 결과 설명하기)"
-            },
-            {
-              "term": "The MRI shows inflammation in your lower back muscles.",
-              "meaning": "MRI에서 허리 근육의 염증이 보입니다.",
-              "category": "Explaining Test Results (검사 결과 설명하기)"
-            },
-            {
-              "term": "Your stress test suggests anxiety affecting your sleep patterns.",
-              "meaning": "스트레스 테스트에서 불안이 수면 패턴에 영향을 미치는 것으로 보입니다.",
-              "category": "Explaining Test Results (검사 결과 설명하기)"
-            },
-            {
-              "term": "Your shortness of breath may be due to chronic bronchitis.",
-              "meaning": "숨가쁨은 만성 기관지염 때문일 수 있습니다.",
-              "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-            },
-            {
-              "term": "High blood sugar suggests type 2 diabetes, manageable with diet.",
-              "meaning": "높은 혈당은 식이로 관리 가능한 2형 당뇨병을 시사합니다.",
-              "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-            },
-            {
-              "term": "Your child’s ear pain is from a bacterial ear infection.",
-              "meaning": "아이의 귀 통증은 세균성 귀 감염 때문입니다.",
-              "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-            },
-            {
-              "term": "Your back pain is likely from a strained muscle in the spine.",
-              "meaning": "허리 통증은 척추 근육 긴장 때문일 가능성이 큽니다.",
-              "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-            },
-            {
-              "term": "Your sleep trouble could be from anxiety or stress overload.",
-              "meaning": "수면 문제는 불안이나 과도한 스트레스 때문일 수 있습니다.",
-              "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
-            },
-            {
-              "term": "We’ll need a spirometry test to check your lung function.",
-              "meaning": "폐 기능을 확인하기 위해 폐활량 검사가 필요합니다.",
-              "category": "Explaining Tests (검사에 대해 설명하기)"
-            },
-            {
-              "term": "Let’s do a glucose test to monitor your diabetes control.",
-              "meaning": "당뇨병 관리를 모니터링하기 위해 혈당 검사를 해봅시다.",
-              "category": "Explaining Tests (검사에 대해 설명하기)"
-            },
-            {
-              "term": "An ear swab will help identify your child’s infection type.",
-              "meaning": "귀 면봉 검사는 아이의 감염 유형을 확인하는 데 도움이 됩니다.",
-              "category": "Explaining Tests (검사에 대해 설명하기)"
-            },
-            {
-              "term": "We’ll need an X-ray to check for spine issues causing pain.",
-              "meaning": "통증을 유발하는 척추 문제를 확인하기 위해 X-ray가 필요합니다.",
-              "category": "Explaining Tests (검사에 대해 설명하기)"
-            },
-            {
-              "term": "A sleep study can help us understand your insomnia causes.",
-              "meaning": "수면 연구는 불면증 원인을 이해하는 데 도움이 될 수 있습니다.",
-              "category": "Explaining Tests (검사에 대해 설명하기)"
-            },
-            {
-              "term": "I’m prescribing an inhaler to help with your breathing issues.",
-              "meaning": "호흡 문제를 돕기 위해 흡입기를 처방합니다.",
-              "category": "Explaining Treatment (치료에 대해 설명하기)"
-            },
-            {
-              "term": "Metformin will help control your blood sugar levels.",
-              "meaning": "메트포르민은 혈당 수치를 조절하는 데 도움이 될 것입니다.",
-              "category": "Explaining Treatment (치료에 대해 설명하기)"
-            },
-            {
-              "term": "Antibiotics will treat your child’s ear infection effectively.",
-              "meaning": "항생제는 아이의 귀 감염을 효과적으로 치료할 것입니다.",
-              "category": "Explaining Treatment (치료에 대해 설명하기)"
-            },
-            {
-              "term": "Physiotherapy can ease your back pain over time.",
-              "meaning": "물리치료는 시간이 지나면서 허리 통증을 완화할 수 있습니다.",
-              "category": "Explaining Treatment (치료에 대해 설명하기)"
-            },
-            {
-              "term": "Relaxation exercises can help reduce your anxiety symptoms.",
-              "meaning": "이완 운동은 불안 증상을 줄이는 데 도움이 될 수 있습니다.",
-              "category": "Explaining Treatment (치료에 대해 설명하기)"
-            },
-            {
-              "term": "Use your inhaler daily to prevent asthma flare-ups.",
-              "meaning": "천식 발작을 예방하기 위해 매일 흡입기를 사용하세요.",
-              "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-            },
-            {
-              "term": "Eat smaller meals to help manage your blood sugar better.",
-              "meaning": "혈당을 더 잘 관리하기 위해 소량의 식사를 하세요.",
-              "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-            },
-            {
-              "term": "Keep your child’s ears dry to avoid more infections.",
-              "meaning": "추가 감염을 피하기 위해 아이의 귀를 건조하게 유지하세요.",
-              "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-            },
-            {
-              "term": "Avoid slouching to reduce strain on your back muscles.",
-              "meaning": "허리 근육의 긴장을 줄이기 위해 구부정한 자세를 피하세요.",
-              "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-            },
-            {
-              "term": "Try meditation to help with your anxiety and sleep issues.",
-              "meaning": "불안과 수면 문제를 돕기 위해 명상을 시도해 보세요.",
-              "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
-            },
-            {
-              "term": "Your asthma can be controlled with the right medication.",
-              "meaning": "올바른 약물로 천식은 조절할 수 있습니다.",
-              "category": "Reassuring the Patient (안심시키기)"
-            },
-            {
-              "term": "Diabetes is manageable with diet and regular check-ups.",
-              "meaning": "당뇨병은 식이와 정기 검진으로 관리할 수 있습니다.",
-              "category": "Reassuring the Patient (안심시키기)"
-            },
-            {
-              "term": "Your child’s ear infection should clear up soon with treatment.",
-              "meaning": "치료로 아이의 귀 감염은 곧 나을 것입니다.",
-              "category": "Reassuring the Patient (안심시키기)"
-            },
-            {
-              "term": "Your back pain will improve with physio and rest.",
-              "meaning": "물리치료와 휴식으로 허리 통증이 개선될 것입니다.",
-              "category": "Reassuring the Patient (안심시키기)"
-            },
-            {
-              "term": "Anxiety can be reduced with the right support plan.",
-              "meaning": "적절한 지원 계획으로 불안을 줄일 수 있습니다.",
-              "category": "Reassuring the Patient (안심시키기)"
-            },
-            {
-              "term": "An inhaler will make breathing easier and prevent attacks.",
-              "meaning": "흡입기는 호흡을 쉽게 하고 발작을 예방할 것입니다.",
-              "category": "Convincing the Patient (설득하기)"
-            },
-            {
-              "term": "Diet changes are the best way to control your diabetes.",
-              "meaning": "식이 변화는 당뇨병을 조절하는 최선의 방법입니다.",
-              "category": "Convincing the Patient (설득하기)"
-            },
-            {
-              "term": "Antibiotics are necessary to clear your child’s ear infection.",
-              "meaning": "아이의 귀 감염을 없애기 위해 항생제가 필요합니다.",
-              "category": "Convincing the Patient (설득하기)"
-            },
-            {
-              "term": "Physiotherapy is more effective than medication for your back.",
-              "meaning": "허리에는 약물보다 물리치료가 더 효과적입니다.",
-              "category": "Convincing the Patient (설득하기)"
-            },
-            {
-              "term": "Counseling can help manage your anxiety better than pills.",
-              "meaning": "상담은 약보다 불안을 더 잘 관리할 수 있습니다.",
-              "category": "Convincing the Patient (설득하기)"
-            },
-            {
-              "term": "I’m concerned that ignoring asthma could lead to worse attacks.",
-              "meaning": "천식을 무시하면 더 심한 발작으로 이어질까 걱정됩니다.",
-              "category": "Expressing Concern (우려 표현하기)"
-            },
-            {
-              "term": "Not managing diabetes could harm your eyes or kidneys.",
-              "meaning": "당뇨병을 관리하지 않으면 눈이나 신장에 해를 끼칠 수 있습니다.",
-              "category": "Expressing Concern (우려 표현하기)"
-            },
-            {
-              "term": "I’m worried your child’s ear infection could spread without treatment.",
-              "meaning": "치료 없이 아이의 귀 감염이 퍼질까 걱정됩니다.",
-              "category": "Expressing Concern (우려 표현하기)"
-            },
-            {
-              "term": "Untreated back pain could limit your movement over time.",
-              "meaning": "치료하지 않은 허리 통증은 시간이 지나면서 움직임을 제한할 수 있습니다.",
-              "category": "Expressing Concern (우려 표현하기)"
-            },
-            {
-              "term": "I’m concerned your anxiety could worsen without support.",
-              "meaning": "지원이 없으면 불안이 악화될까 걱정됩니다.",
-              "category": "Expressing Concern (우려 표현하기)"
-            },
-            {
-              "term": "Are you okay with using an inhaler for your asthma?",
-              "meaning": "천식에 흡입기를 사용하는 것에 괜찮으신가요?",
-              "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-            },
-            {
-              "term": "Does the diabetes diet plan make sense to you?",
-              "meaning": "당뇨병 식이 계획이 이해가 되시나요?",
-              "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-            },
-            {
-              "term": "Are you clear on how to give your child the ear drops?",
-              "meaning": "아이에게 귀약을 넣는 방법이 명확한가요?",
-              "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-            },
-            {
-              "term": "Do you understand the physio plan for your back pain?",
-              "meaning": "허리 통증을 위한 물리치료 계획을 이해하셨나요?",
-              "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-            },
-            {
-              "term": "Is the counseling plan for anxiety clear to you?",
-              "meaning": "불안에 대한 상담 계획이 명확해 보이나요?",
-              "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
-            },
-            {
-              "term": "You asked about inhaler side effects. It may cause mild throat irritation.",
-              "meaning": "흡입기 부작용에 대해 물으셨습니다. 약간의 목 자극을 유발할 수 있습니다.",
-              "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-            },
-            {
-              "term": "You’re worried about diabetes medication. It’s safe with monitoring.",
-              "meaning": "당뇨병 약물에 대해 걱정하십니다. 모니터링하면 안전합니다.",
-              "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-            },
-            {
-              "term": "You asked if ear infections recur. Good hygiene can prevent them.",
-              "meaning": "귀 감염이 재발하는지 물으셨습니다. 좋은 위생으로 예방할 수 있습니다.",
-              "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-            },
-            {
-              "term": "You’re concerned about back pain duration. It should ease in weeks.",
-              "meaning": "허리 통증 지속 시간에 대해 걱정하십니다. 몇 주 안에 완화될 것입니다.",
-              "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-            },
-            {
-              "term": "You asked how long anxiety treatment takes. It varies, but we’ll help.",
-              "meaning": "불안 치료에 시간이 얼마나 걸리는지 물으셨습니다. 다르지만, 도와드릴게요.",
-              "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
-            },
-            {
-              "term": "I know you’re worried about asthma affecting your daily life.",
-              "meaning": "천식이 일상생활에 영향을 미칠까 걱정하시는 것을 압니다.",
-              "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-            },
-            {
-              "term": "I understand your concern about diabetes and long-term health.",
-              "meaning": "당뇨병과 장기 건강에 대한 우려를 이해합니다.",
-              "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-            },
-            {
-              "term": "Let’s talk about your worry over your child’s recurring ear infections.",
-              "meaning": "아이의 반복되는 귀 감염에 대한 걱정에 대해 이야기합시다.",
-              "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-            },
-            {
-              "term": "I see why you’re anxious about your back pain getting worse.",
-              "meaning": "허리 통증이 악화될까 걱정하시는 이유를 알겠습니다.",
-              "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-            },
-            {
-              "term": "Your concern about anxiety affecting work is understandable.",
-              "meaning": "불안이 일에 영향을 미칠까 걱정하는 것이 이해갑니다.",
-              "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
-            },
-            {
-              "term": "You can use an inhaler or nebulizer for asthma. Which do you prefer?",
-              "meaning": "천식에 흡입기나 네뷸라이저를 사용할 수 있습니다. 어떤 것을 선호하시나요?",
-              "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-            },
-            {
-              "term": "For diabetes, try diet changes or medication. What’s easier for you?",
-              "meaning": "당뇨병에 식이 변화나 약물을 시도할 수 있습니다. 어떤 것이 더 쉬운가요?",
-              "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-            },
-            {
-              "term": "For your child’s ear, use drops or oral antibiotics. Your choice?",
-              "meaning": "아이의 귀에 점이약이나 경구 항생제를 사용할 수 있습니다. 어떤 것을 선택하시겠습니까?",
-              "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-            },
-            {
-              "term": "For back pain, try physio or stretching exercises. What do you think?",
-              "meaning": "허리 통증에 물리치료나 스트레칭 운동을 시도해 보세요. 어떻게 생각하시나요?",
-              "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-            },
-            {
-              "term": "For anxiety, try counseling or mindfulness. Which sounds better?",
-              "meaning": "불안에 상담이나 마음챙김을 시도해 보세요. 어떤 것이 더 나은가요?",
-              "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
-            },
-            {
-              "term": "Let’s review your asthma symptoms in four weeks.",
-              "meaning": "4주 후에 천식 증상을 검토합시다.",
-              "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-            },
-            {
-              "term": "Come back in two weeks to check your blood sugar levels.",
-              "meaning": "혈당 수치를 확인하기 위해 2주 후에 다시 오세요.",
-              "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-            },
-            {
-              "term": "I’ll refer your child to an ENT specialist for their ear issues.",
-              "meaning": "아이의 귀 문제로 이비인후과 전문의에게 의뢰할 것입니다.",
-              "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-            },
-            {
-              "term": "Let’s follow up on your back pain in three weeks.",
-              "meaning": "3주 후에 허리 통증에 대해 후속 조치합시다.",
-              "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-            },
-            {
-              "term": "Visit in one month to discuss your anxiety progress.",
-              "meaning": "불안 진행 상황을 논의하기 위해 한 달 후에 방문하세요.",
-              "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
-            },
-            {
-              "term": "Not using the inhaler could worsen your asthma symptoms.",
-              "meaning": "흡입기를 사용하지 않으면 천식 증상이 악화될 수 있습니다.",
-              "category": "Warning the Patient About Risks (환자에게 경고하기)"
-            },
-            {
-              "term": "Ignoring diabetes could lead to serious health problems.",
-              "meaning": "당뇨병을 무시하면 심각한 건강 문제가 생길 수 있습니다.",
-              "category": "Warning the Patient About Risks (환자에게 경고하기)"
-            },
-            {
-              "term": "Untreated ear infections could harm your child’s hearing.",
-              "meaning": "치료하지 않은 귀 감염은 아이의 청력에 해를 끼칠 수 있습니다.",
-              "category": "Warning the Patient About Risks (환자에게 경고하기)"
-            },
-            {
-              "term": "Not treating back pain could lead to chronic issues.",
-              "meaning": "허리 통증을 치료하지 않으면 만성 문제가 될 수 있습니다.",
-              "category": "Warning the Patient About Risks (환자에게 경고하기)"
-            },
-            {
-              "term": "Ignoring anxiety could affect your daily life and health.",
-              "meaning": "불안을 무시하면 일상생활과 건강에 영향을 미칠 수 있습니다.",
-              "category": "Warning the Patient About Risks (환자에게 경고하기)"
-            },
-            {
-              "term": "I know you don’t like inhalers, but they’re best for asthma.",
-              "meaning": "흡입기를 좋아하지 않으신다는 것을 알지만, 천식에는 가장 좋습니다.",
-              "category": "Handling Patient Resistance (환자의 반대 다루기)"
-            },
-            {
-              "term": "I understand you’re worried about diabetes pills, but they’re safe.",
-              "meaning": "당뇨병 약에 대해 걱정하시는 것을 이해하지만, 안전합니다.",
-              "category": "Handling Patient Resistance (환자의 반대 다루기)"
-            },
-            {
-              "term": "I know you prefer natural remedies, but antibiotics help ear infections.",
-              "meaning": "자연 요법을 선호하신다는 것을 알지만, 항생제는 귀 감염에 도움이 됩니다.",
-              "category": "Handling Patient Resistance (환자의 반대 다루기)"
-            },
-            {
-              "term": "I hear you want quick relief, but physio is best for back pain.",
-              "meaning": "빠른 완화를 원하신다는 것을 들었지만, 허리 통증에는 물리치료가 최적입니다.",
-              "category": "Handling Patient Resistance (환자의 반대 다루기)"
-            },
-            {
-              "term": "I understand you’re skeptical, but counseling can help anxiety.",
-              "meaning": "회의적이신 것을 이해하지만, 상담은 불안에 도움이 될 수 있습니다.",
-              "category": "Handling Patient Resistance (환자의 반대 다루기)"
-            },
-            {
-              "term": "Asthma is a condition where airways narrow, causing breathing issues.",
-              "meaning": "천식은 기도가 좁아져 호흡 문제를 일으키는 상태입니다.",
-              "category": "Educating the Patient (환자에게 교육하기)"
-            },
-            {
-              "term": "Diabetes means your body struggles to control blood sugar.",
-              "meaning": "당뇨병은 몸이 혈당을 조절하는 데 어려움을 겪는 것을 의미합니다.",
-              "category": "Educating the Patient (환자에게 교육하기)"
-            },
-            {
-              "term": "Ear infections happen when bacteria grow in the middle ear.",
-              "meaning": "귀 감염은 중이에 세균이 자랄 때 발생합니다.",
-              "category": "Educating the Patient (환자에게 교육하기)"
-            },
-            {
-              "term": "Back pain can come from muscle strain or poor posture.",
-              "meaning": "허리 통증은 근육 긴장이나 잘못된 자세에서 올 수 있습니다.",
-              "category": "Educating the Patient (환자에게 교육하기)"
-            },
-            {
-              "term": "Anxiety can cause physical symptoms like poor sleep or tension.",
-              "meaning": "불안은 수면 부족이나 긴장 같은 신체적 증상을 유발할 수 있습니다.",
-              "category": "Educating the Patient (환자에게 교육하기)"
-            },
-            {
-              "term": "With treatment, your asthma symptoms should improve quickly.",
-              "meaning": "치료로 천식 증상은 빠르게 개선될 것입니다.",
-              "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-            },
-            {
-              "term": "Your diabetes can be well-controlled with the right plan.",
-              "meaning": "올바른 계획으로 당뇨병은 잘 조절될 수 있습니다.",
-              "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-            },
-            {
-              "term": "Your child’s ear pain will ease soon with proper care.",
-              "meaning": "적절한 관리로 아이의 귀 통증은 곧 완화될 것입니다.",
-              "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-            },
-            {
-              "term": "Your back pain should get better with consistent physio.",
-              "meaning": "꾸준한 물리치료로 허리 통증이 나아질 것입니다.",
-              "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-            },
-            {
-              "term": "With support, your anxiety will feel more manageable soon.",
-              "meaning": "지원으로 불안은 곧 더 관리 가능하게 느껴질 것입니다.",
-              "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
-            }
-          
-  
+  {
+    "term": "Hello, thank you for coming to discuss your breathing problems today.",
+    "meaning": "안녕하세요, 오늘 호흡 문제에 대해 이야기하러 와주셔서 감사합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hi, it’s great to see you. Let’s talk about your recent fatigue.",
+    "meaning": "안녕, 뵙게 되어 기쁩니다. 최근 피로에 대해 이야기합시다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Welcome to the clinic. I hear you’re worried about your child’s cough.",
+    "meaning": "클리닉에 오신 것을 환영합니다. 아이의 기침이 걱정된다고 들었습니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Good morning! Thanks for visiting to talk about your back pain.",
+    "meaning": "좋은 아침입니다! 허리 통증에 대해 이야기하러 와주셔서 감사합니다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Hi there, let’s discuss why you’re feeling so anxious lately.",
+    "meaning": "안녕하세요, 최근 왜 그렇게 불안해하는지 논의합시다.",
+    "category": "Greeting the Patient (첫 인사)"
+  },
+  {
+    "term": "Can you describe the chest tightness you’ve been feeling?",
+    "meaning": "가슴이 답답한 느낌을 설명해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "What’s been happening with your blood sugar levels recently?",
+    "meaning": "최근 혈당 수치에 무슨 일이 있었나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How did you notice your child’s ear infection started?",
+    "meaning": "아이의 귀 감염이 어떻게 시작되었는지 어떻게 알았나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "What brought you here about your knee swelling today?",
+    "meaning": "오늘 무릎 부종으로 무엇 때문에 오셨나요?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "Can you tell me about the sleep issues you’ve been having?",
+    "meaning": "겪고 있는 수면 문제에 대해 말씀해 주시겠습니까?",
+    "category": "Asking About the Reason for Visit (왜 왔는지 묻기)"
+  },
+  {
+    "term": "How has your child’s asthma been affecting their daily life?",
+    "meaning": "아이의 천식이 일상생활에 어떤 영향을 미쳤나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "What symptoms has your child shown with their stomach upset?",
+    "meaning": "아이의 위장 장애로 어떤 증상을 보였나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Has your child had any other issues besides frequent headaches?",
+    "meaning": "아이가 잦은 두통 외에 다른 문제를 보였나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "How has your child been feeling since their recent fever?",
+    "meaning": "최근 발열 이후 아이의 기분이 어땠나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "Have you noticed changes in your child’s energy levels lately?",
+    "meaning": "최근 아이의 에너지 수준에 변화가 있었나요?",
+    "category": "Asking About Family (가족에 대해 묻기)"
+  },
+  {
+    "term": "I’m sorry your breathing issues are making daily tasks hard.",
+    "meaning": "호흡 문제로 일상 업무가 힘들어졌다니 유감입니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It must be tough managing your diabetes with a busy schedule.",
+    "meaning": "바쁜 일정 속에서 당뇨병을 관리하는 것이 힘들겠어요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I know it’s worrying to see your child struggle with ear pain.",
+    "meaning": "아이가 귀 통증으로 고생하는 모습을 보는 것이 걱정스럽죠.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "It’s hard to deal with constant back pain, I understand.",
+    "meaning": "지속적인 허리 통증을 다루는 것이 힘들다는 것을 이해합니다.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "I’m sorry you’re feeling so anxious; it must be overwhelming.",
+    "meaning": "너무 불안해하셔서 유감입니다; 힘들겠어요.",
+    "category": "Showing Empathy (공감하기)"
+  },
+  {
+    "term": "Do you eat a balanced diet, or do you skip meals often?",
+    "meaning": "균형 잡힌 식사를 하나요, 아니면 식사를 자주 거르나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "How much time do you spend sitting at work each day?",
+    "meaning": "매일 직장에서 얼마나 앉아서 시간을 보내시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "Do you drink coffee or energy drinks to stay alert?",
+    "meaning": "깨어 있기 위해 커피나 에너지 드링크를 마시나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "How often does your child play outdoors or stay active?",
+    "meaning": "아이가 야외에서 놀거나 활동적으로 지내는 빈도는 얼마나 되나요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "What’s your daily routine like for managing stress?",
+    "meaning": "스트레스 관리를 위해 일상은 어떤가요?",
+    "category": "Asking About Lifestyle (생활 습관 묻기)"
+  },
+  {
+    "term": "Your lung test shows reduced airflow, likely from asthma.",
+    "meaning": "폐 기능 검사에서 기류 감소가 보이며, 천식 때문일 가능성이 큽니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The blood test shows high sugar levels, indicating diabetes.",
+    "meaning": "혈액 검사에서 높은 혈당 수치가 보여 당뇨병을 나타냅니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your child’s ear exam confirms an infection in the middle ear.",
+    "meaning": "아이의 귀 검사에서 중이 감염이 확인되었습니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "The MRI shows inflammation in your lower back muscles.",
+    "meaning": "MRI에서 허리 근육의 염증이 보입니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your stress test suggests anxiety affecting your sleep patterns.",
+    "meaning": "스트레스 테스트에서 불안이 수면 패턴에 영향을 미치는 것으로 보입니다.",
+    "category": "Explaining Test Results (검사 결과 설명하기)"
+  },
+  {
+    "term": "Your shortness of breath may be due to chronic bronchitis.",
+    "meaning": "숨가쁨은 만성 기관지염 때문일 수 있습니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "High blood sugar suggests type 2 diabetes, manageable with diet.",
+    "meaning": "높은 혈당은 식이로 관리 가능한 2형 당뇨병을 시사합니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your child’s ear pain is from a bacterial ear infection.",
+    "meaning": "아이의 귀 통증은 세균성 귀 감염 때문입니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your back pain is likely from a strained muscle in the spine.",
+    "meaning": "허리 통증은 척추 근육 긴장 때문일 가능성이 큽니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "Your sleep trouble could be from anxiety or stress overload.",
+    "meaning": "수면 문제는 불안이나 과도한 스트레스 때문일 수 있습니다.",
+    "category": "Explaining Diagnosis/Condition (진단/질병에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll need a spirometry test to check your lung function.",
+    "meaning": "폐 기능을 확인하기 위해 폐활량 검사가 필요합니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "Let’s do a glucose test to monitor your diabetes control.",
+    "meaning": "당뇨병 관리를 모니터링하기 위해 혈당 검사를 해봅시다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "An ear swab will help identify your child’s infection type.",
+    "meaning": "귀 면봉 검사는 아이의 감염 유형을 확인하는 데 도움이 됩니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "We’ll need an X-ray to check for spine issues causing pain.",
+    "meaning": "통증을 유발하는 척추 문제를 확인하기 위해 X-ray가 필요합니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "A sleep study can help us understand your insomnia causes.",
+    "meaning": "수면 연구는 불면증 원인을 이해하는 데 도움이 될 수 있습니다.",
+    "category": "Explaining Tests (검사에 대해 설명하기)"
+  },
+  {
+    "term": "I’m prescribing an inhaler to help with your breathing issues.",
+    "meaning": "호흡 문제를 돕기 위해 흡입기를 처방합니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Metformin will help control your blood sugar levels.",
+    "meaning": "메트포르민은 혈당 수치를 조절하는 데 도움이 될 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Antibiotics will treat your child’s ear infection effectively.",
+    "meaning": "항생제는 아이의 귀 감염을 효과적으로 치료할 것입니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Physiotherapy can ease your back pain over time.",
+    "meaning": "물리치료는 시간이 지나면서 허리 통증을 완화할 수 있습니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Relaxation exercises can help reduce your anxiety symptoms.",
+    "meaning": "이완 운동은 불안 증상을 줄이는 데 도움이 될 수 있습니다.",
+    "category": "Explaining Treatment (치료에 대해 설명하기)"
+  },
+  {
+    "term": "Use your inhaler daily to prevent asthma flare-ups.",
+    "meaning": "천식 발작을 예방하기 위해 매일 흡입기를 사용하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Eat smaller meals to help manage your blood sugar better.",
+    "meaning": "혈당을 더 잘 관리하기 위해 소량의 식사를 하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Keep your child’s ears dry to avoid more infections.",
+    "meaning": "추가 감염을 피하기 위해 아이의 귀를 건조하게 유지하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Avoid slouching to reduce strain on your back muscles.",
+    "meaning": "허리 근육의 긴장을 줄이기 위해 구부정한 자세를 피하세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Try meditation to help with your anxiety and sleep issues.",
+    "meaning": "불안과 수면 문제를 돕기 위해 명상을 시도해 보세요.",
+    "category": "Advising on Exercise/Lifestyle Changes (운동/생활습관 개선에 대해 조언)"
+  },
+  {
+    "term": "Your asthma can be controlled with the right medication.",
+    "meaning": "올바른 약물로 천식은 조절할 수 있습니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Diabetes is manageable with diet and regular check-ups.",
+    "meaning": "당뇨병은 식이와 정기 검진으로 관리할 수 있습니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your child’s ear infection should clear up soon with treatment.",
+    "meaning": "치료로 아이의 귀 감염은 곧 나을 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Your back pain will improve with physio and rest.",
+    "meaning": "물리치료와 휴식으로 허리 통증이 개선될 것입니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "Anxiety can be reduced with the right support plan.",
+    "meaning": "적절한 지원 계획으로 불안을 줄일 수 있습니다.",
+    "category": "Reassuring the Patient (안심시키기)"
+  },
+  {
+    "term": "An inhaler will make breathing easier and prevent attacks.",
+    "meaning": "흡입기는 호흡을 쉽게 하고 발작을 예방할 것입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Diet changes are the best way to control your diabetes.",
+    "meaning": "식이 변화는 당뇨병을 조절하는 최선의 방법입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Antibiotics are necessary to clear your child’s ear infection.",
+    "meaning": "아이의 귀 감염을 없애기 위해 항생제가 필요합니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Physiotherapy is more effective than medication for your back.",
+    "meaning": "허리에는 약물보다 물리치료가 더 효과적입니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "Counseling can help manage your anxiety better than pills.",
+    "meaning": "상담은 약보다 불안을 더 잘 관리할 수 있습니다.",
+    "category": "Convincing the Patient (설득하기)"
+  },
+  {
+    "term": "I’m concerned that ignoring asthma could lead to worse attacks.",
+    "meaning": "천식을 무시하면 더 심한 발작으로 이어질까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Not managing diabetes could harm your eyes or kidneys.",
+    "meaning": "당뇨병을 관리하지 않으면 눈이나 신장에 해를 끼칠 수 있습니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "I’m worried your child’s ear infection could spread without treatment.",
+    "meaning": "치료 없이 아이의 귀 감염이 퍼질까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Untreated back pain could limit your movement over time.",
+    "meaning": "치료하지 않은 허리 통증은 시간이 지나면서 움직임을 제한할 수 있습니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "I’m concerned your anxiety could worsen without support.",
+    "meaning": "지원이 없으면 불안이 악화될까 걱정됩니다.",
+    "category": "Expressing Concern (우려 표현하기)"
+  },
+  {
+    "term": "Are you okay with using an inhaler for your asthma?",
+    "meaning": "천식에 흡입기를 사용하는 것에 괜찮으신가요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Does the diabetes diet plan make sense to you?",
+    "meaning": "당뇨병 식이 계획이 이해가 되시나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Are you clear on how to give your child the ear drops?",
+    "meaning": "아이에게 귀약을 넣는 방법이 명확한가요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Do you understand the physio plan for your back pain?",
+    "meaning": "허리 통증을 위한 물리치료 계획을 이해하셨나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "Is the counseling plan for anxiety clear to you?",
+    "meaning": "불안에 대한 상담 계획이 명확해 보이나요?",
+    "category": "Checking for Agreement/Understanding (동의, 이해 확인하기)"
+  },
+  {
+    "term": "You asked about inhaler side effects. It may cause mild throat irritation.",
+    "meaning": "흡입기 부작용에 대해 물으셨습니다. 약간의 목 자극을 유발할 수 있습니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You’re worried about diabetes medication. It’s safe with monitoring.",
+    "meaning": "당뇨병 약물에 대해 걱정하십니다. 모니터링하면 안전합니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You asked if ear infections recur. Good hygiene can prevent them.",
+    "meaning": "귀 감염이 재발하는지 물으셨습니다. 좋은 위생으로 예방할 수 있습니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You’re concerned about back pain duration. It should ease in weeks.",
+    "meaning": "허리 통증 지속 시간에 대해 걱정하십니다. 몇 주 안에 완화될 것입니다.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "You asked how long anxiety treatment takes. It varies, but we’ll help.",
+    "meaning": "불안 치료에 시간이 얼마나 걸리는지 물으셨습니다. 다르지만, 도와드릴게요.",
+    "category": "Answering Patient’s Questions (환자의 질문에 답하기)"
+  },
+  {
+    "term": "I know you’re worried about asthma affecting your daily life.",
+    "meaning": "천식이 일상생활에 영향을 미칠까 걱정하시는 것을 압니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "I understand your concern about diabetes and long-term health.",
+    "meaning": "당뇨병과 장기 건강에 대한 우려를 이해합니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "Let’s talk about your worry over your child’s recurring ear infections.",
+    "meaning": "아이의 반복되는 귀 감염에 대한 걱정에 대해 이야기합시다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "I see why you’re anxious about your back pain getting worse.",
+    "meaning": "허리 통증이 악화될까 걱정하시는 이유를 알겠습니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "Your concern about anxiety affecting work is understandable.",
+    "meaning": "불안이 일에 영향을 미칠까 걱정하는 것이 이해갑니다.",
+    "category": "Addressing Patient’s Specific Concerns (환자의 우려 다루기)"
+  },
+  {
+    "term": "You can use an inhaler or nebulizer for asthma. Which do you prefer?",
+    "meaning": "천식에 흡입기나 네뷸라이저를 사용할 수 있습니다. 어떤 것을 선호하시나요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For diabetes, try diet changes or medication. What’s easier for you?",
+    "meaning": "당뇨병에 식이 변화나 약물을 시도할 수 있습니다. 어떤 것이 더 쉬운가요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For your child’s ear, use drops or oral antibiotics. Your choice?",
+    "meaning": "아이의 귀에 점이약이나 경구 항생제를 사용할 수 있습니다. 어떤 것을 선택하시겠습니까?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For back pain, try physio or stretching exercises. What do you think?",
+    "meaning": "허리 통증에 물리치료나 스트레칭 운동을 시도해 보세요. 어떻게 생각하시나요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "For anxiety, try counseling or mindfulness. Which sounds better?",
+    "meaning": "불안에 상담이나 마음챙김을 시도해 보세요. 어떤 것이 더 나은가요?",
+    "category": "Offering Options to the Patient (환자에게 선택지 제시하기)"
+  },
+  {
+    "term": "Let’s review your asthma symptoms in four weeks.",
+    "meaning": "4주 후에 천식 증상을 검토합시다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Come back in two weeks to check your blood sugar levels.",
+    "meaning": "혈당 수치를 확인하기 위해 2주 후에 다시 오세요.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "I’ll refer your child to an ENT specialist for their ear issues.",
+    "meaning": "아이의 귀 문제로 이비인후과 전문의에게 의뢰할 것입니다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Let’s follow up on your back pain in three weeks.",
+    "meaning": "3주 후에 허리 통증에 대해 후속 조치합시다.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Visit in one month to discuss your anxiety progress.",
+    "meaning": "불안 진행 상황을 논의하기 위해 한 달 후에 방문하세요.",
+    "category": "Explaining Follow-Up Actions (환자에게 후속 조치 설명하기)"
+  },
+  {
+    "term": "Not using the inhaler could worsen your asthma symptoms.",
+    "meaning": "흡입기를 사용하지 않으면 천식 증상이 악화될 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Ignoring diabetes could lead to serious health problems.",
+    "meaning": "당뇨병을 무시하면 심각한 건강 문제가 생길 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Untreated ear infections could harm your child’s hearing.",
+    "meaning": "치료하지 않은 귀 감염은 아이의 청력에 해를 끼칠 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Not treating back pain could lead to chronic issues.",
+    "meaning": "허리 통증을 치료하지 않으면 만성 문제가 될 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "Ignoring anxiety could affect your daily life and health.",
+    "meaning": "불안을 무시하면 일상생활과 건강에 영향을 미칠 수 있습니다.",
+    "category": "Warning the Patient About Risks (환자에게 경고하기)"
+  },
+  {
+    "term": "I know you don’t like inhalers, but they’re best for asthma.",
+    "meaning": "흡입기를 좋아하지 않으신다는 것을 알지만, 천식에는 가장 좋습니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I understand you’re worried about diabetes pills, but they’re safe.",
+    "meaning": "당뇨병 약에 대해 걱정하시는 것을 이해하지만, 안전합니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I know you prefer natural remedies, but antibiotics help ear infections.",
+    "meaning": "자연 요법을 선호하신다는 것을 알지만, 항생제는 귀 감염에 도움이 됩니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I hear you want quick relief, but physio is best for back pain.",
+    "meaning": "빠른 완화를 원하신다는 것을 들었지만, 허리 통증에는 물리치료가 최적입니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "I understand you’re skeptical, but counseling can help anxiety.",
+    "meaning": "회의적이신 것을 이해하지만, 상담은 불안에 도움이 될 수 있습니다.",
+    "category": "Handling Patient Resistance (환자의 반대 다루기)"
+  },
+  {
+    "term": "Asthma is a condition where airways narrow, causing breathing issues.",
+    "meaning": "천식은 기도가 좁아져 호흡 문제를 일으키는 상태입니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Diabetes means your body struggles to control blood sugar.",
+    "meaning": "당뇨병은 몸이 혈당을 조절하는 데 어려움을 겪는 것을 의미합니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Ear infections happen when bacteria grow in the middle ear.",
+    "meaning": "귀 감염은 중이에 세균이 자랄 때 발생합니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Back pain can come from muscle strain or poor posture.",
+    "meaning": "허리 통증은 근육 긴장이나 잘못된 자세에서 올 수 있습니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "Anxiety can cause physical symptoms like poor sleep or tension.",
+    "meaning": "불안은 수면 부족이나 긴장 같은 신체적 증상을 유발할 수 있습니다.",
+    "category": "Educating the Patient (환자에게 교육하기)"
+  },
+  {
+    "term": "With treatment, your asthma symptoms should improve quickly.",
+    "meaning": "치료로 천식 증상은 빠르게 개선될 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your diabetes can be well-controlled with the right plan.",
+    "meaning": "올바른 계획으로 당뇨병은 잘 조절될 수 있습니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your child’s ear pain will ease soon with proper care.",
+    "meaning": "적절한 관리로 아이의 귀 통증은 곧 완화될 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "Your back pain should get better with consistent physio.",
+    "meaning": "꾸준한 물리치료로 허리 통증이 나아질 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+  {
+    "term": "With support, your anxiety will feel more manageable soon.",
+    "meaning": "지원으로 불안은 곧 더 관리 가능하게 느껴질 것입니다.",
+    "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  }
 ]
