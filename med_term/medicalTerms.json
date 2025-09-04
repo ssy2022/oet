@@ -20636,5 +20636,3124 @@
     "meaning": "뻣뻣한 어깨",
     "sentence": "My ___________ hurt after lifting.",
     "right_sentence": "My stiff shoulders hurt after lifting."
+  },
+
+  {
+    "term": "wheezing",
+    "meaning": "천명음",
+    "sentence": "I’ve been ___________ when I breathe out, especially at night.",
+    "right_sentence": "I’ve been wheezing when I breathe out, especially at night."
+  },
+  {
+    "term": "coughing fits",
+    "meaning": "기침 발작",
+    "sentence": "I get ___________ that last for minutes and leave me breathless.",
+    "right_sentence": "I get coughing fits that last for minutes and leave me breathless."
+  },
+  {
+    "term": "breathlessness",
+    "meaning": "호흡 곤란",
+    "sentence": "I experience ___________ even with light activity like walking.",
+    "right_sentence": "I experience breathlessness even with light activity like walking."
+  },
+  {
+    "term": "heart racing",
+    "meaning": "심장 빨리 뛰기",
+    "sentence": "My ___________ happens suddenly and makes me anxious.",
+    "right_sentence": "My heart racing happens suddenly and makes me anxious."
+  },
+  {
+    "term": "night sweats",
+    "meaning": "야간 발한",
+    "sentence": "I wake up with ___________ soaking my clothes.",
+    "right_sentence": "I wake up with night sweats soaking my clothes."
+  },
+  {
+    "term": "shivering",
+    "meaning": "오한",
+    "sentence": "I start ___________ even when the room is warm.",
+    "right_sentence": "I start shivering even when the room is warm."
+  },
+  {
+    "term": "extreme tiredness",
+    "meaning": "극심한 피로",
+    "sentence": "I’ve had ___________ that doesn’t go away with rest.",
+    "right_sentence": "I’ve had extreme tiredness that doesn’t go away with rest."
+  },
+  {
+    "term": "muscle weakness",
+    "meaning": "근력 약화",
+    "sentence": "My ___________ makes it hard to lift things.",
+    "right_sentence": "My muscle weakness makes it hard to lift things."
+  },
+  {
+    "term": "mental fog",
+    "meaning": "정신 혼란",
+    "sentence": "I’ve been in a ___________ and can’t think clearly.",
+    "right_sentence": "I’ve been in a mental fog and can’t think clearly."
+  },
+  {
+    "term": "forgetfulness",
+    "meaning": "건망증",
+    "sentence": "My ___________ has increased, I keep losing things.",
+    "right_sentence": "My forgetfulness has increased, I keep losing things."
+  },
+  {
+    "term": "hand tremors",
+    "meaning": "손 떨림",
+    "sentence": "I notice ___________ when holding a cup.",
+    "right_sentence": "I notice hand tremors when holding a cup."
+  },
+  {
+    "term": "convulsions",
+    "meaning": "경련",
+    "sentence": "I had ___________ during my last episode.",
+    "right_sentence": "I had convulsions during my last episode."
+  },
+  {
+    "term": "passing out",
+    "meaning": "기절",
+    "sentence": "I keep ___________ without warning.",
+    "right_sentence": "I keep passing out without warning."
+  },
+  {
+    "term": "nosebleeds",
+    "meaning": "코피",
+    "sentence": "I’ve had frequent ___________ lately.",
+    "right_sentence": "I’ve had frequent nosebleeds lately."
+  },
+  {
+    "term": "easy bruising",
+    "meaning": "쉽게 멍듦",
+    "sentence": "I get ___________ from minor bumps.",
+    "right_sentence": "I get easy bruising from minor bumps."
+  },
+  {
+    "term": "enlarged nodes",
+    "meaning": "림프절 비대",
+    "sentence": "I felt ___________ in my neck.",
+    "right_sentence": "I felt enlarged nodes in my neck."
+  },
+  {
+    "term": "unintended weight loss",
+    "meaning": "의도하지 않은 체중 감소",
+    "sentence": "I’ve had ___________ over the past month.",
+    "right_sentence": "I’ve had unintended weight loss over the past month."
+  },
+  {
+    "term": "increased hunger",
+    "meaning": "증가된 배고픔",
+    "sentence": "I feel ___________ even after eating.",
+    "right_sentence": "I feel increased hunger even after eating."
+  },
+  {
+    "term": "constant thirst",
+    "meaning": "지속적인 갈증",
+    "sentence": "I have ___________ and drink a lot.",
+    "right_sentence": "I have constant thirst and drink a lot."
+  },
+  {
+    "term": "frequent urination",
+    "meaning": "잦은 배뇨",
+    "sentence": "My ___________ wakes me up at night.",
+    "right_sentence": "My frequent urination wakes me up at night."
+  },
+  {
+    "term": "vision blurring",
+    "meaning": "시야 흐림",
+    "sentence": "I experience ___________ when reading.",
+    "right_sentence": "I experience vision blurring when reading."
+  },
+  {
+    "term": "cotton mouth",
+    "meaning": "구강 건조",
+    "sentence": "I have ___________ making swallowing hard.",
+    "right_sentence": "I have cotton mouth making swallowing hard."
+  },
+  {
+    "term": "mouth ulcers",
+    "meaning": "입 궤양",
+    "sentence": "I get painful ___________ inside my cheeks.",
+    "right_sentence": "I get painful mouth ulcers inside my cheeks."
+  },
+  {
+    "term": "bleeding gums",
+    "meaning": "출혈 잇몸",
+    "sentence": "My ___________ happen when flossing.",
+    "right_sentence": "My bleeding gums happen when flossing."
+  },
+  {
+    "term": "tooth pain",
+    "meaning": "치아 통증",
+    "sentence": "I have sharp ___________ when chewing.",
+    "right_sentence": "I have sharp tooth pain when chewing."
+  },
+  {
+    "term": "ear pain",
+    "meaning": "귀 통증",
+    "sentence": "My ___________ started after flying.",
+    "right_sentence": "My ear pain started after flying."
+  },
+  {
+    "term": "hearing impairment",
+    "meaning": "청력 장애",
+    "sentence": "I’ve noticed ___________ in noisy places.",
+    "right_sentence": "I’ve noticed hearing impairment in noisy places."
+  },
+  {
+    "term": "balance issues",
+    "meaning": "균형 문제",
+    "sentence": "My ___________ make me dizzy.",
+    "right_sentence": "My balance issues make me dizzy."
+  },
+  {
+    "term": "skin discoloration",
+    "meaning": "피부 변색",
+    "sentence": "I see ___________ on my legs.",
+    "right_sentence": "I see skin discoloration on my legs."
+  },
+  {
+    "term": "hair thinning",
+    "meaning": "머리카락 가늘어짐",
+    "sentence": "My ___________ has worsened recently.",
+    "right_sentence": "My hair thinning has worsened recently."
+  },
+  {
+    "term": "nail ridges",
+    "meaning": "손톱 융기",
+    "sentence": "I have ___________ on my fingernails.",
+    "right_sentence": "I have nail ridges on my fingernails."
+  },
+  {
+    "term": "morning stiffness",
+    "meaning": "아침 경직",
+    "sentence": "My ___________ lasts for hours.",
+    "right_sentence": "My morning stiffness lasts for hours."
+  },
+  {
+    "term": "leg cramps",
+    "meaning": "다리 경련",
+    "sentence": "I get ___________ during exercise.",
+    "right_sentence": "I get leg cramps during exercise."
+  },
+  {
+    "term": "lower backache",
+    "meaning": "허리 통증",
+    "sentence": "My ___________ flares after lifting.",
+    "right_sentence": "My lower backache flares after lifting."
+  },
+  {
+    "term": "neck strain",
+    "meaning": "목 긴장",
+    "sentence": "I have ___________ from bad posture.",
+    "right_sentence": "I have neck strain from bad posture."
+  },
+  {
+    "term": "migraine attacks",
+    "meaning": "편두통 발작",
+    "sentence": "My ___________ come with nausea.",
+    "right_sentence": "My migraine attacks come with nausea."
+  },
+  {
+    "term": "cluster headaches",
+    "meaning": "군발 두통",
+    "sentence": "I suffer from ___________ around my eye.",
+    "right_sentence": "I suffer from cluster headaches around my eye."
+  },
+  {
+    "term": "sinus pressure",
+    "meaning": "부비동 압력",
+    "sentence": "I feel ___________ in my forehead.",
+    "right_sentence": "I feel sinus pressure in my forehead."
+  },
+  {
+    "term": "facial tenderness",
+    "meaning": "얼굴 압통",
+    "sentence": "My ___________ increases with touch.",
+    "right_sentence": "My facial tenderness increases with touch."
+  },
+  {
+    "term": "eye fatigue",
+    "meaning": "눈 피로",
+    "sentence": "My ___________ happens after screen time.",
+    "right_sentence": "My eye fatigue happens after screen time."
+  },
+  {
+    "term": "light sensitivity",
+    "meaning": "광과민",
+    "sentence": "I have ___________ during headaches.",
+    "right_sentence": "I have light sensitivity during headaches."
+  },
+  {
+    "term": "noise intolerance",
+    "meaning": "소음 과민",
+    "sentence": "My ___________ makes loud sounds painful.",
+    "right_sentence": "My noise intolerance makes loud sounds painful."
+  },
+  {
+    "term": "altered smell",
+    "meaning": "변화된 후각",
+    "sentence": "I’ve noticed ___________ after a cold.",
+    "right_sentence": "I’ve noticed altered smell after a cold."
+  },
+  {
+    "term": "taste loss",
+    "meaning": "미각 상실",
+    "sentence": "My ___________ makes food bland.",
+    "right_sentence": "My taste loss makes food bland."
+  },
+  {
+    "term": "swallowing trouble",
+    "meaning": "연하 곤란",
+    "sentence": "I have ___________ with solid foods.",
+    "right_sentence": "I have swallowing trouble with solid foods."
+  },
+  {
+    "term": "voice hoarseness",
+    "meaning": "목소리 쉼",
+    "sentence": "My ___________ persists after talking.",
+    "right_sentence": "My voice hoarseness persists after talking."
+  },
+  {
+    "term": "respiratory distress",
+    "meaning": "호흡 곤란",
+    "sentence": "I experienced ___________ during the attack.",
+    "right_sentence": "I experienced respiratory distress during the attack."
+  },
+  {
+    "term": "chest constriction",
+    "meaning": "가슴 조임",
+    "sentence": "I feel ___________ when lying down.",
+    "right_sentence": "I feel chest constriction when lying down."
+  },
+  {
+    "term": "acid indigestion",
+    "meaning": "위산 소화불량",
+    "sentence": "I get ___________ after heavy meals.",
+    "right_sentence": "I get acid indigestion after heavy meals."
+  },
+  {
+    "term": "stomach upset",
+    "meaning": "위 불편",
+    "sentence": "My ___________ follows dairy consumption.",
+    "right_sentence": "My stomach upset follows dairy consumption."
+  },
+  {
+    "term": "bowel irregularity",
+    "meaning": "장 불규칙",
+    "sentence": "I have ___________ with alternating patterns.",
+    "right_sentence": "I have bowel irregularity with alternating patterns."
+  },
+  {
+    "term": "urinary urgency",
+    "meaning": "배뇨 긴급",
+    "sentence": "My ___________ makes me rush to the bathroom.",
+    "right_sentence": "My urinary urgency makes me rush to the bathroom."
+  },
+  {
+    "term": "bladder spasms",
+    "meaning": "방광 경련",
+    "sentence": "I feel ___________ causing discomfort.",
+    "right_sentence": "I feel bladder spasms causing discomfort."
+  },
+  {
+    "term": "joint swelling",
+    "meaning": "관절 부종",
+    "sentence": "My ___________ limits movement.",
+    "right_sentence": "My joint swelling limits movement."
+  },
+  {
+    "term": "muscle twitching",
+    "meaning": "근육 씰룩거림",
+    "sentence": "I notice ___________ in my eyelids.",
+    "right_sentence": "I notice muscle twitching in my eyelids."
+  },
+  {
+    "term": "nerve pain",
+    "meaning": "신경 통증",
+    "sentence": "My ___________ shoots down my leg.",
+    "right_sentence": "My nerve pain shoots down my leg."
+  },
+  {
+    "term": "bone aches",
+    "meaning": "뼈 통증",
+    "sentence": "I have deep ___________ at night.",
+    "right_sentence": "I have deep bone aches at night."
+  },
+  {
+    "term": "skin sensitivity",
+    "meaning": "피부 과민",
+    "sentence": "My ___________ makes clothes uncomfortable.",
+    "right_sentence": "My skin sensitivity makes clothes uncomfortable."
+  },
+  {
+    "term": "hair brittleness",
+    "meaning": "머리카락 부서짐",
+    "sentence": "My ___________ causes breakage.",
+    "right_sentence": "My hair brittleness causes breakage."
+  },
+  {
+    "term": "nail splitting",
+    "meaning": "손톱 갈라짐",
+    "sentence": "I have ___________ on several fingers.",
+    "right_sentence": "I have nail splitting on several fingers."
+  },
+  {
+    "term": "gum recession",
+    "meaning": "잇몸 퇴축",
+    "sentence": "My ___________ exposes tooth roots.",
+    "right_sentence": "My gum recession exposes tooth roots."
+  },
+  {
+    "term": "tooth sensitivity",
+    "meaning": "치아 과민",
+    "sentence": "My ___________ to cold drinks is painful.",
+    "right_sentence": "My tooth sensitivity to cold drinks is painful."
+  },
+  {
+    "term": "ear ringing",
+    "meaning": "귀 울림",
+    "sentence": "I hear constant ___________ in quiet rooms.",
+    "right_sentence": "I hear constant ear ringing in quiet rooms."
+  },
+  {
+    "term": "dizziness spells",
+    "meaning": "어지럼증 발작",
+    "sentence": "My ___________ come and go suddenly.",
+    "right_sentence": "My dizziness spells come and go suddenly."
+  },
+  {
+    "term": "coordination loss",
+    "meaning": "조정 상실",
+    "sentence": "My ___________ makes me clumsy.",
+    "right_sentence": "My coordination loss makes me clumsy."
+  },
+  {
+    "term": "speech slurring",
+    "meaning": "말 어눌함",
+    "sentence": "I notice ___________ when tired.",
+    "right_sentence": "I notice speech slurring when tired."
+  },
+  {
+    "term": "mood instability",
+    "meaning": "기분 불안정",
+    "sentence": "My ___________ affects my relationships.",
+    "right_sentence": "My mood instability affects my relationships."
+  },
+  {
+    "term": "sleep disturbances",
+    "meaning": "수면 장애",
+    "sentence": "I have ___________ with frequent awakenings.",
+    "right_sentence": "I have sleep disturbances with frequent awakenings."
+  },
+  {
+    "term": "appetite suppression",
+    "meaning": "식욕 억제",
+    "sentence": "My ___________ leads to skipping meals.",
+    "right_sentence": "My appetite suppression leads to skipping meals."
+  },
+  {
+    "term": "thirst quenching",
+    "meaning": "갈증 해소",
+    "sentence": "I can’t seem to ___________ no matter how much I drink.",
+    "right_sentence": "I can’t seem to thirst quenching no matter how much I drink."
+  },
+  {
+    "term": "urinary frequency",
+    "meaning": "배뇨 빈도",
+    "sentence": "My ___________ disrupts my day.",
+    "right_sentence": "My urinary frequency disrupts my day."
+  },
+  {
+    "term": "vision floaters",
+    "meaning": "시야 부유물",
+    "sentence": "I see ___________ like spots moving.",
+    "right_sentence": "I see vision floaters like spots moving."
+  },
+  {
+    "term": "dry skin",
+    "meaning": "건조한 피부",
+    "sentence": "My ___________ cracks easily.",
+    "right_sentence": "My dry skin cracks easily."
+  },
+  {
+    "term": "itchy patches",
+    "meaning": "가려운 반점",
+    "sentence": "I have ___________ on my back.",
+    "right_sentence": "I have itchy patches on my back."
+  },
+  {
+    "term": "joint creaking",
+    "meaning": "관절 삐걱거림",
+    "sentence": "My ___________ sounds when I move.",
+    "right_sentence": "My joint creaking sounds when I move."
+  },
+  {
+    "term": "muscle knots",
+    "meaning": "근육 뭉침",
+    "sentence": "I feel ___________ in my shoulders.",
+    "right_sentence": "I feel muscle knots in my shoulders."
+  },
+  {
+    "term": "back spasms",
+    "meaning": "등 경련",
+    "sentence": "My ___________ cause sudden pain.",
+    "right_sentence": "My back spasms cause sudden pain."
+  },
+  {
+    "term": "neck cramps",
+    "meaning": "목 경련",
+    "sentence": "I get ___________ from phone use.",
+    "right_sentence": "I get neck cramps from phone use."
+  },
+  {
+    "term": "tension headaches",
+    "meaning": "긴장성 두통",
+    "sentence": "My ___________ feel like a band around my head.",
+    "right_sentence": "My tension headaches feel like a band around my head."
+  },
+  {
+    "term": "sinus congestion",
+    "meaning": "부비동 충혈",
+    "sentence": "My ___________ blocks my nose.",
+    "right_sentence": "My sinus congestion blocks my nose."
+  },
+  {
+    "term": "facial swelling",
+    "meaning": "얼굴 부종",
+    "sentence": "I have ___________ around my eyes.",
+    "right_sentence": "I have facial swelling around my eyes."
+  },
+  {
+    "term": "eye redness",
+    "meaning": "눈 충혈",
+    "sentence": "My ___________ makes them look bloodshot.",
+    "right_sentence": "My eye redness makes them look bloodshot."
+  },
+  {
+    "term": "odor sensitivity",
+    "meaning": "냄새 과민",
+    "sentence": "My ___________ triggers nausea.",
+    "right_sentence": "My odor sensitivity triggers nausea."
+  },
+  {
+    "term": "taste distortion",
+    "meaning": "미각 왜곡",
+    "sentence": "My ___________ makes everything bitter.",
+    "right_sentence": "My taste distortion makes everything bitter."
+  },
+  {
+    "term": "throat lump",
+    "meaning": "목 덩어리",
+    "sentence": "I feel a ___________ when swallowing.",
+    "right_sentence": "I feel a throat lump when swallowing."
+  },
+  {
+    "term": "voice cracking",
+    "meaning": "목소리 갈라짐",
+    "sentence": "My ___________ happens when singing.",
+    "right_sentence": "My voice cracking happens when singing."
+  },
+  {
+    "term": "breathing wheezing",
+    "meaning": "호흡 천명",
+    "sentence": "My ___________ is audible from afar.",
+    "right_sentence": "My breathing wheezing is audible from afar."
+  },
+  {
+    "term": "chest heaviness",
+    "meaning": "가슴 무거움",
+    "sentence": "I feel ___________ when exerting.",
+    "right_sentence": "I feel chest heaviness when exerting."
+  },
+  {
+    "term": "stomach burning",
+    "meaning": "위 타는 느낌",
+    "sentence": "My ___________ occurs after coffee.",
+    "right_sentence": "My stomach burning occurs after coffee."
+  },
+  {
+    "term": "digestive discomfort",
+    "meaning": "소화 불편",
+    "sentence": "I have ___________ with bloating.",
+    "right_sentence": "I have digestive discomfort with bloating."
+  },
+  {
+    "term": "intestinal cramps",
+    "meaning": "장 경련",
+    "sentence": "My ___________ come after meals.",
+    "right_sentence": "My intestinal cramps come after meals."
+  },
+  {
+    "term": "bladder pressure",
+    "meaning": "방광 압력",
+    "sentence": "I feel ___________ needing relief.",
+    "right_sentence": "I feel bladder pressure needing relief."
+  },
+  {
+    "term": "urinary burning",
+    "meaning": "배뇨 타는 느낌",
+    "sentence": "My ___________ indicates infection.",
+    "right_sentence": "My urinary burning indicates infection."
+  },
+  {
+    "term": "joint inflammation",
+    "meaning": "관절 염증",
+    "sentence": "My ___________ causes redness.",
+    "right_sentence": "My joint inflammation causes redness."
+  },
+  {
+    "term": "muscle soreness",
+    "meaning": "근육 통증",
+    "sentence": "My ___________ follows workouts.",
+    "right_sentence": "My muscle soreness follows workouts."
+  },
+  {
+    "term": "nerve tingling",
+    "meaning": "신경 저림",
+    "sentence": "I have ___________ in my fingers.",
+    "right_sentence": "I have nerve tingling in my fingers."
+  },
+  {
+    "term": "bone pain",
+    "meaning": "뼈 통증",
+    "sentence": "My ___________ is deep and constant.",
+    "right_sentence": "My bone pain is deep and constant."
+  },
+  {
+    "term": "skin dryness",
+    "meaning": "피부 건조",
+    "sentence": "My ___________ leads to cracking.",
+    "right_sentence": "My skin dryness leads to cracking."
+  },
+  {
+    "term": "hair dryness",
+    "meaning": "머리카락 건조",
+    "sentence": "My ___________ causes frizz.",
+    "right_sentence": "My hair dryness causes frizz."
+  },
+  {
+    "term": "nail brittleness",
+    "meaning": "손톱 부서짐",
+    "sentence": "My ___________ makes them break.",
+    "right_sentence": "My nail brittleness makes them break."
+  },
+  {
+    "term": "gum sensitivity",
+    "meaning": "잇몸 과민",
+    "sentence": "My ___________ to hot food hurts.",
+    "right_sentence": "My gum sensitivity to hot food hurts."
+  },
+  {
+    "term": "tooth grinding",
+    "meaning": "치아 갈기",
+    "sentence": "My ___________ wears down enamel.",
+    "right_sentence": "My tooth grinding wears down enamel."
+  },
+  {
+    "term": "ear buzzing",
+    "meaning": "귀 윙윙거림",
+    "sentence": "I hear ___________ after concerts.",
+    "right_sentence": "I hear ear buzzing after concerts."
+  },
+  {
+    "term": "vertigo episodes",
+    "meaning": "현기증 에피소드",
+    "sentence": "My ___________ make the room spin.",
+    "right_sentence": "My vertigo episodes make the room spin."
+  },
+  {
+    "term": "gait instability",
+    "meaning": "보행 불안정",
+    "sentence": "My ___________ increases fall risk.",
+    "right_sentence": "My gait instability increases fall risk."
+  },
+  {
+    "term": "slurred speech",
+    "meaning": "어눌한 말",
+    "sentence": "My ___________ started suddenly.",
+    "right_sentence": "My slurred speech started suddenly."
+  },
+  {
+    "term": "emotional swings",
+    "meaning": "감정 변화",
+    "sentence": "My ___________ are unpredictable.",
+    "right_sentence": "My emotional swings are unpredictable."
+  },
+  {
+    "term": "insomnia nights",
+    "meaning": "불면 밤",
+    "sentence": "I have ___________ tossing and turning.",
+    "right_sentence": "I have insomnia nights tossing and turning."
+  },
+  {
+    "term": "hunger pangs",
+    "meaning": "배고픔 고통",
+    "sentence": "I get sharp ___________ between meals.",
+    "right_sentence": "I get sharp hunger pangs between meals."
+  },
+  {
+    "term": "thirst increase",
+    "meaning": "갈증 증가",
+    "sentence": "My ___________ is constant now.",
+    "right_sentence": "My thirst increase is constant now."
+  },
+  {
+    "term": "nocturnal urination",
+    "meaning": "야간 배뇨",
+    "sentence": "My ___________ interrupts sleep.",
+    "right_sentence": "My nocturnal urination interrupts sleep."
+  },
+  {
+    "term": "eye floaters",
+    "meaning": "눈 부유물",
+    "sentence": "I see ___________ in bright light.",
+    "right_sentence": "I see eye floaters in bright light."
+  },
+  {
+    "term": "skin flaking",
+    "meaning": "피부 벗겨짐",
+    "sentence": "My ___________ is embarrassing.",
+    "right_sentence": "My skin flaking is embarrassing."
+  },
+
+  {
+    "term": "chest tightness",
+    "meaning": "가슴 조임",
+    "sentence": "I feel ___________ when I climb stairs.",
+    "right_sentence": "I feel chest tightness when I climb stairs."
+  },
+  {
+    "term": "heart fluttering",
+    "meaning": "심장 두근거림",
+    "sentence": "My ___________ happens during stress.",
+    "right_sentence": "My heart fluttering happens during stress."
+  },
+  {
+    "term": "short breath",
+    "meaning": "숨 가쁨",
+    "sentence": "I get ___________ after light exercise.",
+    "right_sentence": "I get short breath after light exercise."
+  },
+  {
+    "term": "dry cough",
+    "meaning": "마른 기침",
+    "sentence": "My ___________ keeps me awake at night.",
+    "right_sentence": "My dry cough keeps me awake at night."
+  },
+  {
+    "term": "wet cough",
+    "meaning": "젖은 기침",
+    "sentence": "I have a ___________ with phlegm.",
+    "right_sentence": "I have a wet cough with phlegm."
+  },
+  {
+    "term": "facial numbness",
+    "meaning": "얼굴 무감각",
+    "sentence": "My ___________ started on one side.",
+    "right_sentence": "My facial numbness started on one side."
+  },
+  {
+    "term": "eye twitching",
+    "meaning": "눈 떨림",
+    "sentence": "My ___________ is annoying when tired.",
+    "right_sentence": "My eye twitching is annoying when tired."
+  },
+  {
+    "term": "jaw pain",
+    "meaning": "턱 통증",
+    "sentence": "I feel ___________ when chewing.",
+    "right_sentence": "I feel jaw pain when chewing."
+  },
+  {
+    "term": "throat soreness",
+    "meaning": "목 아픔",
+    "sentence": "My ___________ makes talking hard.",
+    "right_sentence": "My throat soreness makes talking hard."
+  },
+  {
+    "term": "ear fullness",
+    "meaning": "귀 꽉 찬 느낌",
+    "sentence": "I have ___________ after swimming.",
+    "right_sentence": "I have ear fullness after swimming."
+  },
+  {
+    "term": "blurred sight",
+    "meaning": "흐린 시력",
+    "sentence": "My ___________ worsens at night.",
+    "right_sentence": "My blurred sight worsens at night."
+  },
+  {
+    "term": "double vision",
+    "meaning": "복시",
+    "sentence": "I experience ___________ when tired.",
+    "right_sentence": "I experience double vision when tired."
+  },
+  {
+    "term": "eye strain",
+    "meaning": "눈 피로",
+    "sentence": "My ___________ comes from reading.",
+    "right_sentence": "My eye strain comes from reading."
+  },
+  {
+    "term": "head pressure",
+    "meaning": "머리 압박",
+    "sentence": "I feel ___________ during sinus issues.",
+    "right_sentence": "I feel head pressure during sinus issues."
+  },
+  {
+    "term": "neck tightness",
+    "meaning": "목 뻣뻣함",
+    "sentence": "My ___________ is worse after work.",
+    "right_sentence": "My neck tightness is worse after work."
+  },
+  {
+    "term": "shoulder ache",
+    "meaning": "어깨 통증",
+    "sentence": "I have a ___________ from carrying bags.",
+    "right_sentence": "I have a shoulder ache from carrying bags."
+  },
+  {
+    "term": "arm weakness",
+    "meaning": "팔 약함",
+    "sentence": "My ___________ makes lifting hard.",
+    "right_sentence": "My arm weakness makes lifting hard."
+  },
+  {
+    "term": "hand stiffness",
+    "meaning": "손 뻣뻣함",
+    "sentence": "My ___________ is worse in the morning.",
+    "right_sentence": "My hand stiffness is worse in the morning."
+  },
+  {
+    "term": "finger swelling",
+    "meaning": "손가락 부종",
+    "sentence": "My ___________ makes rings tight.",
+    "right_sentence": "My finger swelling makes rings tight."
+  },
+  {
+    "term": "wrist pain",
+    "meaning": "손목 통증",
+    "sentence": "I feel ___________ after typing all day.",
+    "right_sentence": "I feel wrist pain after typing all day."
+  },
+  {
+    "term": "hip soreness",
+    "meaning": "고관절 아픔",
+    "sentence": "My ___________ flares after walking.",
+    "right_sentence": "My hip soreness flares after walking."
+  },
+  {
+    "term": "knee swelling",
+    "meaning": "무릎 부종",
+    "sentence": "My ___________ makes bending hard.",
+    "right_sentence": "My knee swelling makes bending hard."
+  },
+  {
+    "term": "ankle stiffness",
+    "meaning": "발목 뻣뻣함",
+    "sentence": "My ___________ is bad after running.",
+    "right_sentence": "My ankle stiffness is bad after running."
+  },
+  {
+    "term": "foot cramps",
+    "meaning": "발 경련",
+    "sentence": "I get ___________ in my arches at night.",
+    "right_sentence": "I get foot cramps in my arches at night."
+  },
+  {
+    "term": "toe numbness",
+    "meaning": "발가락 무감각",
+    "sentence": "My ___________ happens in tight shoes.",
+    "right_sentence": "My toe numbness happens in tight shoes."
+  },
+  {
+    "term": "skin rash",
+    "meaning": "피부 발진",
+    "sentence": "I developed a ___________ after new detergent.",
+    "right_sentence": "I developed a skin rash after new detergent."
+  },
+  {
+    "term": "red patches",
+    "meaning": "붉은 반점",
+    "sentence": "My ___________ itch on my legs.",
+    "right_sentence": "My red patches itch on my legs."
+  },
+  {
+    "term": "scaly skin",
+    "meaning": "비늘 같은 피부",
+    "sentence": "My ___________ appears on my elbows.",
+    "right_sentence": "My scaly skin appears on my elbows."
+  },
+  {
+    "term": "dry patches",
+    "meaning": "건조한 반점",
+    "sentence": "I have ___________ on my hands.",
+    "right_sentence": "I have dry patches on my hands."
+  },
+  {
+    "term": "burning skin",
+    "meaning": "타는 피부",
+    "sentence": "My ___________ feels hot after sun exposure.",
+    "right_sentence": "My burning skin feels hot after sun exposure."
+  },
+  {
+    "term": "itchy scalp",
+    "meaning": "가려운 두피",
+    "sentence": "My ___________ flares in dry weather.",
+    "right_sentence": "My itchy scalp flares in dry weather."
+  },
+  {
+    "term": "hair loss",
+    "meaning": "탈모",
+    "sentence": "I’ve noticed ___________ in clumps.",
+    "right_sentence": "I’ve noticed hair loss in clumps."
+  },
+  {
+    "term": "nail discoloration",
+    "meaning": "손톱 변색",
+    "sentence": "My ___________ looks yellowish.",
+    "right_sentence": "My nail discoloration looks yellowish."
+  },
+  {
+    "term": "gum swelling",
+    "meaning": "잇몸 부종",
+    "sentence": "My ___________ makes brushing painful.",
+    "right_sentence": "My gum swelling makes brushing painful."
+  },
+  {
+    "term": "toothache",
+    "meaning": "치통",
+    "sentence": "My ___________ worsens with sweets.",
+    "right_sentence": "My toothache worsens with sweets."
+  },
+  {
+    "term": "ear clogging",
+    "meaning": "귀 막힘",
+    "sentence": "My ___________ reduces hearing.",
+    "right_sentence": "My ear clogging reduces hearing."
+  },
+  {
+    "term": "dizzy spells",
+    "meaning": "현기증",
+    "sentence": "I get ___________ when standing up.",
+    "right_sentence": "I get dizzy spells when standing up."
+  },
+  {
+    "term": "balance trouble",
+    "meaning": "균형 문제",
+    "sentence": "My ___________ makes walking unsteady.",
+    "right_sentence": "My balance trouble makes walking unsteady."
+  },
+  {
+    "term": "speech difficulty",
+    "meaning": "언어 장애",
+    "sentence": "I have ___________ with certain words.",
+    "right_sentence": "I have speech difficulty with certain words."
+  },
+  {
+    "term": "mood swings",
+    "meaning": "기분 변화",
+    "sentence": "My ___________ affect my daily life.",
+    "right_sentence": "My mood swings affect my daily life."
+  },
+  {
+    "term": "sleep trouble",
+    "meaning": "수면 문제",
+    "sentence": "I have ___________ falling asleep.",
+    "right_sentence": "I have sleep trouble falling asleep."
+  },
+  {
+    "term": "appetite loss",
+    "meaning": "식욕 부진",
+    "sentence": "My ___________ started last week.",
+    "right_sentence": "My appetite loss started last week."
+  },
+  {
+    "term": "excess thirst",
+    "meaning": "과도한 갈증",
+    "sentence": "I feel ___________ all the time.",
+    "right_sentence": "I feel excess thirst all the time."
+  },
+  {
+    "term": "night urination",
+    "meaning": "야간 배뇨",
+    "sentence": "My ___________ disrupts my sleep.",
+    "right_sentence": "My night urination disrupts my sleep."
+  },
+  {
+    "term": "vision spots",
+    "meaning": "시야 반점",
+    "sentence": "I see ___________ in my eyes.",
+    "right_sentence": "I see vision spots in my eyes."
+  },
+  {
+    "term": "skin peeling",
+    "meaning": "피부 벗겨짐",
+    "sentence": "My ___________ happens after sunburn.",
+    "right_sentence": "My skin peeling happens after sunburn."
+  },
+  {
+    "term": "itchy spots",
+    "meaning": "가려운 점",
+    "sentence": "My ___________ appeared after hiking.",
+    "right_sentence": "My itchy spots appeared after hiking."
+  },
+  {
+    "term": "joint pain",
+    "meaning": "관절 통증",
+    "sentence": "My ___________ worsens in cold weather.",
+    "right_sentence": "My joint pain worsens in cold weather."
+  },
+  {
+    "term": "muscle cramps",
+    "meaning": "근육 경련",
+    "sentence": "I get ___________ after running.",
+    "right_sentence": "I get muscle cramps after running."
+  },
+  {
+    "term": "back stiffness",
+    "meaning": "등 뻣뻣함",
+    "sentence": "My ___________ is bad after sitting.",
+    "right_sentence": "My back stiffness is bad after sitting."
+  },
+  {
+    "term": "neck soreness",
+    "meaning": "목 아픔",
+    "sentence": "My ___________ comes from bad posture.",
+    "right_sentence": "My neck soreness comes from bad posture."
+  },
+  {
+    "term": "headache throbbing",
+    "meaning": "두통 맥동",
+    "sentence": "My ___________ feels like pulsing.",
+    "right_sentence": "My headache throbbing feels like pulsing."
+  },
+  {
+    "term": "sinus pain",
+    "meaning": "부비동 통증",
+    "sentence": "My ___________ spreads across my face.",
+    "right_sentence": "My sinus pain spreads across my face."
+  },
+  {
+    "term": "face puffiness",
+    "meaning": "얼굴 부종",
+    "sentence": "My ___________ is worse in the morning.",
+    "right_sentence": "My face puffiness is worse in the morning."
+  },
+  {
+    "term": "eye irritation",
+    "meaning": "눈 자극",
+    "sentence": "My ___________ comes from allergies.",
+    "right_sentence": "My eye irritation comes from allergies."
+  },
+  {
+    "term": "smell loss",
+    "meaning": "후각 상실",
+    "sentence": "I have ___________ after a cold.",
+    "right_sentence": "I have smell loss after a cold."
+  },
+  {
+    "term": "taste change",
+    "meaning": "미각 변화",
+    "sentence": "My ___________ makes food taste odd.",
+    "right_sentence": "My taste change makes food taste odd."
+  },
+  {
+    "term": "throat tightness",
+    "meaning": "목 조임",
+    "sentence": "I feel ___________ when swallowing.",
+    "right_sentence": "I feel throat tightness when swallowing."
+  },
+  {
+    "term": "voice loss",
+    "meaning": "목소리 상실",
+    "sentence": "My ___________ happened after yelling.",
+    "right_sentence": "My voice loss happened after yelling."
+  },
+  {
+    "term": "lung wheezing",
+    "meaning": "폐 천명",
+    "sentence": "My ___________ is worse in cold air.",
+    "right_sentence": "My lung wheezing is worse in cold air."
+  },
+  {
+    "term": "chest discomfort",
+    "meaning": "가슴 불편",
+    "sentence": "I feel ___________ after eating.",
+    "right_sentence": "I feel chest discomfort after eating."
+  },
+  {
+    "term": "heartburn",
+    "meaning": "속쓰림",
+    "sentence": "My ___________ flares after spicy food.",
+    "right_sentence": "My heartburn flares after spicy food."
+  },
+  {
+    "term": "stomach pain",
+    "meaning": "위 통증",
+    "sentence": "My ___________ comes after greasy meals.",
+    "right_sentence": "My stomach pain comes after greasy meals."
+  },
+  {
+    "term": "gut spasms",
+    "meaning": "장 경련",
+    "sentence": "I have ___________ with certain foods.",
+    "right_sentence": "I have gut spasms with certain foods."
+  },
+  {
+    "term": "bladder irritation",
+    "meaning": "방광 자극",
+    "sentence": "My ___________ causes frequent trips.",
+    "right_sentence": "My bladder irritation causes frequent trips."
+  },
+  {
+    "term": "urine burning",
+    "meaning": "소변 타는 느낌",
+    "sentence": "I feel ___________ when I pee.",
+    "right_sentence": "I feel urine burning when I pee."
+  },
+  {
+    "term": "joint stiffness",
+    "meaning": "관절 뻣뻣함",
+    "sentence": "My ___________ is bad in the morning.",
+    "right_sentence": "My joint stiffness is bad in the morning."
+  },
+  {
+    "term": "muscle ache",
+    "meaning": "근육 통증",
+    "sentence": "My ___________ follows exercise.",
+    "right_sentence": "My muscle ache follows exercise."
+  },
+  {
+    "term": "nerve zaps",
+    "meaning": "신경 찌릿함",
+    "sentence": "I feel ___________ in my arms.",
+    "right_sentence": "I feel nerve zaps in my arms."
+  },
+  {
+    "term": "bone soreness",
+    "meaning": "뼈 아픔",
+    "sentence": "My ___________ is worse at night.",
+    "right_sentence": "My bone soreness is worse at night."
+  },
+  {
+    "term": "skin itchiness",
+    "meaning": "피부 가려움",
+    "sentence": "My ___________ flares with heat.",
+    "right_sentence": "My skin itchiness flares with heat."
+  },
+  {
+    "term": "hair breakage",
+    "meaning": "머리카락 부서짐",
+    "sentence": "My ___________ is noticeable.",
+    "right_sentence": "My hair breakage is noticeable."
+  },
+  {
+    "term": "nail weakness",
+    "meaning": "손톱 약함",
+    "sentence": "My ___________ causes cracks.",
+    "right_sentence": "My nail weakness causes cracks."
+  },
+  {
+    "term": "gum irritation",
+    "meaning": "잇몸 자극",
+    "sentence": "My ___________ makes eating painful.",
+    "right_sentence": "My gum irritation makes eating painful."
+  },
+  {
+    "term": "tooth decay",
+    "meaning": "치아 부식",
+    "sentence": "My ___________ causes sensitivity.",
+    "right_sentence": "My tooth decay causes sensitivity."
+  },
+  {
+    "term": "ear humming",
+    "meaning": "귀 윙윙거림",
+    "sentence": "I hear ___________ in quiet rooms.",
+    "right_sentence": "I hear ear humming in quiet rooms."
+  },
+  {
+    "term": "vertigo",
+    "meaning": "현기증",
+    "sentence": "My ___________ makes the room spin.",
+    "right_sentence": "My vertigo makes the room spin."
+  },
+  {
+    "term": "unsteady steps",
+    "meaning": "불안정한 걸음",
+    "sentence": "My ___________ increase my fall risk.",
+    "right_sentence": "My unsteady steps increase my fall risk."
+  },
+  {
+    "term": "speech stumbling",
+    "meaning": "말 더듬기",
+    "sentence": "I have ___________ when nervous.",
+    "right_sentence": "I have speech stumbling when nervous."
+  },
+  {
+    "term": "emotional outbursts",
+    "meaning": "감정 폭발",
+    "sentence": "My ___________ happen unexpectedly.",
+    "right_sentence": "My emotional outbursts happen unexpectedly."
+  },
+  {
+    "term": "insomnia",
+    "meaning": "불면증",
+    "sentence": "My ___________ keeps me awake.",
+    "right_sentence": "My insomnia keeps me awake."
+  },
+  {
+    "term": "hunger spikes",
+    "meaning": "배고픔 급등",
+    "sentence": "I get ___________ out of nowhere.",
+    "right_sentence": "I get hunger spikes out of nowhere."
+  },
+  {
+    "term": "thirst surges",
+    "meaning": "갈증 급증",
+    "sentence": "My ___________ are constant.",
+    "right_sentence": "My thirst surges are constant."
+  },
+  {
+    "term": "frequent peeing",
+    "meaning": "잦은 배뇨",
+    "sentence": "My ___________ disrupts my day.",
+    "right_sentence": "My frequent peeing disrupts my day."
+  },
+  {
+    "term": "eye specks",
+    "meaning": "눈 반점",
+    "sentence": "I see ___________ floating in my vision.",
+    "right_sentence": "I see eye specks floating in my vision."
+  },
+  {
+    "term": "skin scaling",
+    "meaning": "피부 비늘",
+    "sentence": "My ___________ is worse in winter.",
+    "right_sentence": "My skin scaling is worse in winter."
+  },
+  {
+    "term": "itchy bumps",
+    "meaning": "가려운 융기",
+    "sentence": "My ___________ appeared after a bug bite.",
+    "right_sentence": "My itchy bumps appeared after a bug bite."
+  },
+  {
+    "term": "joint cracking",
+    "meaning": "관절 딱 소리",
+    "sentence": "My ___________ happens when I move.",
+    "right_sentence": "My joint cracking happens when I move."
+  },
+  {
+    "term": "muscle tension",
+    "meaning": "근육 긴장",
+    "sentence": "My ___________ causes discomfort.",
+    "right_sentence": "My muscle tension causes discomfort."
+  },
+  {
+    "term": "back ache",
+    "meaning": "허리 통증",
+    "sentence": "My ___________ is constant after work.",
+    "right_sentence": "My back ache is constant after work."
+  },
+  {
+    "term": "neck rigidity",
+    "meaning": "목 경직",
+    "sentence": "My ___________ limits turning my head.",
+    "right_sentence": "My neck rigidity limits turning my head."
+  },
+  {
+    "term": "headache pulses",
+    "meaning": "두통 맥박",
+    "sentence": "My ___________ worsen with noise.",
+    "right_sentence": "My headache pulses worsen with noise."
+  },
+  {
+    "term": "sinus fullness",
+    "meaning": "부비동 꽉 참",
+    "sentence": "My ___________ causes facial pain.",
+    "right_sentence": "My sinus fullness causes facial pain."
+  },
+  {
+    "term": "face swelling",
+    "meaning": "얼굴 부종",
+    "sentence": "My ___________ is noticeable in photos.",
+    "right_sentence": "My face swelling is noticeable in photos."
+  },
+  {
+    "term": "eye puffiness",
+    "meaning": "눈 부종",
+    "sentence": "My ___________ is worse after sleep.",
+    "right_sentence": "My eye puffiness is worse after sleep."
+  },
+  {
+    "term": "smell distortion",
+    "meaning": "후각 왜곡",
+    "sentence": "My ___________ makes scents unpleasant.",
+    "right_sentence": "My smell distortion makes scents unpleasant."
+  },
+  {
+    "term": "taste dullness",
+    "meaning": "미각 둔함",
+    "sentence": "My ___________ affects my appetite.",
+    "right_sentence": "My taste dullness affects my appetite."
+  },
+  {
+    "term": "throat irritation",
+    "meaning": "목 자극",
+    "sentence": "My ___________ causes coughing.",
+    "right_sentence": "My throat irritation causes coughing."
+  },
+  {
+    "term": "voice strain",
+    "meaning": "목소리 긴장",
+    "sentence": "My ___________ happens after talking.",
+    "right_sentence": "My voice strain happens after talking."
+  },
+  {
+    "term": "breath shortness",
+    "meaning": "숨참",
+    "sentence": "My ___________ worries me during walks.",
+    "right_sentence": "My breath shortness worries me during walks."
+  },
+  {
+    "term": "chest pressure",
+    "meaning": "가슴 압박",
+    "sentence": "I feel ___________ when stressed.",
+    "right_sentence": "I feel chest pressure when stressed."
+  },
+
+  {
+    "term": "heart palpitations",
+    "meaning": "심계항진",
+    "sentence": "I feel ___________ when I’m stressed out.",
+    "right_sentence": "I feel heart palpitations when I’m stressed out."
+  },
+  {
+    "term": "churning stomach",
+    "meaning": "위 뒤틀림",
+    "sentence": "My ___________ starts before big events.",
+    "right_sentence": "My churning stomach starts before big events."
+  },
+  {
+    "term": "sweaty feet",
+    "meaning": "땀나는 발",
+    "sentence": "My ___________ make my shoes damp.",
+    "right_sentence": "My sweaty feet make my shoes damp."
+  },
+  {
+    "term": "cold sweats",
+    "meaning": "식은땀",
+    "sentence": "I get ___________ during panic attacks.",
+    "right_sentence": "I get cold sweats during panic attacks."
+  },
+  {
+    "term": "facial flushing",
+    "meaning": "얼굴 홍조",
+    "sentence": "My ___________ happens in hot weather.",
+    "right_sentence": "My facial flushing happens in hot weather."
+  },
+  {
+    "term": "leg heaviness",
+    "meaning": "다리 무거움",
+    "sentence": "My ___________ slows me down.",
+    "right_sentence": "My leg heaviness slows me down."
+  },
+  {
+    "term": "arm tingling",
+    "meaning": "팔 저림",
+    "sentence": "I feel ___________ after sleeping on it.",
+    "right_sentence": "I feel arm tingling after sleeping on it."
+  },
+  {
+    "term": "hand cramps",
+    "meaning": "손 경련",
+    "sentence": "My ___________ occur while writing.",
+    "right_sentence": "My hand cramps occur while writing."
+  },
+  {
+    "term": "finger numbness",
+    "meaning": "손가락 무감각",
+    "sentence": "My ___________ happens in cold weather.",
+    "right_sentence": "My finger numbness happens in cold weather."
+  },
+  {
+    "term": "wrist stiffness",
+    "meaning": "손목 뻣뻣함",
+    "sentence": "My ___________ makes gripping hard.",
+    "right_sentence": "My wrist stiffness makes gripping hard."
+  },
+  {
+    "term": "hip pain",
+    "meaning": "고관절 통증",
+    "sentence": "My ___________ worsens when sitting.",
+    "right_sentence": "My hip pain worsens when sitting."
+  },
+  {
+    "term": "knee soreness",
+    "meaning": "무릎 아픔",
+    "sentence": "My ___________ flares after jogging.",
+    "right_sentence": "My knee soreness flares after jogging."
+  },
+  {
+    "term": "ankle swelling",
+    "meaning": "발목 부종",
+    "sentence": "My ___________ is worse at night.",
+    "right_sentence": "My ankle swelling is worse at night."
+  },
+  {
+    "term": "foot pain",
+    "meaning": "발 통증",
+    "sentence": "My ___________ makes standing hard.",
+    "right_sentence": "My foot pain makes standing hard."
+  },
+  {
+    "term": "toe swelling",
+    "meaning": "발가락 부종",
+    "sentence": "My ___________ came after a long walk.",
+    "right_sentence": "My toe swelling came after a long walk."
+  },
+  {
+    "term": "skin redness",
+    "meaning": "피부 발적",
+    "sentence": "My ___________ appeared after new lotion.",
+    "right_sentence": "My skin redness appeared after new lotion."
+  },
+  {
+    "term": "bumpy rash",
+    "meaning": "울퉁불퉁한 발진",
+    "sentence": "I have a ___________ on my arms.",
+    "right_sentence": "I have a bumpy rash on my arms."
+  },
+  {
+    "term": "flaky patches",
+    "meaning": " 벗겨지는 반점",
+    "sentence": "My ___________ show up in winter.",
+    "right_sentence": "My flaky patches show up in winter."
+  },
+  {
+    "term": "burning sensation",
+    "meaning": "타는 느낌",
+    "sentence": "I feel a ___________ on my skin.",
+    "right_sentence": "I feel a burning sensation on my skin."
+  },
+  {
+    "term": "scalp irritation",
+    "meaning": "두피 자극",
+    "sentence": "My ___________ causes constant scratching.",
+    "right_sentence": "My scalp irritation causes constant scratching."
+  },
+  {
+    "term": "hair dullness",
+    "meaning": "머리카락 칙칙함",
+    "sentence": "My ___________ makes it look lifeless.",
+    "right_sentence": "My hair dullness makes it look lifeless."
+  },
+  {
+    "term": "nail cracking",
+    "meaning": "손톱 갈라짐",
+    "sentence": "My ___________ happens frequently.",
+    "right_sentence": "My nail cracking happens frequently."
+  },
+  {
+    "term": "gum soreness",
+    "meaning": "잇몸 아픔",
+    "sentence": "My ___________ worsens with brushing.",
+    "right_sentence": "My gum soreness worsens with brushing."
+  },
+  {
+    "term": "tooth sensitivity",
+    "meaning": "치아 과민",
+    "sentence": "My ___________ hurts with cold drinks.",
+    "right_sentence": "My tooth sensitivity hurts with cold drinks."
+  },
+  {
+    "term": "ear itchiness",
+    "meaning": "귀 가려움",
+    "sentence": "My ___________ is worse after showers.",
+    "right_sentence": "My ear itchiness is worse after showers."
+  },
+  {
+    "term": "spinning sensation",
+    "meaning": "빙빙 도는 느낌",
+    "sentence": "I get a ___________ when lying down.",
+    "right_sentence": "I get a spinning sensation when lying down."
+  },
+  {
+    "term": "unsteady gait",
+    "meaning": "불안정한 보행",
+    "sentence": "My ___________ makes me stumble.",
+    "right_sentence": "My unsteady gait makes me stumble."
+  },
+  {
+    "term": "speech hesitation",
+    "meaning": "말 망설임",
+    "sentence": "I have ___________ during conversations.",
+    "right_sentence": "I have speech hesitation during conversations."
+  },
+  {
+    "term": "mood changes",
+    "meaning": "기분 변화",
+    "sentence": "My ___________ happen without reason.",
+    "right_sentence": "My mood changes happen without reason."
+  },
+  {
+    "term": "sleep issues",
+    "meaning": "수면 문제",
+    "sentence": "My ___________ keep me up at night.",
+    "right_sentence": "My sleep issues keep me up at night."
+  },
+  {
+    "term": "food aversion",
+    "meaning": "음식 혐오",
+    "sentence": "I have a ___________ to certain smells.",
+    "right_sentence": "I have a food aversion to certain smells."
+  },
+  {
+    "term": "thirst spikes",
+    "meaning": "갈증 급등",
+    "sentence": "My ___________ make me drink constantly.",
+    "right_sentence": "My thirst spikes make me drink constantly."
+  },
+  {
+    "term": "urinary hesitation",
+    "meaning": "배뇨 망설임",
+    "sentence": "I experience ___________ when starting.",
+    "right_sentence": "I experience urinary hesitation when starting."
+  },
+  {
+    "term": "vision haziness",
+    "meaning": "시야 흐림",
+    "sentence": "My ___________ affects reading.",
+    "right_sentence": "My vision haziness affects reading."
+  },
+  {
+    "term": "skin blotches",
+    "meaning": "피부 얼룩",
+    "sentence": "My ___________ appeared suddenly.",
+    "right_sentence": "My skin blotches appeared suddenly."
+  },
+  {
+    "term": "itchy welts",
+    "meaning": "가려운 두드러기",
+    "sentence": "My ___________ come after eating shrimp.",
+    "right_sentence": "My itchy welts come after eating shrimp."
+  },
+  {
+    "term": "joint popping",
+    "meaning": "관절 딱 소리",
+    "sentence": "My ___________ happens when I bend.",
+    "right_sentence": "My joint popping happens when I bend."
+  },
+  {
+    "term": "muscle spasms",
+    "meaning": "근육 경련",
+    "sentence": "My ___________ occur in my back.",
+    "right_sentence": "My muscle spasms occur in my back."
+  },
+  {
+    "term": "back soreness",
+    "meaning": "등 아픔",
+    "sentence": "My ___________ is worse after standing.",
+    "right_sentence": "My back soreness is worse after standing."
+  },
+  {
+    "term": "neck discomfort",
+    "meaning": "목 불편",
+    "sentence": "My ___________ comes from sleeping wrong.",
+    "right_sentence": "My neck discomfort comes from sleeping wrong."
+  },
+  {
+    "term": "headache pressure",
+    "meaning": "두통 압박",
+    "sentence": "My ___________ feels like squeezing.",
+    "right_sentence": "My headache pressure feels like squeezing."
+  },
+  {
+    "term": "sinus blockage",
+    "meaning": "부비동 막힘",
+    "sentence": "My ___________ causes head pain.",
+    "right_sentence": "My sinus blockage causes head pain."
+  },
+  {
+    "term": "facial puffiness",
+    "meaning": "얼굴 부종",
+    "sentence": "My ___________ is worse after salty food.",
+    "right_sentence": "My facial puffiness is worse after salty food."
+  },
+  {
+    "term": "eye soreness",
+    "meaning": "눈 아픔",
+    "sentence": "My ___________ worsens with light.",
+    "right_sentence": "My eye soreness worsens with light."
+  },
+  {
+    "term": "smell changes",
+    "meaning": "후각 변화",
+    "sentence": "My ___________ make food smell odd.",
+    "right_sentence": "My smell changes make food smell odd."
+  },
+  {
+    "term": "taste alteration",
+    "meaning": "미각 변화",
+    "sentence": "My ___________ affects my enjoyment of food.",
+    "right_sentence": "My taste alteration affects my enjoyment of food."
+  },
+  {
+    "term": "throat dryness",
+    "meaning": "목 건조",
+    "sentence": "My ___________ makes swallowing tough.",
+    "right_sentence": "My throat dryness makes swallowing tough."
+  },
+  {
+    "term": "voice weakness",
+    "meaning": "목소리 약함",
+    "sentence": "My ___________ makes speaking soft.",
+    "right_sentence": "My voice weakness makes speaking soft."
+  },
+  {
+    "term": "breath difficulty",
+    "meaning": "호흡 곤란",
+    "sentence": "My ___________ happens during exercise.",
+    "right_sentence": "My breath difficulty happens during exercise."
+  },
+  {
+    "term": "chest soreness",
+    "meaning": "가슴 아픔",
+    "sentence": "I feel ___________ after coughing.",
+    "right_sentence": "I feel chest soreness after coughing."
+  },
+  {
+    "term": "acid reflux",
+    "meaning": "위산 역류",
+    "sentence": "My ___________ causes burning in my throat.",
+    "right_sentence": "My acid reflux causes burning in my throat."
+  },
+  {
+    "term": "gut pain",
+    "meaning": "장 통증",
+    "sentence": "My ___________ comes after heavy meals.",
+    "right_sentence": "My gut pain comes after heavy meals."
+  },
+  {
+    "term": "bowel cramps",
+    "meaning": "장 경련",
+    "sentence": "My ___________ occur with stress.",
+    "right_sentence": "My bowel cramps occur with stress."
+  },
+  {
+    "term": "bladder discomfort",
+    "meaning": "방광 불편",
+    "sentence": "My ___________ makes sitting uneasy.",
+    "right_sentence": "My bladder discomfort makes sitting uneasy."
+  },
+  {
+    "term": "urine cloudiness",
+    "meaning": "소변 탁함",
+    "sentence": "My ___________ started last week.",
+    "right_sentence": "My urine cloudiness started last week."
+  },
+  {
+    "term": "joint tenderness",
+    "meaning": "관절 압통",
+    "sentence": "My ___________ hurts when touched.",
+    "right_sentence": "My joint tenderness hurts when touched."
+  },
+  {
+    "term": "muscle stiffness",
+    "meaning": "근육 뻣뻣함",
+    "sentence": "My ___________ is worse in the morning.",
+    "right_sentence": "My muscle stiffness is worse in the morning."
+  },
+  {
+    "term": "nerve jolts",
+    "meaning": "신경 충격",
+    "sentence": "I feel ___________ in my legs.",
+    "right_sentence": "I feel nerve jolts in my legs."
+  },
+  {
+    "term": "bone tenderness",
+    "meaning": "뼈 압통",
+    "sentence": "My ___________ is painful when pressed.",
+    "right_sentence": "My bone tenderness is painful when pressed."
+  },
+  {
+    "term": "skin roughness",
+    "meaning": "피부 거침",
+    "sentence": "My ___________ feels like sandpaper.",
+    "right_sentence": "My skin roughness feels like sandpaper."
+  },
+  {
+    "term": "hair fragility",
+    "meaning": "머리카락 약함",
+    "sentence": "My ___________ causes split ends.",
+    "right_sentence": "My hair fragility causes split ends."
+  },
+  {
+    "term": "nail flaking",
+    "meaning": "손톱 벗겨짐",
+    "sentence": "My ___________ makes them weak.",
+    "right_sentence": "My nail flaking makes them weak."
+  },
+  {
+    "term": "gum bleeding",
+    "meaning": "잇몸 출혈",
+    "sentence": "My ___________ happens when I brush.",
+    "right_sentence": "My gum bleeding happens when I brush."
+  },
+  {
+    "term": "tooth throbbing",
+    "meaning": "치아 맥동",
+    "sentence": "My ___________ keeps me awake.",
+    "right_sentence": "My tooth throbbing keeps me awake."
+  },
+  {
+    "term": "ear soreness",
+    "meaning": "귀 아픔",
+    "sentence": "My ___________ started after flying.",
+    "right_sentence": "My ear soreness started after flying."
+  },
+  {
+    "term": "dizzy episodes",
+    "meaning": "어지럼증 에피소드",
+    "sentence": "My ___________ happen when I stand.",
+    "right_sentence": "My dizzy episodes happen when I stand."
+  },
+  {
+    "term": "balance loss",
+    "meaning": "균형 상실",
+    "sentence": "My ___________ makes me feel unsteady.",
+    "right_sentence": "My balance loss makes me feel unsteady."
+  },
+  {
+    "term": "speech issues",
+    "meaning": "언어 문제",
+    "sentence": "My ___________ make talking hard.",
+    "right_sentence": "My speech issues make talking hard."
+  },
+  {
+    "term": "mood instability",
+    "meaning": "기분 불안정",
+    "sentence": "My ___________ affects my work.",
+    "right_sentence": "My mood instability affects my work."
+  },
+  {
+    "term": "sleep disruption",
+    "meaning": "수면 방해",
+    "sentence": "My ___________ leaves me tired.",
+    "right_sentence": "My sleep disruption leaves me tired."
+  },
+  {
+    "term": "appetite drop",
+    "meaning": "식욕 감소",
+    "sentence": "My ___________ makes eating tough.",
+    "right_sentence": "My appetite drop makes eating tough."
+  },
+  {
+    "term": "thirst increase",
+    "meaning": "갈증 증가",
+    "sentence": "My ___________ is relentless.",
+    "right_sentence": "My thirst increase is relentless."
+  },
+  {
+    "term": "urinary issues",
+    "meaning": "배뇨 문제",
+    "sentence": "My ___________ cause frequent trips.",
+    "right_sentence": "My urinary issues cause frequent trips."
+  },
+  {
+    "term": "vision flickers",
+    "meaning": "시야 깜박임",
+    "sentence": "I see ___________ in bright lights.",
+    "right_sentence": "I see vision flickers in bright lights."
+  },
+  {
+    "term": "skin sensitivity",
+    "meaning": "피부 과민",
+    "sentence": "My ___________ makes touch painful.",
+    "right_sentence": "My skin sensitivity makes touch painful."
+  },
+  {
+    "term": "itchy rash",
+    "meaning": "가려운 발진",
+    "sentence": "My ___________ spreads on my legs.",
+    "right_sentence": "My itchy rash spreads on my legs."
+  },
+  {
+    "term": "joint aches",
+    "meaning": "관절 통증",
+    "sentence": "My ___________ flare in cold weather.",
+    "right_sentence": "My joint aches flare in cold weather."
+  },
+  {
+    "term": "muscle soreness",
+    "meaning": "근육 아픔",
+    "sentence": "My ___________ follows workouts.",
+    "right_sentence": "My muscle soreness follows workouts."
+  },
+  {
+    "term": "back tension",
+    "meaning": "등 긴장",
+    "sentence": "My ___________ is worse after lifting.",
+    "right_sentence": "My back tension is worse after lifting."
+  },
+  {
+    "term": "neck strain",
+    "meaning": "목 긴장",
+    "sentence": "My ___________ comes from phone use.",
+    "right_sentence": "My neck strain comes from phone use."
+  },
+  {
+    "term": "headache spikes",
+    "meaning": "두통 급등",
+    "sentence": "My ___________ come with stress.",
+    "right_sentence": "My headache spikes come with stress."
+  },
+  {
+    "term": "sinus discomfort",
+    "meaning": "부비동 불편",
+    "sentence": "My ___________ causes face pain.",
+    "right_sentence": "My sinus discomfort causes face pain."
+  },
+  {
+    "term": "eye dryness",
+    "meaning": "눈 건조",
+    "sentence": "My ___________ makes blinking hurt.",
+    "right_sentence": "My eye dryness makes blinking hurt."
+  },
+  {
+    "term": "smell dullness",
+    "meaning": "후각 둔함",
+    "sentence": "My ___________ affects my cooking.",
+    "right_sentence": "My smell dullness affects my cooking."
+  },
+  {
+    "term": "taste fading",
+    "meaning": "미각 감퇴",
+    "sentence": "My ___________ makes meals bland.",
+    "right_sentence": "My taste fading makes meals bland."
+  },
+  {
+    "term": "throat scratchiness",
+    "meaning": "목 간질거림",
+    "sentence": "My ___________ triggers coughing.",
+    "right_sentence": "My throat scratchiness triggers coughing."
+  },
+  {
+    "term": "voice hoarseness",
+    "meaning": "목소리 쉼",
+    "sentence": "My ___________ worsens after talking.",
+    "right_sentence": "My voice hoarseness worsens after talking."
+  },
+  {
+    "term": "breathing trouble",
+    "meaning": "호흡 문제",
+    "sentence": "My ___________ occurs in cold air.",
+    "right_sentence": "My breathing trouble occurs in cold air."
+  },
+  {
+    "term": "chest burning",
+    "meaning": "가슴 타는 느낌",
+    "sentence": "I feel ___________ after spicy food.",
+    "right_sentence": "I feel chest burning after spicy food."
+  },
+  {
+    "term": "stomach cramps",
+    "meaning": "위 경련",
+    "sentence": "My ___________ come after dairy.",
+    "right_sentence": "My stomach cramps come after dairy."
+  },
+  {
+    "term": "gut discomfort",
+    "meaning": "장 불편",
+    "sentence": "My ___________ follows big meals.",
+    "right_sentence": "My gut discomfort follows big meals."
+  },
+  {
+    "term": "bladder spasms",
+    "meaning": "방광 경련",
+    "sentence": "My ___________ cause sudden urges.",
+    "right_sentence": "My bladder spasms cause sudden urges."
+  },
+  {
+    "term": "urine leakage",
+    "meaning": "소변 누출",
+    "sentence": "My ___________ happens when coughing.",
+    "right_sentence": "My urine leakage happens when coughing."
+  },
+  {
+    "term": "joint swelling",
+    "meaning": "관절 부종",
+    "sentence": "My ___________ limits my movement.",
+    "right_sentence": "My joint swelling limits my movement."
+  },
+  {
+    "term": "muscle twitching",
+    "meaning": "근육 씰룩거림",
+    "sentence": "My ___________ happens in my calf.",
+    "right_sentence": "My muscle twitching happens in my calf."
+  },
+  {
+    "term": "nerve burning",
+    "meaning": "신경 타는 느낌",
+    "sentence": "I feel ___________ down my arm.",
+    "right_sentence": "I feel nerve burning down my arm."
+  },
+  {
+    "term": "bone stiffness",
+    "meaning": "뼈 뻣뻣함",
+    "sentence": "My ___________ makes moving hard.",
+    "right_sentence": "My bone stiffness makes moving hard."
+  },
+  {
+    "term": "skin irritation",
+    "meaning": "피부 자극",
+    "sentence": "My ___________ flares with new soaps.",
+    "right_sentence": "My skin irritation flares with new soaps."
+  },
+
+  {
+    "term": "racing heartbeat",
+    "meaning": "빠른 심박",
+    "sentence": "When I’m anxious, ___________ makes me feel uneasy.",
+    "right_sentence": "When I’m anxious, racing heartbeat makes me feel uneasy."
+  },
+  {
+    "term": "stomach knots",
+    "meaning": "위 뭉침",
+    "sentence": "Before exams, I feel ___________ in my gut.",
+    "right_sentence": "Before exams, I feel stomach knots in my gut."
+  },
+  {
+    "term": "clammy hands",
+    "meaning": "축축한 손",
+    "sentence": "My ___________ make it hard to hold things during stress.",
+    "right_sentence": "My clammy hands make it hard to hold things during stress."
+  },
+  {
+    "term": "hot spells",
+    "meaning": "열감 발작",
+    "sentence": "I get ___________ out of nowhere, even in cool weather.",
+    "right_sentence": "I get hot spells out of nowhere, even in cool weather."
+  },
+  {
+    "term": "chilled skin",
+    "meaning": "차가운 피부",
+    "sentence": "After a fever, my ___________ feels icy.",
+    "right_sentence": "After a fever, my chilled skin feels icy."
+  },
+  {
+    "term": "leg tiredness",
+    "meaning": "다리 피로",
+    "sentence": "After a short walk, ___________ slows me down.",
+    "right_sentence": "After a short walk, leg tiredness slows me down."
+  },
+  {
+    "term": "arm numbness",
+    "meaning": "팔 무감각",
+    "sentence": "Sleeping on my side causes ___________ in my arm.",
+    "right_sentence": "Sleeping on my side causes arm numbness in my arm."
+  },
+  {
+    "term": "hand tingling",
+    "meaning": "손 저림",
+    "sentence": "I notice ___________ after holding my phone too long.",
+    "right_sentence": "I notice hand tingling after holding my phone too long."
+  },
+  {
+    "term": "finger stiffness",
+    "meaning": "손가락 뻣뻣함",
+    "sentence": "Cold mornings make ___________ worse in my hands.",
+    "right_sentence": "Cold mornings make finger stiffness worse in my hands."
+  },
+  {
+    "term": "wrist soreness",
+    "meaning": "손목 아픔",
+    "sentence": "Typing all day leads to ___________ in my wrists.",
+    "right_sentence": "Typing all day leads to wrist soreness in my wrists."
+  },
+  {
+    "term": "hip stiffness",
+    "meaning": "고관절 뻣뻣함",
+    "sentence": "After sitting, I experience ___________ when standing.",
+    "right_sentence": "After sitting, I experience hip stiffness when standing."
+  },
+  {
+    "term": "knee pain",
+    "meaning": "무릎 통증",
+    "sentence": "Climbing stairs triggers ___________ in my knees.",
+    "right_sentence": "Climbing stairs triggers knee pain in my knees."
+  },
+  {
+    "term": "ankle soreness",
+    "meaning": "발목 아픔",
+    "sentence": "Long runs cause ___________ that lingers.",
+    "right_sentence": "Long runs cause ankle soreness that lingers."
+  },
+  {
+    "term": "foot swelling",
+    "meaning": "발 부종",
+    "sentence": "Standing all day results in ___________ by evening.",
+    "right_sentence": "Standing all day results in foot swelling by evening."
+  },
+  {
+    "term": "toe cramps",
+    "meaning": "발가락 경련",
+    "sentence": "Tight shoes give me ___________ at night.",
+    "right_sentence": "Tight shoes give me toe cramps at night."
+  },
+  {
+    "term": "skin bumps",
+    "meaning": "피부 융기",
+    "sentence": "New soap caused ___________ on my arms.",
+    "right_sentence": "New soap caused skin bumps on my arms."
+  },
+  {
+    "term": "red rash",
+    "meaning": "붉은 발진",
+    "sentence": "I noticed a ___________ after hiking in the woods.",
+    "right_sentence": "I noticed a red rash after hiking in the woods."
+  },
+  {
+    "term": "scaly spots",
+    "meaning": "비늘 반점",
+    "sentence": "Dry weather brings ___________ to my elbows.",
+    "right_sentence": "Dry weather brings scaly spots to my elbows."
+  },
+  {
+    "term": "burning itch",
+    "meaning": "타는 가려움",
+    "sentence": "Sun exposure left me with a ___________ on my back.",
+    "right_sentence": "Sun exposure left me with a burning itch on my back."
+  },
+  {
+    "term": "scalp soreness",
+    "meaning": "두피 아픔",
+    "sentence": "Brushing my hair causes ___________ lately.",
+    "right_sentence": "Brushing my hair causes scalp soreness lately."
+  },
+  {
+    "term": "hair shedding",
+    "meaning": "머리카락 탈락",
+    "sentence": "I see ___________ more than usual in the shower.",
+    "right_sentence": "I see hair shedding more than usual in the shower."
+  },
+  {
+    "term": "nail splitting",
+    "meaning": "손톱 갈라짐",
+    "sentence": "My ___________ makes my nails look uneven.",
+    "right_sentence": "My nail splitting makes my nails look uneven."
+  },
+  {
+    "term": "gum tenderness",
+    "meaning": "잇몸 압통",
+    "sentence": "Eating apples causes ___________ in my gums.",
+    "right_sentence": "Eating apples causes gum tenderness in my gums."
+  },
+  {
+    "term": "tooth pain",
+    "meaning": "치아 통증",
+    "sentence": "Hot coffee triggers ___________ in my molar.",
+    "right_sentence": "Hot coffee triggers tooth pain in my molar."
+  },
+  {
+    "term": "ear pressure",
+    "meaning": "귀 압박",
+    "sentence": "Flying gives me ___________ that hurts.",
+    "right_sentence": "Flying gives me ear pressure that hurts."
+  },
+  {
+    "term": "dizzy feeling",
+    "meaning": "어지러운 느낌",
+    "sentence": "Standing up quickly causes a ___________ in my head.",
+    "right_sentence": "Standing up quickly causes a dizzy feeling in my head."
+  },
+  {
+    "term": "wobbly balance",
+    "meaning": "휘청이는 균형",
+    "sentence": "My ___________ makes walking on uneven ground hard.",
+    "right_sentence": "My wobbly balance makes walking on uneven ground hard."
+  },
+  {
+    "term": "speech trouble",
+    "meaning": "언어 문제",
+    "sentence": "When tired, I experience ___________ with words.",
+    "right_sentence": "When tired, I experience speech trouble with words."
+  },
+  {
+    "term": "mood shifts",
+    "meaning": "기분 변화",
+    "sentence": "My ___________ make me feel up and down.",
+    "right_sentence": "My mood shifts make me feel up and down."
+  },
+  {
+    "term": "sleep problems",
+    "meaning": "수면 문제",
+    "sentence": "I have ___________ that leave me exhausted.",
+    "right_sentence": "I have sleep problems that leave me exhausted."
+  },
+  {
+    "term": "food dislike",
+    "meaning": "음식 싫증",
+    "sentence": "Certain textures cause ___________ for me.",
+    "right_sentence": "Certain textures cause food dislike for me."
+  },
+  {
+    "term": "thirst bursts",
+    "meaning": "갈증 폭발",
+    "sentence": "I get sudden ___________ throughout the day.",
+    "right_sentence": "I get sudden thirst bursts throughout the day."
+  },
+  {
+    "term": "pee urgency",
+    "meaning": "배뇨 긴급",
+    "sentence": "My ___________ makes me rush to the bathroom.",
+    "right_sentence": "My pee urgency makes me rush to the bathroom."
+  },
+  {
+    "term": "vision clouds",
+    "meaning": "시야 흐림",
+    "sentence": "Sometimes, ___________ blur my sight.",
+    "right_sentence": "Sometimes, vision clouds blur my sight."
+  },
+  {
+    "term": "skin patches",
+    "meaning": "피부 반점",
+    "sentence": "I found ___________ on my legs recently.",
+    "right_sentence": "I found skin patches on my legs recently."
+  },
+  {
+    "term": "itchy sores",
+    "meaning": "가려운 상처",
+    "sentence": "My ___________ won’t heal quickly.",
+    "right_sentence": "My itchy sores won’t heal quickly."
+  },
+  {
+    "term": "joint creaks",
+    "meaning": "관절 삐걱거림",
+    "sentence": "Moving my knees causes ___________ to sound.",
+    "right_sentence": "Moving my knees causes joint creaks to sound."
+  },
+  {
+    "term": "muscle tightness",
+    "meaning": "근육 긴장",
+    "sentence": "After exercise, I feel ___________ in my calves.",
+    "right_sentence": "After exercise, I feel muscle tightness in my calves."
+  },
+  {
+    "term": "back pain",
+    "meaning": "허리 통증",
+    "sentence": "Lifting heavy boxes causes ___________ for days.",
+    "right_sentence": "Lifting heavy boxes causes back pain for days."
+  },
+  {
+    "term": "neck ache",
+    "meaning": "목 통증",
+    "sentence": "Looking at my phone gives me ___________ often.",
+    "right_sentence": "Looking at my phone gives me neck ache often."
+  },
+  {
+    "term": "headache bursts",
+    "meaning": "두통 발작",
+    "sentence": "Loud noises trigger ___________ in my temples.",
+    "right_sentence": "Loud noises trigger headache bursts in my temples."
+  },
+  {
+    "term": "sinus irritation",
+    "meaning": "부비동 자극",
+    "sentence": "Allergies cause ___________ in my face.",
+    "right_sentence": "Allergies cause sinus irritation in my face."
+  },
+  {
+    "term": "face redness",
+    "meaning": "얼굴 발적",
+    "sentence": "Spicy food leads to ___________ on my cheeks.",
+    "right_sentence": "Spicy food leads to face redness on my cheeks."
+  },
+  {
+    "term": "eye itchiness",
+    "meaning": "눈 가려움",
+    "sentence": "Pollen season brings ___________ to my eyes.",
+    "right_sentence": "Pollen season brings eye itchiness to my eyes."
+  },
+  {
+    "term": "smell fading",
+    "meaning": "후각 감퇴",
+    "sentence": "Since my cold, I’ve noticed ___________ with scents.",
+    "right_sentence": "Since my cold, I’ve noticed smell fading with scents."
+  },
+  {
+    "term": "taste loss",
+    "meaning": "미각 상실",
+    "sentence": "My ___________ makes food unenjoyable.",
+    "right_sentence": "My taste loss makes food unenjoyable."
+  },
+  {
+    "term": "throat burning",
+    "meaning": "목 타는 느낌",
+    "sentence": "Acid reflux causes ___________ after meals.",
+    "right_sentence": "Acid reflux causes throat burning after meals."
+  },
+  {
+    "term": "voice roughness",
+    "meaning": "목소리 거침",
+    "sentence": "Talking a lot leads to ___________ in my throat.",
+    "right_sentence": "Talking a lot leads to voice roughness in my throat."
+  },
+  {
+    "term": "breath issues",
+    "meaning": "호흡 문제",
+    "sentence": "Cold air triggers ___________ when I walk.",
+    "right_sentence": "Cold air triggers breath issues when I walk."
+  },
+  {
+    "term": "chest pain",
+    "meaning": "가슴 통증",
+    "sentence": "After running, I feel ___________ in my chest.",
+    "right_sentence": "After running, I feel chest pain in my chest."
+  },
+  {
+    "term": "gut burning",
+    "meaning": "장 타는 느낌",
+    "sentence": "Spicy meals cause ___________ in my stomach.",
+    "right_sentence": "Spicy meals cause gut burning in my stomach."
+  },
+  {
+    "term": "bowel discomfort",
+    "meaning": "장 불편",
+    "sentence": "Certain foods trigger ___________ in my abdomen.",
+    "right_sentence": "Certain foods trigger bowel discomfort in my abdomen."
+  },
+  {
+    "term": "bladder pain",
+    "meaning": "방광 통증",
+    "sentence": "I feel ___________ when my bladder is full.",
+    "right_sentence": "I feel bladder pain when my bladder is full."
+  },
+  {
+    "term": "urine trouble",
+    "meaning": "소변 문제",
+    "sentence": "My ___________ causes a weak stream.",
+    "right_sentence": "My urine trouble causes a weak stream."
+  },
+  {
+    "term": "joint discomfort",
+    "meaning": "관절 불편",
+    "sentence": "Rainy days bring ___________ to my knees.",
+    "right_sentence": "Rainy days bring joint discomfort to my knees."
+  },
+  {
+    "term": "muscle cramps",
+    "meaning": "근육 경련",
+    "sentence": "Long runs cause ___________ in my thighs.",
+    "right_sentence": "Long runs cause muscle cramps in my thighs."
+  },
+  {
+    "term": "back tightness",
+    "meaning": "등 긴장",
+    "sentence": "Sitting too long leads to ___________ in my lower back.",
+    "right_sentence": "Sitting too long leads to back tightness in my lower back."
+  },
+  {
+    "term": "neck tension",
+    "meaning": "목 긴장",
+    "sentence": "Stress causes ___________ in my shoulders and neck.",
+    "right_sentence": "Stress causes neck tension in my shoulders and neck."
+  },
+  {
+    "term": "headache pain",
+    "meaning": "두통 통증",
+    "sentence": "Bright lights trigger ___________ behind my eyes.",
+    "right_sentence": "Bright lights trigger headache pain behind my eyes."
+  },
+  {
+    "term": "sinus pressure",
+    "meaning": "부비동 압력",
+    "sentence": "My ___________ makes my face feel heavy.",
+    "right_sentence": "My sinus pressure makes my face feel heavy."
+  },
+  {
+    "term": "face swelling",
+    "meaning": "얼굴 부종",
+    "sentence": "Allergies cause ___________ around my eyes.",
+    "right_sentence": "Allergies cause face swelling around my eyes."
+  },
+  {
+    "term": "eye burning",
+    "meaning": "눈 타는 느낌",
+    "sentence": "Smoke exposure leads to ___________ in my eyes.",
+    "right_sentence": "Smoke exposure leads to eye burning in my eyes."
+  },
+  {
+    "term": "smell trouble",
+    "meaning": "후각 문제",
+    "sentence": "I’ve had ___________ since my sinus infection.",
+    "right_sentence": "I’ve had smell trouble since my sinus infection."
+  },
+  {
+    "term": "taste issues",
+    "meaning": "미각 문제",
+    "sentence": "My ___________ make everything taste metallic.",
+    "right_sentence": "My taste issues make everything taste metallic."
+  },
+  {
+    "term": "throat itch",
+    "meaning": "목 가려움",
+    "sentence": "Allergies cause a ___________ that makes me cough.",
+    "right_sentence": "Allergies cause a throat itch that makes me cough."
+  },
+  {
+    "term": "voice fatigue",
+    "meaning": "목소리 피로",
+    "sentence": "Teaching all day causes ___________ in my throat.",
+    "right_sentence": "Teaching all day causes voice fatigue in my throat."
+  },
+  {
+    "term": "breathlessness",
+    "meaning": "호흡 곤란",
+    "sentence": "Climbing hills causes ___________ for me.",
+    "right_sentence": "Climbing hills causes breathlessness for me."
+  },
+  {
+    "term": "chest heaviness",
+    "meaning": "가슴 무거움",
+    "sentence": "Stress brings on ___________ in my chest.",
+    "right_sentence": "Stress brings on chest heaviness in my chest."
+  },
+  {
+    "term": "gut spasms",
+    "meaning": "장 경련",
+    "sentence": "Dairy causes ___________ in my abdomen.",
+    "right_sentence": "Dairy causes gut spasms in my abdomen."
+  },
+  {
+    "term": "bowel pain",
+    "meaning": "장 통증",
+    "sentence": "My ___________ comes after eating greasy food.",
+    "right_sentence": "My bowel pain comes after eating greasy food."
+  },
+  {
+    "term": "bladder urgency",
+    "meaning": "방광 긴급",
+    "sentence": "Cold weather triggers ___________ for me.",
+    "right_sentence": "Cold weather triggers bladder urgency for me."
+  },
+  {
+    "term": "urine dribbling",
+    "meaning": "소변 흘림",
+    "sentence": "I experience ___________ after urination.",
+    "right_sentence": "I experience urine dribbling after urination."
+  },
+  {
+    "term": "joint soreness",
+    "meaning": "관절 아픔",
+    "sentence": "My ___________ worsens after exercise.",
+    "right_sentence": "My joint soreness worsens after exercise."
+  },
+  {
+    "term": "muscle pain",
+    "meaning": "근육 통증",
+    "sentence": "Heavy lifting causes ___________ in my arms.",
+    "right_sentence": "Heavy lifting causes muscle pain in my arms."
+  },
+  {
+    "term": "back cramps",
+    "meaning": "등 경련",
+    "sentence": "Long drives trigger ___________ in my lower back.",
+    "right_sentence": "Long drives trigger back cramps in my lower back."
+  },
+  {
+    "term": "neck stiffness",
+    "meaning": "목 뻣뻣함",
+    "sentence": "Sleeping wrong causes ___________ in my neck.",
+    "right_sentence": "Sleeping wrong causes neck stiffness in my neck."
+  },
+  {
+    "term": "headache throbbing",
+    "meaning": "두통 맥동",
+    "sentence": "My ___________ gets worse with stress.",
+    "right_sentence": "My headache throbbing gets worse with stress."
+  },
+  {
+    "term": "sinus ache",
+    "meaning": "부비동 통증",
+    "sentence": "Cold weather brings ___________ to my face.",
+    "right_sentence": "Cold weather brings sinus ache to my face."
+  },
+  {
+    "term": "face tingling",
+    "meaning": "얼굴 저림",
+    "sentence": "I feel ___________ on one side after a nap.",
+    "right_sentence": "I feel face tingling on one side after a nap."
+  },
+  {
+    "term": "eye sensitivity",
+    "meaning": "눈 과민",
+    "sentence": "Bright lights cause ___________ in my eyes.",
+    "right_sentence": "Bright lights cause eye sensitivity in my eyes."
+  },
+  {
+    "term": "smell sensitivity",
+    "meaning": "후각 과민",
+    "sentence": "Perfumes trigger ___________ for me.",
+    "right_sentence": "Perfumes trigger smell sensitivity for me."
+  },
+  {
+    "term": "taste distortion",
+    "meaning": "미각 왜곡",
+    "sentence": "My ___________ makes food taste strange.",
+    "right_sentence": "My taste distortion makes food taste strange."
+  },
+  {
+    "term": "throat discomfort",
+    "meaning": "목 불편",
+    "sentence": "Dry air causes ___________ when I swallow.",
+    "right_sentence": "Dry air causes throat discomfort when I swallow."
+  },
+  {
+    "term": "voice cracking",
+    "meaning": "목소리 갈라짐",
+    "sentence": "Singing causes ___________ in my voice.",
+    "right_sentence": "Singing causes voice cracking in my voice."
+  },
+  {
+    "term": "breath heaviness",
+    "meaning": "호흡 무거움",
+    "sentence": "Allergies cause ___________ when I breathe.",
+    "right_sentence": "Allergies cause breath heaviness when I breathe."
+  },
+  {
+    "term": "chest discomfort",
+    "meaning": "가슴 불편",
+    "sentence": "Heavy meals lead to ___________ in my chest.",
+    "right_sentence": "Heavy meals lead to chest discomfort in my chest."
+  },
+  {
+    "term": "gut ache",
+    "meaning": "장 통증",
+    "sentence": "Stress triggers ___________ in my stomach.",
+    "right_sentence": "Stress triggers gut ache in my stomach."
+  },
+  {
+    "term": "bowel spasms",
+    "meaning": "장 경련",
+    "sentence": "Certain foods cause ___________ in my abdomen.",
+    "right_sentence": "Certain foods cause bowel spasms in my abdomen."
+  },
+  {
+    "term": "bladder soreness",
+    "meaning": "방광 아픔",
+    "sentence": "My ___________ worsens when I hold it in.",
+    "right_sentence": "My bladder soreness worsens when I hold it in."
+  },
+  {
+    "term": "urine irritation",
+    "meaning": "소변 자극",
+    "sentence": "I feel ___________ during urination.",
+    "right_sentence": "I feel urine irritation during urination."
+  },
+  {
+    "term": "joint pain",
+    "meaning": "관절 통증",
+    "sentence": "Cold weather triggers ___________ in my hands.",
+    "right_sentence": "Cold weather triggers joint pain in my hands."
+  },
+  {
+    "term": "muscle aches",
+    "meaning": "근육 통증",
+    "sentence": "After workouts, I feel ___________ in my legs.",
+    "right_sentence": "After workouts, I feel muscle aches in my legs."
+  },
+  {
+    "term": "back discomfort",
+    "meaning": "등 불편",
+    "sentence": "Poor posture causes ___________ in my spine.",
+    "right_sentence": "Poor posture causes back discomfort in my spine."
+  },
+  {
+    "term": "neck soreness",
+    "meaning": "목 아픔",
+    "sentence": "My ___________ comes from long desk work.",
+    "right_sentence": "My neck soreness comes from long desk work."
+  },
+  {
+    "term": "headache spikes",
+    "meaning": "두통 급등",
+    "sentence": "Dehydration causes ___________ in my head.",
+    "right_sentence": "Dehydration causes headache spikes in my head."
+  },
+  {
+    "term": "sinus fullness",
+    "meaning": "부비동 꽉 참",
+    "sentence": "Allergies lead to ___________ in my face.",
+    "right_sentence": "Allergies lead to sinus fullness in my face."
+  },
+  {
+    "term": "face itchiness",
+    "meaning": "얼굴 가려움",
+    "sentence": "New makeup causes ___________ on my cheeks.",
+    "right_sentence": "New makeup causes face itchiness on my cheeks."
+  },
+  {
+    "term": "eye discomfort",
+    "meaning": "눈 불편",
+    "sentence": "Long screen time leads to ___________ in my eyes.",
+    "right_sentence": "Long screen time leads to eye discomfort in my eyes."
+  },
+
+  {
+    "term": "childhood asthma",
+    "meaning": "소아 천식",
+    "sentence": "As a kid, I struggled with ___________ during cold seasons.",
+    "right_sentence": "As a kid, I struggled with childhood asthma during cold seasons."
+  },
+  {
+    "term": "frequent migraines",
+    "meaning": "잦은 편두통",
+    "sentence": "I’ve been dealing with ___________ since my teenage years.",
+    "right_sentence": "I’ve been dealing with frequent migraines since my teenage years."
+  },
+  {
+    "term": "high cholesterol",
+    "meaning": "고콜레스테롤",
+    "sentence": "My last blood test showed ___________ levels were elevated.",
+    "right_sentence": "My last blood test showed high cholesterol levels were elevated."
+  },
+  {
+    "term": "seasonal allergies",
+    "meaning": "계절성 알레르기",
+    "sentence": "Every spring, ___________ make my eyes water and nose itch.",
+    "right_sentence": "Every spring, seasonal allergies make my eyes water and nose itch."
+  },
+  {
+    "term": "smoking history",
+    "meaning": "흡연 이력",
+    "sentence": "I have a 10-year ___________, quitting three years ago.",
+    "right_sentence": "I have a 10-year smoking history, quitting three years ago."
+  },
+  {
+    "term": "family diabetes",
+    "meaning": "가족 당뇨병",
+    "sentence": "My mother and brother both have ___________, so I’m cautious.",
+    "right_sentence": "My mother and brother both have family diabetes, so I’m cautious."
+  },
+  {
+    "term": "recent fever",
+    "meaning": "최근 발열",
+    "sentence": "I’ve had a ___________ for three days with no clear cause.",
+    "right_sentence": "I’ve had a recent fever for three days with no clear cause."
+  },
+  {
+    "term": "chronic cough",
+    "meaning": "만성 기침",
+    "sentence": "My ___________ has lasted over two months now.",
+    "right_sentence": "My chronic cough has lasted over two months now."
+  },
+  {
+    "term": "past surgery",
+    "meaning": "과거 수술",
+    "sentence": "I had a ___________ on my appendix five years ago.",
+    "right_sentence": "I had a past surgery on my appendix five years ago."
+  },
+  {
+    "term": "alcohol use",
+    "meaning": "알코올 사용",
+    "sentence": "My ___________ includes two glasses of wine nightly.",
+    "right_sentence": "My alcohol use includes two glasses of wine nightly."
+  },
+  {
+    "term": "heart disease",
+    "meaning": "심장 질환",
+    "sentence": "My father’s ___________ makes me worry about my heart.",
+    "right_sentence": "My father’s heart disease makes me worry about my heart."
+  },
+  {
+    "term": "joint swelling",
+    "meaning": "관절 부종",
+    "sentence": "Lately, I’ve noticed ___________ in my knees after walking.",
+    "right_sentence": "Lately, I’ve noticed joint swelling in my knees after walking."
+  },
+  {
+    "term": "blood pressure",
+    "meaning": "혈압",
+    "sentence": "My last check showed high ___________ readings.",
+    "right_sentence": "My last check showed high blood pressure readings."
+  },
+  {
+    "term": "thyroid issues",
+    "meaning": "갑상선 문제",
+    "sentence": "I was diagnosed with ___________ two years ago.",
+    "right_sentence": "I was diagnosed with thyroid issues two years ago."
+  },
+  {
+    "term": "night sweats",
+    "meaning": "야간 발한",
+    "sentence": "For weeks, ___________ have been soaking my sheets.",
+    "right_sentence": "For weeks, night sweats have been soaking my sheets."
+  },
+  {
+    "term": "food intolerance",
+    "meaning": "음식 불내성",
+    "sentence": "I suspect a ___________ to gluten based on my symptoms.",
+    "right_sentence": "I suspect a food intolerance to gluten based on my symptoms."
+  },
+  {
+    "term": "past fracture",
+    "meaning": "과거 골절",
+    "sentence": "I had a ___________ in my wrist from a fall last year.",
+    "right_sentence": "I had a past fracture in my wrist from a fall last year."
+  },
+  {
+    "term": "work stress",
+    "meaning": "직장 스트레스",
+    "sentence": "My ___________ has been intense with long hours lately.",
+    "right_sentence": "My work stress has been intense with long hours lately."
+  },
+  {
+    "term": "family cancer",
+    "meaning": "가족 암",
+    "sentence": "My aunt’s ___________ history worries me about my risk.",
+    "right_sentence": "My aunt’s family cancer history worries me about my risk."
+  },
+  {
+    "term": "abdominal pain",
+    "meaning": "복통",
+    "sentence": "I’ve had sharp ___________ after eating fatty foods.",
+    "right_sentence": "I’ve had sharp abdominal pain after eating fatty foods."
+  },
+  {
+    "term": "glucose levels",
+    "meaning": "혈당 수치",
+    "sentence": "My recent test showed unstable ___________ after meals.",
+    "right_sentence": "My recent test showed unstable glucose levels after meals."
+  },
+  {
+    "term": "knee surgery",
+    "meaning": "무릎 수술",
+    "sentence": "I underwent ___________ for a torn meniscus last year.",
+    "right_sentence": "I underwent knee surgery for a torn meniscus last year."
+  },
+  {
+    "term": "daily smoking",
+    "meaning": "매일 흡연",
+    "sentence": "My ___________ habit was a pack a day for five years.",
+    "right_sentence": "My daily smoking habit was a pack a day for five years."
+  },
+  {
+    "term": "stroke history",
+    "meaning": "뇌졸중 이력",
+    "sentence": "My grandfather had a ___________ in his late sixties.",
+    "right_sentence": "My grandfather had a stroke history in his late sixties."
+  },
+  {
+    "term": "chest tightness",
+    "meaning": "가슴 조임",
+    "sentence": "Running triggers ___________ that worries me.",
+    "right_sentence": "Running triggers chest tightness that worries me."
+  },
+  {
+    "term": "liver function",
+    "meaning": "간 기능",
+    "sentence": "My last blood work showed abnormal ___________ results.",
+    "right_sentence": "My last blood work showed abnormal liver function results."
+  },
+  {
+    "term": "back injury",
+    "meaning": "허리 부상",
+    "sentence": "A ___________ from lifting weights still bothers me.",
+    "right_sentence": "A back injury from lifting weights still bothers me."
+  },
+  {
+    "term": "social drinking",
+    "meaning": "사교적 음주",
+    "sentence": "I engage in ___________ at parties once a month.",
+    "right_sentence": "I engage in social drinking at parties once a month."
+  },
+  {
+    "term": "breast cancer",
+    "meaning": "유방암",
+    "sentence": "My sister’s ___________ diagnosis affects our family.",
+    "right_sentence": "My sister’s breast cancer diagnosis affects our family."
+  },
+  {
+    "term": "persistent cough",
+    "meaning": "지속적인 기침",
+    "sentence": "A ___________ has been troubling me for weeks.",
+    "right_sentence": "A persistent cough has been troubling me for weeks."
+  },
+  {
+    "term": "kidney stones",
+    "meaning": "신장 결석",
+    "sentence": "I passed ___________ painfully two years ago.",
+    "right_sentence": "I passed kidney stones painfully two years ago."
+  },
+  {
+    "term": "allergy shots",
+    "meaning": "알레르기 주사",
+    "sentence": "I’ve been getting ___________ for pollen sensitivity.",
+    "right_sentence": "I’ve been getting allergy shots for pollen sensitivity."
+  },
+  {
+    "term": "sedentary lifestyle",
+    "meaning": "좌식 생활",
+    "sentence": "My ___________ involves sitting at a desk all day.",
+    "right_sentence": "My sedentary lifestyle involves sitting at a desk all day."
+  },
+  {
+    "term": "heart attack",
+    "meaning": "심장 마비",
+    "sentence": "My uncle’s ___________ history makes me cautious.",
+    "right_sentence": "My uncle’s heart attack history makes me cautious."
+  },
+  {
+    "term": "joint pain",
+    "meaning": "관절 통증",
+    "sentence": "Cold mornings trigger ___________ in my hands.",
+    "right_sentence": "Cold mornings trigger joint pain in my hands."
+  },
+  {
+    "term": "cholesterol meds",
+    "meaning": "콜레스테롤 약",
+    "sentence": "I’ve been on ___________ for high lipids since last year.",
+    "right_sentence": "I’ve been on cholesterol meds for high lipids since last year."
+  },
+  {
+    "term": "gallbladder surgery",
+    "meaning": "담낭 수술",
+    "sentence": "My ___________ was done due to gallstones in 2020.",
+    "right_sentence": "My gallbladder surgery was done due to gallstones in 2020."
+  },
+  {
+    "term": "night shifts",
+    "meaning": "야간 근무",
+    "sentence": "Working ___________ affects my sleep patterns.",
+    "right_sentence": "Working night shifts affects my sleep patterns."
+  },
+  {
+    "term": "colon cancer",
+    "meaning": "대장암",
+    "sentence": "My father’s ___________ history prompts regular screenings.",
+    "right_sentence": "My father’s colon cancer history prompts regular screenings."
+  },
+  {
+    "term": "shortness of breath",
+    "meaning": "호흡 곤란",
+    "sentence": "Climbing stairs causes ___________ lately.",
+    "right_sentence": "Climbing stairs causes shortness of breath lately."
+  },
+  {
+    "term": "blood sugar",
+    "meaning": "혈당",
+    "sentence": "My ___________ was high in my last test.",
+    "right_sentence": "My blood sugar was high in my last test."
+  },
+  {
+    "term": "hernia repair",
+    "meaning": "탈장 수술",
+    "sentence": "I had a ___________ for an inguinal hernia last year.",
+    "right_sentence": "I had a hernia repair for an inguinal hernia last year."
+  },
+  {
+    "term": "recreational drugs",
+    "meaning": "오락용 마약",
+    "sentence": "I used ___________ occasionally in my twenties.",
+    "right_sentence": "I used recreational drugs occasionally in my twenties."
+  },
+  {
+    "term": "thyroid cancer",
+    "meaning": "갑상선 암",
+    "sentence": "My cousin’s ___________ history concerns me.",
+    "right_sentence": "My cousin’s thyroid cancer history concerns me."
+  },
+  {
+    "term": "persistent fatigue",
+    "meaning": "지속적인 피로",
+    "sentence": "I’ve been feeling ___________ despite good sleep.",
+    "right_sentence": "I’ve been feeling persistent fatigue despite good sleep."
+  },
+  {
+    "term": "lung function",
+    "meaning": "폐 기능",
+    "sentence": "My recent test showed reduced ___________ capacity.",
+    "right_sentence": "My recent test showed reduced lung function capacity."
+  },
+  {
+    "term": "tonsillectomy",
+    "meaning": "편도 절제술",
+    "sentence": "I had a ___________ when I was a teenager.",
+    "right_sentence": "I had a tonsillectomy when I was a teenager."
+  },
+  {
+    "term": "stressful job",
+    "meaning": "스트레스 많은 직업",
+    "sentence": "My ___________ involves tight deadlines daily.",
+    "right_sentence": "My stressful job involves tight deadlines daily."
+  },
+  {
+    "term": "hypertension history",
+    "meaning": "고혈압 이력",
+    "sentence": "My parents both have a ___________ in our family.",
+    "right_sentence": "My parents both have a hypertension history in our family."
+  },
+  {
+    "term": "abdominal cramps",
+    "meaning": "복부 경련",
+    "sentence": "Eating dairy triggers ___________ in my stomach.",
+    "right_sentence": "Eating dairy triggers abdominal cramps in my stomach."
+  },
+  {
+    "term": "kidney function",
+    "meaning": "신장 기능",
+    "sentence": "My last lab results showed poor ___________ markers.",
+    "right_sentence": "My last lab results showed poor kidney function markers."
+  },
+  {
+    "term": "shoulder surgery",
+    "meaning": "어깨 수술",
+    "sentence": "I had ___________ for a rotator cuff tear in 2019.",
+    "right_sentence": "I had shoulder surgery for a rotator cuff tear in 2019."
+  },
+  {
+    "term": "moderate drinking",
+    "meaning": "적당한 음주",
+    "sentence": "I engage in ___________ with a beer on weekends.",
+    "right_sentence": "I engage in moderate drinking with a beer on weekends."
+  },
+  {
+    "term": "lung cancer",
+    "meaning": "폐암",
+    "sentence": "My uncle’s ___________ diagnosis affects my screenings.",
+    "right_sentence": "My uncle’s lung cancer diagnosis affects my screenings."
+  },
+  {
+    "term": "recurring headaches",
+    "meaning": "반복되는 두통",
+    "sentence": "I get ___________ every week with bright lights.",
+    "right_sentence": "I get recurring headaches every week with bright lights."
+  },
+  {
+    "term": "iron deficiency",
+    "meaning": "철분 부족",
+    "sentence": "My blood test revealed ___________ last month.",
+    "right_sentence": "My blood test revealed iron deficiency last month."
+  },
+  {
+    "term": "appendectomy",
+    "meaning": "맹장 절제술",
+    "sentence": "I had an ___________ after severe pain in 2021.",
+    "right_sentence": "I had an appendectomy after severe pain in 2021."
+  },
+  {
+    "term": "shift work",
+    "meaning": "교대 근무",
+    "sentence": "My ___________ disrupts my sleep schedule.",
+    "right_sentence": "My shift work disrupts my sleep schedule."
+  },
+  {
+    "term": "diabetes history",
+    "meaning": "당뇨병 이력",
+    "sentence": "My family has a strong ___________ on both sides.",
+    "right_sentence": "My family has a strong diabetes history on both sides."
+  },
+  {
+    "term": "chest discomfort",
+    "meaning": "가슴 불편",
+    "sentence": "I feel ___________ after eating heavy meals.",
+    "right_sentence": "I feel chest discomfort after eating heavy meals."
+  },
+  {
+    "term": "thyroid function",
+    "meaning": "갑상선 기능",
+    "sentence": "My recent test showed abnormal ___________ levels.",
+    "right_sentence": "My recent test showed abnormal thyroid function levels."
+  },
+  {
+    "term": "ankle sprain",
+    "meaning": "발목 염좌",
+    "sentence": "I had an ___________ from running last summer.",
+    "right_sentence": "I had an ankle sprain from running last summer."
+  },
+  {
+    "term": "caffeine intake",
+    "meaning": "카페인 섭취",
+    "sentence": "My ___________ includes three cups of coffee daily.",
+    "right_sentence": "My caffeine intake includes three cups of coffee daily."
+  },
+  {
+    "term": "ovarian cancer",
+    "meaning": "난소암",
+    "sentence": "My mother’s ___________ history prompts my checkups.",
+    "right_sentence": "My mother’s ovarian cancer history prompts my checkups."
+  },
+  {
+    "term": "persistent nausea",
+    "meaning": "지속적인 메스꺼움",
+    "sentence": "I’ve had ___________ after meals for a week.",
+    "right_sentence": "I’ve had persistent nausea after meals for a week."
+  },
+  {
+    "term": "lipid profile",
+    "meaning": "지질 프로필",
+    "sentence": "My ___________ showed high triglycerides last year.",
+    "right_sentence": "My lipid profile showed high triglycerides last year."
+  },
+  {
+    "term": "cataract surgery",
+    "meaning": "백내장 수술",
+    "sentence": "I had ___________ in my right eye two years ago.",
+    "right_sentence": "I had cataract surgery in my right eye two years ago."
+  },
+  {
+    "term": "physical inactivity",
+    "meaning": "신체 비활동",
+    "sentence": "My ___________ is due to a desk job all day.",
+    "right_sentence": "My physical inactivity is due to a desk job all day."
+  },
+  {
+    "term": "stroke risk",
+    "meaning": "뇌졸중 위험",
+    "sentence": "My family’s ___________ makes me monitor my health.",
+    "right_sentence": "My family’s stroke risk makes me monitor my health."
+  },
+  {
+    "term": "leg swelling",
+    "meaning": "다리 부종",
+    "sentence": "Standing for hours causes ___________ in my legs.",
+    "right_sentence": "Standing for hours causes leg swelling in my legs."
+  },
+  {
+    "term": "heart function",
+    "meaning": "심장 기능",
+    "sentence": "My ECG showed irregular ___________ last month.",
+    "right_sentence": "My ECG showed irregular heart function last month."
+  },
+  {
+    "term": "hip replacement",
+    "meaning": "고관절 치환술",
+    "sentence": "I had a ___________ due to arthritis in 2022.",
+    "right_sentence": "I had a hip replacement due to arthritis in 2022."
+  },
+  {
+    "term": "occasional smoking",
+    "meaning": "가끔 흡연",
+    "sentence": "My ___________ happens at social events only.",
+    "right_sentence": "My occasional smoking happens at social events only."
+  },
+  {
+    "term": "prostate cancer",
+    "meaning": "전립선암",
+    "sentence": "My father’s ___________ history leads to my screenings.",
+    "right_sentence": "My father’s prostate cancer history leads to my screenings."
+  },
+  {
+    "term": "muscle weakness",
+    "meaning": "근력 약화",
+    "sentence": "I’ve noticed ___________ in my arms recently.",
+    "right_sentence": "I’ve noticed muscle weakness in my arms recently."
+  },
+  {
+    "term": "vitamin deficiency",
+    "meaning": "비타민 결핍",
+    "sentence": "My test revealed a ___________ in vitamin D.",
+    "right_sentence": "My test revealed a vitamin deficiency in vitamin D."
+  },
+  {
+    "term": "gallstone removal",
+    "meaning": "담석 제거",
+    "sentence": "I had ___________ surgery after severe pain.",
+    "right_sentence": "I had gallstone removal surgery after severe pain."
+  },
+  {
+    "term": "high stress",
+    "meaning": "높은 스트레스",
+    "sentence": "My ___________ comes from managing a busy team.",
+    "right_sentence": "My high stress comes from managing a busy team."
+  },
+  {
+    "term": "heart failure",
+    "meaning": "심부전",
+    "sentence": "My grandfather’s ___________ history concerns me.",
+    "right_sentence": "My grandfather’s heart failure history concerns me."
+  },
+  {
+    "term": "back spasms",
+    "meaning": "등 경련",
+    "sentence": "Heavy lifting triggers ___________ in my lower back.",
+    "right_sentence": "Heavy lifting triggers back spasms in my lower back."
+  },
+  {
+    "term": "blood work",
+    "meaning": "혈액 검사",
+    "sentence": "My recent ___________ showed low hemoglobin.",
+    "right_sentence": "My recent blood work showed low hemoglobin."
+  },
+  {
+    "term": "knee replacement",
+    "meaning": "무릎 치환술",
+    "sentence": "I had a ___________ for severe arthritis last year.",
+    "right_sentence": "I had a knee replacement for severe arthritis last year."
+  },
+  {
+    "term": "daily caffeine",
+    "meaning": "매일 카페인",
+    "sentence": "My ___________ includes two energy drinks a day.",
+    "right_sentence": "My daily caffeine includes two energy drinks a day."
+  },
+  {
+    "term": "liver cancer",
+    "meaning": "간암",
+    "sentence": "My aunt’s ___________ history prompts my vigilance.",
+    "right_sentence": "My aunt’s liver cancer history prompts my vigilance."
+  },
+  {
+    "term": "persistent itching",
+    "meaning": "지속적인 가려움",
+    "sentence": "My skin has ___________ with no clear cause.",
+    "right_sentence": "My skin has persistent itching with no clear cause."
+  },
+  {
+    "term": "cholesterol levels",
+    "meaning": "콜레스테롤 수치",
+    "sentence": "My last test showed elevated ___________ in my blood.",
+    "right_sentence": "My last test showed elevated cholesterol levels in my blood."
+  },
+  {
+    "term": "sinus surgery",
+    "meaning": "부비동 수술",
+    "sentence": "I had ___________ to fix chronic infections in 2018.",
+    "right_sentence": "I had sinus surgery to fix chronic infections in 2018."
+  },
+  {
+    "term": "job pressure",
+    "meaning": "직업 압박",
+    "sentence": "My ___________ from deadlines affects my health.",
+    "right_sentence": "My job pressure from deadlines affects my health."
+  },
+  {
+    "term": "kidney disease",
+    "meaning": "신장 질환",
+    "sentence": "My family’s ___________ history makes me cautious.",
+    "right_sentence": "My family’s kidney disease history makes me cautious."
+  },
+  {
+    "term": "neck pain",
+    "meaning": "목 통증",
+    "sentence": "Working at my desk causes ___________ daily.",
+    "right_sentence": "Working at my desk causes neck pain daily."
+  },
+  {
+    "term": "allergy testing",
+    "meaning": "알레르기 검사",
+    "sentence": "My ___________ revealed sensitivity to dust mites.",
+    "right_sentence": "My allergy testing revealed sensitivity to dust mites."
+  },
+  {
+    "term": "hip fracture",
+    "meaning": "고관절 골절",
+    "sentence": "I suffered a ___________ after a fall last winter.",
+    "right_sentence": "I suffered a hip fracture after a fall last winter."
+  },
+  {
+    "term": "light drinking",
+    "meaning": "가벼운 음주",
+    "sentence": "My ___________ involves a glass of wine weekly.",
+    "right_sentence": "My light drinking involves a glass of wine weekly."
+  },
+  {
+    "term": "pancreatic cancer",
+    "meaning": "췌장암",
+    "sentence": "My uncle’s ___________ history concerns my family.",
+    "right_sentence": "My uncle’s pancreatic cancer history concerns my family."
+  },
+  {
+    "term": "chronic fatigue",
+    "meaning": "만성 피로",
+    "sentence": "I’ve been battling ___________ for months now.",
+    "right_sentence": "I’ve been battling chronic fatigue for months now."
+  },
+  {
+    "term": "liver enzymes",
+    "meaning": "간 효소",
+    "sentence": "My blood test showed elevated ___________ recently.",
+    "right_sentence": "My blood test showed elevated liver enzymes recently."
+  },
+  {
+    "term": "thyroid surgery",
+    "meaning": "갑상선 수술",
+    "sentence": "I had ___________ for a nodule in 2020.",
+    "right_sentence": "I had thyroid surgery for a nodule in 2020."
+  },
+  {
+    "term": "family stress",
+    "meaning": "가족 스트레스",
+    "sentence": "My ___________ from caregiving affects my sleep.",
+    "right_sentence": "My family stress from caregiving affects my sleep."
+  },
+  {
+    "term": "arthritis history",
+    "meaning": "관절염 이력",
+    "sentence": "My parents’ ___________ makes me monitor my joints.",
+    "right_sentence": "My parents’ arthritis history makes me monitor my joints."
+  },
+  {
+    "term": "hand numbness",
+    "meaning": "손 무감각",
+    "sentence": "Typing long hours causes ___________ in my fingers.",
+    "right_sentence": "Typing long hours causes hand numbness in my fingers."
+  },
+  {
+    "term": "bone density",
+    "meaning": "골밀도",
+    "sentence": "My last scan showed low ___________ for my age.",
+    "right_sentence": "My last scan showed low bone density for my age."
+  },
+  {
+    "term": "back surgery",
+    "meaning": "허리 수술",
+    "sentence": "I had ___________ for a herniated disc in 2017.",
+    "right_sentence": "I had back surgery for a herniated disc in 2017."
+  },
+  {
+    "term": "exercise habits",
+    "meaning": "운동 습관",
+    "sentence": "My ___________ include jogging three times a week.",
+    "right_sentence": "My exercise habits include jogging three times a week."
+  },
+  {
+    "term": "leukemia history",
+    "meaning": "백혈병 이력",
+    "sentence": "My cousin’s ___________ prompts my regular tests.",
+    "right_sentence": "My cousin’s leukemia history prompts my regular tests."
+  },
+  {
+    "term": "skin rash",
+    "meaning": "피부 발진",
+    "sentence": "A new detergent caused ___________ on my arms.",
+    "right_sentence": "A new detergent caused skin rash on my arms."
+  },
+  {
+    "term": "blood count",
+    "meaning": "혈액 수치",
+    "sentence": "My recent ___________ showed low white cells.",
+    "right_sentence": "My recent blood count showed low white cells."
+  },
+  {
+    "term": "gallbladder issues",
+    "meaning": "담낭 문제",
+    "sentence": "I had ___________ treated with medication last year.",
+    "right_sentence": "I had gallbladder issues treated with medication last year."
+  },
+  {
+    "term": "sleep deprivation",
+    "meaning": "수면 부족",
+    "sentence": "My ___________ comes from late-night studying.",
+    "right_sentence": "My sleep deprivation comes from late-night studying."
+  },
+  {
+    "term": "heart condition",
+    "meaning": "심장 질환",
+    "sentence": "My family’s ___________ history worries me.",
+    "right_sentence": "My family’s heart condition history worries me."
   }
 ]
