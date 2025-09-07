@@ -6565,7 +6565,7 @@
   {
     "term": "Your blood sugar is high, which suggests diabetes.",
     "meaning": "혈당이 높아서 당뇨병이 의심됩니다.",
-    "category": "Explaining Test Results (검사 결과 설명)"
+    "category": "Explaining Test Results (검사 결과 설명하기)"
   },
   {
     "term": "Diabetes means your body can’t control blood sugar well.",
@@ -6580,7 +6580,7 @@
   {
     "term": "Two high blood sugar tests confirm diabetes.",
     "meaning": "두 번의 높은 혈당 검사로 당뇨병이 확인됩니다.",
-    "category": "Explaining Test Results (검사 결과 설명)"
+    "category": "Explaining Test Results (검사 결과 설명하기)"
   },
   {
     "term": "Starting treatment early can prevent complications.",
@@ -6720,7 +6720,7 @@
   {
     "term": "Your blood pressure is very high.",
     "meaning": "혈압이 매우 높습니다.",
-    "category": "Explaining Test Results (검사 결과 설명)"
+    "category": "Explaining Test Results (검사 결과 설명하기)"
   },
   {
     "term": "High blood pressure can increase stroke risk.",
