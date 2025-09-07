@@ -28,52 +28,52 @@
   {
     "term": "I can see this must be quite worrying for you.",
     "meaning": "이 상황이 당신에게 상당히 걱정스러울 것 같아요.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "It sounds like you’re feeling quite uncomfortable.",
     "meaning": "꽤 불편하신 것 같네요.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I understand this situation can be stressful.",
     "meaning": "이 상황이 스트레스를 줄 수 있다는 점을 이해합니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I’m sorry to hear you’ve been feeling this way.",
     "meaning": "이렇게 느끼셨다니 유감입니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "It must be difficult dealing with this condition.",
     "meaning": "이 상태를 다루는 것이 힘들었을 것입니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I can imagine how challenging this is for you.",
     "meaning": "이것이 당신에게 얼마나 어려운지 상상할 수 있습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I understand your concerns, and I’m here to help.",
     "meaning": "당신의 걱정을 이해하며, 도와드리기 위해 여기 있습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "It sounds like you’ve been through a lot.",
     "meaning": "많은 일을 겪으신 것 같네요.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I’m here to support you through this.",
     "meaning": "이 과정을 통해 당신을 지원하기 위해 여기 있습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I can see why you might feel anxious about this.",
     "meaning": "왜 이로 인해 불안해하시는지 알겠습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "Can you tell me more about your symptoms?",
@@ -278,52 +278,52 @@
   {
     "term": "I want to reassure you that this is a treatable condition.",
     "meaning": "이 상태는 치료 가능한 상태라는 점을 안심시켜드리고 싶습니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "We’re here to support you every step of the way.",
     "meaning": "우리는 모든 단계에서 당신을 지원하기 위해 여기 있습니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "There’s no need to worry; we’ll find the best solution for you.",
     "meaning": "걱정할 필요 없습니다. 당신에게 최선의 해결책을 찾을 것입니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "This is a common issue, and we have effective treatments available.",
     "meaning": "이것은 흔한 문제이며, 효과적인 치료법이 있습니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "I’m confident we can manage your symptoms with this plan.",
     "meaning": "이 계획으로 당신의 증상을 관리할 수 있다고 확신합니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "We’ll monitor your condition closely to ensure you’re improving.",
     "meaning": "당신이 개선되고 있는지 면밀히 모니터링할 것입니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "You’re in good hands, and we’ll work together to address this.",
     "meaning": "당신은 잘 관리되고 있으며, 함께 이 문제를 해결할 것입니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "This treatment has helped many patients in similar situations.",
     "meaning": "이 치료는 비슷한 상황의 많은 환자들에게 도움이 되었습니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "We’ll make sure you’re comfortable throughout the process.",
     "meaning": "과정 내내 당신이 편안하도록 할 것입니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "I’m here to answer any questions to help put your mind at ease.",
     "meaning": "마음을 편안하게 하기 위해 질문에 답변드리겠습니다.",
-    "category": "Reassuring the Patient (환자 안심시키기)"
+    "category": "Reassuring the Patient (안심시키기)"
   },
   {
     "term": "I understand your concern, and I’d like to explain why this is necessary.",
@@ -6520,7 +6520,7 @@
   {
     "term": "I'm sorry to hear about your father's fall.",
     "meaning": "아버님의 낙상이 안타깝습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "I can’t give a prescription without seeing the patient first.",
@@ -6540,7 +6540,7 @@
   {
     "term": "I’m concerned about your well-being.",
     "meaning": "저는 당신의 건강이 걱정됩니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "Let’s arrange a home visit to check the patient.",
@@ -6595,7 +6595,7 @@
   {
     "term": "I know this diagnosis can feel overwhelming.",
     "meaning": "이 진단이 부담스럽게 느껴질 수 있다는 걸 이해합니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "We’ll work together to make this manageable.",
@@ -6605,7 +6605,7 @@
   {
     "term": "I’m sorry you’re having trouble sleeping.",
     "meaning": "수면에 문제가 있어 안타깝습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "Sleeping pills can cause dependency.",
@@ -6690,7 +6690,7 @@
   {
     "term": "I understand you’re scared about cancer.",
     "meaning": "암에 대해 두려워하는 것이 이해합니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "The biopsy is a quick, safe procedure.",
@@ -6715,7 +6715,7 @@
   {
     "term": "I’m taking your concerns seriously.",
     "meaning": "당신의 우려를 진지하게 받아들이고 있습니다.",
-    "category": "Expressing Empathy (공감 표현)"
+    "category": "Showing Empathy (공감하기)"
   },
   {
     "term": "Your blood pressure is very high.",
