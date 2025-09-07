@@ -6510,5 +6510,2224 @@
     "term": "With support, your anxiety will feel more manageable soon.",
     "meaning": "지원으로 불안은 곧 더 관리 가능하게 느껴질 것입니다.",
     "category": "Offering a Positive Outlook (환자에게 긍정적인 전망 제시하기)"
+  },
+
+  {
+    "term": "Good morning, I'm Dr. Shin. How can I help you today?",
+    "meaning": "안녕하세요, 저는 신 박사입니다. 오늘 어떻게 도와드릴까요?",
+    "category": "Greeting and Initiating the Conversation (인사 및 대화 시작)"
+  },
+  {
+    "term": "I'm sorry to hear about your father's fall.",
+    "meaning": "아버님의 낙상이 안타깝습니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "I can’t give a prescription without seeing the patient first.",
+    "meaning": "환자를 직접 보지 않고 처방전을 줄 수 없습니다.",
+    "category": "Explaining Policy or Procedure (정책 또는 절차 설명)"
+  },
+  {
+    "term": "I need to check the patient in person to ensure proper care.",
+    "meaning": "적절한 치료를 위해 환자를 직접 확인해야 합니다.",
+    "category": "Explaining Policy or Procedure (정책 또는 절차 설명)"
+  },
+  {
+    "term": "Bruising after a fall could mean something serious.",
+    "meaning": "낙상 후 멍이 든 것은 심각한 문제를 의미할 수 있습니다.",
+    "category": "Explaining Medical Concerns (의학적 우려 설명)"
+  },
+  {
+    "term": "I’m concerned about your well-being.",
+    "meaning": "저는 당신의 건강이 걱정됩니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "Let’s arrange a home visit to check the patient.",
+    "meaning": "환자를 확인하기 위해 가정 방문을 준비합시다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "Would it be okay if I visit this afternoon?",
+    "meaning": "오늘 오후에 방문해도 괜찮을까요?",
+    "category": "Seeking Consent (동의 구하기)"
+  },
+  {
+    "term": "Thank you for agreeing to the home visit.",
+    "meaning": "가정 방문에 동의해 주셔서 감사합니다.",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+  {
+    "term": "I’ll examine the patient and discuss the best treatment.",
+    "meaning": "환자를 진찰하고 최선의 치료법을 논의하겠습니다.",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+  {
+    "term": "Your blood sugar is high, which suggests diabetes.",
+    "meaning": "혈당이 높아서 당뇨병이 의심됩니다.",
+    "category": "Explaining Test Results (검사 결과 설명)"
+  },
+  {
+    "term": "Diabetes means your body can’t control blood sugar well.",
+    "meaning": "당뇨병은 몸이 혈당을 잘 조절하지 못하는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Type 1 diabetes isn’t caused by eating sugar.",
+    "meaning": "제1형 당뇨병은 설탕 섭취로 인해 발생하지 않습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Two high blood sugar tests confirm diabetes.",
+    "meaning": "두 번의 높은 혈당 검사로 당뇨병이 확인됩니다.",
+    "category": "Explaining Test Results (검사 결과 설명)"
+  },
+  {
+    "term": "Starting treatment early can prevent complications.",
+    "meaning": "조기에 치료를 시작하면 합병증을 예방할 수 있습니다.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "I’ll refer you to a dietitian to help manage your diet.",
+    "meaning": "식단 관리를 돕기 위해 영양사에게 의뢰하겠습니다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "I know this diagnosis can feel overwhelming.",
+    "meaning": "이 진단이 부담스럽게 느껴질 수 있다는 걸 이해합니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "We’ll work together to make this manageable.",
+    "meaning": "우리가 함께 이를 관리할 수 있도록 하겠습니다.",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+  {
+    "term": "I’m sorry you’re having trouble sleeping.",
+    "meaning": "수면에 문제가 있어 안타깝습니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "Sleeping pills can cause dependency.",
+    "meaning": "수면제는 의존성을 유발할 수 있습니다.",
+    "category": "Explaining Medical Concerns (의학적 우려 설명)"
+  },
+  {
+    "term": "Let’s try other ways to help your sleep, like relaxation techniques.",
+    "meaning": "이완 기법과 같은 다른 방법으로 수면을 돕겠습니다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "I’ll refer you to a counselor to manage stress.",
+    "meaning": "스트레스 관리를 위해 상담사에게 의뢰하겠습니다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "You’re doing the right thing for your health!",
+    "meaning": "당신은 건강을 위해 올바른 선택을 하고 있습니다!",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+  {
+    "term": "You have an ear infection called otitis media.",
+    "meaning": "당신은 중이염이라는 귀 감염이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "A small hole in the eardrum usually heals on its own.",
+    "meaning": "고막의 작은 구멍은 보통 저절로 치유됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Antibiotics will help clear the infection.",
+    "meaning": "항생제가 감염을 없애는 데 도움이 될 것입니다.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "Avoid diving until your ear fully heals.",
+    "meaning": "귀가 완전히 나을 때까지 다이빙을 피하세요.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "We’ll check your ear again soon.",
+    "meaning": "곧 귀를 다시 확인하겠습니다.",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+  {
+    "term": "Your baby has gastroenteritis, a bowel infection.",
+    "meaning": "아기가 장염이라는 장 감염에 걸렸습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastrolyte will help keep your baby hydrated.",
+    "meaning": "Gastrolyte는 아기가 수분을 유지하도록 돕습니다.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "Keep breastfeeding to help your baby stay strong.",
+    "meaning": "아기가 건강을 유지하도록 모유 수유를 계속하세요.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "You’re doing great by breastfeeding.",
+    "meaning": "모유 수유를 하고 있어 정말 잘하고 있습니다.",
+    "category": "Expressing Encouragement (격려 표현)"
+  },
+  {
+    "term": "The infection will go away on its own.",
+    "meaning": "감염은 저절로 사라질 것입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Your mole looks benign, not cancerous.",
+    "meaning": "당신의 점은 양성으로 보이며 암이 아닙니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "We’ll do a biopsy to check the mole.",
+    "meaning": "점검을 위해 생검을 하겠습니다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "I understand you’re scared about cancer.",
+    "meaning": "암에 대해 두려워하는 것이 이해합니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "The biopsy is a quick, safe procedure.",
+    "meaning": "생검은 빠르고 안전한 절차입니다.",
+    "category": "Explaining Policy or Procedure (정책 또는 절차 설명)"
+  },
+  {
+    "term": "You have reflux, where stomach acid flows back into your throat.",
+    "meaning": "위산이 목으로 역류하는 역류 질환이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ranitidine will help reduce stomach acid.",
+    "meaning": "라니티딘은 위산을 줄이는 데 도움이 됩니다.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "Eat smaller meals and avoid food before bed.",
+    "meaning": "소량의 식사를 하고 취침 전에 음식을 피하세요.",
+    "category": "Explaining Medical Advice (의학적 조언 설명)"
+  },
+  {
+    "term": "I’m taking your concerns seriously.",
+    "meaning": "당신의 우려를 진지하게 받아들이고 있습니다.",
+    "category": "Expressing Empathy (공감 표현)"
+  },
+  {
+    "term": "Your blood pressure is very high.",
+    "meaning": "혈압이 매우 높습니다.",
+    "category": "Explaining Test Results (검사 결과 설명)"
+  },
+  {
+    "term": "High blood pressure can increase stroke risk.",
+    "meaning": "고혈압은 뇌졸중 위험을 높일 수 있습니다.",
+    "category": "Explaining Medical Concerns (의학적 우려 설명)"
+  },
+  {
+    "term": "Stress can raise your blood pressure.",
+    "meaning": "스트레스는 혈압을 높일 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Let’s try lifestyle changes like eating less salt.",
+    "meaning": "염분 섭취를 줄이는 것과 같은 생활 습관 변화를 시도합시다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "We’ll do tests to find the cause of your high blood pressure.",
+    "meaning": "고혈압의 원인을 찾기 위해 검사를 하겠습니다.",
+    "category": "Proposing a Solution (해결책 제안)"
+  },
+  {
+    "term": "You can still go on your holiday.",
+    "meaning": "여행을 갈 수 있습니다.",
+    "category": "Addressing Patient Concerns (환자 우려 해결)"
+  },
+  {
+    "term": "I’m confident this plan will help you.",
+    "meaning": "이 계획이 당신에게 도움이 될 것이라고 확신합니다.",
+    "category": "Expressing Encouragement (격려 표현)"
+  },
+  {
+    "term": "We’ll check your progress in a few weeks.",
+    "meaning": "몇 주 후에 진행 상황을 확인하겠습니다.",
+    "category": "Closing the Conversation (대화 마무리)"
+  },
+
+  {
+    "term": "You have a cold, which is a viral infection in your nose and throat.",
+    "meaning": "감기에 걸렸습니다. 이는 코와 목의 바이러스 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Flu causes fever, body aches, and tiredness.",
+    "meaning": "독감은 발열, 몸살, 피로를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bronchitis is inflammation in your lungs' airways.",
+    "meaning": "기관지염은 폐의 기도에 생긴 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pneumonia is an infection in your lungs.",
+    "meaning": "폐렴은 폐에 생긴 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Asthma makes it hard to breathe due to narrowed airways.",
+    "meaning": "천식은 기도가 좁아져 호흡이 어려워지는 병입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hypertension means your blood pressure is too high.",
+    "meaning": "고혈압은 혈압이 너무 높은 상태를 의미합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Type 2 diabetes affects how your body uses sugar.",
+    "meaning": "제2형 당뇨병은 몸이 설탕을 사용하는 방식에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Arthritis causes pain and swelling in your joints.",
+    "meaning": "관절염은 관절에 통증과 부종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Migraine is a severe headache with nausea or light sensitivity.",
+    "meaning": "편두통은 메스꺼움이나 빛 민감성을 동반한 심한 두통입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Eczema causes itchy, red skin patches.",
+    "meaning": "습진은 가렵고 붉은 피부 반점을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Psoriasis leads to scaly, red skin spots.",
+    "meaning": "건선은 비늘처럼 벗겨지는 붉은 피부 반점을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Allergies happen when your body overreacts to something harmless.",
+    "meaning": "알레르기는 몸이 무해한 것에 과민 반응할 때 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sinusitis is an infection or inflammation in your sinuses.",
+    "meaning": "부비동염은 부비동에 생긴 감염이나 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Strep throat is a bacterial infection causing a sore throat.",
+    "meaning": "연쇄상구균 인후염은 목의 통증을 유발하는 세균 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastritis is inflammation in your stomach lining.",
+    "meaning": "위염은 위 내막의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ulcers are sores in your stomach or intestines.",
+    "meaning": "궤양은 위나 장에 생긴 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis is inflammation of the liver.",
+    "meaning": "간염은 간의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Kidney stones are hard deposits in your kidneys.",
+    "meaning": "신장 결석은 신장에 생긴 단단한 침전물입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Urinary tract infection affects your bladder or kidneys.",
+    "meaning": "요로 감염은 방광이나 신장에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Anemia means you have low red blood cells.",
+    "meaning": "빈혈은 적혈구 수치가 낮은 상태를 의미합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Thyroid disease affects how your body uses energy.",
+    "meaning": "갑상선 질환은 몸이 에너지를 사용하는 방식에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gout causes sudden joint pain due to uric acid buildup.",
+    "meaning": "통풍은 요산 축적으로 인해 갑작스러운 관절 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Conjunctivitis is an infection in your eye, often called pink eye.",
+    "meaning": "결막염은 눈의 감염으로, 흔히 충혈이라고 불립니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tonsillitis is inflammation of your tonsils.",
+    "meaning": "편도선염은 편도선의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Heartburn is caused by acid reflux into your throat.",
+    "meaning": "속쓰림은 위산이 목으로 역류하여 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cholecystitis is inflammation of your gallbladder.",
+    "meaning": "담석증은 담낭의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Appendicitis is inflammation of your appendix.",
+    "meaning": "맹장염은 맹장의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hernia occurs when an organ pushes through muscle.",
+    "meaning": "탈장은 장기가 근육을 뚫고 나올 때 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sciatica is pain from a pinched nerve in your lower back.",
+    "meaning": "좌골 신경통은 허리의 신경이 눌려 발생하는 통증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Carpal tunnel syndrome causes wrist pain and numbness.",
+    "meaning": "수근관 증후군은 손목 통증과 마비를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Shingles is a painful rash caused by a virus.",
+    "meaning": "대상포진은 바이러스로 인한 고통스러운 발진입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Mononucleosis is a viral infection causing extreme tiredness.",
+    "meaning": "단핵구증은 극도의 피로를 유발하는 바이러스 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Celiac disease affects how your body processes gluten.",
+    "meaning": "셀리악병은 몸이 글루텐을 처리하는 방식에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Crohn’s disease causes inflammation in your digestive tract.",
+    "meaning": "크론병은 소화관에 염증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ulcerative colitis affects your large intestine.",
+    "meaning": "궤양성 대장염은 대장에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Diverticulitis is inflammation in small pouches in your colon.",
+    "meaning": "게실염은 결장의 작은 주머니에 생긴 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Endometriosis causes pelvic pain due to tissue growth.",
+    "meaning": "자궁내막증은 조직 성장으로 인해 골반 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fibromyalgia causes widespread muscle pain.",
+    "meaning": "섬유근육통은 광범위한 근육 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lupus is an autoimmune disease affecting multiple organs.",
+    "meaning": "루푸스는 여러 장기에 영향을 미치는 자가면역 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Rosacea causes redness and bumps on your face.",
+    "meaning": "주사비는 얼굴에 발적과 돌기를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Meningitis is an infection around your brain and spinal cord.",
+    "meaning": "수막염은 뇌와 척수 주변의 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Osteoporosis weakens your bones, making them fragile.",
+    "meaning": "골다공증은 뼈를 약화시켜 쉽게 부러지게 합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Parkinson’s disease affects movement and balance.",
+    "meaning": "파킨슨병은 운동과 균형에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Epilepsy causes seizures due to brain activity changes.",
+    "meaning": "간질은 뇌 활동 변화로 인해 발작을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple sclerosis affects your brain and spinal cord.",
+    "meaning": "다발성 경화증은 뇌와 척수에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic fatigue syndrome causes long-term tiredness.",
+    "meaning": "만성 피로 증후군은 장기적인 피로를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Glaucoma damages your eye’s optic nerve.",
+    "meaning": "녹내장은 눈의 시신경을 손상시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cataracts cause cloudy vision in your eyes.",
+    "meaning": "백내장은 눈의 시야를 흐리게 합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Macular degeneration affects your central vision.",
+    "meaning": "황반변성은 중심 시력에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic kidney disease reduces kidney function over time.",
+    "meaning": "만성 신부전은 시간이 지남에 따라 신장 기능을 감소시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Tuberculosis is a bacterial infection affecting your lungs.",
+    "meaning": "결핵은 폐에 영향을 미치는 세균 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lyme disease is caused by a tick bite and affects multiple systems.",
+    "meaning": "라임병은 진드기 물림으로 인해 발생하며 여러 시스템에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chickenpox causes an itchy rash and fever.",
+    "meaning": "수두는 가려운 발진과 발열을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Measles is a viral infection causing rash and high fever.",
+    "meaning": "홍역은 발진과 고열을 유발하는 바이러스 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Mumps causes swelling of the salivary glands.",
+    "meaning": "유행성 이하선염은 타액선의 부종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Whooping cough is a bacterial infection causing severe coughing.",
+    "meaning": "백일해는 심한 기침을 유발하는 세균 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Dengue fever is a mosquito-borne viral illness.",
+    "meaning": "뎅기열은 모기에 의해 전파되는 바이러스 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Malaria is caused by a parasite from mosquito bites.",
+    "meaning": "말라리아는 모기 물림으로 인한 기생충에 의해 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Zika virus can cause fever and rash, spread by mosquitoes.",
+    "meaning": "지카 바이러스는 모기에 의해 전파되며 발열과 발진을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis C is a viral infection damaging your liver.",
+    "meaning": "C형 간염은 간을 손상시키는 바이러스 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cirrhosis is scarring of the liver from long-term damage.",
+    "meaning": "간경변은 장기적인 손상으로 인한 간의 흉터입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pancreatitis is inflammation of your pancreas.",
+    "meaning": "췌장염은 췌장의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gallstones are hard deposits in your gallbladder.",
+    "meaning": "담석은 담낭에 생긴 단단한 침전물입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cystic fibrosis affects your lungs and digestive system.",
+    "meaning": "낭포성 섬유증은 폐와 소화 시스템에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sickle cell anemia changes the shape of red blood cells.",
+    "meaning": "겸상적혈구빈혈은 적혈구의 모양을 변화시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemophilia causes problems with blood clotting.",
+    "meaning": "혈우병은 혈액 응고에 문제를 일으킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Deep vein thrombosis is a blood clot in a deep vein.",
+    "meaning": "심부정맥혈전증은 깊은 정맥에 생긴 혈전입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary embolism is a clot blocking a lung artery.",
+    "meaning": "폐색전증은 폐동맥을 막는 혈전입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Heart failure means your heart can’t pump blood well.",
+    "meaning": "심부전은 심장이 혈액을 잘 펌프하지 못하는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Arrhythmia is an irregular heartbeat.",
+    "meaning": "부정맥은 불규칙한 심장 박동입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Angina is chest pain from reduced heart blood flow.",
+    "meaning": "협심증은 심장 혈류 감소로 인한 흉통입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Atherosclerosis is the buildup of plaque in arteries.",
+    "meaning": "동맥경화는 동맥에 플라크가 쌓이는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Stroke happens when blood flow to the brain is blocked.",
+    "meaning": "뇌졸중은 뇌로의 혈류가 차단될 때 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Seizures are caused by abnormal brain electrical activity.",
+    "meaning": "발작은 비정상적인 뇌 전기 활동으로 인해 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Dementia affects memory and thinking abilities.",
+    "meaning": "치매는 기억력과 사고 능력에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Alzheimer’s disease is a common type of dementia.",
+    "meaning": "알츠하이머병은 치매의 흔한 유형입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Rheumatoid arthritis is an autoimmune disease affecting joints.",
+    "meaning": "류마티스 관절염은 관절에 영향을 미치는 자가면역 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Osteoarthritis causes joint cartilage to wear down.",
+    "meaning": "골관절염은 관절 연골이 마모되는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tendinitis is inflammation of a tendon.",
+    "meaning": "건염은 힘줄의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bursitis is inflammation of a fluid-filled sac in joints.",
+    "meaning": "활액낭염은 관절의 액체로 채워진 주머니의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Plantar fasciitis causes heel pain from tissue inflammation.",
+    "meaning": "족저근막염은 조직 염증으로 인한 발뒷꿈치 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic ovary syndrome affects hormone levels in women.",
+    "meaning": "다낭성 난소 증후군은 여성의 호르몬 수준에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hypothyroidism means your thyroid is underactive.",
+    "meaning": "갑상선 기능 저하증은 갑상선이 덜 활성화된 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hyperthyroidism means your thyroid is overactive.",
+    "meaning": "갑상선 기능 항진증은 갑상선이 과다 활동하는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Addison’s disease affects your adrenal glands.",
+    "meaning": "애디슨병은 부신에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cushing’s syndrome is caused by excess cortisol.",
+    "meaning": "쿠싱 증후군은 과도한 코르티솔로 인해 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic obstructive pulmonary disease limits lung airflow.",
+    "meaning": "만성 폐쇄성 폐질환은 폐의 공기 흐름을 제한합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Emphysema damages the air sacs in your lungs.",
+    "meaning": "폐기종은 폐의 공기 주머니를 손상시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bronchiectasis widens and scars your lung airways.",
+    "meaning": "기관지확장증은 폐 기도를 넓히고 흉터를 만듭니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peptic ulcer disease causes sores in your stomach lining.",
+    "meaning": "소화성 궤양 질환은 위 내막에 궤양을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Irritable bowel syndrome affects your digestive system.",
+    "meaning": "과민성 대장 증후군은 소화 시스템에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemorrhoids are swollen veins in your rectum.",
+    "meaning": "치질은 직장의 정맥이 부풀어 오른 것입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Anal fissures are small tears in the anus.",
+    "meaning": "항문열상은 항문의 작은 찢어짐입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Vertigo causes a spinning sensation or dizziness.",
+    "meaning": "현기증은 회전 감각이나 어지럼증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tinnitus is ringing or buzzing in your ears.",
+    "meaning": "이명은 귀에서 울리거나 윙윙거리는 소리입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bell’s palsy causes temporary facial muscle weakness.",
+    "meaning": "벨 마비는 일시적인 안면 근육 약화를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Trigeminal neuralgia causes facial pain from nerve irritation.",
+    "meaning": "삼차신경통은 신경 자극으로 인한 안면 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Raynaud’s disease causes cold fingers or toes.",
+    "meaning": "레이노병은 손가락이나 발가락이 차가워지는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sjogren’s syndrome causes dry eyes and mouth.",
+    "meaning": "쇼그렌 증후군은 눈과 입의 건조를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Vitiligo causes loss of skin color in patches.",
+    "meaning": "백반증은 피부 색소가 부분적으로 소실되는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Bronchial asthma causes wheezing and shortness of breath.",
+    "meaning": "기관지 천식은 쌕쌕거림과 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic bronchitis causes a persistent cough with mucus.",
+    "meaning": "만성 기관지염은 지속적인 기침과 점액을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pleurisy is inflammation of the tissue around your lungs.",
+    "meaning": "흉막염은 폐 주변 조직의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary fibrosis scars and stiffens your lungs.",
+    "meaning": "폐섬유증은 폐를 흉터로 만들고 경직시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sarcoidosis causes small clumps of inflamed cells in organs.",
+    "meaning": "유육종증은 장기에 염증 세포 덩어리를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Myocarditis is inflammation of your heart muscle.",
+    "meaning": "심근염은 심장 근육의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pericarditis is inflammation of the sac around your heart.",
+    "meaning": "심낭염은 심장 주위 주머니의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Endocarditis is an infection of your heart’s inner lining.",
+    "meaning": "심내막염은 심장 내부 내막의 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Aneurysm is a bulge in a blood vessel wall.",
+    "meaning": "동맥류는 혈관 벽의 돌출입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peripheral artery disease narrows arteries in your limbs.",
+    "meaning": "말초동맥질환은 사지의 동맥을 좁힙니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Esophagitis is inflammation of your esophagus.",
+    "meaning": "식도염은 식도의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hiatal hernia occurs when part of your stomach pushes up.",
+    "meaning": "열공탈장은 위의 일부가 위로 밀려나올 때 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastroesophageal reflux disease causes heartburn.",
+    "meaning": "위식도 역류 질환은 속쓰림을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Barrett’s esophagus changes the lining of your esophagus.",
+    "meaning": "바렛 식도는 식도 내막을 변화시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Colitis is inflammation of your colon.",
+    "meaning": "대장염은 대장의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pancreatic cancer affects your pancreas and is serious.",
+    "meaning": "췌장암은 췌장에 영향을 미치며 심각한 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Liver cancer can develop in your liver tissue.",
+    "meaning": "간암은 간 조직에서 발생할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fatty liver disease is fat buildup in your liver.",
+    "meaning": "지방간 질환은 간에 지방이 축적되는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Kidney failure means your kidneys stop working properly.",
+    "meaning": "신부전은 신장이 제대로 작동하지 않는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Nephrotic syndrome causes your kidneys to leak protein.",
+    "meaning": "신증후군은 신장이 단백질을 누출하게 합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic kidney disease causes cysts in your kidneys.",
+    "meaning": "다낭성 신장 질환은 신장에 낭종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bladder infection causes pain when you urinate.",
+    "meaning": "방광 감염은 배뇨 시 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Prostatitis is inflammation of the prostate gland.",
+    "meaning": "전립선염은 전립선의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Erectile dysfunction affects your ability to maintain an erection.",
+    "meaning": "발기부전은 발기를 유지하는 능력에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ovarian cysts are fluid-filled sacs in your ovaries.",
+    "meaning": "난소 낭종은 난소에 생긴 액체로 채워진 주머니입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Uterine fibroids are non-cancerous growths in the uterus.",
+    "meaning": "자궁근종은 자궁에 생긴 비암성 성장물입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pelvic inflammatory disease affects female reproductive organs.",
+    "meaning": "골반염증성 질환은 여성 생식기에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ectopic pregnancy occurs outside the uterus.",
+    "meaning": "자궁외 임신은 자궁 밖에서 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gestational diabetes develops during pregnancy.",
+    "meaning": "임신성 당뇨병은 임신 중에 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Preeclampsia causes high blood pressure during pregnancy.",
+    "meaning": "자간전증은 임신 중 고혈압을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ankylosing spondylitis affects your spine and joints.",
+    "meaning": "강직성 척추염은 척추와 관절에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Scoliosis is a sideways curve of the spine.",
+    "meaning": "척추측만증은 척추의 옆으로 휘는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Herniated disc presses on nerves in your spine.",
+    "meaning": "디스크 탈출은 척추의 신경을 누릅니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Spinal stenosis narrows the space around your spinal cord.",
+    "meaning": "척추관 협착증은 척수 주변 공간을 좁힙니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Myasthenia gravis causes muscle weakness.",
+    "meaning": "중증 근무력증은 근육 약화를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Muscular dystrophy weakens muscles over time.",
+    "meaning": "근이영양증은 시간이 지남에 따라 근육을 약화시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hives are itchy, red welts on your skin.",
+    "meaning": "두드러기는 피부에 생긴 가렵고 붉은 반점입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Contact dermatitis is a rash from touching an irritant.",
+    "meaning": "접촉 피부염은 자극물 접촉으로 인한 발진입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Seborrheic dermatitis causes flaky, itchy skin.",
+    "meaning": "지루성 피부염은 비늘처럼 벗겨지고 가려운 피부를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Melanoma is a serious type of skin cancer.",
+    "meaning": "흑색종은 심각한 피부암 유형입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Basal cell carcinoma is a common skin cancer.",
+    "meaning": "기저세포암은 흔한 피부암입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Squamous cell carcinoma affects the outer skin layers.",
+    "meaning": "편평세포암은 피부 외층에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lymphoma is cancer of the lymphatic system.",
+    "meaning": "림프종은 림프계의 암입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Leukemia is cancer of the blood cells.",
+    "meaning": "백혈병은 혈액 세포의 암입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple myeloma affects plasma cells in your bone marrow.",
+    "meaning": "다발성 골수종은 골수 내 플라스마 세포에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Brain tumor is abnormal cell growth in your brain.",
+    "meaning": "뇌종양은 뇌에서 비정상적인 세포 성장입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pituitary adenoma is a tumor in your pituitary gland.",
+    "meaning": "뇌하수체 선종은 뇌하수체에 생긴 종양입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Acoustic neuroma is a tumor on the nerve to your ear.",
+    "meaning": "청신경종은 귀에 연결된 신경에 생긴 종양입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Uveitis is inflammation of the middle layer of your eye.",
+    "meaning": "포도막염은 눈의 중간층 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Retinal detachment separates the retina from your eye.",
+    "meaning": "망막박리는 망막이 눈에서 분리되는 상태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Cystic acne is a severe form of acne with deep, painful cysts.",
+    "meaning": "낭성 여드름은 깊고 고통스러운 낭종이 있는 심한 여드름 형태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Rosacea is a chronic skin condition causing facial redness and visible blood vessels.",
+    "meaning": "주사비는 얼굴의 붉어짐과 혈관이 보이는 만성 피부 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Vitiligo causes patches of skin to lose their pigment.",
+    "meaning": "백반증은 피부 패치가 색소를 잃게 합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hidradenitis suppurativa is a chronic skin condition with painful lumps under the skin.",
+    "meaning": "땀샘염은 피부 아래에 고통스러운 덩어리가 생기는 만성 피부 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cellulitis is a bacterial skin infection causing redness and swelling.",
+    "meaning": "봉와직염은 피부의 세균 감염으로 붉어짐과 부종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Impetigo is a contagious bacterial skin infection forming honey-colored crusts.",
+    "meaning": "농가진은 꿀색 딱지가 형성되는 전염성 세균 피부 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Shingles is a reactivation of the chickenpox virus causing a painful rash.",
+    "meaning": "대상포진은 수두 바이러스의 재활성화로 고통스러운 발진을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Actinic keratosis is a rough, scaly patch on sun-exposed skin that can lead to cancer.",
+    "meaning": "광선각화증은 햇빛에 노출된 피부의 거칠고 비늘 같은 패치로 암으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Seborrheic keratosis is a non-cancerous skin growth that looks waxy.",
+    "meaning": "지루성 각화증은 밀랍처럼 보이는 비암성 피부 성장물입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Melasma causes brown or gray-brown patches on the face, often from hormones.",
+    "meaning": "기미는 호르몬으로 인해 얼굴에 갈색 또는 회갈색 패치를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Keratosis pilaris is a common skin condition with small, rough bumps on arms or thighs.",
+    "meaning": "모낭각화증은 팔이나 허벅지에 작은 거친 돌기가 생기는 흔한 피부 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lichen planus is an itchy, inflammatory rash affecting skin or mucous membranes.",
+    "meaning": "지루성 평평양증은 피부나 점막에 가려운 염증성 발진을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pityriasis rosea is a mild rash that starts with a large patch and spreads.",
+    "meaning": "장미색 딱지증은 큰 패치로 시작해 퍼지는 가벼운 발진입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Dermatitis herpetiformis is an itchy rash linked to celiac disease.",
+    "meaning": "포진상 피부염은 셀리악병과 관련된 가려운 발진입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic kidney disease gradually loses kidney function over time.",
+    "meaning": "만성 신장 질환은 시간이 지남에 따라 신장 기능을 점차 잃습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic kidney disease forms fluid-filled cysts in the kidneys.",
+    "meaning": "다낭성 신장 질환은 신장에 액체가 찬 낭종을 형성합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Glomerulonephritis is inflammation of the kidney's filtering units.",
+    "meaning": "사구체신염은 신장의 여과 단위의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pyelonephritis is a kidney infection often from a UTI.",
+    "meaning": "신우신염은 종종 요로 감염에서 비롯된 신장 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Nephrolithiasis is the medical term for kidney stones.",
+    "meaning": "신석증은 신장 결석의 의학 용어입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Interstitial nephritis is inflammation in the kidney's tubules and surrounding tissue.",
+    "meaning": "간질성 신염은 신장의 세뇨관과 주변 조직의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Renal cell carcinoma is the most common type of kidney cancer.",
+    "meaning": "신세포암은 가장 흔한 신장 암 유형입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ureteral stones are stones in the tube connecting kidney to bladder.",
+    "meaning": "요관 결석은 신장과 방광을 연결하는 관의 결석입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bladder cancer starts in the bladder's lining.",
+    "meaning": "방광암은 방광 내막에서 시작됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Interstitial cystitis causes chronic bladder pain and urgency.",
+    "meaning": "간질성 방광염은 만성적인 방광 통증과 절박감을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Prostate cancer is a common cancer in men affecting the prostate gland.",
+    "meaning": "전립선암은 남성에게 흔한 암으로 전립선에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Benign prostatic hyperplasia causes the prostate to enlarge, affecting urination.",
+    "meaning": "양성 전립선 비대증은 전립선이 커져 배뇨에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Epididymitis is inflammation of the tube at the back of the testicle.",
+    "meaning": "부고환염은 고환 뒤의 관의 염증입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Varicocele is an enlarged vein in the scrotum, like varicose veins.",
+    "meaning": "정맥류는 음낭의 확대된 정맥으로, 정맥류와 유사합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Endometriosis is tissue similar to the uterine lining growing outside the uterus.",
+    "meaning": "자궁내막증은 자궁 내막과 유사한 조직이 자궁 밖에서 자라는 것입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic ovary syndrome disrupts hormone balance in women.",
+    "meaning": "다낭성 난소 증후군은 여성의 호르몬 균형을 방해합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ovarian cancer often starts in the ovaries and can spread.",
+    "meaning": "난소암은 종종 난소에서 시작해 퍼질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cervical cancer develops in the cervix, often from HPV.",
+    "meaning": "자궁경부암은 자궁경부에서 발생하며 종종 HPV로 인해 생깁니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Uterine cancer affects the uterus lining.",
+    "meaning": "자궁암은 자궁 내막에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fibroids are non-cancerous tumors in the uterus.",
+    "meaning": "근종은 자궁의 비암성 종양입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pelvic inflammatory disease is an infection of the female reproductive organs.",
+    "meaning": "골반염증성 질환은 여성 생식기의 감염입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ankylosing spondylitis is a type of arthritis affecting the spine.",
+    "meaning": "강직성 척추염은 척추에 영향을 미치는 관절염 유형입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Rheumatoid arthritis is an autoimmune disease causing joint inflammation.",
+    "meaning": "류마티스 관절염은 관절 염증을 유발하는 자가면역 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Osteoarthritis is wear-and-tear damage to joint cartilage.",
+    "meaning": "골관절염은 관절 연골의 마모와 손상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gout is a form of arthritis from high uric acid levels.",
+    "meaning": "통풍은 높은 요산 수치로 인한 관절염 형태입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Psoriatic arthritis affects some people with psoriasis.",
+    "meaning": "건선성 관절염은 건선 환자 중 일부에게 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lupus is an autoimmune disease affecting skin, joints, and organs.",
+    "meaning": "루푸스는 피부, 관절, 장기에 영향을 미치는 자가면역 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Scleroderma causes skin and connective tissue to harden.",
+    "meaning": "경피증은 피부와 결합 조직을 딱딱하게 만듭니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fibromyalgia causes widespread pain and fatigue.",
+    "meaning": "섬유근육통은 광범위한 통증과 피로를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sjogren's syndrome is an autoimmune disorder causing dry eyes and mouth.",
+    "meaning": "쇼그렌 증후군은 눈과 입의 건조를 유발하는 자가면역 장애입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple sclerosis is a disease damaging the central nervous system.",
+    "meaning": "다발성 경화증은 중추신경계를 손상시키는 질환입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Hepatitis A is a viral liver infection spread through contaminated food or water. It usually resolves on its own but can cause fatigue and jaundice.",
+    "meaning": "A형 간염은 오염된 음식이나 물을 통해 퍼지는 바이러스성 간 감염입니다. 일반적으로 저절로 낫지만 피로와 황달을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis B is a serious liver infection caused by a virus. It can become chronic, leading to liver damage or cancer.",
+    "meaning": "B형 간염은 바이러스로 인한 심각한 간 감염입니다. 만성이 될 경우 간 손상이나 암으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis C is a bloodborne viral infection affecting the liver. It often becomes chronic and may require antiviral treatment.",
+    "meaning": "C형 간염은 혈액을 통해 전파되는 바이러스성 간 감염입니다. 종종 만성이 되며 항바이러스 치료가 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cirrhosis is scarring of the liver from long-term damage. It can lead to liver failure if not managed properly.",
+    "meaning": "간경변은 장기적인 손상으로 인한 간의 흉터입니다. 적절히 관리하지 않으면 간부전으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fatty liver disease occurs when fat builds up in the liver. It can be caused by alcohol or poor diet and may progress to serious liver issues.",
+    "meaning": "지방간 질환은 간에 지방이 축적될 때 발생합니다. 알코올이나 잘못된 식단으로 인해 발생하며 심각한 간 문제로 진행될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pancreatitis is inflammation of the pancreas, often caused by gallstones or alcohol. It causes severe abdominal pain and requires medical attention.",
+    "meaning": "췌장염은 담석이나 알코올로 인해 췌장에 생기는 염증입니다. 심한 복통을 유발하며 의학적 치료가 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gallbladder disease includes gallstones and inflammation. It can cause pain in the upper abdomen and may require surgery.",
+    "meaning": "담낭 질환은 담석과 염증을 포함합니다. 상복부 통증을 유발하며 수술이 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Crohn’s disease is a chronic inflammatory condition of the digestive tract. It causes abdominal pain, diarrhea, and weight loss.",
+    "meaning": "크론병은 소화관의 만성 염증 상태입니다. 복통, 설사, 체중 감소를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ulcerative colitis affects the large intestine, causing inflammation and ulcers. Symptoms include bloody diarrhea and abdominal discomfort.",
+    "meaning": "궤양성 대장염은 대장에 영향을 미치며 염증과 궤양을 유발합니다. 증상으로는 혈변과 복부 불편감이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Irritable bowel syndrome causes recurring abdominal pain and changes in bowel habits. It’s often triggered by stress or certain foods.",
+    "meaning": "과민성 대장 증후군은 반복적인 복통과 장 습관 변화를 유발합니다. 스트레스나 특정 음식에 의해 촉발되는 경우가 많습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Celiac disease is an autoimmune reaction to gluten, damaging the small intestine. It causes bloating, diarrhea, and nutrient deficiencies.",
+    "meaning": "셀리악병은 글루텐에 대한 자가면역 반응으로 소장을 손상시킵니다. 복부 팽만감, 설사, 영양소 결핍을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Diverticulitis is inflammation of pouches in the colon wall. It causes abdominal pain, fever, and sometimes infection.",
+    "meaning": "게실염은 대장 벽의 주머니 염증입니다. 복통, 발열, 때로는 감염을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemorrhoids are swollen veins in the rectum or anus. They can cause pain, itching, and bleeding during bowel movements.",
+    "meaning": "치질은 직장이나 항문의 부은 정맥입니다. 배변 중 통증, 가려움증, 출혈을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Anal fissures are small tears in the lining of the anus. They cause sharp pain and bleeding during bowel movements.",
+    "meaning": "항문열상은 항문 내벽의 작은 찢어짐입니다. 배변 중 날카로운 통증과 출혈을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Colorectal cancer starts in the colon or rectum. Symptoms include changes in bowel habits and blood in the stool.",
+    "meaning": "대장암은 대장이나 직장에서 시작됩니다. 증상으로는 장 습관 변화와 대변의 혈액이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastritis is inflammation of the stomach lining, often from infection or alcohol. It causes nausea, vomiting, and upper abdominal pain.",
+    "meaning": "위염은 감염이나 알코올로 인한 위 내막의 염증입니다. 메스꺼움, 구토, 상복부 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peptic ulcers are sores in the stomach or small intestine lining. They cause burning pain and can bleed if untreated.",
+    "meaning": "소화성 궤양은 위나 소장 내벽의 궤양입니다. 작열감 통증을 유발하며 치료하지 않으면 출혈할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Esophagitis is inflammation of the esophagus, often from acid reflux. It causes difficulty swallowing and chest pain.",
+    "meaning": "식도염은 종종 위산 역류로 인한 식도의 염증입니다. 삼키기 어려움과 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Barrett’s esophagus is a change in the esophagus lining from chronic acid reflux. It increases the risk of esophageal cancer.",
+    "meaning": "바렛 식도는 만성 위산 역류로 인한 식도 내벽의 변화입니다. 식도암 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Esophageal cancer affects the esophagus and can spread quickly. Symptoms include trouble swallowing and weight loss.",
+    "meaning": "식도암은 식도에 영향을 미치며 빠르게 퍼질 수 있습니다. 증상으로는 삼키기 어려움과 체중 감소가 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hiatal hernia occurs when part of the stomach pushes into the chest. It can cause heartburn and chest discomfort.",
+    "meaning": "열공탈장은 위의 일부가 가슴으로 밀려나오는 것입니다. 속쓰림과 가슴 불편감을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic obstructive pulmonary disease limits airflow in the lungs. It’s often caused by smoking and causes shortness of breath.",
+    "meaning": "만성 폐쇄성 폐질환은 폐의 공기 흐름을 제한합니다. 흡연으로 인해 발생하며 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Emphysema damages the air sacs in the lungs, reducing oxygen exchange. It causes wheezing and chronic cough.",
+    "meaning": "폐기종은 폐의 공기 주머니를 손상시켜 산소 교환을 줄입니다. 쌕쌕거림과 만성 기침을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary hypertension is high blood pressure in the lung arteries. It causes fatigue and shortness of breath during activity.",
+    "meaning": "폐고혈압은 폐동맥의 고혈압입니다. 피로와 활동 중 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pneumothorax is a collapsed lung caused by air in the chest cavity. It causes sudden chest pain and difficulty breathing.",
+    "meaning": "기흉은 흉강의 공기로 인해 폐가 붕괴되는 것입니다. 갑작스러운 흉통과 호흡 곤란을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lung cancer is a serious cancer starting in the lung tissue. It causes persistent cough, chest pain, and weight loss.",
+    "meaning": "폐암은 폐 조직에서 시작되는 심각한 암입니다. 지속적인 기침, 흉통, 체중 감소를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tuberculosis is a bacterial infection primarily affecting the lungs. It causes cough, fever, and night sweats.",
+    "meaning": "결핵은 주로 폐에 영향을 미치는 세균 감염입니다. 기침, 발열, 야간 발한을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pleurisy is inflammation of the lung’s outer lining, often from infection. It causes sharp chest pain when breathing.",
+    "meaning": "흉막염은 종종 감염으로 인한 폐 외막의 염증입니다. 호흡 시 날카로운 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sarcoidosis forms small inflammatory clumps in the lungs or other organs. It can cause cough, fatigue, and skin changes.",
+    "meaning": "유육종증은 폐나 다른 장기에 작은 염증 덩어리를 형성합니다. 기침, 피로, 피부 변화를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cystic fibrosis causes thick mucus to build up in the lungs and digestive system. It leads to frequent infections and malnutrition.",
+    "meaning": "낭포성 섬유증은 폐와 소화 시스템에 두꺼운 점액이 축적되게 합니다. 잦은 감염과 영양실조를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Coronary artery disease narrows the heart’s blood vessels. It can cause chest pain and increase the risk of heart attack.",
+    "meaning": "관상동맥 질환은 심장의 혈관을 좁힙니다. 흉통을 유발하며 심장마비 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Heart failure means the heart can’t pump blood effectively. It causes fatigue, swelling, and shortness of breath.",
+    "meaning": "심부전은 심장이 혈액을 효과적으로 펌프하지 못하는 것입니다. 피로, 부종, 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Atrial fibrillation is an irregular and rapid heart rhythm. It increases the risk of stroke and heart failure.",
+    "meaning": "심방세동은 불규칙하고 빠른 심장 리듬입니다. 뇌졸중과 심부전 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Aortic aneurysm is a bulge in the aorta, the body’s main artery. If it ruptures, it can be life-threatening.",
+    "meaning": "대동맥류는 신체의 주요 동맥인 대동맥의 돌출입니다. 파열되면 생명을 위협할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peripheral artery disease reduces blood flow to the limbs. It causes leg pain, especially when walking.",
+    "meaning": "말초동맥질환은 사지로의 혈류를 감소시킵니다. 특히 걸을 때 다리 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Deep vein thrombosis is a blood clot in a deep vein, usually in the leg. It can travel to the lungs and cause a pulmonary embolism.",
+    "meaning": "심부정맥혈전증은 주로 다리의 깊은 정맥에 생긴 혈전입니다. 폐로 이동하여 폐색전증을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary embolism is a blockage in a lung artery, often from a clot. It causes sudden shortness of breath and chest pain.",
+    "meaning": "폐색전증은 종종 혈전으로 인한 폐동맥의 막힘입니다. 갑작스러운 숨가쁨과 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Stroke occurs when blood flow to the brain is interrupted. It can cause sudden weakness, speech problems, or paralysis.",
+    "meaning": "뇌졸중은 뇌로의 혈류가 중단될 때 발생합니다. 갑작스러운 약화, 언어 문제, 마비를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Transient ischemic attack is a temporary blockage of blood to the brain. It’s a warning sign for a future stroke.",
+    "meaning": "일과성 허혈 발작은 뇌로의 혈액 일시적 차단입니다. 미래 뇌졸중의 경고 신호입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Epilepsy causes recurring seizures due to abnormal brain activity. Seizures may involve convulsions or loss of consciousness.",
+    "meaning": "간질은 비정상적인 뇌 활동으로 인해 반복적인 발작을 유발합니다. 발작은 경련이나 의식 상실을 포함할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Parkinson’s disease affects movement, causing tremors and stiffness. It progresses slowly and impacts balance and coordination.",
+    "meaning": "파킨슨병은 떨림과 경직을 유발하며 운동에 영향을 미칩니다. 천천히 진행되며 균형과 조정에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Alzheimer’s disease is a progressive brain disorder causing memory loss. It also affects thinking and daily functioning.",
+    "meaning": "알츠하이머병은 기억 상실을 유발하는 진행성 뇌 장애입니다. 사고와 일상 기능에도 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Dementia is a decline in cognitive function affecting memory and behavior. It can be caused by various diseases, like Alzheimer’s.",
+    "meaning": "치매는 기억과 행동에 영향을 미치는 인지 기능 저하입니다. 알츠하이머와 같은 다양한 질병으로 인해 발생할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple sclerosis damages the protective covering of nerves. It causes fatigue, muscle weakness, and coordination problems.",
+    "meaning": "다발성 경화증은 신경의 보호막을 손상시킵니다. 피로, 근육 약화, 조정 문제를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Amyotrophic lateral sclerosis weakens muscles by affecting nerve cells. It leads to difficulty walking, speaking, and swallowing.",
+    "meaning": "근위축성 측삭 경화증은 신경 세포에 영향을 미쳐 근육을 약화시킵니다. 걷기, 말하기, 삼키기 어려움을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Migraine is a neurological condition causing severe headaches. It’s often accompanied by nausea, vomiting, and light sensitivity.",
+    "meaning": "편두통은 심한 두통을 유발하는 신경학적 상태입니다. 종종 메스꺼움, 구토, 빛 민감성을 동반합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cluster headaches are intensely painful headaches on one side of the head. They occur in cycles and can last weeks or months.",
+    "meaning": "군집 두통은 머리 한쪽에 극심한 통증을 유발하는 두통입니다. 주기적으로 발생하며 몇 주 또는 몇 달 지속될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Trigeminal neuralgia causes sharp, electric-shock-like facial pain. It’s triggered by touching the face or chewing.",
+    "meaning": "삼차신경통은 얼굴에 날카로운 전기 충격 같은 통증을 유발합니다. 얼굴을 만지거나 씹을 때 촉발됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bell’s palsy causes sudden, temporary weakness in facial muscles. It results in one-sided facial drooping and difficulty smiling.",
+    "meaning": "벨 마비는 얼굴 근육의 갑작스럽고 일시적인 약화를 유발합니다. 한쪽 얼굴 처짐과 미소 짓기 어려움을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Meningitis is an infection of the membranes covering the brain and spinal cord. It causes fever, stiff neck, and severe headache.",
+    "meaning": "수막염은 뇌와 척수를 덮는 막의 감염입니다. 발열, 목 경직, 심한 두통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Hepatitis A is a viral liver infection spread through contaminated food or water. It usually resolves on its own but can cause fatigue and jaundice.",
+    "meaning": "A형 간염은 오염된 음식이나 물을 통해 퍼지는 바이러스성 간 감염입니다. 일반적으로 저절로 낫지만 피로와 황달을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis B is a serious liver infection caused by a virus. It can become chronic, leading to liver damage or cancer.",
+    "meaning": "B형 간염은 바이러스로 인한 심각한 간 감염입니다. 만성이 될 경우 간 손상이나 암으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis C is a bloodborne viral infection affecting the liver. It often becomes chronic and may require antiviral treatment.",
+    "meaning": "C형 간염은 혈액을 통해 전파되는 바이러스성 간 감염입니다. 종종 만성이 되며 항바이러스 치료가 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cirrhosis is scarring of the liver from long-term damage. It can lead to liver failure if not managed properly.",
+    "meaning": "간경변은 장기적인 손상으로 인한 간의 흉터입니다. 적절히 관리하지 않으면 간부전으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fatty liver disease occurs when fat builds up in the liver. It can be caused by alcohol or poor diet and may progress to serious liver issues.",
+    "meaning": "지방간 질환은 간에 지방이 축적될 때 발생합니다. 알코올이나 잘못된 식단으로 인해 발생하며 심각한 간 문제로 진행될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pancreatitis is inflammation of the pancreas, often caused by gallstones or alcohol. It causes severe abdominal pain and requires medical attention.",
+    "meaning": "췌장염은 담석이나 알코올로 인해 췌장에 생기는 염증입니다. 심한 복통을 유발하며 의학적 치료가 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gallbladder disease includes gallstones and inflammation. It can cause pain in the upper abdomen and may require surgery.",
+    "meaning": "담낭 질환은 담석과 염증을 포함합니다. 상복부 통증을 유발하며 수술이 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Crohn’s disease is a chronic inflammatory condition of the digestive tract. It causes abdominal pain, diarrhea, and weight loss.",
+    "meaning": "크론병은 소화관의 만성 염증 상태입니다. 복통, 설사, 체중 감소를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ulcerative colitis affects the large intestine, causing inflammation and ulcers. Symptoms include bloody diarrhea and abdominal discomfort.",
+    "meaning": "궤양성 대장염은 대장에 영향을 미치며 염증과 궤양을 유발합니다. 증상으로는 혈변과 복부 불편감이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Irritable bowel syndrome causes recurring abdominal pain and changes in bowel habits. It’s often triggered by stress or certain foods.",
+    "meaning": "과민성 대장 증후군은 반복적인 복통과 장 습관 변화를 유발합니다. 스트레스나 특정 음식에 의해 촉발되는 경우가 많습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Celiac disease is an autoimmune reaction to gluten, damaging the small intestine. It causes bloating, diarrhea, and nutrient deficiencies.",
+    "meaning": "셀리악병은 글루텐에 대한 자가면역 반응으로 소장을 손상시킵니다. 복부 팽만감, 설사, 영양소 결핍을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Diverticulitis is inflammation of pouches in the colon wall. It causes abdominal pain, fever, and sometimes infection.",
+    "meaning": "게실염은 대장 벽의 주머니 염증입니다. 복통, 발열, 때로는 감염을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemorrhoids are swollen veins in the rectum or anus. They can cause pain, itching, and bleeding during bowel movements.",
+    "meaning": "치질은 직장이나 항문의 부은 정맥입니다. 배변 중 통증, 가려움증, 출혈을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Anal fissures are small tears in the lining of the anus. They cause sharp pain and bleeding during bowel movements.",
+    "meaning": "항문열상은 항문 내벽의 작은 찢어짐입니다. 배변 중 날카로운 통증과 출혈을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Colorectal cancer starts in the colon or rectum. Symptoms include changes in bowel habits and blood in the stool.",
+    "meaning": "대장암은 대장이나 직장에서 시작됩니다. 증상으로는 장 습관 변화와 대변의 혈액이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastritis is inflammation of the stomach lining, often from infection or alcohol. It causes nausea, vomiting, and upper abdominal pain.",
+    "meaning": "위염은 감염이나 알코올로 인한 위 내막의 염증입니다. 메스꺼움, 구토, 상복부 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peptic ulcers are sores in the stomach or small intestine lining. They cause burning pain and can bleed if untreated.",
+    "meaning": "소화성 궤양은 위나 소장 내벽의 궤양입니다. 작열감 통증을 유발하며 치료하지 않으면 출혈할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Esophagitis is inflammation of the esophagus, often from acid reflux. It causes difficulty swallowing and chest pain.",
+    "meaning": "식도염은 종종 위산 역류로 인한 식도의 염증입니다. 삼키기 어려움과 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Barrett’s esophagus is a change in the esophagus lining from chronic acid reflux. It increases the risk of esophageal cancer.",
+    "meaning": "바렛 식도는 만성 위산 역류로 인한 식도 내벽의 변화입니다. 식도암 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Esophageal cancer affects the esophagus and can spread quickly. Symptoms include trouble swallowing and weight loss.",
+    "meaning": "식도암은 식도에 영향을 미치며 빠르게 퍼질 수 있습니다. 증상으로는 삼키기 어려움과 체중 감소가 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hiatal hernia occurs when part of the stomach pushes into the chest. It can cause heartburn and chest discomfort.",
+    "meaning": "열공탈장은 위의 일부가 가슴으로 밀려나오는 것입니다. 속쓰림과 가슴 불편감을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic obstructive pulmonary disease limits airflow in the lungs. It’s often caused by smoking and causes shortness of breath.",
+    "meaning": "만성 폐쇄성 폐질환은 폐의 공기 흐름을 제한합니다. 흡연으로 인해 발생하며 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Emphysema damages the air sacs in the lungs, reducing oxygen exchange. It causes wheezing and chronic cough.",
+    "meaning": "폐기종은 폐의 공기 주머니를 손상시켜 산소 교환을 줄입니다. 쌕쌕거림과 만성 기침을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary hypertension is high blood pressure in the lung arteries. It causes fatigue and shortness of breath during activity.",
+    "meaning": "폐고혈압은 폐동맥의 고혈압입니다. 피로와 활동 중 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pneumothorax is a collapsed lung caused by air in the chest cavity. It causes sudden chest pain and difficulty breathing.",
+    "meaning": "기흉은 흉강의 공기로 인해 폐가 붕괴되는 것입니다. 갑작스러운 흉통과 호흡 곤란을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lung cancer is a serious cancer starting in the lung tissue. It causes persistent cough, chest pain, and weight loss.",
+    "meaning": "폐암은 폐 조직에서 시작되는 심각한 암입니다. 지속적인 기침, 흉통, 체중 감소를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tuberculosis is a bacterial infection primarily affecting the lungs. It causes cough, fever, and night sweats.",
+    "meaning": "결핵은 주로 폐에 영향을 미치는 세균 감염입니다. 기침, 발열, 야간 발한을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pleurisy is inflammation of the lung’s outer lining, often from infection. It causes sharp chest pain when breathing.",
+    "meaning": "흉막염은 종종 감염으로 인한 폐 외막의 염증입니다. 호흡 시 날카로운 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sarcoidosis forms small inflammatory clumps in the lungs or other organs. It can cause cough, fatigue, and skin changes.",
+    "meaning": "유육종증은 폐나 다른 장기에 작은 염증 덩어리를 형성합니다. 기침, 피로, 피부 변화를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cystic fibrosis causes thick mucus to build up in the lungs and digestive system. It leads to frequent infections and malnutrition.",
+    "meaning": "낭포성 섬유증은 폐와 소화 시스템에 두꺼운 점액이 축적되게 합니다. 잦은 감염과 영양실조를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Coronary artery disease narrows the heart’s blood vessels. It can cause chest pain and increase the risk of heart attack.",
+    "meaning": "관상동맥 질환은 심장의 혈관을 좁힙니다. 흉통을 유발하며 심장마비 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Heart failure means the heart can’t pump blood effectively. It causes fatigue, swelling, and shortness of breath.",
+    "meaning": "심부전은 심장이 혈액을 효과적으로 펌프하지 못하는 것입니다. 피로, 부종, 숨가쁨을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Atrial fibrillation is an irregular and rapid heart rhythm. It increases the risk of stroke and heart failure.",
+    "meaning": "심방세동은 불규칙하고 빠른 심장 리듬입니다. 뇌졸중과 심부전 위험을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Aortic aneurysm is a bulge in the aorta, the body’s main artery. If it ruptures, it can be life-threatening.",
+    "meaning": "대동맥류는 신체의 주요 동맥인 대동맥의 돌출입니다. 파열되면 생명을 위협할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Peripheral artery disease reduces blood flow to the limbs. It causes leg pain, especially when walking.",
+    "meaning": "말초동맥질환은 사지로의 혈류를 감소시킵니다. 특히 걸을 때 다리 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Deep vein thrombosis is a blood clot in a deep vein, usually in the leg. It can travel to the lungs and cause a pulmonary embolism.",
+    "meaning": "심부정맥혈전증은 주로 다리의 깊은 정맥에 생긴 혈전입니다. 폐로 이동하여 폐색전증을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pulmonary embolism is a blockage in a lung artery, often from a clot. It causes sudden shortness of breath and chest pain.",
+    "meaning": "폐색전증은 종종 혈전으로 인한 폐동맥의 막힘입니다. 갑작스러운 숨가쁨과 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Stroke occurs when blood flow to the brain is interrupted. It can cause sudden weakness, speech problems, or paralysis.",
+    "meaning": "뇌졸중은 뇌로의 혈류가 중단될 때 발생합니다. 갑작스러운 약화, 언어 문제, 마비를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Transient ischemic attack is a temporary blockage of blood to the brain. It’s a warning sign for a future stroke.",
+    "meaning": "일과성 허혈 발작은 뇌로의 혈액 일시적 차단입니다. 미래 뇌졸중의 경고 신호입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Epilepsy causes recurring seizures due to abnormal brain activity. Seizures may involve convulsions or loss of consciousness.",
+    "meaning": "간질은 비정상적인 뇌 활동으로 인해 반복적인 발작을 유발합니다. 발작은 경련이나 의식 상실을 포함할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Parkinson’s disease affects movement, causing tremors and stiffness. It progresses slowly and impacts balance and coordination.",
+    "meaning": "파킨슨병은 떨림과 경직을 유발하며 운동에 영향을 미칩니다. 천천히 진행되며 균형과 조정에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Alzheimer’s disease is a progressive brain disorder causing memory loss. It also affects thinking and daily functioning.",
+    "meaning": "알츠하이머병은 기억 상실을 유발하는 진행성 뇌 장애입니다. 사고와 일상 기능에도 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Dementia is a decline in cognitive function affecting memory and behavior. It can be caused by various diseases, like Alzheimer’s.",
+    "meaning": "치매는 기억과 행동에 영향을 미치는 인지 기능 저하입니다. 알츠하이머와 같은 다양한 질병으로 인해 발생할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple sclerosis damages the protective covering of nerves. It causes fatigue, muscle weakness, and coordination problems.",
+    "meaning": "다발성 경화증은 신경의 보호막을 손상시킵니다. 피로, 근육 약화, 조정 문제를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Amyotrophic lateral sclerosis weakens muscles by affecting nerve cells. It leads to difficulty walking, speaking, and swallowing.",
+    "meaning": "근위축성 측삭 경화증은 신경 세포에 영향을 미쳐 근육을 약화시킵니다. 걷기, 말하기, 삼키기 어려움을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Migraine is a neurological condition causing severe headaches. It’s often accompanied by nausea, vomiting, and light sensitivity.",
+    "meaning": "편두통은 심한 두통을 유발하는 신경학적 상태입니다. 종종 메스꺼움, 구토, 빛 민감성을 동반합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cluster headaches are intensely painful headaches on one side of the head. They occur in cycles and can last weeks or months.",
+    "meaning": "군집 두통은 머리 한쪽에 극심한 통증을 유발하는 두통입니다. 주기적으로 발생하며 몇 주 또는 몇 달 지속될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Trigeminal neuralgia causes sharp, electric-shock-like facial pain. It’s triggered by touching the face or chewing.",
+    "meaning": "삼차신경통은 얼굴에 날카로운 전기 충격 같은 통증을 유발합니다. 얼굴을 만지거나 씹을 때 촉발됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bell’s palsy causes sudden, temporary weakness in facial muscles. It results in one-sided facial drooping and difficulty smiling.",
+    "meaning": "벨 마비는 얼굴 근육의 갑작스럽고 일시적인 약화를 유발합니다. 한쪽 얼굴 처짐과 미소 짓기 어려움을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Meningitis is an infection of the membranes covering the brain and spinal cord. It causes fever, stiff neck, and severe headache.",
+    "meaning": "수막염은 뇌와 척수를 덮는 막의 감염입니다. 발열, 목 경직, 심한 두통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Sepsis is a life-threatening response to infection, causing organ dysfunction. It requires urgent medical care to prevent shock or death.",
+    "meaning": "패혈증은 감염에 대한 생명을 위협하는 반응으로 장기 기능 장애를 유발합니다. 쇼크나 사망을 예방하려면 즉각적인 의료 조치가 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Endocarditis involves infection of the heart’s inner lining, often the valves. It can damage the heart and requires antibiotics or surgery.",
+    "meaning": "심내막염은 심장 내막, 특히 판막의 감염을 포함합니다. 심장을 손상시킬 수 있으며 항생제나 수술이 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Myocarditis is inflammation of the heart muscle, often from a virus. It may cause chest pain, fatigue, or irregular heartbeats.",
+    "meaning": "심근염은 종종 바이러스로 인한 심장 근육의 염증입니다. 흉통, 피로, 불규칙한 심장 박동을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pericarditis is inflammation of the sac surrounding the heart. It causes sharp chest pain that worsens when lying down.",
+    "meaning": "심낭염은 심장을 둘러싼 주머니의 염증입니다. 누울 때 악화되는 날카로운 흉통을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cardiomyopathy weakens the heart muscle, reducing its pumping ability. It can lead to heart failure or sudden cardiac arrest.",
+    "meaning": "심근병증은 심장 근육을 약화시켜 펌프 기능을 감소시킵니다. 심부전이나 갑작스러운 심정지를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Aortic dissection is a tear in the aorta’s inner layer, causing severe pain. It’s a medical emergency requiring immediate surgery.",
+    "meaning": "대동맥박리는 대동맥 내막의 찢어짐으로 심한 통증을 유발합니다. 즉각적인 수술이 필요한 의학적 응급 상황입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Thrombophlebitis is inflammation of a vein due to a blood clot. It causes pain, swelling, and redness in the affected area.",
+    "meaning": "혈전정맥염은 혈전으로 인한 정맥의 염증입니다. 영향을 받은 부위에 통증, 부종, 발적을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Vasculitis is inflammation of blood vessels, reducing blood flow. It can affect organs like the skin, kidneys, or lungs.",
+    "meaning": "혈관염은 혈관의 염증으로 혈류를 감소시킵니다. 피부, 신장, 폐와 같은 장기에 영향을 미칠 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Raynaud’s disease causes fingers and toes to feel cold or numb. It’s triggered by cold temperatures or stress affecting blood vessels.",
+    "meaning": "레이노병은 손가락과 발가락이 차갑거나 마비된 느낌을 유발합니다. 추운 온도나 스트레스가 혈관에 영향을 미쳐 발생합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Scleroderma hardens the skin and connective tissues. It can also affect internal organs like the lungs or kidneys.",
+    "meaning": "경피증은 피부와 결합 조직을 딱딱하게 만듭니다. 폐나 신장과 같은 내부 장기에도 영향을 미칠 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Systemic lupus erythematosus is an autoimmune disease attacking multiple organs. It causes joint pain, rashes, and fatigue.",
+    "meaning": "전신성 홍반성 루푸스는 여러 장기를 공격하는 자가면역 질환입니다. 관절통, 발진, 피로를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Rheumatoid arthritis is an autoimmune condition causing joint inflammation. It leads to pain, swelling, and potential joint deformity.",
+    "meaning": "류마티스 관절염은 관절 염증을 유발하는 자가면역 질환입니다. 통증, 부종, 잠재적인 관절 변형을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Psoriatic arthritis causes joint pain and stiffness in psoriasis patients. It can also affect the skin with red, scaly patches.",
+    "meaning": "건선성 관절염은 건선 환자에게 관절 통증과 경직을 유발합니다. 붉고 비늘 같은 피부 패치에도 영향을 미칠 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gout is a type of arthritis from uric acid crystals in joints. It causes sudden, severe pain, often in the big toe.",
+    "meaning": "통풍은 관절에 요산 결정이 생기는 관절염 유형입니다. 종종 엄지발가락에 갑작스럽고 심한 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Osteoporosis weakens bones, making them prone to fractures. It’s common in older adults, especially women after menopause.",
+    "meaning": "골다공증은 뼈를 약화시켜 골절에 취약하게 만듭니다. 특히 폐경 후 여성 노인에게 흔합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Scoliosis causes an abnormal sideways curve in the spine. It can lead to back pain or uneven shoulders if severe.",
+    "meaning": "척추측만증은 척추가 비정상적으로 옆으로 휘는 상태입니다. 심할 경우 허리 통증이나 어깨 비대칭을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Herniated disc occurs when spinal disc material presses on nerves. It causes back pain, numbness, or leg pain.",
+    "meaning": "디스크 탈출은 척추 디스크 물질이 신경을 누를 때 발생합니다. 허리 통증, 마비, 다리 통증을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Spinal stenosis narrows the spinal canal, pressing on nerves. It leads to back pain, leg weakness, or numbness.",
+    "meaning": "척추관 협착증은 척추관을 좁혀 신경을 누릅니다. 허리 통증, 다리 약화, 마비를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Tendinitis is inflammation of a tendon, often from overuse. It causes pain and stiffness near joints, like the shoulder or elbow.",
+    "meaning": "건염은 과사용으로 인한 힘줄의 염증입니다. 어깨나 팔꿈치 같은 관절 근처에서 통증과 경직을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bursitis is inflammation of a fluid-filled sac cushioning joints. It causes pain and swelling, often in the shoulder or hip.",
+    "meaning": "활액낭염은 관절을 완충하는 액체 주머니의 염증입니다. 종종 어깨나 엉덩이에서 통증과 부종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Plantar fasciitis causes heel pain from inflamed tissue in the foot. It’s worse in the morning and triggered by prolonged standing.",
+    "meaning": "족저근막염은 발의 염증 조직으로 인해 발뒷꿈치 통증을 유발합니다. 아침에 더 심하고 오래 서 있을 때 촉발됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Carpal tunnel syndrome compresses the median nerve in the wrist. It causes hand numbness, tingling, and weakness.",
+    "meaning": "수근관 증후군은 손목의 정중 신경을 압박합니다. 손의 마비, 따끔거림, 약화를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sciatica is pain from a pinched nerve in the lower back. It radiates down the leg, causing burning or tingling sensations.",
+    "meaning": "좌골신경통은 허리의 신경 압박으로 인한 통증입니다. 다리로 방사되어 타는 듯한 또는 따끔거리는 느낌을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Myasthenia gravis is an autoimmune disease causing muscle weakness. It often affects the eyes, face, and swallowing muscles.",
+    "meaning": "중증 근무력증은 근육 약화를 유발하는 자가면역 질환입니다. 종종 눈, 얼굴, 삼키는 근육에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Muscular dystrophy is a genetic condition weakening muscles over time. It can impair walking and other movements.",
+    "meaning": "근이영양증은 시간이 지나면서 근육을 약화시키는 유전 질환입니다. 걷기와 다른 움직임을 손상시킬 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fibromyalgia causes widespread muscle pain and tenderness. It’s often accompanied by fatigue and sleep problems.",
+    "meaning": "섬유근육통은 광범위한 근육 통증과 압통을 유발합니다. 종종 피로와 수면 문제를 동반합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic fatigue syndrome leads to severe, persistent tiredness. It’s not relieved by rest and affects daily functioning.",
+    "meaning": "만성 피로 증후군은 심하고 지속적인 피로를 유발합니다. 휴식으로 완화되지 않으며 일상 기능에 영향을 미칩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polymyalgia rheumatica causes muscle pain and stiffness, especially in shoulders. It’s common in older adults and responds to steroids.",
+    "meaning": "류마티스성 다발근육통은 특히 어깨에 근육 통증과 경직을 유발합니다. 노인에게 흔하며 스테로이드에 반응합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ankylosing spondylitis is a type of arthritis affecting the spine. It causes back pain and stiffness, sometimes leading to a hunched posture.",
+    "meaning": "강직성 척추염은 척추에 영향을 미치는 관절염 유형입니다. 허리 통증과 경직을 유발하며 때로는 구부정한 자세로 이어집니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sjogren’s syndrome is an autoimmune disorder causing dry eyes and mouth. It can also affect joints and other organs.",
+    "meaning": "쇼그렌 증후군은 눈과 입의 건조를 유발하는 자가면역 장애입니다. 관절과 다른 장기에도 영향을 미칠 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Addison’s disease occurs when adrenal glands don’t produce enough hormones. It causes fatigue, weight loss, and low blood pressure.",
+    "meaning": "애디슨병은 부신이 충분한 호르몬을 생성하지 않을 때 발생합니다. 피로, 체중 감소, 저혈압을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cushing’s syndrome results from excess cortisol in the body. It causes weight gain, high blood pressure, and weak bones.",
+    "meaning": "쿠싱 증후군은 체내 과도한 코르티솔로 인해 발생합니다. 체중 증가, 고혈압, 뼈 약화를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hyperthyroidism is an overactive thyroid producing too much hormone. It causes weight loss, rapid heartbeat, and nervousness.",
+    "meaning": "갑상선 기능 항진증은 갑상선이 과도한 호르몬을 생성하는 상태입니다. 체중 감소, 빠른 심장 박동, 신경과민을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hypothyroidism is an underactive thyroid causing low hormone levels. It leads to fatigue, weight gain, and cold intolerance.",
+    "meaning": "갑상선 기능 저하증은 갑상선이 낮은 호르몬 수치를 유발합니다. 피로, 체중 증가, 추위 민감성을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Graves’ disease is an autoimmune condition causing hyperthyroidism. It may lead to bulging eyes and an enlarged thyroid.",
+    "meaning": "그레이브스병은 갑상선 기능 항진증을 유발하는 자가면역 질환입니다. 눈이 돌출되거나 갑상선이 비대해질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hashimoto’s thyroiditis is an autoimmune disease attacking the thyroid. It often causes hypothyroidism and thyroid enlargement.",
+    "meaning": "하시모토 갑상선염은 갑상선을 공격하는 자가면역 질환입니다. 종종 갑상선 기능 저하증과 갑상선 비대를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Diabetes insipidus causes excessive thirst and urination. It’s due to a hormone imbalance affecting water regulation in the body.",
+    "meaning": "요붕증은 과도한 갈증과 배뇨를 유발합니다. 체내 수분 조절에 영향을 미치는 호르몬 불균형 때문입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hypoglycemia is dangerously low blood sugar, often in diabetics. It causes shakiness, confusion, and sweating if untreated.",
+    "meaning": "저혈당은 당뇨병 환자에게 흔히 발생하는 위험하게 낮은 혈당입니다. 치료하지 않으면 떨림, 혼란, 발한을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hyperglycemia is high blood sugar, common in diabetes. It can cause thirst, frequent urination, and long-term organ damage.",
+    "meaning": "고혈당은 당뇨병에서 흔한 높은 혈당 상태입니다. 갈증, 잦은 배뇨, 장기적인 장기 손상을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Acromegaly is caused by excess growth hormone, often from a pituitary tumor. It leads to enlarged hands, feet, and facial features.",
+    "meaning": "말단비대증은 뇌하수체 종양으로 인한 과도한 성장 호르몬으로 발생합니다. 손, 발, 얼굴 특징의 비대를 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pheochromocytoma is a rare adrenal gland tumor causing high blood pressure. It may lead to headaches, sweating, and rapid heart rate.",
+    "meaning": "갈색세포종은 부신의 드문 종양으로 고혈압을 유발합니다. 두통, 발한, 빠른 심박수를 초래할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hyperparathyroidism occurs when parathyroid glands overproduce hormone. It causes high calcium levels, leading to bone pain and kidney stones.",
+    "meaning": "부갑상선 기능 항진증은 부갑상선이 호르몬을 과다 생성할 때 발생합니다. 높은 칼슘 수치로 뼈 통증과 신장 결석을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hypoparathyroidism is low parathyroid hormone, causing low calcium levels. It leads to muscle cramps, tingling, and seizures.",
+    "meaning": "부갑상선 기능 저하증은 낮은 부갑상선 호르몬으로 낮은 칼슘 수치를 유발합니다. 근육 경련, 따끔거림, 발작을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Goiter is an enlarged thyroid gland, often from iodine deficiency. It may cause neck swelling and difficulty swallowing or breathing.",
+    "meaning": "갑상선종은 요오드 결핍으로 인한 갑상선 비대입니다. 목 부종과 삼키기 또는 호흡 곤란을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Thyroid cancer starts in the thyroid gland and is often treatable. Symptoms include a neck lump or trouble swallowing.",
+    "meaning": "갑상선암은 갑상선에서 시작되며 종종 치료 가능합니다. 증상으로는 목의 덩어리나 삼키기 어려움이 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Adrenal insufficiency means the adrenal glands don’t produce enough hormones. It causes fatigue, muscle weakness, and low blood pressure.",
+    "meaning": "부신 기능 부전은 부신이 충분한 호르몬을 생성하지 않는 상태입니다. 피로, 근육 약화, 저혈압을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic ovary syndrome causes hormonal imbalances in women. It leads to irregular periods, acne, and infertility if untreated.",
+    "meaning": "다낭성 난소 증후군은 여성에게 호르몬 불균형을 유발합니다. 치료하지 않으면 불규칙한 생리, 여드름, 불임을 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Endometriosis involves uterine-like tissue growing outside the uterus. It causes pelvic pain and can affect fertility.",
+    "meaning": "자궁내막증은 자궁과 유사한 조직이 자궁 밖에서 자라는 것입니다. 골반 통증을 유발하며 생식력에 영향을 미칠 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ovarian cysts are fluid-filled sacs in the ovaries, often harmless. They can cause pelvic pain or rupture in rare cases.",
+    "meaning": "난소 낭종은 난소에 있는 액체로 채워진 주머니로, 종종 무해합니다. 드물게 골반 통증이나 파열을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+
+  {
+    "term": "Uterine fibroids are non-cancerous growths in the uterus, often causing heavy periods. They may lead to pelvic pain or fertility issues if large.",
+    "meaning": "자궁근종은 자궁에 생기는 비암성 성장물로, 종종 많은 생리량을 유발합니다. 크기가 클 경우 골반 통증이나 불임 문제를 초래할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cervical cancer develops in the cervix, often linked to HPV infection. Early detection through screening can prevent severe outcomes.",
+    "meaning": "자궁경부암은 자궁경부에서 발생하며, 종종 HPV 감염과 관련이 있습니다. 조기 검진을 통해 심각한 결과를 예방할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ovarian cancer starts in the ovaries and may spread silently. Symptoms like bloating or abdominal pain often appear in later stages.",
+    "meaning": "난소암은 난소에서 시작되어 조용히 퍼질 수 있습니다. 복부 팽만감이나 통증 같은 증상은 종종 후기 단계에서 나타납니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pelvic inflammatory disease is an infection of the female reproductive organs. It can cause chronic pelvic pain and infertility if untreated.",
+    "meaning": "골반염증성 질환은 여성 생식기의 감염입니다. 치료하지 않으면 만성 골반 통증과 불임을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ectopic pregnancy occurs when a fertilized egg implants outside the uterus. It’s a medical emergency causing severe abdominal pain.",
+    "meaning": "자궁외 임신은 수정란이 자궁 밖에 착상할 때 발생합니다. 심한 복통을 유발하는 의학적 응급 상황입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Preeclampsia is high blood pressure during pregnancy, risking mother and baby. It causes swelling, headaches, and requires close monitoring.",
+    "meaning": "자간전증은 임신 중 고혈압으로, 산모와 아기에게 위험합니다. 부종, 두통을 유발하며 면밀한 모니터링이 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gestational diabetes develops during pregnancy, affecting blood sugar levels. It may increase risks for both mother and baby if unmanaged.",
+    "meaning": "임신성 당뇨병은 임신 중 발생하여 혈당 수치에 영향을 미칩니다. 관리하지 않으면 산모와 아기 모두에게 위험을 증가시킬 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Breast cancer forms in breast tissue, often detected as a lump. Early screening with mammograms improves treatment success rates.",
+    "meaning": "유방암은 유방 조직에 형성되며, 종종 덩어리로 발견됩니다. 조기 맘모그래피 검진은 치료 성공률을 높입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Mastitis is a breast tissue infection, common during breastfeeding. It causes pain, swelling, and fever, treatable with antibiotics.",
+    "meaning": "유방염은 모유 수유 중 흔한 유방 조직 감염입니다. 통증, 부종, 발열을 유발하며 항생제로 치료 가능합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Fibrocystic breast changes cause lumpy, painful breasts before periods. They’re benign but can mimic cancer, requiring evaluation.",
+    "meaning": "섬유낭성 유방 변화는 생리 전에 유방이 덩어리지고 통증을 유발합니다. 양성이지만 암과 유사할 수 있어 평가가 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Prostate cancer develops in the prostate gland, often slowly. Symptoms like difficulty urinating appear in advanced stages.",
+    "meaning": "전립선암은 전립선에서 발생하며, 종종 천천히 진행됩니다. 배뇨 곤란 같은 증상은 진행 단계에서 나타납니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Benign prostatic hyperplasia enlarges the prostate, pressing on the urethra. It causes frequent urination, especially at night.",
+    "meaning": "양성 전립선 비대증은 전립선을 비대하게 하여 요도를 압박합니다. 특히 밤에 잦은 배뇨를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Testicular cancer forms in the testicles, often in younger men. A painless lump or swelling is a common early sign.",
+    "meaning": "고환암은 고환에서 발생하며, 젊은 남성에게 흔합니다. 통증 없는 덩어리나 부종이 초기 증상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Epididymitis is inflammation of the tube behind the testicle. It causes scrotal pain and swelling, often from infection.",
+    "meaning": "부고환염은 고환 뒤의 관의 염증입니다. 종종 감염으로 인해 음낭 통증과 부종을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hydrocele is a fluid buildup around the testicle, causing swelling. It’s usually painless but may require surgery if persistent.",
+    "meaning": "음낭수종은 고환 주위의 액체 축적으로 부종을 유발합니다. 대개 통증이 없지만 지속되면 수술이 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Varicocele is a swollen vein in the scrotum, like varicose veins. It may cause discomfort or infertility in some cases.",
+    "meaning": "정맥류는 음낭의 부은 정맥으로, 정맥류와 유사합니다. 일부 경우 불편함이나 불임을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Erectile dysfunction prevents maintaining an erection for sexual activity. It can stem from physical or psychological causes.",
+    "meaning": "발기부전은 성 활동을 위한 발기를 유지하지 못하게 합니다. 신체적 또는 심리적 원인에서 비롯될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Kidney cancer, often renal cell carcinoma, starts in the kidney tissue. Blood in urine and flank pain are common symptoms.",
+    "meaning": "신장암, 종종 신세포암은 신장 조직에서 시작됩니다. 소변의 혈액과 옆구리 통증이 흔한 증상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Bladder cancer begins in the bladder lining, often linked to smoking. Symptoms include painful urination and blood in urine.",
+    "meaning": "방광암은 방광 내막에서 시작되며, 종종 흡연과 관련이 있습니다. 고통스러운 배뇨와 혈뇨가 증상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Interstitial cystitis causes chronic bladder pain and frequent urination. It’s often mistaken for a urinary tract infection.",
+    "meaning": "간질성 방광염은 만성 방광 통증과 잦은 배뇨를 유발합니다. 종종 요로 감염으로 오인됩니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pyelonephritis is a kidney infection, usually from bacteria spreading upward. It causes fever, chills, and flank pain, needing antibiotics.",
+    "meaning": "신우신염은 일반적으로 박테리아가 위로 퍼지면서 생기는 신장 감염입니다. 발열, 오한, 옆구리 통증을 유발하며 항생제가 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Glomerulonephritis inflames the kidney’s filtering units, affecting function. It can cause swelling, high blood pressure, and blood in urine.",
+    "meaning": "사구체신염은 신장의 여과 단위를 염증시켜 기능을 저하시킵니다. 부종, 고혈압, 혈뇨를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Nephrotic syndrome causes kidneys to leak protein into urine. It leads to swelling, low protein levels, and high cholesterol.",
+    "meaning": "신증후군은 신장이 소변으로 단백질을 누출하게 합니다. 부종, 낮은 단백질 수치, 높은 콜레스테롤을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Polycystic kidney disease forms fluid-filled cysts in the kidneys. It can lead to kidney failure over time if severe.",
+    "meaning": "다낭성 신장 질환은 신장에 액체로 채워진 낭종을 형성합니다. 심할 경우 시간이 지나면서 신부전으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Kidney stones are hard mineral deposits causing intense pain. They can block urine flow and require medical intervention.",
+    "meaning": "신장 결석은 강렬한 통증을 유발하는 단단한 광물 침전물입니다. 소변 흐름을 막을 수 있으며 의학적 개입이 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Ureteral stones are kidney stones lodged in the ureter. They cause severe pain and may need surgery or lithotripsy.",
+    "meaning": "요관 결석은 요관에 끼인 신장 결석입니다. 심한 통증을 유발하며 수술이나 체외충격파쇄석술이 필요할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Pancreatic cancer is aggressive, starting in pancreatic tissue. Symptoms like jaundice and weight loss often appear late.",
+    "meaning": "췌장암은 췌장 조직에서 시작되는 공격적인 암입니다. 황달과 체중 감소 같은 증상은 종종 늦게 나타납니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Chronic pancreatitis is long-term inflammation of the pancreas. It causes persistent abdominal pain and digestive issues.",
+    "meaning": "만성 췌장염은 췌장의 장기적인 염증입니다. 지속적인 복통과 소화 문제를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Liver cirrhosis scars the liver, impairing its function. It’s often caused by alcohol or hepatitis and can lead to liver failure.",
+    "meaning": "간경변은 간에 흉터를 남겨 기능을 저하시킵니다. 알코올이나 간염으로 인해 발생하며 간부전으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hepatitis D is a liver infection requiring hepatitis B co-infection. It worsens liver damage and increases cirrhosis risk.",
+    "meaning": "D형 간염은 B형 간염 동시 감염이 필요한 간 감염입니다. 간 손상을 악화시키고 간경변 위험을 증가시킵니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Liver cancer often develops in damaged livers, like from cirrhosis. Symptoms include abdominal pain and unexplained weight loss.",
+    "meaning": "간암은 간경변과 같은 손상된 간에서 종종 발생합니다. 복통과 설명할 수 없는 체중 감소가 증상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Non-alcoholic fatty liver disease is fat buildup in the liver. It can progress to inflammation or cirrhosis if untreated.",
+    "meaning": "비알코올성 지방간 질환은 간에 지방이 축적되는 것입니다. 치료하지 않으면 염증이나 간경변으로 진행될 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemochromatosis causes excessive iron storage in the body. It can damage the liver, heart, and pancreas if untreated.",
+    "meaning": "혈색소침착증은 체내 과도한 철분 저장을 유발합니다. 치료하지 않으면 간, 심장, 췌장을 손상시킬 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Wilson’s disease is a genetic disorder causing copper buildup. It affects the liver and brain, causing tremors or jaundice.",
+    "meaning": "윌슨병은 구리 축적을 유발하는 유전 질환입니다. 간과 뇌에 영향을 미치며 떨림이나 황달을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gallbladder cancer is rare but aggressive, starting in the gallbladder. Symptoms like abdominal pain often appear in advanced stages.",
+    "meaning": "담낭암은 드물지만 공격적이며 담낭에서 시작됩니다. 복통 같은 증상은 종종 진행 단계에서 나타납니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cholecystitis is gallbladder inflammation, often from gallstones. It causes severe upper abdominal pain and fever.",
+    "meaning": "담석증은 종종 담석으로 인한 담낭 염증입니다. 심한 상복부 통증과 발열을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Appendicitis is inflammation of the appendix, causing sharp pain. It requires urgent surgery to prevent rupture and infection.",
+    "meaning": "맹장염은 맹장의 염증으로 날카로운 통증을 유발합니다. 파열과 감염을 예방하기 위해 긴급 수술이 필요합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Diverticulosis is the formation of pouches in the colon wall. It’s often symptomless but can lead to diverticulitis if infected.",
+    "meaning": "게실증은 대장 벽에 주머니가 형성되는 것입니다. 종종 무증상이지만 감염되면 게실염으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Anal cancer develops in the anal canal, often linked to HPV. Symptoms include anal pain, bleeding, or a lump.",
+    "meaning": "항문암은 항문관에서 발생하며, 종종 HPV와 관련이 있습니다. 항문 통증, 출혈, 덩어리가 증상입니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Carcinoid tumors are slow-growing cancers in the digestive tract or lungs. They may cause flushing, diarrhea, or breathing issues.",
+    "meaning": "카르시노이드 종양은 소화관이나 폐에서 천천히 자라는 암입니다. 홍조, 설사, 호흡 문제를 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Gastrointestinal stromal tumors are rare cancers in the digestive tract. They may cause abdominal pain or internal bleeding.",
+    "meaning": "위장관 기질 종양은 소화관에서 발생하는 드문 암입니다. 복통이나 내부 출혈을 유발할 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Cystic fibrosis affects the lungs and digestive system with thick mucus. It leads to frequent infections and malnutrition.",
+    "meaning": "낭포성 섬유증은 두꺼운 점액으로 폐와 소화 시스템에 영향을 미칩니다. 잦은 감염과 영양실조를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Sickle cell anemia alters red blood cells, causing blockages. It leads to pain crises and increased infection risk.",
+    "meaning": "겸상적혈구빈혈은 적혈구를 변형시켜 막힘을 유발합니다. 통증 위기와 감염 위험 증가를 초래합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Thalassemia is a genetic disorder reducing hemoglobin production. It causes anemia, fatigue, and pale skin.",
+    "meaning": "지중해빈혈은 헤모글로빈 생성을 감소시키는 유전 질환입니다. 빈혈, 피로, 창백한 피부를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Hemophilia impairs blood clotting, causing excessive bleeding. Even minor injuries can lead to serious complications.",
+    "meaning": "혈우병은 혈액 응고를 손상시켜 과도한 출혈을 유발합니다. 경미한 부상도 심각한 합병증으로 이어질 수 있습니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Von Willebrand disease is a bleeding disorder from low clotting protein. It causes heavy periods, nosebleeds, or bruising.",
+    "meaning": "폰 빌레브란트병은 낮은 응고 단백질로 인한 출혈 장애입니다. 많은 생리량, 코피, 멍을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Leukemia is cancer of the blood cells, often affecting bone marrow. It causes fatigue, infections, and easy bruising.",
+    "meaning": "백혈병은 혈액 세포의 암으로, 종종 골수에 영향을 미칩니다. 피로, 감염, 쉽게 멍드는 증상을 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Lymphoma is cancer of the lymphatic system, forming tumors. It causes swollen lymph nodes, fever, and weight loss.",
+    "meaning": "림프종은 림프계의 암으로 종양을 형성합니다. 림프절 부종, 발열, 체중 감소를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
+  },
+  {
+    "term": "Multiple myeloma affects plasma cells in bone marrow. It causes bone pain, fractures, and kidney problems.",
+    "meaning": "다발성 골수종은 골수의 플라스마 세포에 영향을 미칩니다. 뼈 통증, 골절, 신장 문제를 유발합니다.",
+    "category": "Explaining a Condition (질병 설명)"
   }
 ]
