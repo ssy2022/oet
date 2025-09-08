@@ -11,33 +11,32 @@ function shuffleArray(array) {
 const synth = window.speechSynthesis;
 let isSpeaking = false;
 let voices = [];
-let oetWritingPhrases = [];
+let oetPhrases = [];
 
 const languageSelect = document.getElementById("language-select");
 const voiceSelect = document.getElementById("voice-select");
 const repeatCountSelect = document.getElementById("repeat-count");
 const categorySelect = document.getElementById("category-select");
+const hintLengthSelect = document.getElementById("hint-length-select");
 const quizModeSelect = document.getElementById("quiz-mode");
 const termList = document.getElementById("term-list");
 
-async function loadPhrases() {
+async function loadOetPhrases() {
   try {
     const response = await fetch('oet_writing_phrases.json');
     if (!response.ok) {
-      throw new Error('Failed to load phrases data');
+      throw new Error('Failed to load oetPhrases.json');
     }
-    oetWritingPhrases = await response.json();
+    oetPhrases = await response.json();
     loadVoices();
   } catch (error) {
-    console.error('Error loading phrases:', error);
-    termList.innerHTML = '<p style="text-align: center; color: #e53e3e;">데이터를 불러오는 데 실패했습니다.</p>';
+    console.error('Error loading oetPhrases:', error);
+    termList.innerHTML = '<p style="text-align: center; color: #e53e3e;">데이터를 로드하는 중 오류가 발생했습니다.</p>';
   }
 }
 
 function populateCategorySelect() {
-  const categories = [
-    ...new Set(oetWritingPhrases.map((item) => item.category)),
-  ].sort();
+  const categories = [...new Set(oetPhrases.map((item) => item.category))].sort();
   categorySelect.innerHTML = '<option value="">모든 카테고리</option>';
   categories.forEach((category) => {
     const option = document.createElement("option");
@@ -75,8 +74,8 @@ function renderTermList() {
   const selectedCategory = categorySelect.value;
   const quizMode = quizModeSelect.value;
   let filteredTerms = selectedCategory
-    ? oetWritingPhrases.filter((item) => item.category === selectedCategory)
-    : oetWritingPhrases;
+    ? oetPhrases.filter((item) => item.category === selectedCategory)
+    : oetPhrases;
 
   if (filteredTerms.length === 0) {
     termList.innerHTML =
@@ -86,10 +85,12 @@ function renderTermList() {
 
   const shuffledTerms = shuffleArray([...filteredTerms]);
   const paginatedTerms = shuffledTerms.slice(0, itemsPerPage);
+  const hintLength = parseInt(hintLengthSelect.value) || 3;
 
   paginatedTerms.forEach((item, index) => {
     const termDiv = document.createElement("div");
     termDiv.classList.add("term-item");
+    termDiv.title = `${item.term.slice(0, hintLength)}...`;
 
     const termHeader = document.createElement("div");
     termHeader.classList.add("term-header");
@@ -123,7 +124,6 @@ function renderTermList() {
     hintButton.classList.add("hint-button");
     hintButton.innerHTML = "<span>힌트 보기</span>";
     hintButton.addEventListener("click", () => {
-      const hintLength = item.term.length > 10 ? 10 : Math.floor(item.term.length / 2);
       alert(`힌트: ${item.term.slice(0, hintLength)}...`);
     });
 
@@ -166,20 +166,12 @@ function renderTermList() {
 
       renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, firstTwoWords.length, feedbackMessage);
 
-      const checkButton = document.createElement("button");
-      checkButton.classList.add("check-button");
-      checkButton.innerHTML = "<span>정답 확인</span>";
-      checkButton.addEventListener("click", () => {
-        updateWordOrderFeedback(correctWordsContainer, correctWordList, correctWords, firstTwoWords.length, feedbackMessage);
-      });
-
       const revealButton = document.createElement("button");
       revealButton.classList.add("reveal-button");
       revealButton.innerHTML = "<span>정답 보기</span>";
       revealButton.addEventListener("click", () => {
         termText.classList.add("revealed");
         termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
-        checkButton.disabled = true;
         revealButton.disabled = true;
         availableWordsContainer.querySelectorAll(".word").forEach((word) => {
           word.draggable = false;
@@ -191,7 +183,6 @@ function renderTermList() {
         });
       });
 
-      buttonContainer.appendChild(checkButton);
       buttonContainer.appendChild(revealButton);
       wordOrderContainer.appendChild(correctWordsContainer);
       wordOrderContainer.appendChild(availableWordsContainer);
@@ -204,9 +195,7 @@ function renderTermList() {
     termList.appendChild(termDiv);
   });
 
-  document.getElementById(
-    "term-count"
-  ).textContent = `총 문제 수: ${filteredTerms.length}`;
+  document.getElementById("term-count").textContent = `총 문제 수: ${filteredTerms.length}`;
 }
 
 function renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage) {
@@ -354,10 +343,12 @@ function loadVoices() {
     const savedVoice = localStorage.getItem("voice");
     const savedRepeatCount = localStorage.getItem("repeatCount") || "1";
     const savedCategory = localStorage.getItem("category") || "";
+    const savedHintLength = localStorage.getItem("hintLength") || "3";
     const savedQuizMode = localStorage.getItem("quizMode") || "default";
 
     repeatCountSelect.value = savedRepeatCount;
     categorySelect.value = savedCategory;
+    hintLengthSelect.value = savedHintLength;
     quizModeSelect.value = savedQuizMode;
 
     if (voices.find((voice) => voice.lang === savedLang)) {
@@ -435,6 +426,11 @@ categorySelect.addEventListener("change", () => {
   renderTermList();
 });
 
+hintLengthSelect.addEventListener("change", () => {
+  localStorage.setItem("hintLength", hintLengthSelect.value);
+  renderTermList();
+});
+
 quizModeSelect.addEventListener("change", () => {
   localStorage.setItem("quizMode", quizModeSelect.value);
   renderTermList();
@@ -460,7 +456,8 @@ if (!synth) {
   voiceSelect.disabled = true;
   repeatCountSelect.disabled = true;
   categorySelect.disabled = true;
+  hintLengthSelect.disabled = true;
   quizModeSelect.disabled = true;
 } else {
-  loadPhrases();
+  loadOetPhrases();
 }
