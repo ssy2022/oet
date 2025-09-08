@@ -152,51 +152,8 @@ function renderTermList() {
       const remainingWords = words.length >= 2 ? words.slice(2) : [];
       const shuffledRemainingWords = shuffleArray([...remainingWords]);
 
-      firstTwoWords.forEach((word) => {
-        const wordSpan = document.createElement("span");
-        wordSpan.classList.add("word", "fixed", "correct");
-        wordSpan.textContent = word;
-        wordOrderContainer.appendChild(wordSpan);
-      });
-
       const userWords = [...firstTwoWords, ...shuffledRemainingWords];
-      userWords.forEach((word, wordIndex) => {
-        if (wordIndex >= firstTwoWords.length) {
-          const wordSpan = document.createElement("span");
-          wordSpan.classList.add("word");
-          wordSpan.textContent = word;
-          wordSpan.draggable = true;
-          wordSpan.dataset.index = wordIndex;
-          wordSpan.addEventListener("dragstart", (e) => {
-            e.dataTransfer.setData("text/plain", wordIndex);
-            wordSpan.classList.add("dragging");
-          });
-          wordSpan.addEventListener("dragend", () => {
-            wordSpan.classList.remove("dragging");
-          });
-          wordSpan.addEventListener("dragover", (e) => {
-            e.preventDefault();
-          });
-          wordSpan.addEventListener("drop", (e) => {
-            e.preventDefault();
-            const draggedIndex = parseInt(e.dataTransfer.getData("text/plain"));
-            const targetIndex = parseInt(wordSpan.dataset.index);
-            if (draggedIndex >= firstTwoWords.length && targetIndex >= firstTwoWords.length) {
-              userWords.splice(targetIndex, 0, userWords.splice(draggedIndex, 1)[0]);
-              renderWords(wordOrderContainer, userWords, correctWords, firstTwoWords.length);
-            }
-          });
-          wordSpan.addEventListener("click", () => {
-            const currentIndex = userWords.indexOf(word);
-            if (currentIndex > firstTwoWords.length - 1) {
-              userWords.splice(currentIndex, 1);
-              userWords.splice(currentIndex - 1, 0, word);
-              renderWords(wordOrderContainer, userWords, correctWords, firstTwoWords.length);
-            }
-          });
-          wordOrderContainer.appendChild(wordSpan);
-        }
-      });
+      renderWords(wordOrderContainer, userWords, correctWords, firstTwoWords.length);
 
       const checkButton = document.createElement("button");
       checkButton.classList.add("check-button");
@@ -222,7 +179,6 @@ function renderTermList() {
       buttonContainer.appendChild(checkButton);
       buttonContainer.appendChild(revealButton);
       termDiv.appendChild(wordOrderContainer);
-      updateWordOrderFeedback(wordOrderContainer, userWords, correctWords, firstTwoWords.length);
     }
 
     termDiv.appendChild(termHeader);
@@ -265,9 +221,17 @@ function renderWords(container, userWords, correctWords, fixedCount) {
         }
       });
       wordSpan.addEventListener("click", () => {
-        if (index > fixedCount - 1) {
+        if (index >= fixedCount) {
+          let lastCorrectIndex = fixedCount - 1;
+          for (let i = 0; i < userWords.length; i++) {
+            if (i >= correctWords.length || userWords[i] !== correctWords[i]) {
+              lastCorrectIndex = i - 1;
+              break;
+            }
+            lastCorrectIndex = i;
+          }
           userWords.splice(index, 1);
-          userWords.splice(index - 1, 0, word);
+          userWords.splice(lastCorrectIndex + 1, 0, word);
           renderWords(container, userWords, correctWords, fixedCount);
         }
       });
@@ -280,17 +244,25 @@ function renderWords(container, userWords, correctWords, fixedCount) {
 
 function updateWordOrderFeedback(container, userWords, correctWords, fixedCount) {
   const words = container.querySelectorAll(".word");
+  let lastCorrectIndex = fixedCount - 1;
   let allCorrect = true;
+
+  for (let i = 0; i < userWords.length; i++) {
+    if (i >= correctWords.length || userWords[i] !== correctWords[i]) {
+      lastCorrectIndex = i - 1;
+      allCorrect = false;
+      break;
+    }
+    lastCorrectIndex = i;
+  }
+
   words.forEach((wordSpan, index) => {
-    if (index >= fixedCount) {
-      if (userWords[index] === correctWords[index]) {
-        wordSpan.classList.remove("incorrect");
-        wordSpan.classList.add("correct");
-      } else {
-        wordSpan.classList.remove("correct");
-        wordSpan.classList.add("incorrect");
-        allCorrect = false;
-      }
+    if (index <= lastCorrectIndex) {
+      wordSpan.classList.remove("incorrect");
+      wordSpan.classList.add("correct");
+    } else {
+      wordSpan.classList.remove("correct");
+      wordSpan.classList.add("incorrect");
     }
   });
 
