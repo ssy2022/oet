@@ -4973,5 +4973,1607 @@
     "term": "Osteoporosis and hyperthyroidism were identified in the patient.",
     "meaning": "환자에게 골다공증과 갑상선 기능 항진증이 확인되었습니다.",
     "category": "Comorbidities"
+  },
+
+  {
+    "term": "I am writing to refer a patient who requires specialist evaluation for ongoing symptoms.",
+    "meaning": "지속적인 증상에 대한 전문가 평가가 필요한 환자를 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "This letter serves to introduce a patient needing urgent assessment by your department.",
+    "meaning": "이 편지는 귀하의 부서에서 긴급 평가가 필요한 환자를 소개하기 위한 것입니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring a patient to your care for further investigation and management.",
+    "meaning": "추가 조사 및 관리를 위해 환자를 귀하에게 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "Thank you for accepting this patient for a specialist consultation regarding their condition.",
+    "meaning": "환자의 상태에 대한 전문 상담을 위해 이 환자를 받아주셔서 감사합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am writing to request your expertise for a patient presenting with complex symptoms.",
+    "meaning": "복잡한 증상을 보이는 환자에 대한 귀하의 전문성을 요청하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "This referral is for a patient requiring your input for advanced diagnostic evaluation.",
+    "meaning": "이 의뢰는 고급 진단 평가를 위해 귀하의 의견이 필요한 환자를 위한 것입니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring a patient to your clinic for specialized treatment and follow-up care.",
+    "meaning": "전문 치료 및 후속 관리를 위해 환자를 귀하의 진료소에 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "This letter is to refer a patient for further assessment of their medical condition.",
+    "meaning": "이 편지는 환자의 의학적 상태에 대한 추가 평가를 위해 작성되었습니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am seeking your specialist opinion for a patient with persistent health concerns.",
+    "meaning": "지속적인 건강 문제가 있는 환자에 대한 귀하의 전문가 의견을 구합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "Please see this patient for a comprehensive evaluation of their presenting symptoms.",
+    "meaning": "이 환자의 증상에 대한 종합적인 평가를 위해 진찰해 주십시오.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "The patient first presented with complaints of chest pain and shortness of breath.",
+    "meaning": "환자는 처음으로 가슴 통증과 숨가쁨을 호소하며 내원했습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "She has been experiencing recurrent headaches for the past three months.",
+    "meaning": "그녀는 지난 3개월 동안 반복적인 두통을 겪고 있습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "He reports a history of intermittent abdominal pain associated with nausea.",
+    "meaning": "그는 메스꺼움과 관련된 간헐적인 복통의 병력을 보고했습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has a long-standing history of hypertension diagnosed five years ago.",
+    "meaning": "환자는 5년 전에 진단받은 고혈압의 오랜 병력을 가지고 있습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "She describes persistent fatigue and difficulty sleeping over the past six weeks.",
+    "meaning": "그녀는 지난 6주 동안 지속적인 피로와 수면 어려움을 묘사했습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "He has a history of type 2 diabetes managed with oral medication since 2015.",
+    "meaning": "그는 2015년부터 경구 약물로 관리된 제2형 당뇨병의 병력을 가지고 있습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient reports occasional dizziness triggered by sudden changes in position.",
+    "meaning": "환자는 갑작스러운 자세 변화로 인해 유발되는 간헐적인 어지럼증을 보고했습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "She has experienced joint pain and stiffness in her knees for several months.",
+    "meaning": "그녀는 몇 달 동안 무릎의 관절 통증과 뻣뻣함을 겪었습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "He has a history of asthma, with symptoms worsening during cold weather.",
+    "meaning": "그는 천식 병력을 가지고 있으며, 추운 날씨에 증상이 악화됩니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient reports weight loss of five kilograms over the past two months.",
+    "meaning": "환자는 지난 2개월 동안 5킬로그램의 체중 감소를 보고했습니다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "Examination revealed a blood pressure of 150/90 mmHg and a regular pulse.",
+    "meaning": "검사 결과 혈압은 150/90 mmHg이며 맥박은 규칙적이었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient exhibited tenderness in the right lower quadrant on palpation.",
+    "meaning": "환자는 촉진 시 오른쪽 하복부에서 압통을 보였습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A recent ultrasound showed a 4 cm mass in the pelvic region.",
+    "meaning": "최근 초음파 검사에서 골반 부위에 4cm 크기의 덩어리가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient’s temperature was elevated at 39.2°C during the examination.",
+    "meaning": "검사 중 환자의 체온은 39.2°C로 상승했습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Blood tests indicated an elevated white cell count with a left shift.",
+    "meaning": "혈액 검사 결과 백혈구 수가 증가했으며 좌방 이동이 관찰되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The ECG showed a prolonged PR interval suggestive of cardiac involvement.",
+    "meaning": "심전도 검사에서 심장 관련성을 시사하는 PR 간격 연장이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Urinalysis revealed the presence of protein and nitrites in the sample.",
+    "meaning": "소변 검사에서 샘플에 단백질과 아질산염이 존재하는 것으로 나타났습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient displayed a maculopapular rash on the lower limbs.",
+    "meaning": "환자는 하지를 덮는 반구진성 발진을 보였습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A digital rectal examination showed an enlarged prostate gland.",
+    "meaning": "직장 수지 검사에서 전립선 비대가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient presented with cervical lymphadenopathy and tonsillar exudate.",
+    "meaning": "환자는 경부 림프절 병증과 편도선 삼출물을 보이며 내원했습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient underwent an appendectomy with no postoperative complications.",
+    "meaning": "환자는 수술 후 합병증 없이 맹장 절제술을 받았습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "A colonoscopy was performed to investigate rectal bleeding.",
+    "meaning": "직장 출혈을 조사하기 위해 대장 내시경 검사를 시행했습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "She received intravenous antibiotics for a suspected bacterial infection.",
+    "meaning": "그녀는 의심되는 세균 감염으로 정맥 항생제를 투여받았습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "An MRI scan was conducted to assess a suspected cartilage injury.",
+    "meaning": "의심되는 연골 손상을 평가하기 위해 MRI 스캔을 실시했습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient underwent laparoscopic surgery to remove an endometrial cyst.",
+    "meaning": "환자는 자궁내막 낭종 제거를 위해 복강경 수술을 받았습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "A CT scan was ordered to evaluate a possible renal mass.",
+    "meaning": "가능한 신장 덩어리를 평가하기 위해 CT 스캔을 의뢰했습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "He was prescribed oral corticosteroids for a dermatitis flare-up.",
+    "meaning": "그는 피부염 악화로 인해 경구 코르티코스테로이드를 처방받았습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "Blood tests were requested to monitor glycemic control.",
+    "meaning": "혈당 조절을 모니터링하기 위해 혈액 검사를 요청했습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient received a stat dose of penicillin for suspected meningitis.",
+    "meaning": "환자는 의심되는 수막염으로 즉시 페니실린을 투여받았습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "An echocardiogram was performed to assess cardiac function.",
+    "meaning": "심장 기능을 평가하기 위해 심초음파 검사를 시행했습니다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "Please assess this patient for a possible insulin pump initiation.",
+    "meaning": "이 환자를 인슐린 펌프 시작 가능성으로 평가해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would appreciate your recommendations for managing chronic pain.",
+    "meaning": "만성 통증 관리에 대한 귀하의 권장 사항을 감사히 받겠습니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please evaluate the need for surgical intervention for a hernia repair.",
+    "meaning": "탈장 수술을 위한 수술적 중재의 필요성을 평가해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Your expertise is sought for the management of suspected ectopic pregnancy.",
+    "meaning": "의심되는 자궁외 임신 관리에 대한 귀하의 전문성을 구합니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please conduct a colonoscopy to rule out colorectal pathology.",
+    "meaning": "대장 병리를 배제하기 위해 대장 내시경 검사를 시행해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would value your opinion on the need for a cardiac assessment.",
+    "meaning": "심장 평가의 필요성에 대한 귀하의 의견을 소중히 여기겠습니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please provide guidance on the management of uncontrolled diabetes.",
+    "meaning": "조절되지 않는 당뇨병 관리에 대한 지침을 제공해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Your input is requested for the evaluation of a possible malignancy.",
+    "meaning": "가능한 악성 종양 평가를 위해 귀하의 의견을 요청합니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please arrange for an urgent MRI to investigate neurological symptoms.",
+    "meaning": "신경학적 증상을 조사하기 위해 긴급 MRI를 마련해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would be grateful for your assessment of the patient’s psychiatric condition.",
+    "meaning": "환자의 정신과적 상태에 대한 귀하의 평가를 감사히 받겠습니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "The patient is being discharged with instructions to rest and hydrate.",
+    "meaning": "환자는 휴식과 수분 섭취 지침과 함께 퇴원합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "She has been advised to avoid heavy lifting for the next four weeks.",
+    "meaning": "그녀는 앞으로 4주 동안 무거운 물건을 들지 않도록 권고받았습니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "He is to continue taking antibiotics as prescribed for seven days.",
+    "meaning": "그는 처방된 대로 7일 동안 항생제를 계속 복용해야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient should resume normal diet and increase fluid intake.",
+    "meaning": "환자는 정상적인 식단을 재개하고 수분 섭취를 늘려야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "She is to refrain from driving while on opioid pain medication.",
+    "meaning": "그녀는 오피오이드 진통제를 복용하는 동안 운전을 삼가야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "He has been instructed to follow up with his GP in two weeks.",
+    "meaning": "그는 2주 후에 주치의와 후속 조치를 받도록 지시받았습니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient is to keep surgical incisions clean and dry.",
+    "meaning": "환자는 수술 절개 부위를 깨끗하고 건조하게 유지해야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "She should resume physical activity gradually as tolerated.",
+    "meaning": "그녀는 견딜 수 있는 범위 내에서 점진적으로 신체 활동을 재개해야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "He is to monitor his blood pressure daily and report abnormalities.",
+    "meaning": "그는 매일 혈압을 모니터링하고 이상을 보고해야 합니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient has been advised to avoid alcohol during treatment.",
+    "meaning": "환자는 치료 중 알코올을 피하도록 권고받았습니다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "Please monitor her blood sugar levels and adjust medication as needed.",
+    "meaning": "그녀의 혈당 수치를 모니터링하고 필요에 따라 약물을 조정해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would appreciate your continued management of his hypertension.",
+    "meaning": "그의 고혈압에 대한 지속적인 관리를 감사히 받겠습니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please provide follow-up care for her postoperative recovery.",
+    "meaning": "그녀의 수술 후 회복을 위한 후속 관리를 제공해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please ensure regular monitoring of his lipid profile.",
+    "meaning": "그의 지질 프로필을 정기적으로 모니터링해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would value your ongoing support for her mental health treatment.",
+    "meaning": "그녀의 정신 건강 치료에 대한 지속적인 지원을 소중히 여기겠습니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please oversee his rehabilitation following knee surgery.",
+    "meaning": "무릎 수술 후 그의 재활을 감독해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please continue to monitor her thyroid function tests regularly.",
+    "meaning": "그녀의 갑상선 기능 검사를 정기적으로 모니터링해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would appreciate your management of his chronic respiratory condition.",
+    "meaning": "그의 만성 호흡기 질환 관리에 대한 귀하의 도움을 감사히 받겠습니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please provide ongoing care for her inflammatory bowel disease.",
+    "meaning": "그녀의 염증성 장 질환에 대한 지속적인 관리를 제공해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please ensure follow-up appointments for his cardiac condition.",
+    "meaning": "그의 심장 질환에 대한 후속 예약을 보장해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "She has a family history of breast cancer diagnosed in her mother.",
+    "meaning": "그녀는 어머니에게서 진단받은 유방암의 가족력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "His father was diagnosed with prostate cancer at age 65.",
+    "meaning": "그의 아버지는 65세에 전립선암으로 진단받았습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "Her sister has a history of severe preeclampsia during pregnancy.",
+    "meaning": "그녀의 언니는 임신 중 심각한 전자간증 병력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "His maternal grandfather died of a myocardial infarction at 70.",
+    "meaning": "그의 외조부는 70세에 심근경색으로 사망했습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "Her family has a strong history of type 2 diabetes across multiple generations.",
+    "meaning": "그녀의 가족은 여러 세대에 걸쳐 제2형 당뇨병의 강한 병력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "His brother was diagnosed with schizophrenia in his early twenties.",
+    "meaning": "그의 오빠는 20대 초반에 정신분열증으로 진단받았습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "Her mother has a history of deep vein thrombosis.",
+    "meaning": "그녀의 어머니는 심부정맥혈전증 병력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "His paternal grandmother died of colorectal cancer at age 75.",
+    "meaning": "그의 친할머니는 75세에 대장암으로 사망했습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "Her father has a history of chronic obstructive pulmonary disease.",
+    "meaning": "그녀의 아버지는 만성 폐쇄성 폐질환 병력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "His family has a history of early-onset Alzheimer’s disease.",
+    "meaning": "그의 가족은 조기 발병 알츠하이머병의 병력을 가지고 있습니다.",
+    "category": "Family History"
+  },
+  {
+    "term": "She is a non-smoker and consumes alcohol occasionally.",
+    "meaning": "그녀는 비흡연자이며 가끔 알코올을 섭취합니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "He works as a construction worker and has no regular exercise routine.",
+    "meaning": "그는 건설 노동자로 일하며 정기적인 운동 루틴이 없습니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "She lives alone and reports high levels of work-related stress.",
+    "meaning": "그녀는 혼자 살고 있으며 높은 수준의 직업 관련 스트레스를 보고했습니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "He smokes 10 cigarettes daily and drinks socially on weekends.",
+    "meaning": "그는 매일 담배 10개비를 피우며 주말에 사교적으로 술을 마십니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "She is a retired teacher and enjoys gardening as a hobby.",
+    "meaning": "그녀는 은퇴한 교사이며 취미로 정원 가꾸기를 즐깁니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "He is unemployed and reports financial stress affecting his health.",
+    "meaning": "그는 실업 상태이며 재정적 스트레스가 건강에 영향을 미친다고 보고했습니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "She is married with two children and maintains a healthy diet.",
+    "meaning": "그녀는 두 자녀를 둔 기혼자이며 건강한 식단을 유지합니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "He exercises regularly at the gym and follows a low-carb diet.",
+    "meaning": "그는 정기적으로 체육관에서 운동하며 저탄수화물 식단을 따릅니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "She reports no use of recreational drugs or excessive alcohol.",
+    "meaning": "그녀는 레크리에이션 약물이나 과도한 알코올 사용이 없다고 보고했습니다.",
+    "category": "Social History"
+  },
+  {
+    "term": "He is a single parent and struggles with balancing work and childcare.",
+    "meaning": "그는 싱글 부모이며 일과 육아의 균형을 맞추는 데 어려움을 겪고 있습니다.",
+    "category": "Social History"
+  },
+
+  {
+    "term": "Examination revealed tenderness in the right iliac fossa with guarding.",
+    "meaning": "검사 결과 오른쪽 장골부에 압통과 방어가 관찰되었다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient’s blood pressure was elevated at 160/95 mmHg during the visit.",
+    "meaning": "방문 중 환자의 혈압이 160/95 mmHg로 상승했다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A maculopapular rash was observed over the lower limbs.",
+    "meaning": "하지가 maculopapular rash가 관찰되었다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient presented with a temperature of 39.8°C and tachycardia.",
+    "meaning": "환자는 39.8°C의 체온과 빈맥을 동반하여 내원했다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Digital rectal examination showed an enlarged prostate with hardening.",
+    "meaning": "직장 수지 검사에서 전립선 비대와 경화가 확인되었다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient exhibited cervical lymphadenopathy and tonsillar hypertrophy.",
+    "meaning": "환자는 경부 림프절병증과 편도 비대를 보였다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Vaginal examination indicated cervical excitation and right fornix tenderness.",
+    "meaning": "질 검사에서 자궁경부 자극과 오른쪽 포닉스 압통이 확인되었다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient’s heart rate was 96 beats per minute with regular rhythm.",
+    "meaning": "환자의 심박수는 분당 96회로 규칙적인 리듬을 보였다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Abdominal examination revealed a palpable mass in the right lower quadrant.",
+    "meaning": "복부 검사에서 오른쪽 하복부에 촉지 가능한 덩어리가 확인되었다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient showed no signs of respiratory distress during examination.",
+    "meaning": "검사 중 환자는 호흡 곤란 징후를 보이지 않았다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The patient has a history of hypertension and type 2 diabetes mellitus.",
+    "meaning": "환자는 고혈압과 제2형 당뇨병의 병력을 가지고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient suffers from asthma and seasonal allergies.",
+    "meaning": "환자는 천식과 계절성 알레르기로 고통받고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has been diagnosed with depression and anxiety disorder.",
+    "meaning": "환자는 우울증과 불안 장애로 진단받았다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has both osteoarthritis and chronic kidney disease.",
+    "meaning": "환자는 골관절염과 만성 신부전증을 모두 가지고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient presents with obesity and gastroesophageal reflux disease.",
+    "meaning": "환자는 비만과 위식도 역류 질환을 동반하여 내원했다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has a history of epilepsy and migraines.",
+    "meaning": "환자는 간질과 편두통의 병력을 가지고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient is managing hypothyroidism and rheumatoid arthritis.",
+    "meaning": "환자는 갑상선 기능 저하증과 류마티스 관절염을 관리하고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has chronic obstructive pulmonary disease and heart failure.",
+    "meaning": "환자는 만성 폐쇄성 폐질환과 심부전을 가지고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient suffers from type 1 diabetes and peripheral neuropathy.",
+    "meaning": "환자는 제1형 당뇨병과 말초 신경병증으로 고통받고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has a history of atrial fibrillation and hyperlipidemia.",
+    "meaning": "환자는 심방세동과 고지혈증의 병력을 가지고 있다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient was advised to keep surgical incisions clean and dry.",
+    "meaning": "환자는 수술 절개 부위를 깨끗하고 건조하게 유지하도록 권고받았다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient should resume normal diet and increase fluid intake.",
+    "meaning": "환자는 정상적인 식사를 재개하고 수분 섭취를 늘려야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient is prohibited from driving while on narcotic analgesics.",
+    "meaning": "환자는 마약성 진통제를 복용하는 동안 운전을 금지받았다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient may resume sexual activity two weeks post-surgery.",
+    "meaning": "환자는 수술 후 2주 뒤에 성생활을 재개할 수 있다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient should ambulate as tolerated to aid recovery.",
+    "meaning": "환자는 회복을 돕기 위해 허용되는 범위 내에서 보행해야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient must be discharged to a responsible adult for transport.",
+    "meaning": "환자는 운송을 위해 책임 있는 성인에게 퇴원해야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient is to continue metformin 500 mg twice daily.",
+    "meaning": "환자는 메트포르민 500mg을 하루 두 번 계속 복용해야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient should avoid heavy lifting for six weeks post-surgery.",
+    "meaning": "환자는 수술 후 6주 동안 무거운 물건을 드는 것을 피해야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient was instructed to monitor blood pressure at home daily.",
+    "meaning": "환자는 매일 집에서 혈압을 모니터링하도록 지시받았다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "The patient is to take cefalexin 250 mg every six hours for five days.",
+    "meaning": "환자는 5일 동안 6시간마다 세팔렉신 250mg을 복용해야 한다.",
+    "category": "Discharge Instructions"
+  },
+  {
+    "term": "I am writing to discharge Mrs. Sally Fletcher following successful laparoscopic surgery.",
+    "meaning": "성공적인 복강경 수술 후 Mrs. Sally Fletcher를 퇴원시키기 위해 이 글을 씁니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "This letter confirms the discharge of Mr. James Warden after hernia repair.",
+    "meaning": "이 편지는 Mr. James Warden의 탈장 수술 후 퇴원을 확인합니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "I am discharging Ms. Tabitha Taborlin post-treatment for diabetic ketoacidosis.",
+    "meaning": "Ms. Tabitha Taborlin을 당뇨병성 케톤산증 치료 후 퇴원시킵니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "Mr. Tom Cribb is being discharged following stabilization of renal symptoms.",
+    "meaning": "Mr. Tom Cribb은 신장 증상 안정화 후 퇴원합니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "Mrs. Jane MacIntyre is ready for discharge after antenatal assessment.",
+    "meaning": "Mrs. Jane MacIntyre는 산전 평가 후 퇴원 준비가 되었습니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "I am writing to discharge Mr. David Taylor after knee surgery.",
+    "meaning": "Mr. David Taylor를 무릎 수술 후 퇴원시키기 위해 이 글을 씁니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "Ms. Cathy Jones is being discharged following initial treatment for suspected ectopic pregnancy.",
+    "meaning": "Ms. Cathy Jones는 의심되는 자궁외 임신의 초기 치료 후 퇴원합니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "Mrs. Alison Martin is discharged after initial psychiatric evaluation.",
+    "meaning": "Mrs. Alison Martin은 초기 정신과 평가 후 퇴원합니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "I am discharging Mrs. Dulcie Wood post-cardiac assessment.",
+    "meaning": "Mrs. Dulcie Wood를 심장 평가 후 퇴원시킵니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "Mr. Brendan Cross is ready for discharge following treatment for tonsillitis.",
+    "meaning": "Mr. Brendan Cross는 편도선염 치료 후 퇴원 준비가 되었습니다.",
+    "category": "Discharge Letter Opening"
+  },
+  {
+    "term": "The patient should return for a follow-up visit in two weeks to monitor recovery.",
+    "meaning": "환자는 회복을 모니터링하기 위해 2주 후에 후속 방문을 해야 한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "A follow-up appointment is recommended in one month to assess blood pressure.",
+    "meaning": "혈압을 평가하기 위해 한 달 후 후속 예약이 권장된다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "The patient is to schedule a review in three months for lipid profile monitoring.",
+    "meaning": "환자는 지질 프로필 모니터링을 위해 3개월 후 검진을 예약해야 한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "Follow-up with a specialist is advised in six weeks to evaluate treatment efficacy.",
+    "meaning": "치료 효과를 평가하기 위해 6주 후 전문의와 후속 조치를 권장한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "The patient should revisit in two days with blood test results.",
+    "meaning": "환자는 혈액 검사 결과와 함께 이틀 후 다시 방문해야 한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "A follow-up ECG is recommended in one month to monitor cardiac function.",
+    "meaning": "심장 기능을 모니터링하기 위해 한 달 후 후속 심전도가 권장된다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "The patient is advised to follow up in one week to review MRI results.",
+    "meaning": "환자는 MRI 결과를 검토하기 위해 일주일 후 후속 조치를 받도록 권고받았다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "A specialist review is needed in two weeks to assess glycemic control.",
+    "meaning": "혈당 조절을 평가하기 위해 2주 후 전문의 검진이 필요하다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "The patient should return in four weeks to monitor symptom progression.",
+    "meaning": "환자는 증상 진행을 모니터링하기 위해 4주 후 돌아와야 한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "Follow-up with a urologist is recommended in one month for prostate assessment.",
+    "meaning": "전립선 평가를 위해 한 달 후 비뇨기과 전문의와 후속 조치를 권장한다.",
+    "category": "Follow-Up Recommendations"
+  },
+  {
+    "term": "The patient was advised to reduce smoking to less than 10 cigarettes daily.",
+    "meaning": "환자는 하루에 담배를 10개비 미만으로 줄이도록 권고받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was encouraged to exercise three times weekly to manage weight.",
+    "meaning": "환자는 체중 관리를 위해 주 3회 운동하도록 권장받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient should limit alcohol intake to two drinks per day.",
+    "meaning": "환자는 알코올 섭취를 하루 두 잔으로 제한해야 한다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was advised to follow a low-sodium diet to control hypertension.",
+    "meaning": "환자는 고혈압 조절을 위해 저염식 식단을 따르도록 권고받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was encouraged to walk daily to improve cardiovascular health.",
+    "meaning": "환자는 심혈관 건강을 개선하기 위해 매일 걷도록 권장받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient should avoid caffeine to reduce anxiety symptoms.",
+    "meaning": "환자는 불안 증상을 줄이기 위해 카페인을 피해야 한다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was advised to maintain a balanced diet rich in vegetables.",
+    "meaning": "환자는 채소가 풍부한 균형 잡힌 식단을 유지하도록 권고받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was encouraged to quit smoking to improve respiratory function.",
+    "meaning": "환자는 호흡 기능을 개선하기 위해 금연하도록 권장받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient should increase fluid intake to support kidney function.",
+    "meaning": "환자는 신장 기능을 지원하기 위해 수분 섭취를 늘려야 한다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient was advised to practice relaxation techniques to manage stress.",
+    "meaning": "환자는 스트레스 관리를 위해 이완 기법을 실천하도록 권고받았다.",
+    "category": "Lifestyle Recommendations"
+  },
+  {
+    "term": "The patient underwent laparoscopic surgery to remove an endometrial cyst.",
+    "meaning": "환자는 자궁내막 낭종 제거를 위해 복강경 수술을 받았다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "A colonoscopy was performed to investigate rectal bleeding.",
+    "meaning": "직장 출혈을 조사하기 위해 대장 내시경 검사를 시행했다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient had an MRI scan to assess knee joint damage.",
+    "meaning": "환자는 무릎 관절 손상을 평가하기 위해 MRI 스캔을 받았다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "An appendicectomy was performed two years ago without complications.",
+    "meaning": "2년 전 합병증 없이 맹장 절제술을 시행했다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient underwent a trans-vaginal ultrasound to evaluate pelvic pain.",
+    "meaning": "환자는 골반 통증을 평가하기 위해 질식 초음파를 받았다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "A CT scan was ordered to investigate a renal mass.",
+    "meaning": "신장 덩어리를 조사하기 위해 CT 스캔을 의뢰했다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient had an ECG to monitor cardiac arrhythmia.",
+    "meaning": "환자는 심장 부정맥을 모니터링하기 위해 심전도를 받았다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "A prostate biopsy was recommended to confirm malignancy.",
+    "meaning": "악성 여부를 확인하기 위해 전립선 생검을 권장했다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient underwent tonsillectomy in childhood.",
+    "meaning": "환자는 어린 시절 편도선 절제술을 받았다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "An endoscopy was performed to investigate dysphagia.",
+    "meaning": "연하곤란을 조사하기 위해 내시경 검사를 시행했다.",
+    "category": "Medical Procedure"
+  },
+  {
+    "term": "The patient was prescribed metformin 500 mg twice daily for diabetes.",
+    "meaning": "환자는 당뇨병 치료를 위해 메트포르민 500mg을 하루 두 번 처방받았다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been taking noten 50 mg daily for hypertension.",
+    "meaning": "환자는 고혈압 치료를 위해 노텐 50mg을 매일 복용해왔다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient was prescribed diclofenac 50 mg twice daily for pain relief.",
+    "meaning": "환자는 통증 완화를 위해 디클로페낙 50mg을 하루 두 번 처방받았다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been using risperidone to manage schizophrenia symptoms.",
+    "meaning": "환자는 정신분열증 증상 관리를 위해 리스페리돈을 사용해왔다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient was started on candesartan 4 mg daily for blood pressure control.",
+    "meaning": "환자는 혈압 조절을 위해 캔데사르탄 4mg을 매일 시작했다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been taking fluoxetine for depression since 1998.",
+    "meaning": "환자는 1998년부터 우울증 치료로 플루옥세틴을 복용해왔다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient was prescribed penicillin 250 mg every six hours for tonsillitis.",
+    "meaning": "환자는 편도선염 치료를 위해 페니실린 250mg을 6시간마다 처방받았다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been using tinzaparin 3,500 units daily for thrombosis prevention.",
+    "meaning": "환자는 혈전 예방을 위해 틴자파린 3,500단위를 매일 사용해왔다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient was prescribed diazepam 10 mg at night for anxiety.",
+    "meaning": "환자는 불안 치료를 위해 디아제팜 10mg을 밤에 처방받았다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been taking atorvastatin 20 mg daily for hyperlipidemia.",
+    "meaning": "환자는 고지혈증 치료를 위해 아토르바스타틴 20mg을 매일 복용해왔다.",
+    "category": "Medication History"
+  },
+  {
+    "term": "The patient has been non-compliant with insulin therapy for diabetes.",
+    "meaning": "환자는 당뇨병 치료를 위한 인슐린 요법에 비순응적이었다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has adhered to the prescribed antihypertensive medication regimen.",
+    "meaning": "환자는 처방된 항고혈압 약물 요법을 준수해왔다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has inconsistently followed the recommended diabetic diet.",
+    "meaning": "환자는 권장된 당뇨 식이 요법을 일관되게 따르지 않았다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has complied with the smoking cessation advice partially.",
+    "meaning": "환자는 금연 조언을 부분적으로 준수했다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has not adhered to the prescribed exercise regimen.",
+    "meaning": "환자는 처방된 운동 요법을 준수하지 않았다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has followed the antibiotic course as prescribed.",
+    "meaning": "환자는 처방된 항생제 코스를 따랐다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has been inconsistent with monitoring blood glucose levels.",
+    "meaning": "환자는 혈당 수치 모니터링에 일관되지 않았다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has adhered to the low-sodium diet as advised.",
+    "meaning": "환자는 권장된 저염식 식단을 준수했다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has not followed the advice to reduce alcohol intake.",
+    "meaning": "환자는 알코올 섭취를 줄이라는 조언을 따르지 않았다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has complied with the postoperative care instructions.",
+    "meaning": "환자는 수술 후 관리 지침을 준수했다.",
+    "category": "Patient Compliance"
+  },
+  {
+    "term": "The patient has a history of painful periods for three years.",
+    "meaning": "환자는 3년 동안 생리통의 병력을 가지고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has experienced recurrent urinary tract infections since childhood.",
+    "meaning": "환자는 어린 시절부터 반복적인 요로감염을 경험했다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has a history of knee injury from a sports accident six months ago.",
+    "meaning": "환자는 6개월 전 스포츠 사고로 인한 무릎 부상 병력을 가지고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has suffered from migraines since adolescence.",
+    "meaning": "환자는 청소년기부터 편두통으로 고통받았다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has a history of schizophrenia managed with medication.",
+    "meaning": "환자는 약물로 관리된 정신분열증 병력을 가지고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has had type 1 diabetes since the age of seven.",
+    "meaning": "환자는 7세부터 제1형 당뇨병을 앓고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has a history of inguinal hernia repair in 2008.",
+    "meaning": "환자는 2008년에 사타구니 탈장 수술 병력을 가지고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has experienced recurrent chest pain for two months.",
+    "meaning": "환자는 2개월 동안 반복적인 흉통을 경험했다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has a history of pre-eclampsia during her first pregnancy.",
+    "meaning": "환자는 첫 임신 중 전자간증 병력을 가지고 있다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient has suffered from depression following a divorce in 1998.",
+    "meaning": "환자는 1998년 이혼 후 우울증으로 고통받았다.",
+    "category": "Patient History"
+  },
+  {
+    "term": "The patient was instructed to monitor blood sugar levels four times daily.",
+    "meaning": "환자는 혈당 수치를 하루 네 번 모니터링하도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was advised to take medications with food to avoid nausea.",
+    "meaning": "환자는 메스꺼움을 피하기 위해 약을 음식과 함께 복용하도록 권고받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was directed to keep a daily temperature chart.",
+    "meaning": "환자는 매일 체온 차트를 작성하도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was instructed to avoid strenuous activity for four weeks.",
+    "meaning": "환자는 4주 동안 격렬한 활동을 피하도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was advised to take folic acid 400 micrograms daily until 12 weeks of pregnancy.",
+    "meaning": "환자는 임신 12주까지 매일 폴산 400마이크로그램을 복용하도록 권고받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was directed to rest and elevate the affected limb.",
+    "meaning": "환자는 휴식을 취하고 영향을 받은 사지를 올리도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was instructed to record episodes of chest pain in a diary.",
+    "meaning": "환자는 흉통 에피소드를 일기에 기록하도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was advised to schedule a nuchal translucency scan at 11 weeks.",
+    "meaning": "환자는 11주차에 경항 투명도 스캔을 예약하도록 권고받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was directed to apply topical corticosteroids twice daily.",
+    "meaning": "환자는 국소 코르티코스테로이드를 하루 두 번 바르도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient was instructed to drink moderate fluids to aid recovery.",
+    "meaning": "환자는 회복을 돕기 위해 적당량의 수분을 섭취하도록 지시받았다.",
+    "category": "Patient Instructions"
+  },
+  {
+    "term": "The patient appeared lethargic and pale during the consultation.",
+    "meaning": "환자는 상담 중 무기력하고 창백해 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient was alert and oriented to person, place, and time.",
+    "meaning": "환자는 사람, 장소, 시간에 대해 경각심이 있고 방향 감각이 있었다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient exhibited bizarre behavior and disorganized speech.",
+    "meaning": "환자는 기묘한 행동과 혼란스러운 언어를 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient appeared anxious and teary during the examination.",
+    "meaning": "환자는 검사 중 불안하고 눈물을 흘리는 모습을 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient was noted to have a limp while walking.",
+    "meaning": "환자는 걷는 동안 절뚝거리는 것이 관찰되었다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient showed signs of distress and poor eye contact.",
+    "meaning": "환자는 고통의 징후와 낮은 눈맞춤을 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient was febrile with a temperature of 40.2°C.",
+    "meaning": "환자는 40.2°C의 체온으로 발열 상태였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient appeared depressed and withdrawn during the visit.",
+    "meaning": "환자는 방문 중 우울하고 내성적인 모습을 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient was observed to have a hoarse voice and irritability.",
+    "meaning": "환자는 쉰 목소리와 과민성을 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "The patient was noted to be fidgety and restless during consultation.",
+    "meaning": "환자는 상담 중 안절부절하고 불안해 보였다.",
+    "category": "Patient Observations"
+  },
+  {
+    "term": "Cardiovascular examination revealed a mid-systolic murmur.",
+    "meaning": "심혈관 검사에서 중기 수축기 잡음이 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Abdominal examination showed mild tenderness in the lower quadrant.",
+    "meaning": "복부 검사에서 하복부에 경미한 압통이 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Respiratory examination was normal with clear lung fields.",
+    "meaning": "호흡기 검사에서 폐야가 깨끗하여 정상이었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Neurological examination showed no signs of peripheral neuropathy.",
+    "meaning": "신경학적 검사에서 말초 신경병증 징후는 없었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Pelvic examination revealed tenderness in the right fornix.",
+    "meaning": "골반 검사에서 오른쪽 포닉스에 압통이 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Rectal examination showed no abnormalities or masses.",
+    "meaning": "직장 검사에서 이상이나 덩어리는 확인되지 않았다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Musculoskeletal examination indicated limited range of motion in the knee.",
+    "meaning": "근골격 검사에서 무릎의 운동 범위 제한이 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Skin examination revealed a maculopapular rash on the legs.",
+    "meaning": "피부 검사에서 다리에 maculopapular rash가 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "Cardiac examination showed normal heart sounds with no murmurs.",
+    "meaning": "심장 검사에서 잡음 없이 정상적인 심음이 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "ENT examination revealed enlarged tonsils with exudate.",
+    "meaning": "ENT 검사에서 삼출물이 있는 편도 비대가 확인되었다.",
+    "category": "Physical Examination"
+  },
+  {
+    "term": "The symptoms suggest a provisional diagnosis of ectopic pregnancy.",
+    "meaning": "증상은 자궁외 임신의 잠정 진단을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The clinical presentation is consistent with post-streptococcal nephritis.",
+    "meaning": "임상 양상은 연쇄상구균 후 신염과 일치한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The patient’s symptoms indicate possible meningococcal meningitis.",
+    "meaning": "환자의 증상은 수막구균성 뇌수막염을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The findings suggest a provisional diagnosis of bilateral inguinal hernia.",
+    "meaning": "소견은 양측 사타구니 탈장의 잠정 진단을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The patient’s presentation is suggestive of early schizophrenia.",
+    "meaning": "환자의 양상은 조기 정신분열증을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The symptoms are consistent with gastroesophageal reflux disease.",
+    "meaning": "증상은 위식도 역류 질환과 일치한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The clinical picture suggests possible rheumatic fever.",
+    "meaning": "임상 양상은 류마티스열을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The patient’s symptoms indicate a provisional diagnosis of type 2 diabetes.",
+    "meaning": "환자의 증상은 제2형 당뇨병의 잠정 진단을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The findings are suggestive of a urinary tract infection.",
+    "meaning": "소견은 요로감염을 시사한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The patient’s presentation is consistent with cardiac arrhythmia.",
+    "meaning": "환자의 양상은 심장 부정맥과 일치한다.",
+    "category": "Provisional Diagnosis"
+  },
+  {
+    "term": "The referral is made to investigate persistent abdominal pain.",
+    "meaning": "지속적인 복통 조사를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is due to uncontrolled blood sugar levels.",
+    "meaning": "조절되지 않는 혈당 수치로 인해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is for evaluation of suspected prostate cancer.",
+    "meaning": "의심되는 전립선암 평가를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is to assess recurrent chest pain and arrhythmia.",
+    "meaning": "반복적인 흉통과 부정맥 평가를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is for investigation of possible bowel cancer.",
+    "meaning": "가능한 대장암 조사를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is to evaluate a suspected ectopic pregnancy.",
+    "meaning": "의심되는 자궁외 임신 평가를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is for management of worsening psychiatric symptoms.",
+    "meaning": "악화되는 정신과 증상 관리를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is to investigate a renal mass and hydronephrosis.",
+    "meaning": "신장 덩어리와 수신증 조사를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is for assessment of knee joint damage.",
+    "meaning": "무릎 관절 손상 평가를 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "The referral is to confirm a diagnosis of rheumatic fever.",
+    "meaning": "류마티스열 진단을 확인하기 위해 의뢰한다.",
+    "category": "Reason for Referral"
+  },
+  {
+    "term": "I am writing to refer Mrs. Jane MacIntyre for antenatal care.",
+    "meaning": "Mrs. Jane MacIntyre를 산전 관리로 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring Mr. David Taylor for orthopedic evaluation.",
+    "meaning": "Mr. David Taylor를 정형외과 평가로 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am writing to refer Ms. Tabitha Taborlin for endocrine consultation.",
+    "meaning": "Ms. Tabitha Taborlin을 내분비 상담으로 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring Mrs. Alison Martin for psychiatric assessment.",
+    "meaning": "Mrs. Alison Martin을 정신과 평가로 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am writing to refer Mr. Tom Cribb for urological investigation.",
+    "meaning": "Mr. Tom Cribb을 비뇨기과 조사로 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring Mrs. Dulcie Wood for cardiological evaluation.",
+    "meaning": "Mrs. Dulcie Wood를 심장과 평가로 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am writing to refer Ms. Cathy Jones for gynecological assessment.",
+    "meaning": "Ms. Cathy Jones를 부인과 평가로 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring Mr. James Warden for surgical consultation.",
+    "meaning": "Mr. James Warden을 외과 상담으로 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am writing to refer Mrs. Margaret Leon for gastroenterological assessment.",
+    "meaning": "Mrs. Margaret Leon을 소화기과 평가로 의뢰하기 위해 이 글을 씁니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "I am referring Mr. Brendan Cross for pediatric consultation.",
+    "meaning": "Mr. Brendan Cross를 소아과 상담으로 의뢰합니다.",
+    "category": "Referral Letter Opening"
+  },
+  {
+    "term": "The patient’s condition requires urgent specialist evaluation.",
+    "meaning": "환자의 상태는 긴급한 전문가 평가가 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Immediate assessment is needed due to worsening symptoms.",
+    "meaning": "증상 악화로 인해 즉각적인 평가가 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Urgent referral is requested due to suspected meningococcal meningitis.",
+    "meaning": "의심되는 수막구균성 뇌수막염으로 인해 긴급 의뢰가 요청된다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "The patient’s condition warrants prompt specialist attention.",
+    "meaning": "환자의 상태는 신속한 전문가의 관심이 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "An urgent evaluation is needed for suspected ectopic pregnancy.",
+    "meaning": "의심되는 자궁외 임신에 대한 긴급 평가가 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Immediate specialist review is required due to renal failure signs.",
+    "meaning": "신부전 징후로 인해 즉각적인 전문의 검진이 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Urgent referral is indicated for possible prostate malignancy.",
+    "meaning": "전립선 악성 가능성으로 인해 긴급 의뢰가 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "The patient’s deteriorating condition requires immediate attention.",
+    "meaning": "환자의 악화되는 상태는 즉각적인 관심이 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Prompt specialist assessment is needed for suspected bowel cancer.",
+    "meaning": "의심되는 대장암에 대한 신속한 전문가 평가가 필요하다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Urgent evaluation is requested due to persistent cardiac symptoms.",
+    "meaning": "지속적인 심장 증상으로 인해 긴급 평가가 요청된다.",
+    "category": "Referral Urgency"
+  },
+  {
+    "term": "Please provide ongoing management for the patient’s diabetes control.",
+    "meaning": "환자의 당뇨병 조절을 위한 지속적인 관리를 제공해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would appreciate your continued care for the patient’s hypertension.",
+    "meaning": "환자의 고혈압에 대한 지속적인 관리를 부탁드립니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please monitor the patient’s recovery post-surgery.",
+    "meaning": "수술 후 환자의 회복을 모니터링해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I request your assistance in managing the patient’s psychiatric condition.",
+    "meaning": "환자의 정신과 상태 관리에 도움을 요청합니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please provide ongoing care for the patient’s renal condition.",
+    "meaning": "환자의 신장 상태에 대한 지속적인 관리를 제공해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would value your continued management of the patient’s cardiac symptoms.",
+    "meaning": "환자의 심장 증상에 대한 지속적인 관리를 부탁드립니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please oversee the patient’s glycemic control and adjust treatment.",
+    "meaning": "환자의 혈당 조절을 감독하고 치료를 조정해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I request your ongoing support for the patient’s respiratory condition.",
+    "meaning": "환자의 호흡기 상태에 대한 지속적인 지원을 요청합니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please provide long-term management for the patient’s joint pain.",
+    "meaning": "환자의 관절 통증에 대한 장기적인 관리를 제공해 주십시오.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "I would appreciate your ongoing care for the patient’s antenatal needs.",
+    "meaning": "환자의 산전 요구에 대한 지속적인 관리를 부탁드립니다.",
+    "category": "Request for Ongoing Care"
+  },
+  {
+    "term": "Please assess the patient for possible surgical intervention.",
+    "meaning": "환자를 수술적 중재 가능성으로 평가해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would appreciate your expertise in diagnosing the patient’s condition.",
+    "meaning": "환자의 상태 진단에 대한 귀하의 전문성을 부탁드립니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please provide recommendations for managing the patient’s diabetes.",
+    "meaning": "환자의 당뇨병 관리에 대한 권장 사항을 제공해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I request your opinion on the need for a colonoscopy.",
+    "meaning": "대장 내시경 검사의 필요성에 대한 귀하의 의견을 요청합니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please evaluate the patient for potential cardiac arrhythmia.",
+    "meaning": "환자를 잠재적 심장 부정맥으로 평가해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would value your input on the patient’s psychiatric symptoms.",
+    "meaning": "환자의 정신과 증상에 대한 귀하의 의견을 부탁드립니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please conduct a CT scan to investigate the patient’s renal mass.",
+    "meaning": "환자의 신장 덩어리를 조사하기 위해 CT 스캔을 시행해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I request your guidance on the patient’s knee joint treatment.",
+    "meaning": "환자의 무릎 관절 치료에 대한 귀하의 지침을 요청합니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "Please provide a treatment plan for the patient’s suspected ectopic pregnancy.",
+    "meaning": "환자의 의심되는 자궁외 임신에 대한 치료 계획을 제공해 주십시오.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "I would appreciate your assessment of the patient’s neurological symptoms.",
+    "meaning": "환자의 신경학적 증상에 대한 귀하의 평가를 부탁드립니다.",
+    "category": "Request for Specialist Input"
+  },
+  {
+    "term": "The patient is a married teacher with two young children.",
+    "meaning": "환자는 두 명의 어린 자녀가 있는 기혼 교사이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a widower living alone and enjoys cooking.",
+    "meaning": "환자는 홀로 사는 홀아비이며 요리를 즐긴다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a single school teacher living in an apartment.",
+    "meaning": "환자는 아파트에 사는 독신 학교 교사이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a self-employed landscape gardener with three children.",
+    "meaning": "환자는 세 자녀가 있는 자영업 조경사이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is an unemployed laborer recently made redundant.",
+    "meaning": "환자는 최근 해고된 실업 노동자이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a retired clerical worker with grandchildren overseas.",
+    "meaning": "환자는 해외에 손주가 있는 은퇴한 사무직 근로자이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a housewife living with her husband’s parents.",
+    "meaning": "환자는 남편의 부모와 함께 사는 주부이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a refugee from Somalia with Australian citizenship.",
+    "meaning": "환자는 호주 시민권을 가진 소말리아 출신 난민이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a marketing manager planning for another child.",
+    "meaning": "환자는 또 다른 자녀를 계획 중인 마케팅 매니저이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient is a cab driver with limited English proficiency.",
+    "meaning": "환자는 영어 능력이 제한된 택시 운전사이다.",
+    "category": "Social History"
+  },
+  {
+    "term": "The patient reported sharp, intermittent pain in the lower abdomen.",
+    "meaning": "환자는 하복부에 날카롭고 간헐적인 통증을 보고했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient described a dull ache in the right groin.",
+    "meaning": "환자는 오른쪽 사타구니에 둔한 통증을 묘사했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient experienced frequent headaches and blurred vision.",
+    "meaning": "환자는 빈번한 두통과 흐린 시력을 경험했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient reported lethargy and loss of appetite for two weeks.",
+    "meaning": "환자는 2주 동안 무기력과 식욕 부진을 보고했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient described shoulder-tip pain and vaginal bleeding.",
+    "meaning": "환자는 어깨 끝 통증과 질 출혈을 묘사했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient reported persistent cough and high fever.",
+    "meaning": "환자는 지속적인 기침과 고열을 보고했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient experienced intermittent swelling in the knee joint.",
+    "meaning": "환자는 무릎 관절에 간헐적인 부종을 경험했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient described visual hallucinations and reduced speech.",
+    "meaning": "환자는 시각적 환각과 감소된 언어를 묘사했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient reported nocturia four times nightly.",
+    "meaning": "환자는 밤에 네 번의 야뇨증을 보고했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "The patient experienced epigastric pain radiating to the back.",
+    "meaning": "환자는 상복부 통증이 등으로 방사되는 것을 경험했다.",
+    "category": "Symptom Description"
+  },
+  {
+    "term": "Blood tests showed an elevated HbA1c of 10%.",
+    "meaning": "혈액 검사에서 HbA1c가 10%로 상승한 것으로 나타났다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "Urine dipstick revealed 3+ protein and 2+ nitrites.",
+    "meaning": "소변 딥스틱 검사에서 단백질 3+와 아질산염 2+가 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "MRI confirmed a damaged medial cartilage in the knee.",
+    "meaning": "MRI에서 무릎의 내측 연골 손상이 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "ECG showed a prolonged P-R interval.",
+    "meaning": "심전도에서 P-R 간격 연장이 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "Ultrasound revealed severe hydronephrosis and a liver mass.",
+    "meaning": "초음파에서 심한 수신증과 간 덩어리가 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "Blood tests indicated an elevated antistreptolysin-O titre.",
+    "meaning": "혈액 검사에서 항연쇄상구균-O 역가가 상승한 것으로 나타났다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "PSA reading was elevated at 10 ng/mL.",
+    "meaning": "PSA 수치가 10 ng/mL로 상승했다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "Urinalysis showed macroscopic hematuria of renal origin.",
+    "meaning": "소변 검사에서 신장 기원의 육안적 혈뇨가 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "Lipid profile showed high cholesterol at 6.2 mmol/L.",
+    "meaning": "지질 프로필에서 콜레스테롤이 6.2 mmol/L로 높게 나타났다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "FBE revealed leukocytosis with a left shift.",
+    "meaning": "FBE에서 좌편이동을 동반한 백혈구 증가증이 확인되었다.",
+    "category": "Test Results"
+  },
+  {
+    "term": "The patient’s symptoms improved slightly with diclofenac treatment.",
+    "meaning": "환자의 증상은 디클로페낙 치료로 약간 호전되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient showed no improvement despite antibiotic therapy.",
+    "meaning": "환자는 항생제 치료에도 불구하고 호전되지 않았다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s pain was relieved by paracetamol within two days.",
+    "meaning": "환자의 통증은 이틀 내에 파라세타몰로 완화되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s blood pressure normalized after starting candesartan.",
+    "meaning": "환자의 혈압은 캔데사르탄 시작 후 정상화되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s symptoms persisted despite increased noten dosage.",
+    "meaning": "노텐 용량 증가에도 불구하고 환자의 증상이 지속되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s lipid levels improved significantly with atorvastatin.",
+    "meaning": "환자의 지질 수치는 아토르바스타틴으로 크게 개선되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s fever resolved after three days of penicillin treatment.",
+    "meaning": "환자의 발열은 페니실린 치료 3일 후 해소되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s symptoms worsened despite adherence to the prescribed diet.",
+    "meaning": "환자는 처방된 식이 요법을 준수했음에도 증상이 악화되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s glycemic control improved slightly with metformin adjustment.",
+    "meaning": "환자의 혈당 조절은 메트포르민 조정으로 약간 개선되었다.",
+    "category": "Treatment Response"
+  },
+  {
+    "term": "The patient’s knee swelling reduced minimally with voltaren treatment.",
+    "meaning": "환자의 무릎 부종은 볼타렌 치료로 최소한으로 감소했다.",
+    "category": "Treatment Response"
   }
 ]
