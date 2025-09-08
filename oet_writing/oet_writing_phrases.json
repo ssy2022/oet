@@ -4331,11 +4331,7 @@
     "meaning": "환자는 천식과 불안 장애를 모두 가지고 있습니다.",
     "category": "Comorbidities"
   },
-  {
-    "term": "Take a warm bath daily to ease muscle stiffness.",
-    "meaning": "근육 경직을 완화하기 위해 매일 따뜻한 목욕을 하세요.",
-    "category": "Discharge Instructions"
-  },
+
   {
     "term": "The patient left the hospital after asthma treatment.",
     "meaning": "환자는 천식 치료 후 병원을 떠났습니다.",
@@ -4446,11 +4442,7 @@
     "meaning": "환자는 우울증과 만성 기관지염을 모두 가지고 있습니다.",
     "category": "Comorbidities"
   },
-  {
-    "term": "Drink plenty of water to support kidney function.",
-    "meaning": "신장 기능을 지원하기 위해 물을 많이 마시세요.",
-    "category": "Discharge Instructions"
-  },
+
   {
     "term": "Mr. David Moore left the hospital after kidney infection treatment.",
     "meaning": "데이비드 무어 씨는 신장 감염 치료 후 병원을 떠났습니다.",
@@ -4561,11 +4553,7 @@
     "meaning": "환자는 COPD와 고콜레스테롤을 모두 가지고 있습니다.",
     "category": "Comorbidities"
   },
-  {
-    "term": "Use an inhaler twice daily to manage breathing issues.",
-    "meaning": "호흡 문제를 관리하기 위해 하루 두 번 흡입기를 사용하세요.",
-    "category": "Discharge Instructions"
-  },
+
   {
     "term": "After COPD treatment, the patient was discharged.",
     "meaning": "COPD 치료 후 환자는 퇴원했습니다.",
