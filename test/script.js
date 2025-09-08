@@ -23,7 +23,7 @@ const termList = document.getElementById("term-list");
 
 async function loadOetPhrases() {
   try {
-    const response = await fetch('oetPhrases.json');
+    const response = await fetch('oet_writing_phrases.json');
     if (!response.ok) {
       throw new Error('Failed to load oetPhrases.json');
     }
