@@ -4570,5 +4570,408 @@
     "term": "After COPD treatment, the patient was discharged.",
     "meaning": "COPD 치료 후 환자는 퇴원했습니다.",
     "category": "Discharge Letter Opening"
+  },
+
+  {
+    "term": "During the consultation, the patient expressed worry about frequent chest pain.",
+    "meaning": "상담 중 환자는 빈번한 흉통에 대해 걱정을 표했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient mentioned feeling tired all the time during the visit.",
+    "meaning": "방문 중 환자는 항상 피곤하다고 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the consultation, the patient reported a burning rash on the arms.",
+    "meaning": "상담에서 환자는 팔에 타는 듯한 발진을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient asked if headaches could be due to stress.",
+    "meaning": "환자는 두통이 스트레스 때문일 수 있는지 물었습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the visit, the patient described sharp pain in the lower back.",
+    "meaning": "방문 중 환자는 허리 아래쪽의 날카로운 통증을 묘사했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient voiced concerns about recurring dizziness at the appointment.",
+    "meaning": "예약 시간에 환자는 반복적인 어지럼증에 대해 우려를 표명했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the discussion, Ms. Sarah Wilson reported trouble sleeping for weeks.",
+    "meaning": "논의 중 사라 윌슨 씨는 몇 주 동안 수면 문제를 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient wondered if joint pain was linked to recent exercise.",
+    "meaning": "환자는 관절 통증이 최근 운동과 관련 있는지 궁금해했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the consultation, the patient noted frequent heart palpitations.",
+    "meaning": "상담 중 환자는 빈번한 심계항진을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient reported ongoing nausea after meals during the visit.",
+    "meaning": "방문 중 환자는 식사 후 지속적인 메스꺼움을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the session, the patient described a tingling sensation in the hands.",
+    "meaning": "세션에서 환자는 손의 따끔거리는 느낌을 묘사했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient expressed frustration with persistent knee swelling.",
+    "meaning": "환자는 지속적인 무릎 부종에 대해 좌절감을 표했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the appointment, Mr. James Carter mentioned worsening cough.",
+    "meaning": "예약 중 제임스 카터 씨는 악화된 기침을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient asked about managing chronic fatigue during the talk.",
+    "meaning": "대화 중 환자는 만성 피로 관리에 대해 물었습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the consultation, the patient reported irregular bowel movements.",
+    "meaning": "상담에서 환자는 불규칙한 배변을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient noted a dry, itchy scalp during the discussion.",
+    "meaning": "논의 중 환자는 건조하고 가려운 두피를 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the visit, the patient described shortness of breath with activity.",
+    "meaning": "방문 중 환자는 활동 시 숨가쁨을 묘사했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient was concerned about memory lapses during the session.",
+    "meaning": "세션 중 환자는 기억력 저하에 대해 우려를 표했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the appointment, the patient reported a sore throat for two weeks.",
+    "meaning": "예약에서 환자는 2주 동안의 인후통을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient wondered if leg cramps were due to dehydration.",
+    "meaning": "환자는 다리 경련이 탈수 때문인지 궁금해했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the consultation, Ms. Laura Evans mentioned blurred vision.",
+    "meaning": "상담 중 로라 에반스 씨는 시야 흐림을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient expressed worry about frequent urinary urgency.",
+    "meaning": "환자는 빈번한 배뇨 급박감에 대해 걱정을 표했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the discussion, the patient reported pain when swallowing food.",
+    "meaning": "논의 중 환자는 음식을 삼킬 때 통증을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient asked if anxiety could cause chest tightness.",
+    "meaning": "환자는 불안이 가슴 답답함을 유발할 수 있는지 물었습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the visit, the patient noted worsening hand tremors.",
+    "meaning": "방문 중 환자는 악화된 손 떨림을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient described recurring stomach cramps during the session.",
+    "meaning": "세션 중 환자는 반복적인 위경련을 묘사했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "In the consultation, the patient reported sensitivity to bright lights.",
+    "meaning": "상담에서 환자는 밝은 빛에 대한 민감성을 보고했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient was concerned about frequent nosebleeds during the talk.",
+    "meaning": "대화 중 환자는 빈번한 코피에 대해 우려를 표했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "During the appointment, the patient mentioned difficulty hearing clearly.",
+    "meaning": "예약 중 환자는 명확히 듣는 데 어려움을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+  {
+    "term": "The patient noted joint stiffness worse in cold weather.",
+    "meaning": "환자는 추운 날씨에 더 심한 관절 뻣뻣함을 언급했습니다.",
+    "category": "Consultation Notes"
+  },
+
+  {
+    "term": "A harsh cough with wheezing was noted during the respiratory exam.",
+    "meaning": "호흡기 검사 중 거친 기침과 천명이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The examination revealed tenderness over the lumbar spine.",
+    "meaning": "검사에서 요추에 압통이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Mild bloating was observed in the upper abdomen.",
+    "meaning": "상복부에서 경미한 팽만감이 관찰되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Is there weakness in the legs? Reduced muscle strength was found.",
+    "meaning": "다리에 약화가 있나요? 근력 감소가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The thyroid gland felt enlarged during palpation.",
+    "meaning": "촉진 중 갑상선이 비대해진 것이 느껴졌습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A rapid, irregular pulse was detected during the cardiac exam.",
+    "meaning": "심장 검사 중 빠르고 불규칙한 맥박이 감지되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Skin examination showed dry, scaly patches on the shins.",
+    "meaning": "피부 검사에서 정강이에 건조하고 비늘 같은 반점이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Joint stiffness was evident in both knees during movement.",
+    "meaning": "운동 중 양쪽 무릎에서 관절 뻣뻣함이 뚜렷했습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The chest exam revealed reduced air entry in the right lung.",
+    "meaning": "흉부 검사에서 오른쪽 폐의 공기 유입 감소가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A positive Phalen’s test suggested carpal tunnel syndrome.",
+    "meaning": "팔렌 테스트 양성은 수근관 증후군을 시사했습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Mild jaundice was visible in the sclera during the exam.",
+    "meaning": "검사 중 공막에서 경미한 황달이 보였습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The abdomen showed guarding during deep palpation.",
+    "meaning": "깊은 촉진 중 복부에 방어 반응이 나타났습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Was there facial asymmetry? A slight droop was noted on the left side.",
+    "meaning": "안면 비대칭이 있었나요? 왼쪽에 약간의 처짐이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The ankle exam revealed swelling and warmth on the right side.",
+    "meaning": "발목 검사에서 오른쪽에 부종과 온기가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A fine tremor was observed in both hands during rest.",
+    "meaning": "휴식 중 양손에서 미세한 떨림이 관찰되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The respiratory exam found crackles in the lower lobes.",
+    "meaning": "호흡기 검사에서 하엽에서 수포음이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Tenderness was noted in the right upper quadrant of the abdomen.",
+    "meaning": "복부 오른쪽 상사분면에서 압통이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The skin appeared pale and clammy during the examination.",
+    "meaning": "검사 중 피부가 창백하고 축축하게 보였습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Limited neck mobility was evident during the physical exam.",
+    "meaning": "신체 검사 중 목의 이동성 제한이 뚜렷했습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The cardiac exam showed a soft systolic murmur at the apex.",
+    "meaning": "심장 검사에서 심첨부에 부드러운 수축기 잡음이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Red, raised patches were found on the back.",
+    "meaning": "등에 붉고 융기된 반점이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The exam revealed reduced grip strength in the right hand.",
+    "meaning": "검사에서 오른손의 악력 감소가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A distended abdomen was noted during the physical assessment.",
+    "meaning": "신체 평가 중 복부 팽창이 관찰되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The neurological exam showed sluggish reflexes in the legs.",
+    "meaning": "신경학적 검사에서 다리의 반사 반응이 느린 것이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Erythema was observed around the surgical incision site.",
+    "meaning": "수술 절개 부위 주변에 홍반이 관찰되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The exam found a positive Tinel’s sign at the wrist.",
+    "meaning": "검사에서 손목에서 티넬 징후가 양성으로 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "Mild wheezing was audible in the upper airways.",
+    "meaning": "상부 기도에서 경미한 천명이 들렸습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The shoulder exam revealed pain with abduction movement.",
+    "meaning": "어깨 검사에서 외전 운동 시 통증이 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "A soft, mobile mass was palpated in the left breast.",
+    "meaning": "왼쪽 유방에서 부드럽고 이동성 있는 종괴가 촉진되었습니다.",
+    "category": "Clinical Findings"
+  },
+  {
+    "term": "The exam showed reduced breath sounds in the left lung base.",
+    "meaning": "검사에서 왼쪽 폐 기저부에서 호흡음 감소가 확인되었습니다.",
+    "category": "Clinical Findings"
+  },
+
+  {
+    "term": "The patient has both hypertension and chronic migraines.",
+    "meaning": "환자는 고혈압과 만성 편두통을 모두 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Concurrent conditions include asthma and obesity.",
+    "meaning": "동반 질환으로 천식과 비만이 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient suffers from diabetes and peripheral neuropathy.",
+    "meaning": "환자는 당뇨병과 말초 신경병증을 앓고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Heart failure and osteoarthritis are present in the patient.",
+    "meaning": "환자는 심부전과 골관절염을 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has a history of depression and hypothyroidism.",
+    "meaning": "환자는 우울증과 갑상선 기능 저하증 병력을 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Chronic kidney disease and anemia were noted.",
+    "meaning": "만성 신부전과 빈혈이 확인되었습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient is managing both COPD and high cholesterol.",
+    "meaning": "환자는 COPD와 고콜레스테롤을 모두 관리하고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Atrial fibrillation and gout are concurrent conditions.",
+    "meaning": "심방세동과 통풍이 동반 질환입니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has epilepsy and anxiety disorder together.",
+    "meaning": "환자는 간질과 불안 장애를 함께 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Both psoriasis and type 2 diabetes affect the patient.",
+    "meaning": "환자는 건선과 제2형 당뇨병을 모두 앓고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient deals with rheumatoid arthritis and insomnia.",
+    "meaning": "환자는 류마티스 관절염과 불면증을 겪고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Hypertension and sleep apnea were identified in the patient.",
+    "meaning": "환자에게 고혈압과 수면 무호흡증이 확인되었습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has a combination of asthma and acid reflux.",
+    "meaning": "환자는 천식과 위산 역류를 함께 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Chronic back pain and depression coexist in the patient.",
+    "meaning": "만성 허리 통증과 우울증이 환자에게 공존합니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient is affected by both fibromyalgia and migraines.",
+    "meaning": "환자는 섬유근육통과 편두통에 모두 영향을 받고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Diabetes and coronary artery disease were noted together.",
+    "meaning": "당뇨병과 관상동맥 질환이 함께 확인되었습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient has both glaucoma and hypertension.",
+    "meaning": "환자는 녹내장과 고혈압을 모두 가지고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Irritable bowel syndrome and anxiety are present concurrently.",
+    "meaning": "과민성 대장 증후군과 불안이 동시에 존재합니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "The patient suffers from eczema and allergic rhinitis.",
+    "meaning": "환자는 습진과 알레르기성 비염을 앓고 있습니다.",
+    "category": "Comorbidities"
+  },
+  {
+    "term": "Osteoporosis and hyperthyroidism were identified in the patient.",
+    "meaning": "환자에게 골다공증과 갑상선 기능 항진증이 확인되었습니다.",
+    "category": "Comorbidities"
   }
 ]
