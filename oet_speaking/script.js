@@ -90,6 +90,7 @@ function renderTermList() {
   paginatedTerms.forEach((item, index) => {
     const termDiv = document.createElement("div");
     termDiv.classList.add("term-item");
+    termDiv.style.cssText = "border: 1px solid #e0e0e0; border-radius: 8px; padding: 15px; margin-bottom: 20px; background-color: #fafafa;";
     termDiv.title = `${item.term.slice(0, hintLength)}...`;
 
     const termHeader = document.createElement("div");
@@ -132,6 +133,9 @@ function renderTermList() {
     buttonContainer.appendChild(playButton);
     buttonContainer.appendChild(hintButton);
 
+    let wordOrderContainer = null;
+    let feedbackMessage = null;
+
     if (quizMode === "default") {
       const revealButton = document.createElement("button");
       revealButton.classList.add("reveal-button");
@@ -143,17 +147,21 @@ function renderTermList() {
       });
       buttonContainer.appendChild(revealButton);
     } else if (quizMode === "word-order") {
-      const wordOrderContainer = document.createElement("div");
+      wordOrderContainer = document.createElement("div");
       wordOrderContainer.classList.add("word-order-container");
+      wordOrderContainer.style.cssText = "display: flex; justify-content: space-between; margin: 15px 0; gap: 20px;";
 
       const correctWordsContainer = document.createElement("div");
       correctWordsContainer.classList.add("correct-words");
+      correctWordsContainer.style.cssText = "flex: 1; min-height: 40px; border: 2px dashed #ccc; padding: 10px; border-radius: 4px; display: flex; flex-wrap: wrap; gap: 5px;";
 
       const availableWordsContainer = document.createElement("div");
       availableWordsContainer.classList.add("available-words");
+      availableWordsContainer.style.cssText = "flex: 1; min-height: 40px; border: 2px dashed #ccc; padding: 10px; border-radius: 4px; display: flex; flex-wrap: wrap; gap: 5px;";
 
-      const feedbackMessage = document.createElement("div");
+      feedbackMessage = document.createElement("div");
       feedbackMessage.classList.add("feedback-message");
+      feedbackMessage.style.cssText = "margin-top: 10px; font-weight: bold; text-align: center; padding: 8px; border-radius: 4px;";
 
       const words = item.term.replace(/[.,]/g, "").split(" ").filter(word => word);
       const correctWords = [...words];
@@ -165,6 +173,9 @@ function renderTermList() {
       const availableWordList = [...shuffledRemainingWords];
 
       renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, firstTwoWords.length, feedbackMessage);
+
+      wordOrderContainer.appendChild(correctWordsContainer);
+      wordOrderContainer.appendChild(availableWordsContainer);
 
       const revealButton = document.createElement("button");
       revealButton.classList.add("reveal-button");
@@ -184,13 +195,15 @@ function renderTermList() {
       });
 
       buttonContainer.appendChild(revealButton);
-      wordOrderContainer.appendChild(correctWordsContainer);
-      wordOrderContainer.appendChild(availableWordsContainer);
+    }
+
+    termDiv.appendChild(termHeader);
+
+    if (quizMode === "word-order") {
       termDiv.appendChild(wordOrderContainer);
       termDiv.appendChild(feedbackMessage);
     }
 
-    termDiv.appendChild(termHeader);
     termDiv.appendChild(buttonContainer);
     termList.appendChild(termDiv);
   });
@@ -205,17 +218,23 @@ function renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, cor
   correctWordList.forEach((word, index) => {
     const wordSpan = document.createElement("span");
     wordSpan.classList.add("word");
+    wordSpan.style.cssText = "padding: 5px 8px; background: #e3f2fd; border: 1px solid #2196f3; border-radius: 4px; cursor: move;";
     if (index < fixedCount) {
       wordSpan.classList.add("fixed", "correct");
+      wordSpan.draggable = false;
+      wordSpan.style.background = "#c8e6c9";
+      wordSpan.style.borderColor = "#4caf50";
     } else {
       wordSpan.classList.add("correct");
       wordSpan.draggable = true;
       wordSpan.addEventListener("dragstart", (e) => {
         e.dataTransfer.setData("text/plain", word);
         wordSpan.classList.add("dragging");
+        wordSpan.style.opacity = "0.5";
       });
       wordSpan.addEventListener("dragend", () => {
         wordSpan.classList.remove("dragging");
+        wordSpan.style.opacity = "1";
       });
       wordSpan.addEventListener("dragover", (e) => {
         e.preventDefault();
@@ -238,13 +257,16 @@ function renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, cor
   availableWordList.forEach((word) => {
     const wordSpan = document.createElement("span");
     wordSpan.classList.add("word", "incorrect");
+    wordSpan.style.cssText = "padding: 5px 8px; background: #ffebee; border: 1px solid #f44336; border-radius: 4px; cursor: move;";
     wordSpan.draggable = true;
     wordSpan.addEventListener("dragstart", (e) => {
       e.dataTransfer.setData("text/plain", word);
       wordSpan.classList.add("dragging");
+      wordSpan.style.opacity = "0.5";
     });
     wordSpan.addEventListener("dragend", () => {
       wordSpan.classList.remove("dragging");
+      wordSpan.style.opacity = "1";
     });
     wordSpan.addEventListener("dragover", (e) => {
       e.preventDefault();
@@ -266,8 +288,10 @@ function renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, cor
         correctWordList.push(word);
       } else {
         wordSpan.classList.add("highlight");
+        wordSpan.style.background = "#ffeb3b";
         setTimeout(() => {
           wordSpan.classList.remove("highlight");
+          wordSpan.style.background = "#ffebee";
         }, 500);
       }
       renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage);
@@ -297,17 +321,27 @@ function updateWordOrderFeedback(correctWordsContainer, correctWordList, correct
     if (index <= lastCorrectIndex) {
       wordSpan.classList.remove("incorrect");
       wordSpan.classList.add("correct");
+      if (!wordSpan.classList.contains("fixed")) {
+        wordSpan.style.background = "#c8e6c9";
+        wordSpan.style.borderColor = "#4caf50";
+      }
     } else {
       wordSpan.classList.remove("correct");
       wordSpan.classList.add("incorrect");
+      if (!wordSpan.classList.contains("fixed")) {
+        wordSpan.style.background = "#ffcdd2";
+        wordSpan.style.borderColor = "#f44336";
+      }
     }
   });
 
-  feedbackMessage.textContent = allCorrect && correctWordList.length === correctWords.length
-    ? "정답입니다!"
-    : "다음 올바른 단어를 선택하세요.";
-  feedbackMessage.classList.toggle("correct", allCorrect && correctWordList.length === correctWords.length);
-  feedbackMessage.classList.toggle("incorrect", !(allCorrect && correctWordList.length === correctWords.length));
+  if (allCorrect && correctWordList.length === correctWords.length) {
+    feedbackMessage.textContent = "정답입니다!";
+    feedbackMessage.style.cssText = "margin-top: 10px; font-weight: bold; text-align: center; padding: 8px; border-radius: 4px; background-color: #c8e6c9; color: #2e7d32;";
+  } else {
+    feedbackMessage.textContent = "다음 올바른 단어를 선택하세요.";
+    feedbackMessage.style.cssText = "margin-top: 10px; font-weight: bold; text-align: center; padding: 8px; border-radius: 4px; background-color: #fff3e0; color: #ef6c00;";
+  }
 }
 
 function speakTerm(text, repeatCount) {
