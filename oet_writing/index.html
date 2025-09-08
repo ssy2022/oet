@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,15 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <h1>OET Writing 표현 퀴즈</h1>
         <p id="term-count">총 문제 수: 로딩 중...</p>
-        <p>언어, 화자, 재생 횟수, 카테고리, 힌트 길이를 선택한 후, 재생 버튼을 눌러 듣고, 힌트 보기 또는 정답 보기 버튼을 클릭하여 영어 표현과 카테고리를 확인하세요.</p>
+        <p>언어, 화자, 재생 횟수, 카테고리를 선택한 후, 퀴즈 모드를 선택하세요. "단어 순서 맞추기" 모드에서는 단어를 드래그하거나 클릭하여 올바른 순서로 배열하고, 실시간 피드백을 확인하세요.
+            <font color=red>단어 순서 맞추기 모드가 추가되었습니다.</font>
+
+        </p>
         <div class="controls">
             <div class="control-group">
                 <label for="language-select">언어</label>
@@ -33,11 +38,6 @@
                     <option value="3">3회</option>
                     <option value="4">4회</option>
                     <option value="5">5회</option>
-                    <option value="6">6회</option>
-                    <option value="7">7회</option>
-                    <option value="8">8회</option>
-                    <option value="9">9회</option>
-                    <option value="10">10회</option>
                 </select>
             </div>
             <div class="control-group">
@@ -47,13 +47,10 @@
                 </select>
             </div>
             <div class="control-group">
-                <label for="hint-length-select">힌트 길이</label>
-                <select id="hint-length-select">
-                    <option value="3">3자</option>
-                    <option value="5">5자</option>
-                    <option value="10">10자</option>
-                    <option value="15">15자</option>
-                    <option value="20">20자</option>
+                <label for="quiz-mode">퀴즈 모드</label>
+                <select id="quiz-mode">
+                    <option value="default">기본 모드</option>
+                    <option value="word-order" selected>단어 순서 맞추기</option>
                 </select>
             </div>
         </div>
@@ -67,4 +64,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
