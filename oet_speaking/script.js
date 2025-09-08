@@ -166,20 +166,12 @@ function renderTermList() {
 
       renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, firstTwoWords.length, feedbackMessage);
 
-      const checkButton = document.createElement("button");
-      checkButton.classList.add("check-button");
-      checkButton.innerHTML = "<span>정답 확인</span>";
-      checkButton.addEventListener("click", () => {
-        updateWordOrderFeedback(correctWordsContainer, correctWordList, correctWords, firstTwoWords.length, feedbackMessage);
-      });
-
       const revealButton = document.createElement("button");
       revealButton.classList.add("reveal-button");
       revealButton.innerHTML = "<span>정답 보기</span>";
       revealButton.addEventListener("click", () => {
         termText.classList.add("revealed");
         termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
-        checkButton.disabled = true;
         revealButton.disabled = true;
         availableWordsContainer.querySelectorAll(".word").forEach((word) => {
           word.draggable = false;
@@ -191,7 +183,6 @@ function renderTermList() {
         });
       });
 
-      buttonContainer.appendChild(checkButton);
       buttonContainer.appendChild(revealButton);
       wordOrderContainer.appendChild(correctWordsContainer);
       wordOrderContainer.appendChild(availableWordsContainer);
