@@ -3,77 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OET Writing 표현 퀴즈</title>
+    <title>OET Listening Part A Study Tool</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>OET Writing 표현 퀴즈</h1>
-        <p id="term-count">총 문제 수: 로딩 중...</p>
-        <p>언어, 화자, 재생 횟수, 카테고리, 힌트 길이를 선택한 후, 퀴즈 모드를 선택하세요. "단어 순서 맞추기" 모드에서는 단어를 클릭하여 올바른 순서로 배열하고, 실시간 피드백을 확인하세요.
-            <font color=red>단어 순서 맞추기 모드가 추가되었습니다.</font>
-        </p>
-        <div class="controls">
-            <div class="control-group">
-                <label for="language-select">언어</label>
-                <select id="language-select">
-                    <option value="">언어를 선택하세요</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="voice-select">화자</label>
-                <select id="voice-select" disabled>
-                    <option value="">먼저 언어를 선택하세요</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="repeat-count">재생 횟수</label>
-                <select id="repeat-count">
-                    <option value="1" selected>1회</option>
-                    <option value="2">2회</option>
-                    <option value="3">3회</option>
-                    <option value="4">4회</option>
-                    <option value="5">5회</option>
-                    <option value="6">6회</option>
-                    <option value="7">7회</option>
-                    <option value="8">8회</option>
-                    <option value="9">9회</option>
-                    <option value="10">10회</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="category-select">카테고리</label>
-                <select id="category-select">
-                    <option value="">모든 카테고리</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="hint-length-select">힌트 길이</label>
-                <select id="hint-length-select">
-                    <option value="3">3자</option>
-                    <option value="5">5자</option>
-                    <option value="10">10자</option>
-                    <option value="15">15자</option>
-                    <option value="20">20자</option>
-                </select>
-            </div>
-            <div class="control-group">
-                <label for="quiz-mode">퀴즈 모드</label>
-                <select id="quiz-mode">
-                    <option value="default">기본 모드</option>
-                    <option value="word-order" >단어 순서 맞추기</option>
-                </select>
+        <h1>OET Listening Part A - Sample Test Study Tool</h1>
+        
+        <!-- Test Selection -->
+        <div class="section">
+            <label for="test-select">Select Test:</label>
+            <select id="test-select">
+                <option value="">Choose a test</option>
+            </select>
+        </div>
+
+        <!-- TTS Settings -->
+        <div class="section">
+            <h2>TTS Settings</h2>
+            <label for="language-select">Language:</label>
+            <select id="language-select">
+                <option value="">Select Language</option>
+            </select>
+            
+            <label for="male-voice-select">Male Voice (Cardiologist):</label>
+            <select id="male-voice-select">
+                <option value="">Select Male Voice</option>
+            </select>
+            
+            <label for="female-voice-select">Female Voice (Patient):</label>
+            <select id="female-voice-select">
+                <option value="">Select Female Voice</option>
+            </select>
+            
+            <label for="repeat-count">Repeat Count:</label>
+            <select id="repeat-count">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <!-- Controls -->
+        <div class="section">
+            <button id="start-test-button" disabled>Start Test (TTS)</button>
+            <button id="view-script-button" disabled>View Script</button>
+            <button id="score-button" disabled>Score Answers</button>
+            <button id="reveal-answers-button" disabled>Reveal Answers</button>
+        </div>
+
+        <!-- Introduction and Notes Preview -->
+        <div class="section">
+            <div id="intro-text" style="display: none;"></div>
+            <div id="notes-preview" style="display: none;">
+                <h3>Notes Preview (30 seconds to read)</h3>
+                <div id="questions-display"></div>
             </div>
         </div>
-        <div class="refresh-button-container">
-            <button id="refresh-button">새로고침</button>
+
+        <!-- Answer Input Form -->
+        <div class="section" id="answer-form" style="display: none;">
+            <h3>Complete the Notes</h3>
+            <form id="notes-form">
+                <!-- Dynamically generated inputs -->
+            </form>
         </div>
-        <div id="term-list"></div>
-        <div class="refresh-button-container">
-            <button id="refresh-button-bottom">새로고침</button>
+
+        <!-- Results -->
+        <div class="section" id="results" style="display: none;">
+            <h3>Score</h3>
+            <p id="score-text"></p>
+            <div id="detailed-scores"></div>
         </div>
+
+        <!-- Script Display -->
+        <div class="section" id="script-display" style="display: none;">
+            <h3>Full Script</h3>
+            <pre id="script-text"></pre>
+            <button id="hide-script-button">Hide Script</button>
+        </div>
+
+        <div id="term-count" style="text-align: center; margin-top: 20px;"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
