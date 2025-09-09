@@ -1,4 +1,3 @@
-// oet_listening_tests.json
 [
   {
     "id": 1,
@@ -46,5 +45,4 @@
       "heart"
     ]
   }
-  // Add more test cases here as needed, e.g., another extract with similar structure
 ]
