@@ -1,9 +1,10 @@
 // script.js
-const itemsPerPage = 30; // Not used here, but kept for compatibility
 const synth = window.speechSynthesis;
 let isSpeaking = false;
 let voices = [];
-let tests = []; // Array of test cases from JSON
+let tests = [];
+let pauseTimer = null;
+let currentScriptIndex = -1; // For highlighting
 
 const testSelect = document.getElementById("test-select");
 const languageSelect = document.getElementById("language-select");
@@ -22,12 +23,15 @@ const results = document.getElementById("results");
 const scoreText = document.getElementById("score-text");
 const detailedScores = document.getElementById("detailed-scores");
 const scriptDisplay = document.getElementById("script-display");
-const scriptText = document.getElementById("script-text");
+const scriptLines = document.getElementById("script-lines");
 const hideScriptButton = document.getElementById("hide-script-button");
+const timerSection = document.getElementById("timer-section");
+const timerDisplay = document.getElementById("timer-display");
+const skipButton = document.getElementById("skip-button");
 
 let currentTest = null;
-let currentAnswers = []; // User's inputs
-let correctAnswers = []; // From JSON
+let currentAnswers = [];
+let correctAnswers = [];
 
 // Load tests from JSON
 async function loadTests() {
@@ -37,15 +41,12 @@ async function loadTests() {
             throw new Error(`Failed to load tests data: ${response.status}`);
         }
         tests = await response.json();
-        console.log('Tests loaded:', tests); // Debug log
         populateTestSelect();
-        // Automatically select the first test
         if (tests.length > 0) {
             testSelect.value = tests[0].id;
             currentTest = tests[0];
             displayQuestions();
             updateButtonStates();
-            console.log('Auto-selected first test:', tests[0].id); // Debug log
         }
     } catch (error) {
         console.error('Error loading tests:', error);
@@ -53,7 +54,6 @@ async function loadTests() {
     }
 }
 
-// Populate test select
 function populateTestSelect() {
     testSelect.innerHTML = '<option value="">Choose a test</option>';
     tests.forEach((test) => {
@@ -62,33 +62,24 @@ function populateTestSelect() {
         option.textContent = test.title;
         testSelect.appendChild(option);
     });
-    console.log('Test select populated'); // Debug log
 }
 
-// Load voices and set defaults
 function loadVoices() {
     voices = synth.getVoices();
-    console.log('Voices loaded:', voices); // Debug log
     if (voices.length > 0) {
         setDefaultLanguageAndVoices();
         populateLanguageSelect();
         populateVoiceSelects();
         updateButtonStates();
-    } else {
-        console.warn('No voices available yet, waiting for onvoiceschanged');
     }
 }
 
-// Automatically set language and voices based on browser
 function setDefaultLanguageAndVoices() {
     const isChrome = /Chrome/.test(navigator.userAgent);
     const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
 
-    // Set default language to en-US
     languageSelect.value = "en-US";
-    console.log('Default language set to en-US'); // Debug log
 
-    // Set default voices
     let maleVoiceName = "";
     let femaleVoiceName = "";
 
@@ -103,21 +94,17 @@ function setDefaultLanguageAndVoices() {
         femaleVoiceName = voices.find(v => v.name === "Samantha" && v.lang === "en-US")?.name || 
                           voices.find(v => v.lang === "en-US")?.name || "";
     } else {
-        // Fallback for other browsers
         maleVoiceName = voices.find(v => v.lang === "en-GB")?.name || "";
         femaleVoiceName = voices.find(v => v.lang === "en-US")?.name || "";
     }
 
-    // Ensure voices are set
     if (maleVoiceName) maleVoiceSelect.value = maleVoiceName;
     if (femaleVoiceName) femaleVoiceSelect.value = femaleVoiceName;
 
-    console.log(`Default voices set: Male=${maleVoiceName}, Female=${femaleVoiceName}`); // Debug log
     saveSettings();
-    populateVoiceSelects(); // Ensure selects reflect the set values
+    populateVoiceSelects();
 }
 
-// Populate language select
 function populateLanguageSelect() {
     const languages = [...new Set(voices.map((voice) => voice.lang))].sort();
     languageSelect.innerHTML = '<option value="">Select Language</option>';
@@ -130,12 +117,9 @@ function populateLanguageSelect() {
     if (languages.includes("en-US")) {
         languageSelect.value = "en-US";
     }
-    console.log('Language select populated'); // Debug log
 }
 
-// Populate voice selects
 function populateVoiceSelects() {
-    // Male voices (en-GB for Cardiologist)
     maleVoiceSelect.innerHTML = '<option value="">Select Male Voice</option>';
     voices.filter(v => v.lang === "en-GB").forEach((voice) => {
         const option = document.createElement("option");
@@ -144,7 +128,6 @@ function populateVoiceSelects() {
         maleVoiceSelect.appendChild(option);
     });
 
-    // Female voices (en-US for Patient)
     femaleVoiceSelect.innerHTML = '<option value="">Select Female Voice</option>';
     voices.filter(v => v.lang === "en-US").forEach((voice) => {
         const option = document.createElement("option");
@@ -153,7 +136,7 @@ function populateVoiceSelects() {
         femaleVoiceSelect.appendChild(option);
     });
 
-    // Restore defaults or saved voices
+    // Restore or set defaults
     const savedMaleVoice = localStorage.getItem("maleVoice");
     const savedFemaleVoice = localStorage.getItem("femaleVoice");
     if (savedMaleVoice && voices.find(v => v.name === savedMaleVoice)) {
@@ -168,30 +151,18 @@ function populateVoiceSelects() {
         const defaultFemale = voices.find(v => v.lang === "en-US")?.name || "";
         femaleVoiceSelect.value = defaultFemale;
     }
-
-    console.log('Voice selects populated:', {
-        maleVoice: maleVoiceSelect.value,
-        femaleVoice: femaleVoiceSelect.value
-    }); // Debug log
 }
 
-// Update button states based on selections
 function updateButtonStates() {
     const isReady = currentTest && maleVoiceSelect.value && femaleVoiceSelect.value;
     startTestButton.disabled = !isReady;
     viewScriptButton.disabled = !currentTest;
-    console.log('Button states updated:', {
-        currentTest: !!currentTest,
-        maleVoice: maleVoiceSelect.value,
-        femaleVoice: femaleVoiceSelect.value,
-        startTestButtonDisabled: startTestButton.disabled,
-        viewScriptButtonDisabled: viewScriptButton.disabled
-    }); // Debug log
+    scoreButton.disabled = !currentTest;
+    revealAnswersButton.disabled = !currentTest;
 }
 
-// Event listeners
 testSelect.addEventListener("change", (e) => {
-    const testId = Number(e.target.value); // Coerce to number
+    const testId = Number(e.target.value);
     currentTest = tests.find(t => t.id === testId);
     if (currentTest) {
         displayQuestions();
@@ -200,26 +171,22 @@ testSelect.addEventListener("change", (e) => {
     } else {
         resetUI();
     }
-    console.log('Test selected:', testId, currentTest); // Debug log
 });
 
 languageSelect.addEventListener("change", () => {
     populateVoiceSelects();
     updateButtonStates();
     saveSettings();
-    console.log('Language changed:', languageSelect.value); // Debug log
 });
 
 maleVoiceSelect.addEventListener("change", () => {
     updateButtonStates();
     saveSettings();
-    console.log('Male voice changed:', maleVoiceSelect.value); // Debug log
 });
 
 femaleVoiceSelect.addEventListener("change", () => {
     updateButtonStates();
     saveSettings();
-    console.log('Female voice changed:', femaleVoiceSelect.value); // Debug log
 });
 
 repeatCountSelect.addEventListener("change", () => saveSettings());
@@ -230,18 +197,19 @@ scoreButton.addEventListener("click", scoreAnswers);
 revealAnswersButton.addEventListener("click", revealAnswers);
 hideScriptButton.addEventListener("click", toggleScript);
 
-// Save/load settings
+skipButton.addEventListener("click", () => {
+    if (pauseTimer) {
+        clearInterval(pauseTimer);
+    }
+    timerSection.style.display = "none";
+    speakScript();
+});
+
 function saveSettings() {
     localStorage.setItem("language", languageSelect.value);
     localStorage.setItem("maleVoice", maleVoiceSelect.value);
     localStorage.setItem("femaleVoice", femaleVoiceSelect.value);
     localStorage.setItem("repeatCount", repeatCountSelect.value);
-    console.log('Settings saved:', {
-        language: languageSelect.value,
-        maleVoice: maleVoiceSelect.value,
-        femaleVoice: femaleVoiceSelect.value,
-        repeatCount: repeatCountSelect.value
-    }); // Debug log
 }
 
 function loadSettings() {
@@ -251,29 +219,29 @@ function loadSettings() {
     repeatCountSelect.value = localStorage.getItem("repeatCount") || "1";
     populateVoiceSelects();
     updateButtonStates();
-    console.log('Settings loaded'); // Debug log
 }
 
-// Display questions for preview and input
 function displayQuestions() {
     if (!currentTest) return;
 
-    // Intro
     introText.innerHTML = currentTest.introduction;
     introText.style.display = "block";
 
-    // Questions display for preview
-    questionsDisplay.innerHTML = currentTest.questions.map(q => `<p>${q}</p>`).join('');
+    // Improved questions display with line breaks
+    const questionsHtml = currentTest.questions.map(q => {
+        return q.split('\n').map(line => `<div class="question-line">${line}</div>`).join('');
+    }).join('');
+    questionsDisplay.innerHTML = questionsHtml;
     notesPreview.style.display = "block";
 
-    // Answer form
+    // Answer form with structured inputs
     answerForm.innerHTML = '';
     currentTest.answers.forEach((answer, index) => {
         const div = document.createElement('div');
         div.className = 'answer-container';
         div.innerHTML = `
-            <label>${index + 1}. </label>
-            <input type="text" class="note-input" id="ans${index}" placeholder="Enter answer" data-index="${index}">
+            <label>${index + 1}.</label>
+            <input type="text" class="note-input" id="ans${index}" placeholder="Enter your answer here">
         `;
         answerForm.appendChild(div);
     });
@@ -282,77 +250,66 @@ function displayQuestions() {
     revealAnswersButton.disabled = false;
 
     document.getElementById("term-count").textContent = `Total Questions: ${currentTest.answers.length}`;
-    console.log('Questions displayed for test:', currentTest.id); // Debug log
 }
 
-// Collect user answers
 function getUserAnswers() {
     currentAnswers = [];
     for (let i = 0; i < currentTest.answers.length; i++) {
         const input = document.getElementById(`ans${i}`);
         currentAnswers.push(input ? input.value.trim().toLowerCase() : '');
     }
-    console.log('User answers collected:', currentAnswers); // Debug log
 }
 
-// TTS Functions
 function startTTS() {
-    if (!currentTest || isSpeaking) {
-        console.warn('Cannot start TTS:', { currentTest: !!currentTest, isSpeaking }); // Debug log
-        return;
-    }
+    if (!currentTest || isSpeaking) return;
     if (!maleVoiceSelect.value || !femaleVoiceSelect.value) {
         alert("Please select male and female voices.");
-        console.warn('Voices not selected:', {
-            maleVoice: maleVoiceSelect.value,
-            femaleVoice: femaleVoiceSelect.value
-        }); // Debug log
         return;
     }
 
     startTestButton.disabled = true;
     isSpeaking = true;
-    console.log('Starting TTS for test:', currentTest.id); // Debug log
 
-    // Step 1: Play beep sound
+    // Step 1: Play beep
     playBeep(() => {
         // Step 2: Read introduction
         speakText(currentTest.introduction, femaleVoiceSelect.value, () => {
-            console.log('Introduction spoken'); // Debug log
-            // Step 3: 30 second pause
-            setTimeout(() => {
-                console.log('30 second pause completed'); // Debug log
-                // Step 4: Read script sentences
-                speakScript();
-            }, 30000);
+            // Step 3: Show timer for 30s pause
+            startPreviewTimer();
         });
     });
 }
 
-// Simulate beep sound (placeholder for actual audio)
+function startPreviewTimer() {
+    timerSection.style.display = "block";
+    let timeLeft = 30;
+    timerDisplay.textContent = timeLeft;
+    pauseTimer = setInterval(() => {
+        timeLeft--;
+        timerDisplay.textContent = timeLeft;
+        if (timeLeft <= 0) {
+            clearInterval(pauseTimer);
+            timerSection.style.display = "none";
+            speakScript();
+        }
+    }, 1000);
+}
+
 function playBeep(callback) {
-    // In a real scenario, play an audio file (e.g., 'beep.mp3')
-    console.log('Playing beep sound'); // Debug log
-    // Simulate beep duration
-    setTimeout(callback, 1000); // Assume beep is 1 second
+    console.log('Playing beep sound');
+    setTimeout(callback, 1000);
 }
 
 function speakText(text, voiceName, callback) {
     const utterance = new SpeechSynthesisUtterance(text);
     const selectedVoice = voices.find(v => v.name === voiceName);
-    if (selectedVoice) {
-        utterance.voice = selectedVoice;
-        console.log(`Speaking with voice: ${voiceName}`); // Debug log
-    } else {
-        console.warn(`Voice not found: ${voiceName}, using default`); // Debug log
-    }
-    utterance.rate = 0.9; // Natural speed
+    if (selectedVoice) utterance.voice = selectedVoice;
+    utterance.rate = 0.9;
     utterance.onend = () => {
-        console.log('Utterance ended'); // Debug log
         if (callback) callback();
     };
     utterance.onerror = (e) => {
-        console.error('SpeechSynthesisUtterance error:', e); // Debug log
+        console.error('TTS error:', e);
         isSpeaking = false;
         startTestButton.disabled = false;
     };
@@ -362,19 +319,21 @@ function speakText(text, voiceName, callback) {
 function speakScript() {
     let index = 0;
     const repeatCount = parseInt(repeatCountSelect.value) || 1;
-    console.log(`Speaking script with ${repeatCount} repeats`); // Debug log
+    currentScriptIndex = 0; // Reset for highlighting
 
     function speakNext() {
         if (index >= currentTest.script.length) {
             isSpeaking = false;
             startTestButton.disabled = false;
-            console.log('Script speaking completed'); // Debug log
+            highlightScriptLine(-1); // Remove highlight
             return;
         }
 
         const line = currentTest.script[index];
-        // Skip labels, get dialogue
-        const dialogue = line.replace(/^(Cardiologist|Sara[h ]Mitchell): /i, '').trim();
+        // Improved label removal: Use test-specific speakers
+        const maleLabel = currentTest.maleSpeaker + ':';
+        const femaleLabel = currentTest.femaleSpeaker + ':';
+        let dialogue = line.replace(new RegExp(`^(${maleLabel}|${femaleLabel})\\s*`, 'i'), '').trim();
         if (!dialogue) {
             index++;
             speakNext();
@@ -383,24 +342,23 @@ function speakScript() {
 
         // Determine voice
         let voiceName = "";
-        if (/Cardiologist/i.test(line)) {
+        if (line.toLowerCase().includes(currentTest.maleSpeaker.toLowerCase())) {
             voiceName = maleVoiceSelect.value;
-        } else if (/Sarah Mitchell/i.test(line)) {
+        } else if (line.toLowerCase().includes(currentTest.femaleSpeaker.toLowerCase())) {
             voiceName = femaleVoiceSelect.value;
         }
 
-        console.log(`Speaking line ${index + 1}: ${dialogue} (Voice: ${voiceName})`); // Debug log
+        // Highlight current line if script is visible
+        currentScriptIndex = index;
+        highlightScriptLine(index);
 
-        // Speak with repeat
         let repeats = 0;
         function repeatUtterance() {
             speakText(dialogue, voiceName, () => {
                 repeats++;
                 if (repeats < repeatCount) {
-                    console.log(`Repeating line ${index + 1}, repeat ${repeats + 1}`); // Debug log
-                    setTimeout(repeatUtterance, 500); // Short pause between repeats
+                    setTimeout(repeatUtterance, 500);
                 } else {
-                    // 1 second pause between speakers
                     setTimeout(() => {
                         index++;
                         speakNext();
@@ -414,21 +372,42 @@ function speakScript() {
     speakNext();
 }
 
-// Script toggle
+function highlightScriptLine(index) {
+    if (scriptDisplay.style.display === "none") return;
+    document.querySelectorAll('.script-line').forEach(line => line.classList.remove('highlight'));
+    if (index >= 0) {
+        const lineElement = document.querySelector(`.script-line[data-index="${index}"]`);
+        if (lineElement) lineElement.classList.add('highlight');
+    }
+}
+
 function toggleScript() {
     const isVisible = scriptDisplay.style.display !== "none";
     scriptDisplay.style.display = isVisible ? "none" : "block";
-    scriptText.textContent = currentTest ? currentTest.fullScript : "";
+    if (!isVisible) {
+        renderScriptLines();
+    }
     viewScriptButton.textContent = isVisible ? "View Script" : "Hide Script";
-    console.log(`Script display toggled: ${isVisible ? 'hidden' : 'shown'}`); // Debug log
+    hideScriptButton.style.display = isVisible ? "none" : "block";
 }
 
-// Scoring
-function scoreAnswers() {
-    if (!currentTest) {
-        console.warn('No test selected for scoring'); // Debug log
-        return;
+function renderScriptLines() {
+    scriptLines.innerHTML = '';
+    currentTest.script.forEach((line, index) => {
+        const p = document.createElement('p');
+        p.className = 'script-line';
+        p.dataset.index = index;
+        p.textContent = line;
+        scriptLines.appendChild(p);
+    });
+    // Highlight current if speaking
+    if (isSpeaking && currentScriptIndex >= 0) {
+        highlightScriptLine(currentScriptIndex);
     }
+}
+
+function scoreAnswers() {
+    if (!currentTest) return;
     getUserAnswers();
     correctAnswers = currentTest.answers.map(a => a.toLowerCase());
 
@@ -439,18 +418,16 @@ function scoreAnswers() {
         const userAns = currentAnswers[i];
         const correct = correctAnswers[i];
         const similarity = calculateSimilarity(userAns, correct);
-        const points = similarity >= 0.8 ? 1 : 0; // 80% or higher for full point
+        const points = similarity >= 0.8 ? 1 : 0;
         totalScore += points;
         scores.push({ index: i + 1, similarity: Math.round(similarity * 100), points });
     }
 
     scoreText.textContent = `Score: ${totalScore} out of ${currentTest.answers.length}`;
-    detailedScores.innerHTML = scores.map(s => `<p>Q${s.index}: ${s.similarity}% (${s.points} point)</p>`).join('');
+    detailedScores.innerHTML = scores.map(s => `<p>Q${s.index}: ${s.similarity}% (${s.points ? 'Correct' : 'Incorrect'})</p>`).join('');
     results.style.display = "block";
-    console.log('Answers scored:', { totalScore, scores }); // Debug log
 }
 
-// Similarity calculation (simple word overlap percentage, case-insensitive)
 function calculateSimilarity(str1, str2) {
     if (!str1 || !str2) return 0;
     const words1 = str1.split(/\s+/).filter(w => w.length > 0);
@@ -460,23 +437,22 @@ function calculateSimilarity(str1, str2) {
     return intersection / Math.max(words1.length, words2.length);
 }
 
-// Reveal answers
 function revealAnswers() {
-    scoreAnswers(); // Score first
+    scoreAnswers();
     for (let i = 0; i < currentTest.answers.length; i++) {
         const input = document.getElementById(`ans${i}`);
         const div = input.parentElement;
         const correct = currentTest.answers[i];
-        const span = document.createElement('span');
-        span.textContent = ` (Correct: ${correct})`;
-        span.className = currentAnswers[i] === correct ? 'correct' : 'incorrect';
-        if (!div.querySelector('span')) { // Prevent duplicate spans
+        let span = div.querySelector('span');
+        if (!span) {
+            span = document.createElement('span');
             div.appendChild(span);
         }
+        span.textContent = ` (Correct: ${correct})`;
+        span.className = currentAnswers[i] === correctAnswers[i] ? 'correct' : 'incorrect';
         input.disabled = true;
     }
     revealAnswersButton.disabled = true;
-    console.log('Answers revealed'); // Debug log
 }
 
 function resetUI() {
@@ -489,24 +465,21 @@ function resetUI() {
     answerForm.style.display = "none";
     results.style.display = "none";
     scriptDisplay.style.display = "none";
+    timerSection.style.display = "none";
     currentTest = null;
-    console.log('UI reset'); // Debug log
+    if (pauseTimer) clearInterval(pauseTimer);
+    currentScriptIndex = -1;
+    highlightScriptLine(-1);
 }
 
-// Init
 synth.onvoiceschanged = () => {
-    console.log('Voices changed event triggered'); // Debug log
     loadVoices();
     loadSettings();
 };
 
 if (!synth) {
-    const warning = document.createElement("p");
-    warning.textContent = "This browser does not support TTS. Please use a modern browser.";
-    warning.className = "warning";
-    document.querySelector(".container").prepend(warning);
+    document.querySelector(".container").innerHTML = '<p class="warning">This browser does not support TTS. Please use a modern browser.</p>';
     startTestButton.disabled = true;
-    console.error('TTS not supported'); // Debug log
 } else {
     loadTests();
     loadVoices();
