@@ -39,6 +39,14 @@ async function loadTests() {
         tests = await response.json();
         console.log('Tests loaded:', tests); // Debug log
         populateTestSelect();
+        // Automatically select the first test
+        if (tests.length > 0) {
+            testSelect.value = tests[0].id;
+            currentTest = tests[0];
+            displayQuestions();
+            updateButtonStates();
+            console.log('Auto-selected first test:', tests[0].id); // Debug log
+        }
     } catch (error) {
         console.error('Error loading tests:', error);
         document.querySelector(".container").innerHTML += `<p class="warning">Failed to load test data: ${error.message}</p>`;
@@ -67,7 +75,7 @@ function loadVoices() {
         populateVoiceSelects();
         updateButtonStates();
     } else {
-        console.warn('No voices available yet');
+        console.warn('No voices available yet, waiting for onvoiceschanged');
     }
 }
 
@@ -100,11 +108,13 @@ function setDefaultLanguageAndVoices() {
         femaleVoiceName = voices.find(v => v.lang === "en-US")?.name || "";
     }
 
-    maleVoiceSelect.value = maleVoiceName;
-    femaleVoiceSelect.value = femaleVoiceName;
+    // Ensure voices are set
+    if (maleVoiceName) maleVoiceSelect.value = maleVoiceName;
+    if (femaleVoiceName) femaleVoiceSelect.value = femaleVoiceName;
 
     console.log(`Default voices set: Male=${maleVoiceName}, Female=${femaleVoiceName}`); // Debug log
     saveSettings();
+    populateVoiceSelects(); // Ensure selects reflect the set values
 }
 
 // Populate language select
@@ -117,7 +127,9 @@ function populateLanguageSelect() {
         option.textContent = lang;
         languageSelect.appendChild(option);
     });
-    languageSelect.value = "en-US"; // Force default
+    if (languages.includes("en-US")) {
+        languageSelect.value = "en-US";
+    }
     console.log('Language select populated'); // Debug log
 }
 
@@ -141,14 +153,20 @@ function populateVoiceSelects() {
         femaleVoiceSelect.appendChild(option);
     });
 
-    // Restore defaults if available
+    // Restore defaults or saved voices
     const savedMaleVoice = localStorage.getItem("maleVoice");
     const savedFemaleVoice = localStorage.getItem("femaleVoice");
     if (savedMaleVoice && voices.find(v => v.name === savedMaleVoice)) {
         maleVoiceSelect.value = savedMaleVoice;
+    } else {
+        const defaultMale = voices.find(v => v.lang === "en-GB")?.name || "";
+        maleVoiceSelect.value = defaultMale;
     }
     if (savedFemaleVoice && voices.find(v => v.name === savedFemaleVoice)) {
         femaleVoiceSelect.value = savedFemaleVoice;
+    } else {
+        const defaultFemale = voices.find(v => v.lang === "en-US")?.name || "";
+        femaleVoiceSelect.value = defaultFemale;
     }
 
     console.log('Voice selects populated:', {
@@ -159,24 +177,21 @@ function populateVoiceSelects() {
 
 // Update button states based on selections
 function updateButtonStates() {
-    if (currentTest && maleVoiceSelect.value && femaleVoiceSelect.value) {
-        startTestButton.disabled = false;
-        viewScriptButton.disabled = false;
-    } else {
-        startTestButton.disabled = true;
-        viewScriptButton.disabled = true;
-    }
+    const isReady = currentTest && maleVoiceSelect.value && femaleVoiceSelect.value;
+    startTestButton.disabled = !isReady;
+    viewScriptButton.disabled = !currentTest;
     console.log('Button states updated:', {
         currentTest: !!currentTest,
         maleVoice: maleVoiceSelect.value,
         femaleVoice: femaleVoiceSelect.value,
-        startTestButton: startTestButton.disabled
+        startTestButtonDisabled: startTestButton.disabled,
+        viewScriptButtonDisabled: viewScriptButton.disabled
     }); // Debug log
 }
 
 // Event listeners
 testSelect.addEventListener("change", (e) => {
-    const testId = e.target.value;
+    const testId = Number(e.target.value); // Coerce to number
     currentTest = tests.find(t => t.id === testId);
     if (currentTest) {
         displayQuestions();
