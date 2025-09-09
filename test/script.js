@@ -1,463 +1,381 @@
-const itemsPerPage = 30;
-
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
+// script.js
+const itemsPerPage = 30; // Not used here, but kept for compatibility
 const synth = window.speechSynthesis;
 let isSpeaking = false;
 let voices = [];
-let oetPhrases = [];
+let tests = []; // Array of test cases from JSON
 
+const testSelect = document.getElementById("test-select");
 const languageSelect = document.getElementById("language-select");
-const voiceSelect = document.getElementById("voice-select");
+const maleVoiceSelect = document.getElementById("male-voice-select");
+const femaleVoiceSelect = document.getElementById("female-voice-select");
 const repeatCountSelect = document.getElementById("repeat-count");
-const categorySelect = document.getElementById("category-select");
-const hintLengthSelect = document.getElementById("hint-length-select");
-const quizModeSelect = document.getElementById("quiz-mode");
-const termList = document.getElementById("term-list");
+const startTestButton = document.getElementById("start-test-button");
+const viewScriptButton = document.getElementById("view-script-button");
+const scoreButton = document.getElementById("score-button");
+const revealAnswersButton = document.getElementById("reveal-answers-button");
+const introText = document.getElementById("intro-text");
+const notesPreview = document.getElementById("notes-preview");
+const questionsDisplay = document.getElementById("questions-display");
+const answerForm = document.getElementById("notes-form");
+const results = document.getElementById("results");
+const scoreText = document.getElementById("score-text");
+const detailedScores = document.getElementById("detailed-scores");
+const scriptDisplay = document.getElementById("script-display");
+const scriptText = document.getElementById("script-text");
+const hideScriptButton = document.getElementById("hide-script-button");
 
-async function loadOetPhrases() {
-  try {
-    const response = await fetch('oet_writing_phrases.json');
-    if (!response.ok) {
-      throw new Error('Failed to load oetPhrases.json');
+let currentTest = null;
+let currentAnswers = []; // User's inputs
+let correctAnswers = []; // From JSON
+
+// Load tests from JSON
+async function loadTests() {
+    try {
+        const response = await fetch('oet_listening_tests.json');
+        if (!response.ok) {
+            throw new Error('Failed to load tests data');
+        }
+        tests = await response.json();
+        populateTestSelect();
+    } catch (error) {
+        console.error('Error loading tests:', error);
+        document.querySelector(".container").innerHTML += '<p class="warning">Failed to load test data.</p>';
     }
-    oetPhrases = await response.json();
-    loadVoices();
-  } catch (error) {
-    console.error('Error loading oetPhrases:', error);
-    termList.innerHTML = '<p style="text-align: center; color: #e53e3e;">데이터를 로드하는 중 오류가 발생했습니다.</p>';
-  }
 }
 
-function populateCategorySelect() {
-  const categories = [...new Set(oetPhrases.map((item) => item.category))].sort();
-  categorySelect.innerHTML = '<option value="">모든 카테고리</option>';
-  categories.forEach((category) => {
-    const option = document.createElement("option");
-    option.value = category;
-    option.textContent = category;
-    categorySelect.appendChild(option);
-  });
+// Populate test select
+function populateTestSelect() {
+    testSelect.innerHTML = '<option value="">Choose a test</option>';
+    tests.forEach((test) => {
+        const option = document.createElement("option");
+        option.value = test.id;
+        option.textContent = test.title;
+        testSelect.appendChild(option);
+    });
+}
+
+// Load voices and populate selects
+function loadVoices() {
+    voices = synth.getVoices();
+    if (voices.length > 0) {
+        populateLanguageSelect();
+        setDefaultVoices();
+    }
 }
 
 function populateLanguageSelect() {
-  const languages = [...new Set(voices.map((voice) => voice.lang))].sort();
-  languageSelect.innerHTML = '<option value="">언어를 선택하세요</option>';
-  languages.forEach((lang) => {
-    const option = document.createElement("option");
-    option.value = lang;
-    option.textContent = lang;
-    languageSelect.appendChild(option);
-  });
+    const languages = [...new Set(voices.map((voice) => voice.lang))].sort();
+    languageSelect.innerHTML = '<option value="">Select Language</option>';
+    languages.forEach((lang) => {
+        const option = document.createElement("option");
+        option.value = lang;
+        option.textContent = lang;
+        languageSelect.appendChild(option);
+    });
 }
 
-function populateVoiceSelect(selectedLang) {
-  voiceSelect.innerHTML = '<option value="">화자를 선택하세요</option>';
-  const filteredVoices = voices.filter((voice) => voice.lang === selectedLang);
-  filteredVoices.forEach((voice) => {
-    const option = document.createElement("option");
-    option.value = voice.name;
-    option.textContent = `${voice.name} (${voice.lang})`;
-    voiceSelect.appendChild(option);
-  });
-  voiceSelect.disabled = filteredVoices.length === 0;
-}
+function setDefaultVoices() {
+    const isChrome = /Chrome/.test(navigator.userAgent);
+    const isSafari = /Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent);
 
-function renderTermList() {
-  termList.innerHTML = "";
-  const selectedCategory = categorySelect.value;
-  const quizMode = quizModeSelect.value;
-  let filteredTerms = selectedCategory
-    ? oetPhrases.filter((item) => item.category === selectedCategory)
-    : oetPhrases;
+    // Default language
+    let defaultLang = "en";
+    languageSelect.value = defaultLang;
 
-  if (filteredTerms.length === 0) {
-    termList.innerHTML =
-      '<p style="text-align: center; color: #e53e3e;">선택한 카테고리에 해당하는 표현이 없습니다.</p>';
-    return;
-  }
-
-  const shuffledTerms = shuffleArray([...filteredTerms]);
-  const paginatedTerms = shuffledTerms.slice(0, itemsPerPage);
-  const hintLength = parseInt(hintLengthSelect.value) || 3;
-
-  paginatedTerms.forEach((item, index) => {
-    const termDiv = document.createElement("div");
-    termDiv.classList.add("term-item");
-    termDiv.title = `${item.term.slice(0, hintLength)}...`;
-
-    const termHeader = document.createElement("div");
-    termHeader.classList.add("term-header");
-
-    const termNumber = document.createElement("span");
-    termNumber.classList.add("term-number");
-    termNumber.textContent = `${index + 1}. `;
-
-    const termText = document.createElement("span");
-    termText.classList.add("term-text");
-    termText.textContent = item.meaning;
-
-    const buttonContainer = document.createElement("div");
-    buttonContainer.classList.add("button-container");
-
-    const playButton = document.createElement("button");
-    playButton.classList.add("play-button");
-    playButton.innerHTML = "<span>재생</span>";
-    playButton.addEventListener("click", () => {
-      if (!isSpeaking && voiceSelect.value) {
-        playButton.disabled = true;
-        const repeatCount = parseInt(repeatCountSelect.value) || 1;
-        const textToSpeak = item.term;
-        speakTerm(textToSpeak, repeatCount);
-      } else if (!voiceSelect.value) {
-        alert("먼저 언어와 화자를 선택하세요.");
-      }
-    });
-
-    const hintButton = document.createElement("button");
-    hintButton.classList.add("hint-button");
-    hintButton.innerHTML = "<span>힌트 보기</span>";
-    hintButton.addEventListener("click", () => {
-      alert(`힌트: ${item.term.slice(0, hintLength)}...`);
-    });
-
-    termHeader.appendChild(termNumber);
-    termHeader.appendChild(termText);
-    buttonContainer.appendChild(playButton);
-    buttonContainer.appendChild(hintButton);
-
-    if (quizMode === "default") {
-      const revealButton = document.createElement("button");
-      revealButton.classList.add("reveal-button");
-      revealButton.innerHTML = "<span>정답 보기</span>";
-      revealButton.addEventListener("click", () => {
-        termText.classList.add("revealed");
-        termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
-        revealButton.disabled = true;
-      });
-      buttonContainer.appendChild(revealButton);
-    } else if (quizMode === "word-order") {
-      const wordOrderContainer = document.createElement("div");
-      wordOrderContainer.classList.add("word-order-container");
-
-      const correctWordsContainer = document.createElement("div");
-      correctWordsContainer.classList.add("correct-words");
-
-      const availableWordsContainer = document.createElement("div");
-      availableWordsContainer.classList.add("available-words");
-
-      const feedbackMessage = document.createElement("div");
-      feedbackMessage.classList.add("feedback-message");
-
-      const words = item.term.replace(/[.,]/g, "").split(" ").filter(word => word);
-      const correctWords = [...words];
-      const firstTwoWords = words.length >= 2 ? words.slice(0, 2) : words;
-      const remainingWords = words.length >= 2 ? words.slice(2) : [];
-      const shuffledRemainingWords = shuffleArray([...remainingWords]);
-
-      const correctWordList = [...firstTwoWords];
-      const availableWordList = [...shuffledRemainingWords];
-
-      renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, firstTwoWords.length, feedbackMessage);
-
-      const revealButton = document.createElement("button");
-      revealButton.classList.add("reveal-button");
-      revealButton.innerHTML = "<span>정답 보기</span>";
-      revealButton.addEventListener("click", () => {
-        termText.classList.add("revealed");
-        termText.innerHTML = `${item.meaning} <br><span class="english-answer">${item.term}</span> <br><span class="category">${item.category}</span>`;
-        revealButton.disabled = true;
-        availableWordsContainer.querySelectorAll(".word").forEach((word) => {
-          word.draggable = false;
-          word.style.cursor = "default";
-        });
-        correctWordsContainer.querySelectorAll(".word:not(.fixed)").forEach((word) => {
-          word.draggable = false;
-          word.style.cursor = "default";
-        });
-      });
-
-      buttonContainer.appendChild(revealButton);
-      wordOrderContainer.appendChild(correctWordsContainer);
-      wordOrderContainer.appendChild(availableWordsContainer);
-      termDiv.appendChild(wordOrderContainer);
-      termDiv.appendChild(feedbackMessage);
+    // Male voice (Cardiologist)
+    let maleVoiceName = "";
+    if (isChrome) {
+        maleVoiceName = voices.find(v => v.name === "Google UK English" && v.lang === "en-GB")?.name || "";
+    } else if (isSafari) {
+        maleVoiceName = voices.find(v => v.name === "Daniel" && v.lang === "en-GB")?.name || "";
     }
+    maleVoiceSelect.value = maleVoiceName;
 
-    termDiv.appendChild(termHeader);
-    termDiv.appendChild(buttonContainer);
-    termList.appendChild(termDiv);
-  });
+    // Female voice (Patient)
+    let femaleVoiceName = "";
+    if (isChrome) {
+        femaleVoiceName = voices.find(v => v.name === "Google US English" && v.lang === "en-US")?.name || "";
+    } else if (isSafari) {
+        femaleVoiceName = voices.find(v => v.name === "Samantha" && v.lang === "en-US")?.name || "";
+    }
+    femaleVoiceSelect.value = femaleVoiceName;
 
-  document.getElementById("term-count").textContent = `총 문제 수: ${filteredTerms.length}`;
+    populateVoiceSelects();
 }
 
-function renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage) {
-  correctWordsContainer.innerHTML = "";
-  availableWordsContainer.innerHTML = "";
+function populateVoiceSelects() {
+    // Male voices (en-GB)
+    maleVoiceSelect.innerHTML = '<option value="">Select Male Voice</option>';
+    voices.filter(v => v.lang === "en-GB").forEach((voice) => {
+        const option = document.createElement("option");
+        option.value = voice.name;
+        option.textContent = voice.name;
+        maleVoiceSelect.appendChild(option);
+    });
 
-  correctWordList.forEach((word, index) => {
-    const wordSpan = document.createElement("span");
-    wordSpan.classList.add("word");
-    if (index < fixedCount) {
-      wordSpan.classList.add("fixed", "correct");
+    // Female voices (en-US)
+    femaleVoiceSelect.innerHTML = '<option value="">Select Female Voice</option>';
+    voices.filter(v => v.lang === "en-US").forEach((voice) => {
+        const option = document.createElement("option");
+        option.value = voice.name;
+        option.textContent = voice.name;
+        femaleVoiceSelect.appendChild(option);
+    });
+}
+
+// Event listeners
+testSelect.addEventListener("change", (e) => {
+    const testId = e.target.value;
+    currentTest = tests.find(t => t.id === testId);
+    if (currentTest) {
+        startTestButton.disabled = false;
+        viewScriptButton.disabled = false;
+        displayQuestions();
+        saveSettings();
     } else {
-      wordSpan.classList.add("correct");
-      wordSpan.draggable = true;
-      wordSpan.addEventListener("dragstart", (e) => {
-        e.dataTransfer.setData("text/plain", word);
-        wordSpan.classList.add("dragging");
-      });
-      wordSpan.addEventListener("dragend", () => {
-        wordSpan.classList.remove("dragging");
-      });
-      wordSpan.addEventListener("dragover", (e) => {
-        e.preventDefault();
-      });
-      wordSpan.addEventListener("drop", (e) => {
-        e.preventDefault();
-        const draggedWord = e.dataTransfer.getData("text/plain");
-        const targetIndex = correctWordList.indexOf(word);
-        if (availableWordList.includes(draggedWord)) {
-          availableWordList.splice(availableWordList.indexOf(draggedWord), 1);
-          correctWordList.splice(targetIndex, 0, draggedWord);
-          renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage);
-        }
-      });
+        resetUI();
     }
-    wordSpan.textContent = word;
-    correctWordsContainer.appendChild(wordSpan);
-  });
-
-  availableWordList.forEach((word) => {
-    const wordSpan = document.createElement("span");
-    wordSpan.classList.add("word", "incorrect");
-    wordSpan.draggable = true;
-    wordSpan.addEventListener("dragstart", (e) => {
-      e.dataTransfer.setData("text/plain", word);
-      wordSpan.classList.add("dragging");
-    });
-    wordSpan.addEventListener("dragend", () => {
-      wordSpan.classList.remove("dragging");
-    });
-    wordSpan.addEventListener("dragover", (e) => {
-      e.preventDefault();
-    });
-    wordSpan.addEventListener("drop", (e) => {
-      e.preventDefault();
-      const draggedWord = e.dataTransfer.getData("text/plain");
-      const targetIndex = availableWordList.indexOf(word);
-      if (correctWordList.includes(draggedWord)) {
-        correctWordList.splice(correctWordList.indexOf(draggedWord), 1);
-        availableWordList.splice(targetIndex, 0, draggedWord);
-        renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage);
-      }
-    });
-    wordSpan.addEventListener("click", () => {
-      const nextCorrectIndex = correctWordList.length;
-      if (nextCorrectIndex < correctWords.length && word === correctWords[nextCorrectIndex]) {
-        availableWordList.splice(availableWordList.indexOf(word), 1);
-        correctWordList.push(word);
-      } else {
-        wordSpan.classList.add("highlight");
-        setTimeout(() => {
-          wordSpan.classList.remove("highlight");
-        }, 500);
-      }
-      renderWordOrderQuiz(correctWordsContainer, availableWordsContainer, correctWordList, availableWordList, correctWords, fixedCount, feedbackMessage);
-    });
-    wordSpan.textContent = word;
-    availableWordsContainer.appendChild(wordSpan);
-  });
-
-  updateWordOrderFeedback(correctWordsContainer, correctWordList, correctWords, fixedCount, feedbackMessage);
-}
-
-function updateWordOrderFeedback(correctWordsContainer, correctWordList, correctWords, fixedCount, feedbackMessage) {
-  const words = correctWordsContainer.querySelectorAll(".word");
-  let lastCorrectIndex = fixedCount - 1;
-  let allCorrect = true;
-
-  for (let i = 0; i < correctWordList.length; i++) {
-    if (i >= correctWords.length || correctWordList[i] !== correctWords[i]) {
-      lastCorrectIndex = i - 1;
-      allCorrect = false;
-      break;
-    }
-    lastCorrectIndex = i;
-  }
-
-  words.forEach((wordSpan, index) => {
-    if (index <= lastCorrectIndex) {
-      wordSpan.classList.remove("incorrect");
-      wordSpan.classList.add("correct");
-    } else {
-      wordSpan.classList.remove("correct");
-      wordSpan.classList.add("incorrect");
-    }
-  });
-
-  feedbackMessage.textContent = allCorrect && correctWordList.length === correctWords.length
-    ? "정답입니다!"
-    : "다음 올바른 단어를 선택하세요.";
-  feedbackMessage.classList.toggle("correct", allCorrect && correctWordList.length === correctWords.length);
-  feedbackMessage.classList.toggle("incorrect", !(allCorrect && correctWordList.length === correctWords.length));
-}
-
-function speakTerm(text, repeatCount) {
-  let currentCount = 0;
-  isSpeaking = true;
-  const utterance = new SpeechSynthesisUtterance(text);
-  const selectedVoice = synth.getVoices().find((voice) => voice.name === voiceSelect.value);
-  if (selectedVoice) {
-    utterance.voice = selectedVoice;
-  }
-  utterance.lang = languageSelect.value;
-  utterance.onend = () => {
-    currentCount++;
-    if (currentCount < repeatCount) {
-      synth.speak(utterance);
-    } else {
-      isSpeaking = false;
-      document.querySelectorAll(".play-button").forEach((btn) => (btn.disabled = false));
-    }
-  };
-  synth.speak(utterance);
-}
-
-function loadVoices() {
-  voices = synth.getVoices();
-  if (voices.length > 0) {
-    populateLanguageSelect();
-    populateCategorySelect();
-
-    const savedLang =
-      localStorage.getItem("language") ||
-      (navigator.platform.includes("Win") ? "en-GB" : "en-AU");
-    const savedVoice = localStorage.getItem("voice");
-    const savedRepeatCount = localStorage.getItem("repeatCount") || "1";
-    const savedCategory = localStorage.getItem("category") || "";
-    const savedHintLength = localStorage.getItem("hintLength") || "3";
-    const savedQuizMode = localStorage.getItem("quizMode") || "default";
-
-    repeatCountSelect.value = savedRepeatCount;
-    categorySelect.value = savedCategory;
-    hintLengthSelect.value = savedHintLength;
-    quizModeSelect.value = savedQuizMode;
-
-    if (voices.find((voice) => voice.lang === savedLang)) {
-      languageSelect.value = savedLang;
-    } else {
-      languageSelect.value =
-        navigator.platform.includes("Win") && voices.find((voice) => voice.lang === "en-GB")
-          ? "en-GB"
-          : voices.find((voice) => voice.lang === "en-AU")
-          ? "en-AU"
-          : voices[0]?.lang || "";
-    }
-
-    if (languageSelect.value) {
-      populateVoiceSelect(languageSelect.value);
-      if (
-        savedVoice &&
-        voices.find(
-          (voice) => voice.name === savedVoice && voice.lang === languageSelect.value
-        )
-      ) {
-        voiceSelect.value = savedVoice;
-      } else if (
-        navigator.platform.includes("Win") &&
-        voices.find(
-          (voice) => voice.name === "Google UK English Female" && voice.lang === "en-GB"
-        )
-      ) {
-        voiceSelect.value = "Google UK English Female";
-      } else {
-        const gordonVoice = voices.find(
-          (voice) => voice.name.toLowerCase().includes("gordon") && voice.lang === "en-AU"
-        );
-        voiceSelect.value = gordonVoice
-          ? gordonVoice.name
-          : voices.find((voice) => voice.lang === languageSelect.value)?.name || "";
-      }
-    }
-
-    renderTermList();
-  }
-}
-
-synth.onvoiceschanged = () => {
-  loadVoices();
-};
+});
 
 languageSelect.addEventListener("change", () => {
-  const selectedLang = languageSelect.value;
-  if (selectedLang) {
-    populateVoiceSelect(selectedLang);
-    localStorage.setItem("language", selectedLang);
-    if (voiceSelect.value) {
-      localStorage.setItem("voice", voiceSelect.value);
+    populateVoiceSelects();
+    saveSettings();
+});
+
+maleVoiceSelect.addEventListener("change", () => saveSettings());
+femaleVoiceSelect.addEventListener("change", () => saveSettings());
+repeatCountSelect.addEventListener("change", () => saveSettings());
+
+startTestButton.addEventListener("click", startTTS);
+viewScriptButton.addEventListener("click", toggleScript);
+scoreButton.addEventListener("click", scoreAnswers);
+revealAnswersButton.addEventListener("click", revealAnswers);
+hideScriptButton.addEventListener("click", toggleScript);
+
+// Save/load settings
+function saveSettings() {
+    localStorage.setItem("language", languageSelect.value);
+    localStorage.setItem("maleVoice", maleVoiceSelect.value);
+    localStorage.setItem("femaleVoice", femaleVoiceSelect.value);
+    localStorage.setItem("repeatCount", repeatCountSelect.value);
+}
+
+function loadSettings() {
+    languageSelect.value = localStorage.getItem("language") || "";
+    maleVoiceSelect.value = localStorage.getItem("maleVoice") || "";
+    femaleVoiceSelect.value = localStorage.getItem("femaleVoice") || "";
+    repeatCountSelect.value = localStorage.getItem("repeatCount") || "1";
+    if (languageSelect.value) {
+        populateVoiceSelects();
     }
-  } else {
-    voiceSelect.innerHTML = '<option value="">먼저 언어를 선택하세요</option>';
-    voiceSelect.disabled = true;
-  }
-  renderTermList();
-});
+}
 
-voiceSelect.addEventListener("change", () => {
-  if (voiceSelect.value) {
-    localStorage.setItem("voice", voiceSelect.value);
-  }
-});
+// Display questions for preview and input
+function displayQuestions() {
+    if (!currentTest) return;
 
-repeatCountSelect.addEventListener("change", () => {
-  localStorage.setItem("repeatCount", repeatCountSelect.value);
-});
+    // Intro
+    introText.innerHTML = currentTest.introduction;
+    introText.style.display = "block";
 
-categorySelect.addEventListener("change", () => {
-  localStorage.setItem("category", categorySelect.value);
-  renderTermList();
-});
+    // Questions display for preview
+    questionsDisplay.innerHTML = currentTest.questions.map(q => `<p>${q}</p>`).join('');
+    notesPreview.style.display = "block";
 
-hintLengthSelect.addEventListener("change", () => {
-  localStorage.setItem("hintLength", hintLengthSelect.value);
-  renderTermList();
-});
+    // Answer form
+    answerForm.innerHTML = '';
+    currentTest.answers.forEach((answer, index) => {
+        const div = document.createElement('div');
+        div.className = 'answer-container';
+        div.innerHTML = `
+            <label>${index + 1}. </label>
+            <input type="text" class="note-input" id="ans${index}" placeholder="Enter answer" data-index="${index}">
+        `;
+        answerForm.appendChild(div);
+    });
+    answerForm.style.display = "block";
+    scoreButton.disabled = false;
+    revealAnswersButton.disabled = false;
 
-quizModeSelect.addEventListener("change", () => {
-  localStorage.setItem("quizMode", quizModeSelect.value);
-  renderTermList();
-});
+    document.getElementById("term-count").textContent = `Total Questions: ${currentTest.answers.length}`;
+}
 
-document.getElementById("refresh-button").addEventListener("click", () => {
-  renderTermList();
-});
+// Collect user answers
+function getUserAnswers() {
+    currentAnswers = [];
+    for (let i = 0; i < currentTest.answers.length; i++) {
+        const input = document.getElementById(`ans${i}`);
+        currentAnswers.push(input ? input.value.trim().toLowerCase() : '');
+    }
+}
 
-document.getElementById("refresh-button-bottom").addEventListener("click", () => {
-  renderTermList();
-});
+// TTS Functions
+function startTTS() {
+    if (!currentTest || isSpeaking) return;
+    if (!maleVoiceSelect.value || !femaleVoiceSelect.value) {
+        alert("Please select male and female voices.");
+        return;
+    }
+
+    startTestButton.disabled = true;
+    isSpeaking = true;
+
+    // Step 1: Read introduction
+    speakText(currentTest.introduction, null, () => {
+        // Step 2: 30 second pause (simulate by timer)
+        setTimeout(() => {
+            // Step 3: Read script sentences
+            speakScript();
+        }, 30000);
+    });
+}
+
+function speakText(text, voiceName, callback) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    const selectedVoice = voices.find(v => v.name === voiceName);
+    if (selectedVoice) utterance.voice = selectedVoice;
+    utterance.rate = 0.9; // Natural speed
+    utterance.onend = () => {
+        if (callback) callback();
+    };
+    synth.speak(utterance);
+}
+
+function speakScript() {
+    let index = 0;
+    const repeatCount = parseInt(repeatCountSelect.value) || 1;
+
+    function speakNext() {
+        if (index >= currentTest.script.length) {
+            isSpeaking = false;
+            startTestButton.disabled = false;
+            return;
+        }
+
+        const line = currentTest.script[index];
+        // Skip labels, get dialogue
+        const dialogue = line.replace(/^(Cardiologist|Sara[h ]Mitchell): /i, '').trim();
+        if (!dialogue) {
+            index++;
+            speakNext();
+            return;
+        }
+
+        // Determine voice
+        let voiceName = "";
+        if (/Cardiologist/i.test(line)) {
+            voiceName = maleVoiceSelect.value;
+        } else if (/Sarah Mitchell/i.test(line)) {
+            voiceName = femaleVoiceSelect.value;
+        }
+
+        // Speak with repeat
+        let repeats = 0;
+        function repeatUtterance() {
+            speakText(dialogue, voiceName, () => {
+                repeats++;
+                if (repeats < repeatCount) {
+                    setTimeout(repeatUtterance, 500); // Short pause between repeats
+                } else {
+                    // 1 second pause between speakers
+                    setTimeout(() => {
+                        index++;
+                        speakNext();
+                    }, 1000);
+                }
+            });
+        }
+        repeatUtterance();
+    }
+
+    speakNext();
+}
+
+// Script toggle
+function toggleScript() {
+    const isVisible = scriptDisplay.style.display !== "none";
+    scriptDisplay.style.display = isVisible ? "none" : "block";
+    scriptText.textContent = currentTest ? currentTest.fullScript : "";
+    viewScriptButton.textContent = isVisible ? "View Script" : "Hide Script";
+}
+
+// Scoring
+function scoreAnswers() {
+    if (!currentTest) return;
+    getUserAnswers();
+    correctAnswers = currentTest.answers.map(a => a.toLowerCase());
+
+    let totalScore = 0;
+    const scores = [];
+
+    for (let i = 0; i < currentAnswers.length; i++) {
+        const userAns = currentAnswers[i];
+        const correct = correctAnswers[i];
+        const similarity = calculateSimilarity(userAns, correct);
+        const points = similarity >= 0.8 ? 1 : 0; // 80% or higher for full point
+        totalScore += points;
+        scores.push({ index: i + 1, similarity: Math.round(similarity * 100), points });
+    }
+
+    scoreText.textContent = `Score: ${totalScore} out of ${currentTest.answers.length}`;
+    detailedScores.innerHTML = scores.map(s => `<p>Q${s.index}: ${s.similarity}% (${s.points} point)</p>`).join('');
+    results.style.display = "block";
+}
+
+// Similarity calculation (simple word overlap percentage, case-insensitive)
+function calculateSimilarity(str1, str2) {
+    if (!str1 || !str2) return 0;
+    const words1 = str1.split(/\s+/).filter(w => w.length > 0);
+    const words2 = str2.split(/\s+/).filter(w => w.length > 0);
+    if (words1.length === 0 && words2.length === 0) return 1;
+    const intersection = words1.filter(w1 => words2.includes(w1)).length;
+    return intersection / Math.max(words1.length, words2.length);
+}
+
+// Reveal answers
+function revealAnswers() {
+    scoreAnswers(); // Score first
+    for (let i = 0; i < currentTest.answers.length; i++) {
+        const input = document.getElementById(`ans${i}`);
+        const div = input.parentElement;
+        const correct = currentTest.answers[i];
+        const span = document.createElement('span');
+        span.textContent = ` (Correct: ${correct})`;
+        span.className = currentAnswers[i] === correct ? 'correct' : 'incorrect';
+        div.appendChild(span);
+        input.disabled = true;
+    }
+    revealAnswersButton.disabled = true;
+}
+
+function resetUI() {
+    startTestButton.disabled = true;
+    viewScriptButton.disabled = true;
+    scoreButton.disabled = true;
+    revealAnswersButton.disabled = true;
+    introText.style.display = "none";
+    notesPreview.style.display = "none";
+    answerForm.style.display = "none";
+    results.style.display = "none";
+    scriptDisplay.style.display = "none";
+    currentTest = null;
+}
+
+// Init
+synth.onvoiceschanged = () => {
+    loadVoices();
+    loadSettings();
+};
 
 if (!synth) {
-  const warning = document.createElement("p");
-  warning.textContent =
-    "이 브라우저는 TTS를 지원하지 않습니다. 최신 브라우저를 사용해 주세요.";
-  warning.style.color = "#e53e3e";
-  warning.style.textAlign = "center";
-  warning.style.marginBottom = "20px";
-  document.querySelector(".container").prepend(warning);
-  languageSelect.disabled = true;
-  voiceSelect.disabled = true;
-  repeatCountSelect.disabled = true;
-  categorySelect.disabled = true;
-  hintLengthSelect.disabled = true;
-  quizModeSelect.disabled = true;
+    const warning = document.createElement("p");
+    warning.textContent = "This browser does not support TTS. Please use a modern browser.";
+    warning.className = "warning";
+    document.querySelector(".container").prepend(warning);
+    startTestButton.disabled = true;
 } else {
-  loadOetPhrases();
+    loadTests();
+    loadVoices();
+    loadSettings();
 }
