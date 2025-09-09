@@ -1,10 +1,10 @@
-// script.js
 const synth = window.speechSynthesis;
 let isSpeaking = false;
 let voices = [];
 let tests = [];
 let pauseTimer = null;
-let currentScriptIndex = -1; // For highlighting
+let currentScriptIndex = -1;
+let skipIntroduction = false;
 
 const testSelect = document.getElementById("test-select");
 const languageSelect = document.getElementById("language-select");
@@ -12,13 +12,13 @@ const maleVoiceSelect = document.getElementById("male-voice-select");
 const femaleVoiceSelect = document.getElementById("female-voice-select");
 const repeatCountSelect = document.getElementById("repeat-count");
 const startTestButton = document.getElementById("start-test-button");
+const skipIntroButton = document.getElementById("skip-intro-button");
 const viewScriptButton = document.getElementById("view-script-button");
 const scoreButton = document.getElementById("score-button");
 const revealAnswersButton = document.getElementById("reveal-answers-button");
 const introText = document.getElementById("intro-text");
 const notesPreview = document.getElementById("notes-preview");
-const questionsDisplay = document.getElementById("questions-display");
-const answerForm = document.getElementById("notes-form");
+const notesForm = document.getElementById("notes-form");
 const results = document.getElementById("results");
 const scoreText = document.getElementById("score-text");
 const detailedScores = document.getElementById("detailed-scores");
@@ -27,13 +27,12 @@ const scriptLines = document.getElementById("script-lines");
 const hideScriptButton = document.getElementById("hide-script-button");
 const timerSection = document.getElementById("timer-section");
 const timerDisplay = document.getElementById("timer-display");
-const skipButton = document.getElementById("skip-button");
+const skipPauseButton = document.getElementById("skip-pause-button");
 
 let currentTest = null;
 let currentAnswers = [];
 let correctAnswers = [];
 
-// Load tests from JSON
 async function loadTests() {
     try {
         const response = await fetch('oet_listening_tests.json');
@@ -41,12 +40,14 @@ async function loadTests() {
             throw new Error(`Failed to load tests data: ${response.status}`);
         }
         tests = await response.json();
+        console.log('Tests loaded:', tests);
         populateTestSelect();
         if (tests.length > 0) {
             testSelect.value = tests[0].id;
             currentTest = tests[0];
             displayQuestions();
             updateButtonStates();
+            console.log('Auto-selected first test:', tests[0].id);
         }
     } catch (error) {
         console.error('Error loading tests:', error);
@@ -62,15 +63,19 @@ function populateTestSelect() {
         option.textContent = test.title;
         testSelect.appendChild(option);
     });
+    console.log('Test select populated');
 }
 
 function loadVoices() {
     voices = synth.getVoices();
+    console.log('Voices loaded:', voices);
     if (voices.length > 0) {
         setDefaultLanguageAndVoices();
         populateLanguageSelect();
         populateVoiceSelects();
         updateButtonStates();
+    } else {
+        console.warn('No voices available yet, waiting for onvoiceschanged');
     }
 }
 
@@ -85,22 +90,29 @@ function setDefaultLanguageAndVoices() {
 
     if (isChrome) {
         maleVoiceName = voices.find(v => v.name === "Google UK English" && v.lang === "en-GB")?.name || 
-                        voices.find(v => v.lang === "en-GB")?.name || "";
+                        voices.find(v => v.lang === "en-GB")?.name || 
+                        voices.find(v => v.lang.includes("en"))?.name || "";
         femaleVoiceName = voices.find(v => v.name === "Google US English" && v.lang === "en-US")?.name || 
-                          voices.find(v => v.lang === "en-US")?.name || "";
+                          voices.find(v => v.lang === "en-US")?.name || 
+                          voices.find(v => v.lang.includes("en"))?.name || "";
     } else if (isSafari) {
         maleVoiceName = voices.find(v => v.name === "Daniel" && v.lang === "en-GB")?.name || 
-                        voices.find(v => v.lang === "en-GB")?.name || "";
+                        voices.find(v => v.lang === "en-GB")?.name || 
+                        voices.find(v => v.lang.includes("en"))?.name || "";
         femaleVoiceName = voices.find(v => v.name === "Samantha" && v.lang === "en-US")?.name || 
-                          voices.find(v => v.lang === "en-US")?.name || "";
+                          voices.find(v => v.lang === "en-US")?.name || 
+                          voices.find(v => v.lang.includes("en"))?.name || "";
     } else {
-        maleVoiceName = voices.find(v => v.lang === "en-GB")?.name || "";
-        femaleVoiceName = voices.find(v => v.lang === "en-US")?.name || "";
+        maleVoiceName = voices.find(v => v.lang === "en-GB")?.name || 
+                        voices.find(v => v.lang.includes("en"))?.name || "";
+        femaleVoiceName = voices.find(v => v.lang === "en-US")?.name || 
+                          voices.find(v => v.lang.includes("en"))?.name || "";
     }
 
-    if (maleVoiceName) maleVoiceSelect.value = maleVoiceName;
-    if (femaleVoiceName) femaleVoiceSelect.value = femaleVoiceName;
+    maleVoiceSelect.value = maleVoiceName;
+    femaleVoiceSelect.value = femaleVoiceName;
 
+    console.log(`Default voices set: Male=${maleVoiceName}, Female=${femaleVoiceName}`);
     saveSettings();
     populateVoiceSelects();
 }
@@ -117,11 +129,12 @@ function populateLanguageSelect() {
     if (languages.includes("en-US")) {
         languageSelect.value = "en-US";
     }
+    console.log('Language select populated');
 }
 
 function populateVoiceSelects() {
     maleVoiceSelect.innerHTML = '<option value="">Select Male Voice</option>';
-    voices.filter(v => v.lang === "en-GB").forEach((voice) => {
+    voices.filter(v => v.lang.includes("en")).forEach((voice) => {
         const option = document.createElement("option");
         option.value = voice.name;
         option.textContent = voice.name;
@@ -129,36 +142,49 @@ function populateVoiceSelects() {
     });
 
     femaleVoiceSelect.innerHTML = '<option value="">Select Female Voice</option>';
-    voices.filter(v => v.lang === "en-US").forEach((voice) => {
+    voices.filter(v => v.lang.includes("en")).forEach((voice) => {
         const option = document.createElement("option");
         option.value = voice.name;
         option.textContent = voice.name;
         femaleVoiceSelect.appendChild(option);
     });
 
-    // Restore or set defaults
     const savedMaleVoice = localStorage.getItem("maleVoice");
     const savedFemaleVoice = localStorage.getItem("femaleVoice");
     if (savedMaleVoice && voices.find(v => v.name === savedMaleVoice)) {
         maleVoiceSelect.value = savedMaleVoice;
     } else {
-        const defaultMale = voices.find(v => v.lang === "en-GB")?.name || "";
+        const defaultMale = voices.find(v => v.lang === "en-GB")?.name || 
+                           voices.find(v => v.lang.includes("en"))?.name || "";
         maleVoiceSelect.value = defaultMale;
     }
     if (savedFemaleVoice && voices.find(v => v.name === savedFemaleVoice)) {
         femaleVoiceSelect.value = savedFemaleVoice;
     } else {
-        const defaultFemale = voices.find(v => v.lang === "en-US")?.name || "";
+        const defaultFemale = voices.find(v => v.lang === "en-US")?.name || 
+                             voices.find(v => v.lang.includes("en"))?.name || "";
         femaleVoiceSelect.value = defaultFemale;
     }
+    console.log('Voice selects populated:', {
+        maleVoice: maleVoiceSelect.value,
+        femaleVoice: femaleVoiceSelect.value
+    });
 }
 
 function updateButtonStates() {
     const isReady = currentTest && maleVoiceSelect.value && femaleVoiceSelect.value;
     startTestButton.disabled = !isReady;
+    skipIntroButton.disabled = !isReady || !isSpeaking;
     viewScriptButton.disabled = !currentTest;
     scoreButton.disabled = !currentTest;
     revealAnswersButton.disabled = !currentTest;
+    console.log('Button states updated:', {
+        currentTest: !!currentTest,
+        maleVoice: maleVoiceSelect.value,
+        femaleVoice: femaleVoiceSelect.value,
+        startTestButtonDisabled: startTestButton.disabled,
+        skipIntroButtonDisabled: skipIntroButton.disabled
+    });
 }
 
 testSelect.addEventListener("change", (e) => {
@@ -171,38 +197,48 @@ testSelect.addEventListener("change", (e) => {
     } else {
         resetUI();
     }
+    console.log('Test selected:', testId, currentTest);
 });
 
 languageSelect.addEventListener("change", () => {
     populateVoiceSelects();
     updateButtonStates();
     saveSettings();
+    console.log('Language changed:', languageSelect.value);
 });
 
 maleVoiceSelect.addEventListener("change", () => {
     updateButtonStates();
     saveSettings();
+    console.log('Male voice changed:', maleVoiceSelect.value);
 });
 
 femaleVoiceSelect.addEventListener("change", () => {
     updateButtonStates();
     saveSettings();
+    console.log('Female voice changed:', femaleVoiceSelect.value);
 });
 
 repeatCountSelect.addEventListener("change", () => saveSettings());
 
 startTestButton.addEventListener("click", startTTS);
+skipIntroButton.addEventListener("click", () => {
+    skipIntroduction = true;
+    synth.cancel();
+    startPreviewTimer();
+    console.log('Introduction skipped');
+});
 viewScriptButton.addEventListener("click", toggleScript);
 scoreButton.addEventListener("click", scoreAnswers);
 revealAnswersButton.addEventListener("click", revealAnswers);
 hideScriptButton.addEventListener("click", toggleScript);
-
-skipButton.addEventListener("click", () => {
+skipPauseButton.addEventListener("click", () => {
     if (pauseTimer) {
         clearInterval(pauseTimer);
     }
     timerSection.style.display = "none";
     speakScript();
+    console.log('Preview pause skipped');
 });
 
 function saveSettings() {
@@ -210,6 +246,12 @@ function saveSettings() {
     localStorage.setItem("maleVoice", maleVoiceSelect.value);
     localStorage.setItem("femaleVoice", femaleVoiceSelect.value);
     localStorage.setItem("repeatCount", repeatCountSelect.value);
+    console.log('Settings saved:', {
+        language: languageSelect.value,
+        maleVoice: maleVoiceSelect.value,
+        femaleVoice: femaleVoiceSelect.value,
+        repeatCount: repeatCountSelect.value
+    });
 }
 
 function loadSettings() {
@@ -219,6 +261,7 @@ function loadSettings() {
     repeatCountSelect.value = localStorage.getItem("repeatCount") || "1";
     populateVoiceSelects();
     updateButtonStates();
+    console.log('Settings loaded');
 }
 
 function displayQuestions() {
@@ -227,29 +270,28 @@ function displayQuestions() {
     introText.innerHTML = currentTest.introduction;
     introText.style.display = "block";
 
-    // Improved questions display with line breaks
-    const questionsHtml = currentTest.questions.map(q => {
-        return q.split('\n').map(line => `<div class="question-line">${line}</div>`).join('');
-    }).join('');
-    questionsDisplay.innerHTML = questionsHtml;
+    notesForm.innerHTML = '';
+    let inputIndex = 0;
+    currentTest.questions.forEach((questionBlock) => {
+        questionBlock.split('\n').forEach((line) => {
+            const div = document.createElement('div');
+            div.className = 'question-line';
+            if (line.includes('________________')) {
+                const parts = line.split('________________');
+                div.innerHTML = `
+                    ${parts[0]}<input type="text" class="note-input" id="ans${inputIndex}" placeholder="Enter answer" data-index="${inputIndex}">${parts[1] || ''}
+                `;
+                inputIndex++;
+            } else {
+                div.textContent = line;
+            }
+            notesForm.appendChild(div);
+        });
+    });
     notesPreview.style.display = "block";
 
-    // Answer form with structured inputs
-    answerForm.innerHTML = '';
-    currentTest.answers.forEach((answer, index) => {
-        const div = document.createElement('div');
-        div.className = 'answer-container';
-        div.innerHTML = `
-            <label>${index + 1}.</label>
-            <input type="text" class="note-input" id="ans${index}" placeholder="Enter your answer here">
-        `;
-        answerForm.appendChild(div);
-    });
-    answerForm.style.display = "block";
-    scoreButton.disabled = false;
-    revealAnswersButton.disabled = false;
-
     document.getElementById("term-count").textContent = `Total Questions: ${currentTest.answers.length}`;
+    console.log('Questions displayed for test:', currentTest.id);
 }
 
 function getUserAnswers() {
@@ -258,25 +300,37 @@ function getUserAnswers() {
         const input = document.getElementById(`ans${i}`);
         currentAnswers.push(input ? input.value.trim().toLowerCase() : '');
     }
+    console.log('User answers collected:', currentAnswers);
 }
 
 function startTTS() {
-    if (!currentTest || isSpeaking) return;
+    if (!currentTest || isSpeaking) {
+        console.warn('Cannot start TTS:', { currentTest: !!currentTest, isSpeaking });
+        return;
+    }
     if (!maleVoiceSelect.value || !femaleVoiceSelect.value) {
         alert("Please select male and female voices.");
+        console.warn('Voices not selected:', {
+            maleVoice: maleVoiceSelect.value,
+            femaleVoice: femaleVoiceSelect.value
+        });
         return;
     }
 
     startTestButton.disabled = true;
+    skipIntroButton.disabled = false;
     isSpeaking = true;
+    skipIntroduction = false;
 
-    // Step 1: Play beep
     playBeep(() => {
-        // Step 2: Read introduction
-        speakText(currentTest.introduction, femaleVoiceSelect.value, () => {
-            // Step 3: Show timer for 30s pause
+        if (skipIntroduction) {
             startPreviewTimer();
-        });
+        } else {
+            speakText(currentTest.introduction, femaleVoiceSelect.value, () => {
+                console.log('Introduction spoken');
+                startPreviewTimer();
+            });
+        }
     });
 }
 
@@ -303,15 +357,22 @@ function playBeep(callback) {
 function speakText(text, voiceName, callback) {
     const utterance = new SpeechSynthesisUtterance(text);
     const selectedVoice = voices.find(v => v.name === voiceName);
-    if (selectedVoice) utterance.voice = selectedVoice;
+    if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        console.log(`Speaking with voice: ${voiceName}`);
+    } else {
+        console.warn(`Voice not found: ${voiceName}, using default`);
+    }
     utterance.rate = 0.9;
     utterance.onend = () => {
+        console.log('Utterance ended');
         if (callback) callback();
     };
     utterance.onerror = (e) => {
-        console.error('TTS error:', e);
+        console.error('SpeechSynthesisUtterance error:', e);
         isSpeaking = false;
         startTestButton.disabled = false;
+        skipIntroButton.disabled = true;
     };
     synth.speak(utterance);
 }
@@ -319,28 +380,29 @@ function speakText(text, voiceName, callback) {
 function speakScript() {
     let index = 0;
     const repeatCount = parseInt(repeatCountSelect.value) || 1;
-    currentScriptIndex = 0; // Reset for highlighting
+    currentScriptIndex = 0;
+    console.log(`Speaking script with ${repeatCount} repeats`);
 
     function speakNext() {
         if (index >= currentTest.script.length) {
             isSpeaking = false;
             startTestButton.disabled = false;
-            highlightScriptLine(-1); // Remove highlight
+            skipIntroButton.disabled = true;
+            highlightScriptLine(-1);
+            console.log('Script speaking completed');
             return;
         }
 
         const line = currentTest.script[index];
-        // Improved label removal: Use test-specific speakers
         const maleLabel = currentTest.maleSpeaker + ':';
         const femaleLabel = currentTest.femaleSpeaker + ':';
-        let dialogue = line.replace(new RegExp(`^(${maleLabel}|${femaleLabel})\\s*`, 'i'), '').trim();
+        const dialogue = line.replace(new RegExp(`^(${maleLabel}|${femaleLabel})\\s*`, 'i'), '').trim();
         if (!dialogue) {
             index++;
             speakNext();
             return;
         }
 
-        // Determine voice
         let voiceName = "";
         if (line.toLowerCase().includes(currentTest.maleSpeaker.toLowerCase())) {
             voiceName = maleVoiceSelect.value;
@@ -348,15 +410,16 @@ function speakScript() {
             voiceName = femaleVoiceSelect.value;
         }
 
-        // Highlight current line if script is visible
         currentScriptIndex = index;
         highlightScriptLine(index);
+        console.log(`Speaking line ${index + 1}: ${dialogue} (Voice: ${voiceName})`);
 
         let repeats = 0;
         function repeatUtterance() {
             speakText(dialogue, voiceName, () => {
                 repeats++;
                 if (repeats < repeatCount) {
+                    console.log(`Repeating line ${index + 1}, repeat ${repeats + 1}`);
                     setTimeout(repeatUtterance, 500);
                 } else {
                     setTimeout(() => {
@@ -377,7 +440,10 @@ function highlightScriptLine(index) {
     document.querySelectorAll('.script-line').forEach(line => line.classList.remove('highlight'));
     if (index >= 0) {
         const lineElement = document.querySelector(`.script-line[data-index="${index}"]`);
-        if (lineElement) lineElement.classList.add('highlight');
+        if (lineElement) {
+            lineElement.classList.add('highlight');
+            lineElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
     }
 }
 
@@ -389,6 +455,7 @@ function toggleScript() {
     }
     viewScriptButton.textContent = isVisible ? "View Script" : "Hide Script";
     hideScriptButton.style.display = isVisible ? "none" : "block";
+    console.log(`Script display toggled: ${isVisible ? 'hidden' : 'shown'}`);
 }
 
 function renderScriptLines() {
@@ -400,14 +467,16 @@ function renderScriptLines() {
         p.textContent = line;
         scriptLines.appendChild(p);
     });
-    // Highlight current if speaking
     if (isSpeaking && currentScriptIndex >= 0) {
         highlightScriptLine(currentScriptIndex);
     }
 }
 
 function scoreAnswers() {
-    if (!currentTest) return;
+    if (!currentTest) {
+        console.warn('No test selected for scoring');
+        return;
+    }
     getUserAnswers();
     correctAnswers = currentTest.answers.map(a => a.toLowerCase());
 
@@ -426,6 +495,7 @@ function scoreAnswers() {
     scoreText.textContent = `Score: ${totalScore} out of ${currentTest.answers.length}`;
     detailedScores.innerHTML = scores.map(s => `<p>Q${s.index}: ${s.similarity}% (${s.points ? 'Correct' : 'Incorrect'})</p>`).join('');
     results.style.display = "block";
+    console.log('Answers scored:', { totalScore, scores });
 }
 
 function calculateSimilarity(str1, str2) {
@@ -442,27 +512,27 @@ function revealAnswers() {
     for (let i = 0; i < currentTest.answers.length; i++) {
         const input = document.getElementById(`ans${i}`);
         const div = input.parentElement;
-        const correct = currentTest.answers[i];
         let span = div.querySelector('span');
         if (!span) {
             span = document.createElement('span');
             div.appendChild(span);
         }
-        span.textContent = ` (Correct: ${correct})`;
+        span.textContent = ` (Correct: ${currentTest.answers[i]})`;
         span.className = currentAnswers[i] === correctAnswers[i] ? 'correct' : 'incorrect';
         input.disabled = true;
     }
     revealAnswersButton.disabled = true;
+    console.log('Answers revealed');
 }
 
 function resetUI() {
     startTestButton.disabled = true;
+    skipIntroButton.disabled = true;
     viewScriptButton.disabled = true;
     scoreButton.disabled = true;
     revealAnswersButton.disabled = true;
     introText.style.display = "none";
     notesPreview.style.display = "none";
-    answerForm.style.display = "none";
     results.style.display = "none";
     scriptDisplay.style.display = "none";
     timerSection.style.display = "none";
@@ -470,9 +540,12 @@ function resetUI() {
     if (pauseTimer) clearInterval(pauseTimer);
     currentScriptIndex = -1;
     highlightScriptLine(-1);
+    skipIntroduction = false;
+    console.log('UI reset');
 }
 
 synth.onvoiceschanged = () => {
+    console.log('Voices changed event triggered');
     loadVoices();
     loadSettings();
 };
@@ -480,6 +553,7 @@ synth.onvoiceschanged = () => {
 if (!synth) {
     document.querySelector(".container").innerHTML = '<p class="warning">This browser does not support TTS. Please use a modern browser.</p>';
     startTestButton.disabled = true;
+    skipIntroButton.disabled = true;
 } else {
     loadTests();
     loadVoices();

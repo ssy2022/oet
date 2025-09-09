@@ -57,6 +57,7 @@
         <!-- Controls -->
         <section class="section controls">
             <button id="start-test-button" disabled class="btn-primary">Start Test (TTS)</button>
+            <button id="skip-intro-button" disabled class="btn-secondary">Skip Introduction</button>
             <button id="view-script-button" disabled class="btn-secondary">View Script</button>
             <button id="score-button" disabled class="btn-secondary">Score Answers</button>
             <button id="reveal-answers-button" disabled class="btn-secondary">Reveal Answers</button>
@@ -66,7 +67,7 @@
         <section class="section timer-section" id="timer-section" style="display: none;">
             <h3>Preview Time (30 seconds)</h3>
             <div id="timer-display">30</div>
-            <button id="skip-button" class="btn-secondary">Skip Preview</button>
+            <button id="skip-pause-button" class="btn-secondary">Skip Preview</button>
         </section>
 
         <!-- Introduction and Notes Preview -->
@@ -74,16 +75,8 @@
             <div id="intro-text" style="display: none;"></div>
             <div id="notes-preview" style="display: none;">
                 <h3>Notes Preview</h3>
-                <div id="questions-display" class="questions-preview"></div>
+                <form id="notes-form" class="questions-preview"></form>
             </div>
-        </section>
-
-        <!-- Answer Input Form -->
-        <section class="section answer-form" id="answer-form" style="display: none;">
-            <h3>Complete the Notes</h3>
-            <form id="notes-form">
-                <!-- Dynamically generated inputs -->
-            </form>
         </section>
 
         <!-- Results -->

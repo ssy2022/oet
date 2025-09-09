@@ -2,6 +2,8 @@
   {
     "id": 1,
     "title": "Extract One: Cardiologist and Sarah Mitchell",
+    "maleSpeaker": "Cardiologist",
+    "femaleSpeaker": "Sarah Mitchell",
     "introduction": "You hear a cardiologist talking to a new patient called Sarah Mitchell. For questions 1 to 12, complete the notes with a word or short phrase. You now have thirty seconds to look at the notes.",
     "fullScript": "# OET Listening Part A - New Sample Test: Script\n\n---***---\n\nCardiologist: Good morning, Ms Mitchell. Please take a seat. I understand you've been experiencing some heart-related issues?\n\nSarah Mitchell: Yes, that's right. It's been worrying me for a while now.\n\nCardiologist: Okay, let's start with some background. Can you tell me when this all began and what symptoms you've noticed?\n\nSarah Mitchell: Well, it started about two years ago. I was under a lot of stress at work, and I began getting these sharp chest pains, especially after meals or when I was rushing around. At first, I thought it was just indigestion, but it kept happening.\n\nCardiologist: I see. And has it worsened recently?\n\nSarah Mitchell: Yes, in the last six months, the pains have become more frequent, and I've also started feeling short of breath, even when I'm just walking up the stairs. Sometimes my heart feels like it's racing, and I've had a few dizzy spells.\n\nCardiologist: Did your GP suggest any initial tests?\n\nSarah Mitchell: She did an ECG, and it showed some irregularities. She said it might be arrhythmia, but I need a specialist's opinion.\n\nCardiologist: Right. What about your lifestyle? Do you exercise regularly?\n\nSarah Mitchell: Not as much as I should. I used to jog, but I've cut back because of the symptoms. I work as a teacher, so I'm on my feet a lot, but sitting at my desk grading papers doesn't help with fitness.\n\nCardiologist: And diet? Any changes?\n\nSarah Mitchell: I try to eat healthily, but I love salty snacks and fast food when I'm busy. I've tried reducing salt, but I'm not sure if it's helping.\n\nCardiologist: Have you tried any medications so far?\n\nSarah Mitchell: My GP prescribed beta-blockers to slow my heart rate, and they've helped a bit with the palpitations, but the chest pain persists.\n\nCardiologist: Okay, and family history? Any heart problems?\n\nSarah Mitchell: My father had a heart attack in his fifties, so I'm worried about that.\n\nCardiologist: Understood. We'll need to do some further tests, like an echocardiogram, to check your heart structure.\n\nSarah Mitchell: That sounds good. I just want to get back to normal.\n\nCardiologist: We'll work on that. Any other symptoms, like fatigue or swelling in your legs?\n\nSarah Mitchell: Yes, I've noticed some mild swelling in my ankles lately, especially in the evenings.\n\nCardiologist: Alright, that could be related. Let's discuss management options after the tests. (fade)",
     "script": [
@@ -28,7 +30,7 @@
       "Cardiologist: Alright, that could be related. Let's discuss management options after the tests."
     ],
     "questions": [
-      "**Patient**  Sarah Mitchell  **Background**  • symptoms began (1) ________________ ago  • triggered by (2) ________________ at work  • initial symptoms: (3) ________________ pains  **Recent developments**  • pains now more (4) ________________  • also experiences (5) ________________ of breath  • GP test showed (6) ________________ irregularities  **Effects on everyday life**  • works as a (7) ________________  • reduced (8) ________________ due to symptoms  • occupation involves being on (9) ________________ a lot  **Treatment so far**  • prescribed (10) ________________ to control heart rate  • helped with (11) ________________ but not chest pain  • family history of (12) ________________ attack"
+      "**Patient**  \nSarah Mitchell  \n\n**Background**  \n• symptoms began (1) ________________ ago  \n• triggered by (2) ________________ at work  \n• initial symptoms: (3) ________________ pains  \n\n**Recent developments**  \n• pains now more (4) ________________  \n• also experiences (5) ________________ of breath  \n• GP test showed (6) ________________ irregularities  \n\n**Effects on everyday life**  \n• works as a (7) ________________  \n• reduced (8) ________________ due to symptoms  \n• occupation involves being on (9) ________________ a lot  \n\n**Treatment so far**  \n• prescribed (10) ________________ to control heart rate  \n• helped with (11) ________________ but not chest pain  \n• family history of (12) ________________ attack"
     ],
     "answers": [
       "two years",
@@ -43,6 +45,27 @@
       "beta-blockers",
       "palpitations",
       "heart"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Extract Two: Dentist and John Smith",
+    "maleSpeaker": "Dentist",
+    "femaleSpeaker": "Nurse",
+    "introduction": "You hear a dentist talking to a patient called John Smith. For questions 13 to 14, complete the notes with a word or short phrase. You now have thirty seconds to look at the notes.",
+    "fullScript": "Dentist: Hello, Mr. Smith. What seems to be the problem today?\n\nNurse: He's here for a routine check-up and mentioned some tooth sensitivity.\n\nDentist: I see. When did the sensitivity start?\n\nNurse: About three months ago, after eating cold foods.",
+    "script": [
+      "Dentist: Hello, Mr. Smith. What seems to be the problem today?",
+      "Nurse: He's here for a routine check-up and mentioned some tooth sensitivity.",
+      "Dentist: I see. When did the sensitivity start?",
+      "Nurse: About three months ago, after eating cold foods."
+    ],
+    "questions": [
+      "**Patient**  \nJohn Smith  \n\n**Symptoms**  \n• sensitivity started (13) ________________ ago  \n• triggered by (14) ________________ foods"
+    ],
+    "answers": [
+      "three months",
+      "cold"
     ]
   }
 ]
