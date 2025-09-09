@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,82 +8,99 @@
 </head>
 <body>
     <div class="container">
-        <h1>OET Listening Part A - Sample Test Study Tool</h1>
+        <header class="header">
+            <h1>OET Listening Part A - Sample Test Study Tool</h1>
+            <p class="subtitle">Practice listening with TTS and complete notes</p>
+        </header>
         
         <!-- Test Selection -->
-        <div class="section">
+        <section class="section test-selection">
             <label for="test-select">Select Test:</label>
             <select id="test-select">
                 <option value="">Choose a test</option>
             </select>
-        </div>
+        </section>
 
         <!-- TTS Settings -->
-        <div class="section">
+        <section class="section tts-settings">
             <h2>TTS Settings</h2>
-            <label for="language-select">Language:</label>
-            <select id="language-select">
-                <option value="">Select Language</option>
-            </select>
-            
-            <label for="male-voice-select">Male Voice (Cardiologist):</label>
-            <select id="male-voice-select">
-                <option value="">Select Male Voice</option>
-            </select>
-            
-            <label for="female-voice-select">Female Voice (Patient):</label>
-            <select id="female-voice-select">
-                <option value="">Select Female Voice</option>
-            </select>
-            
-            <label for="repeat-count">Repeat Count:</label>
-            <select id="repeat-count">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-        </div>
+            <div class="settings-grid">
+                <div>
+                    <label for="language-select">Language:</label>
+                    <select id="language-select">
+                        <option value="">Select Language</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="male-voice-select">Male Voice (Doctor):</label>
+                    <select id="male-voice-select">
+                        <option value="">Select Male Voice</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="female-voice-select">Female Voice (Patient):</label>
+                    <select id="female-voice-select">
+                        <option value="">Select Female Voice</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="repeat-count">Repeat Count:</label>
+                    <select id="repeat-count">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+            </div>
+        </section>
 
         <!-- Controls -->
-        <div class="section">
-            <button id="start-test-button" disabled>Start Test (TTS)</button>
-            <button id="view-script-button" disabled>View Script</button>
-            <button id="score-button" disabled>Score Answers</button>
-            <button id="reveal-answers-button" disabled>Reveal Answers</button>
-        </div>
+        <section class="section controls">
+            <button id="start-test-button" disabled class="btn-primary">Start Test (TTS)</button>
+            <button id="view-script-button" disabled class="btn-secondary">View Script</button>
+            <button id="score-button" disabled class="btn-secondary">Score Answers</button>
+            <button id="reveal-answers-button" disabled class="btn-secondary">Reveal Answers</button>
+        </section>
+
+        <!-- Timer for 30s Pause -->
+        <section class="section timer-section" id="timer-section" style="display: none;">
+            <h3>Preview Time (30 seconds)</h3>
+            <div id="timer-display">30</div>
+            <button id="skip-button" class="btn-secondary">Skip Preview</button>
+        </section>
 
         <!-- Introduction and Notes Preview -->
-        <div class="section">
+        <section class="section intro-preview">
             <div id="intro-text" style="display: none;"></div>
             <div id="notes-preview" style="display: none;">
-                <h3>Notes Preview (30 seconds to read)</h3>
-                <div id="questions-display"></div>
+                <h3>Notes Preview</h3>
+                <div id="questions-display" class="questions-preview"></div>
             </div>
-        </div>
+        </section>
 
         <!-- Answer Input Form -->
-        <div class="section" id="answer-form" style="display: none;">
+        <section class="section answer-form" id="answer-form" style="display: none;">
             <h3>Complete the Notes</h3>
             <form id="notes-form">
                 <!-- Dynamically generated inputs -->
             </form>
-        </div>
+        </section>
 
         <!-- Results -->
-        <div class="section" id="results" style="display: none;">
-            <h3>Score</h3>
-            <p id="score-text"></p>
-            <div id="detailed-scores"></div>
-        </div>
+        <section class="section results" id="results" style="display: none;">
+            <h3>Score Results</h3>
+            <p id="score-text" class="score-text"></p>
+            <div id="detailed-scores" class="detailed-scores"></div>
+        </section>
 
         <!-- Script Display -->
-        <div class="section" id="script-display" style="display: none;">
+        <section class="section script-display" id="script-display" style="display: none;">
             <h3>Full Script</h3>
-            <pre id="script-text"></pre>
-            <button id="hide-script-button">Hide Script</button>
-        </div>
+            <div id="script-lines" class="script-lines"></div>
+            <button id="hide-script-button" class="btn-secondary">Hide Script</button>
+        </section>
 
-        <div id="term-count" style="text-align: center; margin-top: 20px;"></div>
+        <div id="term-count" class="term-count"></div>
     </div>
 
     <script src="script.js"></script>
