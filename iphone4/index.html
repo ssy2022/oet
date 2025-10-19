@@ -428,7 +428,7 @@
         function createMapAreas() {
             const map = document.getElementById('partmap');
             const img = document.getElementById('iphone-image');
-            const scale = img.clientWidth / 770; // 원본 이미지 너비(800px)에 대한 스케일링 비율
+            const scale = img.clientWidth / 800; // 원본 이미지 너비(800px)에 대한 스케일링 비율
             map.innerHTML = ''; // 기존 area 제거
             parts.forEach((part, index) => {
                 const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
