@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 4 "This Changes Everything, Again."</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            text-align: center;
+            background: linear-gradient(180deg, #f5f5f5 0%, #e0e0e0 100%);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        #container {
+            position: relative;
+            display: inline-block;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        #iphone-image {
+            width: 100%;
+            height: auto;
+            max-width: 800px;
+            border: 1px solid #d1d1d1;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #highlight {
+            position: absolute;
+            border: 3px solid #ff4d4f;
+            pointer-events: none;
+            display: none;
+            transition: all 0.3s ease;
+        }
+
+        #parts-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        .part-button {
+            background-color: #ffffff;
+            border: 1px solid #d1d1d1;
+            border-radius: 8px;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+        }
+
+        .part-button:hover {
+            background-color: #f0f0f0;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .part-button.active {
+            background-color: #007bff;
+            color: white;
+            border-color: #007bff;
+            box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
+        }
+
+        #info {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #d1d1d1;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 800px;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: opacity 0.3s ease;
+        }
+
+        #info h2 {
+            margin-top: 0;
+            color: #222;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        #info h3 {
+            margin-bottom: 10px;
+            color: #444;
+            font-size: 20px;
+        }
+
+        #info p {
+            margin: 10px 0;
+            line-height: 1.5;
+            font-size: 18px;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 20px 0;
+            color: #222;
+        }
+
+        p.intro {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px auto;
+            max-width: 800px;
+            color: #444;
+        }
+
+        #video-container {
+            margin: 20px auto;
+            max-width: 800px;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+        }
+
+        #video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 모바일 반응형 스타일 */
+        @media (max-width: 600px) {
+
+            #container,
+            #parts-list,
+            #info,
+            #video-container {
+                max-width: 100%;
+                padding: 0 10px;
+            }
+
+            #iphone-image {
+                max-width: 100%;
+            }
+
+            .part-button {
+                padding: 10px 20px;
+                font-size: 14px;
+            }
+
+            #info h2 {
+                font-size: 20px;
+            }
+
+            #info h3 {
+                font-size: 18px;
+            }
+
+            #info p {
+                font-size: 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p.intro {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>iPhone 4</h1>
+    <h2>"This Changes Everything, Again."</h2>
+    <p class="intro" align="left">
+        2010년 6월, 애플은 아이폰 4를 출시하며 스마트폰 시장에 새로운 기준을 세웠다. 이 모델은 세련된 플랫 글래스 디자인과 스테인리스 스틸 프레임으로 고급스러움과 내구성을 동시에 구현했다.
+        아이폰 4는 혁신적인 디자인과 기술로 스마트폰의 기준을 새롭게 정의하며, 애플의 브랜드 가치를 한층 강화한 기기였다. 오늘날까지도 그 디자인은 많은 이들에게 상징적인 존재로 기억된다.
+    </p>
+
+
+    <div id="parts-list"></div>
+
+
+    <div id="container">
+        <img id="iphone-image" src="./3.png" usemap="#partmap" alt="iPhone 4 Disassembled">
+        <div id="highlight"></div>
+    </div>
+
+    <map name="partmap" id="partmap"></map>
+
+
+
+    <div id="info">
+        <h2>부품을 선택하세요</h2>
+        <p>이미지 또는 버튼을 클릭하면 선택한 부품의 상세 정보가 여기에 표시됩니다.</p>
+    </div>
+
+    <div id="video-container">
+        <iframe src="https://www.youtube.com/embed/C218yCzKIMb3k" title="iPhone 4 Frame Assembly Video"
+            allowfullscreen></iframe>
+    </div>
+
+    <div>
+        <h2>iPhone 4 출시가 애플의 성장과 주가에 미친 영향</h2>
+        <p class="intro" align="left">
+            <img src=./chart.png width="90%"><br><br>
+
+            iPhone 4는 2010년 6월 7일 애플의 WWDC에서 공개되었고, 6월 24일 미국, 영국, 프랑스, 독일, 일본에서 출시되었다. 이 제품은 애플의 성장 궤도를 가속화하며, 스마트폰
+            시장에서 애플의 지배력을 강화했다. 출시 직후 24시간 만에 60만 대의 사전 주문이 몰려 애플의 온라인 스토어가 마비될 정도였으며, 첫 3일 동안 170만 대가 판매되었다. 이는 이전
+            iPhone 3GS의 판매 기록을 넘어서는 수준으로, 애플의 하드웨어 매출을 폭발적으로 끌어올렸다.<br>
+            애플의 재무적 성장 측면에서 iPhone 4는 회사의 매출 다각화와 생태계 확장에 핵심 역할을 했다. 2010 회계연도(2009년 10월~2010년 9월) 애플의 전체 매출은 2009년의
+            429억 달러에서 652억 달러로 52% 급증했으며, 이는 iPhone 판매 호조가 주도한 결과였다. iPhone 4 출시 후 애플은 앱스토어와 iOS 생태계를 더욱 강화해 서비스 매출을
+            증가시켰고, 이는 장기적으로 안정적인 수익 기반을 마련했다. 시장 점유율도 확대되어 애플은 스마트폰 제조사 중 1위로 부상, 브랜드 가치를 높였다. 이러한 성장은 애플을 PC 중심에서 모바일
+            중심 기업으로 전환시키며, 후속 제품(iPhone 5 등)의 기반을 닦았다.<br>
+            주가 영향은 단기적으로 혼조세를 보였으나 장기적으로 긍정적이었다. 출시 당일(6월 24일) AAPL 주가는 약 2.85% 하락했는데, 이는 "소문 사서 뉴스 팔기(buy the rumor,
+            sell the news)" 현상과 안테나 문제(신호 손실 이슈) 논란 때문이었다. 그러나 판매 실적이 입증되면서 회복세를 보였고, 2010년 6월 초 약 240달러에서 연말 322달러로 34%
+            상승했다. 이는 iPhone 4의 혁신(레티나 디스플레이, FaceTime 등)이 투자자 신뢰를 회복시킨 덕분으로, 애플 주가는 2007년 첫 iPhone 출시 이후 지속 상승 추세를 유지했다.
+            전체적으로 iPhone 4는 애플의 매출 50% 이상을 차지하는 iPhone 라인의 성공 모델로 자리매김하며, 회사의 시가총액을 2010년 말 2,900억 달러 규모로 키웠다.<br>
+            결론적으로, iPhone 4 출시는 애플의 매출 폭증과 주가 장기 상승을 촉진하며, 테크 거물로서의 성장을 가속화했다. 초기 논란에도 불구하고 판매 성공이 이를 상쇄하며 애플의 미래 비전을
+            강화한 전환점이었다.
+
+        </p>
+
+    </div>
+
+    <script>
+        // 부품 목록 JSON 배열 (name_ko 추가)
+        const parts = [
+            {
+                name: 'Front Panel Assembly',
+                name_ko: '프론트 패널 어셈블리',
+                desc_en: 'The Front Panel Assembly includes the glass, digitizer, and LCD. It measures 3.05mm thick and is very securely glued together, requiring replacement as a single unit if broken. This assembly features the Retina display with four times the pixel density of the iPhone 3GS, providing sharper images. The glass is Corning Gorilla Glass, which is chemically strengthened alkali-aluminosilicate, making it 20 times stiffer and 30 times harder than plastic, with high resistance to wear. It also includes an LED backlight for the LCD.',
+                desc_ko: '프론트 패널 어셈블리는 유리, 디지타이저, LCD로 구성됩니다. 두께는 3.05mm로, 매우 단단히 접착되어 있어 파손 시 통째로 교체해야 합니다. 이 어셈블리는 iPhone 3GS의 4배 픽셀 밀도를 가진 Retina 디스플레이를 탑재해 선명한 화질을 제공합니다. 유리는 화학적으로 강화된 Corning Gorilla Glass로, 플라스틱보다 20배 강하고 30배 단단하며 내마모성이 뛰어납니다. 또한 LCD를 위한 LED 백라이트를 포함합니다.',
+                coords: '49,85,221,386',
+                alt: 'Front Panel Assembly'
+            },
+            {
+                name: 'Logic Board',
+                name_ko: '로직 보드',
+                desc_en: 'The Logic Board is heavily embedded under wires and EMI shields. It is located entirely along the right side of the phone, contributing to warmth in that area. It has an unusual shape and small size due to limited internal real estate. It hosts numerous components including the A4 processor, RAM, gyroscope, accelerometer, and various RF chips from manufacturers like Skyworks, TriQuint, Broadcom, Cirrus Logic, AKM, Texas Instruments, and Samsung flash memory. The board is removed after disconnecting multiple connectors and is central to the phone\'s operation.',
+                desc_ko: '로직 보드는 와이어와 EMI 쉴드 아래 깊숙이 내장되어 있습니다. 휴대폰 오른쪽에 위치하며, 해당 부위에서 열이 발생합니다. 내부 공간 제약으로 독특한 모양과 작은 크기를 가집니다. A4 프로세서, RAM, 자이로스코프, 가속도계, Skyworks, TriQuint, Broadcom, Cirrus Logic, AKM, Texas Instruments의 RF 칩 및 Samsung 플래시 메모리 등 다양한 구성 요소를 포함합니다. 여러 커넥터를 분리해야 제거할 수 있으며, 휴대폰 작동의 핵심 역할을 합니다.',
+                coords: '466,139,579,391',
+                alt: 'Logic Board'
+            },
+            {
+                name: 'Rear Case',
+                name_ko: '리어 케이스',
+                desc_en: 'The Rear Case is the back panel of the phone, released by removing two silver Phillips #000 screws (or pentalobe screws on newer models). This makes switching out the rear panel trivial. The inner face includes pressure contacts for the antenna, and the stainless steel bezels serve as both structural supports and antennas for UMTS, GSM, GPS, Wi-Fi, and Bluetooth. It encloses the device and integrates with the stainless steel inner frame for improved reception.',
+                desc_ko: '리어 케이스는 휴대폰의 후면 패널로, 두 개의 은색 Phillips #000 나사(최신 모델에서는 펜타로브 나사)를 제거하여 쉽게 분리할 수 있습니다. 이를 통해 후면 패널 교체가 간단합니다. 내부에는 안테나 접점을 포함하며, 스테인리스 스틸 베젤은 구조적 지지대이자 UMTS, GSM, GPS, Wi-Fi, Bluetooth용 안테나 역할을 합니다. 장치를 둘러싸고 스테인리스 스틸 내부 프레임과 통합되어 수신 성능을 향상시킵니다.',
+                coords: '577,169,726,459',
+                alt: 'Rear Case'
+            },
+            {
+                name: 'Li-Polymer Battery',
+                name_ko: '리튬 폴리머 배터리',
+                desc_en: 'The 3.7V 1420 mAh Li-Polymer Battery provides up to 7 hours of talk time on 3G or 14 hours on 2G. It is not soldered to the logic board, making replacement easy, and includes a plastic pull tab labeled "Authorized Service Provider Only." It dominates the internal space as the primary power source and is easily removed once the back panel is off.',
+                desc_ko: '3.7V 1420mAh 리튬 폴리머 배터리는 3G에서 최대 7시간, 2G에서 최대 14시간의 통화 시간을 제공합니다. 로직 보드에 납땜되지 않아 교체가 간단하며, "공인 서비스 제공자 전용"이라는 플라스틱 풀 탭이 포함되어 있습니다. 주요 전원 공급원으로 내부 공간의 상당 부분을 차지하며, 후면 패널을 제거하면 쉽게 분리할 수 있습니다.',
+                coords: '59,389,281,517',
+                alt: 'Battery'
+            },
+            {
+                name: 'Speaker',
+                name_ko: '스피커',
+                desc_en: 'The Speaker is housed in the lower antenna/speaker enclosure. It benefits from an improved audio chamber for clearer calls and music playback. This enclosure also includes the antenna at the bottom of the phone and is part of the dual microphone setup with the primary microphone for voice capture and noise suppression.',
+                desc_ko: '스피커는 하단 안테나/스피커 하우징에 내장되어 있습니다. 개선된 오디오 챔버로 더 선명한 통화와 음악 재생을 제공합니다. 이 하우징은 휴대폰 하단의 안테나를 포함하며, 음성 캡처와 소음 억제를 위한 기본 마이크와 함께 듀얼 마이크 시스템의 일부입니다.',
+                coords: '328,291,482,368',
+                alt: 'Speaker'
+            },
+            {
+                name: 'Vibrator Motor',
+                name_ko: '진동 모터',
+                desc_en: 'The Vibrator Motor is located in the corner of the phone and provides vibration feedback for notifications and alerts. It is a small component that enhances user interaction through haptic feedback.',
+                desc_ko: '진동 모터는 휴대폰 모서리에 위치하며, 알림과 경고를 위한 진동 피드백을 제공합니다. 햅틱 피드백을 통해 사용자 경험을 향상시키는 소형 부품입니다.',
+                coords: '436,105,477,139',
+                alt: 'Vibrator Motor'
+            },
+            {
+                name: 'Front-Facing Camera',
+                name_ko: '전면 카메라',
+                desc_en: 'The Front-Facing Camera is a VGA camera optimized for FaceTime mobile-to-mobile video calls. It is located above the earpiece, enabling self-portraits and video chatting. This was a new addition in the iPhone 4 for front-facing video capabilities.',
+                desc_ko: '전면 카메라는 FaceTime 모바일 비디오 통화에 최적화된 VGA 카메라입니다. 이어피스 위에 위치하여 셀카 촬영과 비디오 채팅을 가능하게 합니다. iPhone 4에서 전면 비디오 기능을 위해 새롭게 추가된 부품입니다.',
+                coords: '399,100,431,152',
+                alt: 'Front-Facing Camera'
+            },
+            {
+                name: 'Rear-Facing Camera',
+                name_ko: '후면 카메라',
+                desc_en: 'The Rear-Facing Camera is a 5 MP camera capable of 720p video capture at 30 FPS, with tap-to-focus feature and LED flash. It represents a significant upgrade from the 3.2 MP camera in the iPhone 3GS. Mounted on the logic board, it improves photo and video quality.',
+                desc_ko: '후면 카메라는 30 FPS에서 720p 비디오 촬영이 가능한 5MP 카메라로, 탭 투 포커스 기능과 LED 플래시를 지원합니다. iPhone 3GS의 3.2MP 카메라보다 크게 향상된 성능을 제공합니다. 로직 보드에 장착되어 사진과 비디오 품질을 개선합니다.',
+                coords: '342,100,381,153',
+                alt: 'Rear-Facing Camera'
+            },
+            {
+                name: 'Home Button',
+                name_ko: '홈 버튼',
+                desc_en: 'The Home Button is the physical button at the bottom of the front panel used for navigation, returning to the home screen, and multitasking. It connects to the home button switch for electronic functionality.',
+                desc_ko: '홈 버튼은 전면 패널 하단에 위치한 물리적 버튼으로, 탐색, 홈 화면 복귀, 멀티태스킹에 사용됩니다. 전자적 기능을 위해 홈 버튼 스위치에 연결됩니다.',
+                coords: '97,327,179,380',
+                alt: 'Home Button'
+            },
+            {
+                name: 'A4 Processor',
+                name_ko: 'A4 프로세서',
+                desc_en: 'The A4 Processor is manufactured by Samsung and features an ARM Cortex A8 core, clocked similarly to the iPad\'s version at 1 GHz. It replaces the Samsung S5PC100 ARM A8 600 MHz CPU in the 3GS, providing centralized computing power. It is located deep within the phone under EMI shields on the logic board.',
+                desc_ko: 'A4 프로세서는 Samsung에서 제조되었으며, ARM Cortex A8 코어를 탑재해 iPad와 유사한 1GHz 클럭 속도를 제공합니다. iPhone 3GS의 600MHz CPU를 대체하여 강력한 연산 능력을 제공합니다. 로직 보드의 EMI 쉴드 아래에 위치합니다.',
+                coords: '520,205,570,251',
+                alt: 'A4 Processor'
+            },
+            {
+                name: 'RAM',
+                name_ko: 'RAM',
+                desc_en: 'The RAM is 512 MB of memory, allowing for larger cached data and a smoother, faster user experience. This is an upgrade from the 256 MB in the iPhone 3GS and iPad. Marked as 36MY1EE NOR and mobile DDR, it is integrated on the logic board.',
+                desc_ko: 'RAM은 512MB 메모리로, 더 많은 캐시 데이터와 부드럽고 빠른 사용자 경험을 제공합니다. iPhone 3GS와 iPad의 256MB에서 업그레이드된 사양입니다. 36MY1EE NOR 및 모바일 DDR로 표시되며, 로직 보드에 통합되어 있습니다.',
+                coords: '512,302,570,387',
+                alt: 'RAM'
+            },
+            {
+                name: 'AGD1 Gyroscope',
+                name_ko: 'AGD1 자이로스코프',
+                desc_en: 'The AGD1 Gyroscope is a 3-axis gyroscope designed and manufactured by ST Micro for Apple. Its package marks differ from the commercial L3G4200D version, which was not yet released at the time. It is located just left of the A4 on the logic board and enables advanced motion detection.',
+                desc_ko: 'AGD1 자이로스코프는 Apple을 위해 ST Micro에서 설계 및 제조한 3축 자이로스코프입니다. 상용 L3G4200D 버전과 다른 패키지 마크를 가지며, 로직 보드에서 A4 왼쪽에 위치하여 고급 모션 감지 기능을 제공합니다.',
+                coords: '526,244,547,267',
+                alt: 'Gyroscope'
+            },
+            {
+                name: 'Proximity Sensor',
+                name_ko: '근접 센서',
+                desc_en: 'The Proximity Sensor turns off the display when the phone is brought to the ear to prevent unintended touch interactions. It is mounted above the earpiece and next to the ambient light sensor, which adjusts screen brightness. This sensor helps conserve battery and improve user experience during calls.',
+                desc_ko: '근접 센서는 휴대폰을 귀에 댈 때 디스플레이를 꺼서 의도치 않은 터치 입력을 방지합니다. 이어피스 위쪽, 화면 밝기를 조절하는 주변광 센서 옆에 위치하며, 배터리 절약과 통화 중 사용자 경험 개선에 기여합니다.',
+                coords: '277,114,318,151',
+                alt: 'Proximity Sensor'
+            },
+            {
+                name: '30-Pin Dock Connector',
+                name_ko: '30핀 독 커넥터',
+                desc_en: 'The 30-Pin Dock Connector is located at the bottom of the phone for charging, data synchronization, and connecting to accessories. It is part of the bottom assembly and integrates with the primary microphone and speaker enclosure.',
+                desc_ko: '30핀 독 커넥터는 휴대폰 하단에 위치하며 충전, 데이터 동기화, 액세서리 연결에 사용됩니다. 하단 어셈블리의 일부로, 기본 마이크와 스피커 하우징과 통합되어 있습니다.',
+                coords: '302,355,479,407',
+                alt: '30-Pin Dock Connector'
+            },
+
+            {
+                name: 'SIM Tray',
+                name_ko: 'SIM 트레이',
+                desc_en: 'The SIM Tray is a small, removable metal and plastic component located on the right side of the iPhone 4. It holds the micro-SIM card required for cellular connectivity. The tray is ejected using the SIM eject tool, which is inserted into a pinhole next to the tray. The design allows for easy insertion and removal of the SIM card.',
+                desc_ko: 'SIM 트레이는 iPhone 4의 오른쪽에 위치한 작고 분리 가능한 금속 및 플라스틱 부품입니다. 셀룰러 연결에 필요한 마이크로 SIM 카드를 수납합니다. 트레이 옆의 핀홀에 SIM 제거 도구를 삽입하여 꺼낼 수 있으며, SIM 카드의 삽입과 제거가 용이하도록 설계되었습니다.',
+                coords: '230,206,291,262',
+                alt: 'SIM Tray'
+            },
+            {
+                name: 'Volume Buttons',
+                name_ko: '볼륨 버튼',
+                desc_en: 'The Volume Buttons are two physical buttons located on the left side of the iPhone 4, used to adjust the volume for calls, media, and notifications. Made of stainless steel, they are integrated into the phone’s external frame and connected to an internal switch for functionality. They are durable and provide tactile feedback.',
+                desc_ko: '볼륨 버튼은 iPhone 4의 왼쪽에 위치한 두 개의 물리적 버튼으로, 통화, 미디어, 알림의 볼륨을 조절하는 데 사용됩니다. 스테인리스 스틸로 제작되었으며, 외부 프레임에 통합되어 내부 스위치와 연결되어 작동합니다. 내구성이 뛰어나고 촉각 피드백을 제공합니다.',
+                coords: '228,149,254,201',
+                alt: 'Volume Buttons'
+            },
+            {
+                name: 'Power Button',
+                name_ko: '전원 버튼',
+                desc_en: 'The Power Button, located on the top edge of the iPhone 4, is used to turn the device on/off and lock/unlock the screen. Made of stainless steel, it is part of the external frame and connects to an internal switch. It is designed for durability and responsive tactile feedback.',
+                desc_ko: '전원 버튼은 iPhone 4의 상단 가장자리에 위치하며, 기기를 켜고 끄거나 화면을 잠그고 잠금 해제하는 데 사용됩니다. 스테인리스 스틸로 제작되었으며, 외부 프레임의 일부로 내부 스위치와 연결됩니다. 내구성과 반응성 있는 촉각 피드백을 제공하도록 설계되었습니다.',
+                coords: '294,173,332,202',
+                alt: 'Power Button'
+            },
+            {
+                name: 'Silent/Vibrate Switch',
+                name_ko: '진동 전환 스위치',
+                desc_en: 'The Silent/Vibrate Switch, located above the volume buttons on the left side of the iPhone 4, toggles the phone between silent and ring modes. This stainless steel switch provides a quick way to mute the device and is connected to an internal mechanism for reliable operation.',
+                desc_ko: '진동 전환 스위치는 iPhone 4의 왼쪽 볼륨 버튼 위에 위치하며, 전화기를 무음과 벨소리 모드 간 전환합니다. 스테인리스 스틸로 제작된 이 스위치는 기기를 빠르게 무음으로 전환할 수 있으며, 안정적인 작동을 위해 내부 메커니즘과 연결되어 있습니다.',
+                coords: '463,180,501,209',
+                alt: 'Silent/Vibrate Switch'
+            },
+            {
+                name: 'SIM Eject Tool',
+                name_ko: 'SIM 제거 핀',
+                desc_en: 'The SIM Eject Tool is a small metal pin included with the iPhone 4, used to eject the SIM tray. It is inserted into a pinhole next to the SIM tray slot on the right side of the phone. The tool is simple but essential for accessing or replacing the micro-SIM card.',
+                desc_ko: 'SIM 제거 핀은 iPhone 4와 함께 제공되는 작은 금속 핀으로, SIM 트레이를 꺼내는 데 사용됩니다. 휴대폰 오른쪽의 SIM 트레이 슬롯 옆 핀홀에 삽입됩니다. 간단하지만 마이크로 SIM 카드에 접근하거나 교체하는 데 필수적인 도구입니다.',
+                coords: '235,266,278,360',
+                alt: 'SIM Eject Tool'
+            },
+            {
+                name: 'EMI Shield',
+                name_ko: 'EMI 쉴드',
+                desc_en: 'The EMI Shield is a metal cover inside the iPhone 4 that protects the logic board and other components from electromagnetic interference. It must be removed to access the logic board or other internal components. The shield ensures stable operation by reducing signal interference.',
+                desc_ko: 'EMI 쉴드는 iPhone 4 내부의 금속 커버로, 로직 보드 및 기타 부품을 전자파 간섭으로부터 보호합니다. 로직 보드나 다른 내부 부품에 접근하려면 제거해야 합니다. 이 쉴드는 신호 간섭을 줄여 안정적인 작동을 보장합니다.',
+                coords: '495,56,670,123',
+                alt: 'EMI Shield'
+            },
+            {
+                name: 'Screws',
+                name_ko: '나사',
+                desc_en: 'Various screws, primarily Phillips #000 and pentalobe types, are used throughout the iPhone 4 to secure components like the rear case, EMI shield, and logic board. These small, precision screws are critical for the phone’s structural integrity and require specific tools for removal or installation.',
+                desc_ko: 'iPhone 4에는 리어 케이스, EMI 쉴드, 로직 보드 등을 고정하기 위해 주로 Phillips #000 및 펜타로브 타입의 다양한 나사가 사용됩니다. 이 작은 정밀 나사는 휴대폰의 구조적 무결성에 필수적이며, 제거 또는 설치에 특정 도구가 필요합니다.',
+                coords: '340,232,485,302',
+                alt: 'Screws'
+            },
+            {
+                name: 'Headphone Jack',
+                name_ko: '이어폰 단자',
+                desc_en: 'The Headphone Jack is a 3.5mm port located on the top edge of the iPhone 4, used for connecting headphones or other audio accessories. It supports stereo audio output and includes a microphone input for hands-free calling. The jack is integrated into the top assembly and is easily accessible.',
+                desc_ko: '이어폰 단자는 iPhone 4의 상단 가장자리에 위치한 3.5mm 포트로, 헤드폰 또는 기타 오디오 액세서리 연결에 사용됩니다. 스테레오 오디오 출력과 핸즈프리 통화를 위한 마이크 입력을 지원합니다. 이 단자는 상단 어셈블리에 통합되어 쉽게 접근할 수 있습니다.',
+                coords: '392,173,442,238',
+                alt: 'Headphone Jack'
+            }
+
+
+        ];
+
+        let currentPartIndex = 0;
+        let timer = null;
+        let lastInteraction = Date.now();
+
+        // 동적으로 <area> 요소 생성
+        function createMapAreas() {
+            const map = document.getElementById('partmap');
+            const img = document.getElementById('iphone-image');
+            const scale = img.clientWidth / 770; // 원본 이미지 너비(800px)에 대한 스케일링 비율
+            map.innerHTML = ''; // 기존 area 제거
+            parts.forEach((part, index) => {
+                const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
+                const scaledCoords = [
+                    Math.round(x1 * scale),
+                    Math.round(y1 * scale),
+                    Math.round(x2 * scale),
+                    Math.round(y2 * scale)
+                ].join(',');
+                const area = document.createElement('area');
+                area.shape = 'rect';
+                area.coords = scaledCoords;
+                area.href = '#';
+                area.alt = part.alt;
+                area.onclick = function (e) {
+                    e.preventDefault();
+                    showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, index);
+                    resetTimer();
+                };
+                area.addEventListener('touchstart', function (e) {
+                    e.preventDefault();
+                    showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, index);
+                    resetTimer();
+                });
+                map.appendChild(area);
+            });
+        }
+
+        // 동적으로 부품 목록 버튼 생성
+        function createPartsList() {
+            const partsList = document.getElementById('parts-list');
+            parts.forEach((part, index) => {
+                const button = document.createElement('button');
+                button.className = 'part-button';
+                button.textContent = part.name_ko; // 한국어 이름 사용
+                button.onclick = () => {
+                    const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
+                    const img = document.getElementById('iphone-image');
+                    const scale = img.clientWidth / 800;
+                    showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, index);
+                    resetTimer();
+                };
+                partsList.appendChild(button);
+            });
+        }
+
+        function showPart(name, name_ko, desc_en, desc_ko, x, y, w, h, index) {
+            // 정보 표시
+            document.getElementById('info').innerHTML = `
+                <h2>${name_ko}</h2>
+                <p>${desc_ko}</p>
+                <p>${name}</p>
+                <p>${desc_en}</p>
+                
+                
+            `;
+
+            // 하이라이트 표시
+            const highlight = document.getElementById('highlight');
+            highlight.style.left = `${x}px`;
+            highlight.style.top = `${y}px`;
+            highlight.style.width = `${w}px`;
+            highlight.style.height = `${h}px`;
+            highlight.style.display = 'block';
+
+            // 활성 버튼 스타일링
+            const buttons = document.querySelectorAll('.part-button');
+            buttons.forEach((btn, btnIndex) => {
+                btn.classList.toggle('active', btnIndex === index);
+            });
+        }
+
+        function resetTimer() {
+            lastInteraction = Date.now();
+            clearInterval(timer);
+            timer = setInterval(checkAndCycle, 1000);
+        }
+
+        function checkAndCycle() {
+            if (Date.now() - lastInteraction >= 30000) {
+                currentPartIndex = (currentPartIndex + 1) % parts.length;
+                const part = parts[currentPartIndex];
+                const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
+                const img = document.getElementById('iphone-image');
+                const scale = img.clientWidth / 800;
+                showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, currentPartIndex);
+                createMapAreas();
+                lastInteraction = Date.now();
+            }
+        }
+
+        // 페이지 로드 시
+        window.onload = function () {
+            createMapAreas();
+            createPartsList();
+            const firstPart = parts[0];
+            const [x1, y1, x2, y2] = firstPart.coords.split(',').map(Number);
+            const img = document.getElementById('iphone-image');
+            const scale = img.clientWidth / 800;
+            showPart(firstPart.name, firstPart.name_ko, firstPart.desc_en, firstPart.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, 0);
+            timer = setInterval(checkAndCycle, 1000);
+        };
+
+        // 윈도우 크기 조정 시 이미지 맵 업데이트
+        window.onresize = function () {
+            createMapAreas();
+            const part = parts[currentPartIndex];
+            const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
+            const img = document.getElementById('iphone-image');
+            const scale = img.clientWidth / 800;
+            showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, currentPartIndex);
+        };
+
+        // 사용자 상호작용 감지
+        document.addEventListener('click', resetTimer);
+        document.addEventListener('touchstart', resetTimer);
+    </script>
+</body>
+
+</html>
