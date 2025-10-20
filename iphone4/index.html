@@ -207,7 +207,7 @@
         <h2>부품을 선택하세요</h2>
         <p>이미지 또는 버튼을 클릭하면 선택한 부품의 상세 정보가 여기에 표시됩니다.</p>
     </div>
-    <br><br>
+    
 <h2>iPhone 4 분해 & 예술로 재탄생! 부품 배열 액자 만들기</h2>
     <p class="intro" align="left">
     iPhone 4 분해 & 예술로 재탄생! 부품 배열 액자 만들기<br>
@@ -218,11 +218,9 @@
 
 
     <div id="video-container">
-        <iframe src="https://www.youtube.com/embed/6hGfsu6nCSs" title="iPhone 4 분해 & 예술로 재탄생! 부품 배열 액자 만들기" allowfullscreen></iframe>
+
+        <iframe src="https://www.youtube.com/embed/6hGfsu6nCSs" title="iPhone 4 Frame Assembly Video" allowfullscreen></iframe>
     </div>
-    </div>
-    <br><br>
-    
 
     <div>
         <h2>iPhone 4 출시가 애플의 성장과 주가에 미친 영향</h2>
@@ -439,7 +437,8 @@
         function createMapAreas() {
             const map = document.getElementById('partmap');
             const img = document.getElementById('iphone-image');
-            const scale = img.clientWidth / 800; // 원본 이미지 너비(800px)에 대한 스케일링 비율
+            const rect = img.getBoundingClientRect();
+            const scale = rect.width / img.naturalWidth; // 실제 렌더링된 너비로 스케일링
             map.innerHTML = ''; // 기존 area 제거
             parts.forEach((part, index) => {
                 const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
@@ -471,14 +470,16 @@
         // 동적으로 부품 목록 버튼 생성
         function createPartsList() {
             const partsList = document.getElementById('parts-list');
+            partsList.innerHTML = ''; // 기존 버튼 제거
             parts.forEach((part, index) => {
                 const button = document.createElement('button');
                 button.className = 'part-button';
-                button.textContent = part.name_ko; // 한국어 이름 사용
+                button.textContent = part.name_ko;
                 button.onclick = () => {
                     const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
                     const img = document.getElementById('iphone-image');
-                    const scale = img.clientWidth / 800;
+                    const rect = img.getBoundingClientRect();
+                    const scale = rect.width / img.naturalWidth;
                     showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, index);
                     resetTimer();
                 };
@@ -490,11 +491,11 @@
             // 정보 표시
             document.getElementById('info').innerHTML = `
                 <h2>${name_ko}</h2>
+                <h3>한국어 설명</h3>
                 <p>${desc_ko}</p>
-                <p>${name}</p>
+                <h3>English Description</h3>
+                <p><strong>Name:</strong> ${name}</p>
                 <p>${desc_en}</p>
-                
-                
             `;
 
             // 하이라이트 표시
@@ -524,33 +525,43 @@
                 const part = parts[currentPartIndex];
                 const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
                 const img = document.getElementById('iphone-image');
-                const scale = img.clientWidth / 800;
+                const rect = img.getBoundingClientRect();
+                const scale = rect.width / img.naturalWidth;
                 showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, currentPartIndex);
                 createMapAreas();
                 lastInteraction = Date.now();
             }
         }
 
-        // 페이지 로드 시
-        window.onload = function () {
-            createMapAreas();
-            createPartsList();
-            const firstPart = parts[0];
-            const [x1, y1, x2, y2] = firstPart.coords.split(',').map(Number);
-            const img = document.getElementById('iphone-image');
-            const scale = img.clientWidth / 800;
-            showPart(firstPart.name, firstPart.name_ko, firstPart.desc_en, firstPart.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, 0);
-            timer = setInterval(checkAndCycle, 1000);
-        };
-
-        // 윈도우 크기 조정 시 이미지 맵 업데이트
-        window.onresize = function () {
+        // 이미지 로드 및 리사이즈 처리
+        function handleImageLoadAndResize() {
             createMapAreas();
             const part = parts[currentPartIndex];
             const [x1, y1, x2, y2] = part.coords.split(',').map(Number);
             const img = document.getElementById('iphone-image');
-            const scale = img.clientWidth / 800;
+            const rect = img.getBoundingClientRect();
+            const scale = rect.width / img.naturalWidth;
             showPart(part.name, part.name_ko, part.desc_en, part.desc_ko, x1 * scale, y1 * scale, (x2 - x1) * scale, (y2 - y1) * scale, currentPartIndex);
+        }
+
+        // 페이지 로드 시
+        window.onload = function () {
+            const img = document.getElementById('iphone-image');
+            img.addEventListener('load', handleImageLoadAndResize);
+            img.addEventListener('error', () => {
+                console.error('Failed to load image: ./3.png');
+                document.getElementById('info').innerHTML = '<h2>오류</h2><p>이미지를 로드할 수 없습니다. ./3.png 파일을 확인해주세요.</p>';
+            });
+            createPartsList();
+            handleImageLoadAndResize();
+            timer = setInterval(checkAndCycle, 1000);
+        };
+
+        // 윈도우 크기 조정 시 (디바운싱 적용)
+        let resizeTimeout;
+        window.onresize = function () {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(handleImageLoadAndResize, 100);
         };
 
         // 사용자 상호작용 감지
